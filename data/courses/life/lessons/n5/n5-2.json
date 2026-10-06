@@ -1,0 +1,1011 @@
+{
+  "schemaVersion": 1,
+  "id": "n5-2",
+  "unitId": "n5",
+  "order": 102,
+  "title": "第2课 收拾行李、找东西、准备手机卡",
+  "level": "N5",
+  "kind": "scene",
+  "objectives": [
+    "1.1 能问某件物品在哪里。",
+    "1.2 能说物品在包里或桌上。",
+    "1.3 能说明还有一项准备尚未完成。"
+  ],
+  "scene": {
+    "background": "出发前在家收拾行李，护照一时找不到，同时确认到日本后的临时上网安排。",
+    "channel": "other",
+    "tasks": [
+      "1.1 能问某件物品在哪里。",
+      "1.2 能说物品在包里或桌上。",
+      "1.3 能说明还有一项准备尚未完成。"
+    ],
+    "relationships": "你扮演“我（わたし）”。私（学习者）：赴日学习者；家人：家人"
+  },
+  "learnerSpeakerId": "learner",
+  "speakers": [
+    {
+      "id": "learner",
+      "name": "我（わたし）",
+      "role": "你扮演的角色；赴日学习者"
+    },
+    {
+      "id": "speaker-2",
+      "name": "家人",
+      "role": "家人"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "main",
+      "title": "场景课文",
+      "variant": "main",
+      "lines": [
+        {
+          "id": "main-line-1",
+          "speakerId": "learner",
+          "ja": "パスポートはどこですか。",
+          "zh": "护照在哪里？",
+          "reading": "パスポートはどこですか。",
+          "ttsText": "パスポートはどこですか。"
+        },
+        {
+          "id": "main-line-2",
+          "speakerId": "speaker-2",
+          "ja": "さっき、机の上で見ましたよ。",
+          "zh": "刚才在桌子上看到了。",
+          "reading": "さっき、つくえのうえでみましたよ。",
+          "ttsText": "さっき、つくえのうえでみましたよ。"
+        },
+        {
+          "id": "main-line-3",
+          "speakerId": "learner",
+          "ja": "本の下ですか。見えません。",
+          "zh": "在书下面吗？我看不到。",
+          "reading": "ほんのしたですか。みえません。",
+          "ttsText": "ほんのしたですか。みえません。"
+        },
+        {
+          "id": "main-line-4",
+          "speakerId": "speaker-2",
+          "ja": "机の上にあります。",
+          "zh": "在桌子上。",
+          "reading": "つくえのうえにあります。",
+          "ttsText": "つくえのうえにあります。"
+        },
+        {
+          "id": "main-line-5",
+          "speakerId": "learner",
+          "ja": "あ、ありました。かばんに入れます。",
+          "zh": "啊，找到了。我把它放进包里。",
+          "reading": "あ、ありました。かばんにいれます。",
+          "ttsText": "あ、ありました。かばんにいれます。"
+        },
+        {
+          "id": "main-line-6",
+          "speakerId": "speaker-2",
+          "ja": "財布と鍵も一緒に入れましたか。",
+          "zh": "钱包和钥匙也一起放进去了吗？",
+          "reading": "さいふとかぎもいっしょにいれましたか。",
+          "ttsText": "さいふとかぎもいっしょにいれましたか。"
+        },
+        {
+          "id": "main-line-7",
+          "speakerId": "learner",
+          "ja": "財布はかばんの中にあります。鍵は玄関にあります。",
+          "zh": "钱包在包里。钥匙在玄关。",
+          "reading": "さいふはかばんのなかにあります。かぎはげんかんにあります。",
+          "ttsText": "さいふはかばんのなかにあります。かぎはげんかんにあります。"
+        },
+        {
+          "id": "main-line-8",
+          "speakerId": "speaker-2",
+          "ja": "日本で使うSIMカードはありますか。",
+          "zh": "有在日本使用的 SIM 卡吗？",
+          "reading": "にほんでつかうSIMカードはありますか。",
+          "ttsText": "にほんでつかうSIMカードはありますか。"
+        },
+        {
+          "id": "main-line-9",
+          "speakerId": "learner",
+          "ja": "まだありません。空港で買えるか、先に調べます。",
+          "zh": "还没有。我先查一下能否在机场买到。",
+          "reading": "まだありません。くうこうでかえるか、さきにしらべます。",
+          "ttsText": "まだありません。くうこうでかえるか、さきにしらべます。"
+        },
+        {
+          "id": "main-line-10",
+          "speakerId": "speaker-2",
+          "ja": "着いてすぐ使えると安心ですね。",
+          "zh": "到了就能用的话会比较放心呢。",
+          "reading": "ついてすぐつかえるとあんしんですね。",
+          "ttsText": "ついてすぐつかえるとあんしんですね。"
+        },
+        {
+          "id": "main-line-11",
+          "speakerId": "learner",
+          "ja": "はい。携帯が使えるかも確認します。",
+          "zh": "是的。我也会确认手机能否使用。",
+          "reading": "はい。けいたいがつかえるかもかくにんします。",
+          "ttsText": "はい。けいたいがつかえるかもかくにんします。"
+        }
+      ]
+    },
+    {
+      "id": "polite",
+      "title": "跟读文本（礼貌体版·家里找随身物品）",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "polite-line-1",
+          "speakerId": "learner",
+          "ja": "鍵はどこですか。",
+          "zh": "钥匙在哪里？",
+          "reading": "かぎはどこですか。",
+          "ttsText": "かぎはどこですか。"
+        },
+        {
+          "id": "polite-line-2",
+          "speakerId": "speaker-2",
+          "ja": "棚の上にありますよ。",
+          "zh": "在架子上。",
+          "reading": "たなのうえにありますよ。",
+          "ttsText": "たなのうえにありますよ。"
+        },
+        {
+          "id": "polite-line-3",
+          "speakerId": "learner",
+          "ja": "ありました。財布はありますか。",
+          "zh": "找到了。钱包在吗？",
+          "reading": "ありました。さいふはありますか。",
+          "ttsText": "ありました。さいふはありますか。"
+        },
+        {
+          "id": "polite-line-4",
+          "speakerId": "speaker-2",
+          "ja": "財布はかばんの中にあります。",
+          "zh": "钱包在包里。",
+          "reading": "さいふはかばんのなかにあります。",
+          "ttsText": "さいふはかばんのなかにあります。"
+        },
+        {
+          "id": "polite-line-5",
+          "speakerId": "learner",
+          "ja": "あ、財布もありました。",
+          "zh": "啊，钱包也找到了。",
+          "reading": "あ、さいふもありました。",
+          "ttsText": "あ、さいふもありました。"
+        },
+        {
+          "id": "polite-line-6",
+          "speakerId": "speaker-2",
+          "ja": "鍵と財布、同じかばんに入れますか。",
+          "zh": "钥匙和钱包放在同一个包里吗？",
+          "reading": "かぎとさいふ、おなじかばんにいれますか。",
+          "ttsText": "かぎとさいふ、おなじかばんにいれますか。"
+        },
+        {
+          "id": "polite-line-7",
+          "speakerId": "learner",
+          "ja": "はい。出かける時に持つかばんです。",
+          "zh": "是的，是出门时带的包。",
+          "reading": "はい。でかけるときにもつかばんです。",
+          "ttsText": "はい。でかけるときにもつかばんです。"
+        }
+      ]
+    },
+    {
+      "id": "plain",
+      "title": "跟读文本（普通体版·家里找随身物品）",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "plain-line-1",
+          "speakerId": "learner",
+          "ja": "鍵、どこ？",
+          "zh": "钥匙在哪里？",
+          "reading": "かぎ、どこ？",
+          "ttsText": "かぎ、どこ？"
+        },
+        {
+          "id": "plain-line-2",
+          "speakerId": "speaker-2",
+          "ja": "棚の上にあるよ。",
+          "zh": "在架子上。",
+          "reading": "たなのうえにあるよ。",
+          "ttsText": "たなのうえにあるよ。"
+        },
+        {
+          "id": "plain-line-3",
+          "speakerId": "learner",
+          "ja": "あった。財布はある？",
+          "zh": "找到了。钱包在吗？",
+          "reading": "あった。さいふはある？",
+          "ttsText": "あった。さいふはある？"
+        },
+        {
+          "id": "plain-line-4",
+          "speakerId": "speaker-2",
+          "ja": "財布はかばんの中にあるよ。",
+          "zh": "钱包在包里。",
+          "reading": "さいふはかばんのなかにあるよ。",
+          "ttsText": "さいふはかばんのなかにあるよ。"
+        },
+        {
+          "id": "plain-line-5",
+          "speakerId": "learner",
+          "ja": "あ、財布もあった。",
+          "zh": "啊，钱包也找到了。",
+          "reading": "あ、さいふもあった。",
+          "ttsText": "あ、さいふもあった。"
+        },
+        {
+          "id": "plain-line-6",
+          "speakerId": "speaker-2",
+          "ja": "鍵と財布、同じかばんに入れる？",
+          "zh": "钥匙和钱包放在同一个包里吗？",
+          "reading": "かぎとさいふ、おなじかばんにいれる？",
+          "ttsText": "かぎとさいふ、おなじかばんにいれる？"
+        },
+        {
+          "id": "plain-line-7",
+          "speakerId": "learner",
+          "ja": "うん。出かける時に持つかばんだよ。",
+          "zh": "是的，是出门时带的包。",
+          "reading": "うん。でかけるときにもつかばんだよ。",
+          "ttsText": "うん。でかけるときにもつかばんだよ。"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "lesson-context",
+      "title": "场景与使用说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "场景：出发前在家收拾行李，护照一时找不到，同时确认到日本后的临时上网安排。\n使用场合：在家寻找物品，说明物品在哪里，告诉家人还要准备什么。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "goal-notes",
+      "title": "目标补充说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [["自测：闭眼让家人移动一件物品，自己问位置并说出找到的位置。"]]
+        }
+      ]
+    },
+    {
+      "id": "dialogue-context",
+      "title": "课文与语体版本的转场、交谈对象",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["对话 ID", "位置（在该行之后；下一行注明对象）", "原场景提示"],
+          "rows": [
+            [
+              "main",
+              "整体",
+              "情境：我准备把护照放进行李随身包，找不到时向家人求助；临时上网方案尚未决定。"
+            ],
+            [
+              "main",
+              "整体",
+              "说明：临时手机卡的购买地点、机型兼容和本人确认规则因商品而异；此处只表示准备检查，并不假定机场一定可以买到。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "register-comparison",
+      "title": "两版差异对照（行 ID 对应上方语体版本）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说话者", "礼貌体行 ID", "普通体行 ID", "原差异说明"],
+          "rows": [
+            ["私(わたし)", "polite-line-1", "plain-line-1", "表达内容相同，语体不同"],
+            ["家人", "polite-line-2", "plain-line-2", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-3", "plain-line-3", "表达内容相同，语体不同"],
+            ["家人", "polite-line-4", "plain-line-4", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-5", "plain-line-5", "表达内容相同，语体不同"],
+            ["家人", "polite-line-6", "plain-line-6", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-7", "plain-line-7", "表达内容相同，语体不同"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shadowing-notes",
+      "title": "跟读场景、前提与使用说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "唯一跟读场景：家人帮我找钥匙和钱包。\n关系与版本前提：普通体版用于平时彼此说普通体的家人。\n与课文的区别：课文找护照并准备手机卡；这里找钥匙和钱包。"
+            ],
+            ["■ 跟读步骤"],
+            [
+              "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+            ],
+            ["■ 跟读要点"],
+            ["礼貌体版：询问后停顿，听清位置词。\n普通体版：位置和存在动词连成自然节奏。"],
+            ["■ 为什么用这个版本"],
+            ["礼貌体版：家人之间刻意练习礼貌提问。\n普通体版：亲近家人日常交谈更自然。"],
+            ["■ 本课跟读目标"],
+            ["听懂位置，能不经过中文翻译直接找物品。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary-notes",
+      "title": "词汇分组与学习说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["■ 3A N5基础词汇"],
+            ["本栏指常见初级教材中的N5基础词，不表示官方保证考到。"],
+            ["■ 3B 场景补充词汇（先听懂）"],
+            ["本栏先听懂、能辨认；行政或商品词不要求会写。"],
+            ["词汇使用提醒：空港和荷物列入基础栏；通信产品词作为场景词理解。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-notes",
+      "title": "文法安排与补充表达（原 4B）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["■ 4A 基础句型与场景练习"],
+            [
+              "本栏练习基础句型和本课场景中的表达；长句中的敬语、复合结构可先整句理解。例句均从本课课文原样摘取。"
+            ],
+            ["■ 4B 补充表达与后续复习"],
+            [
+              "文法点：动词的礼貌现在形\n意思：表示现在或将来的动作；与过去形ます／ました对照复习。\n例句：かばんに入(い)れます。\n后续学习建议：结合本课语境复习，再在后续系统课程中学习接续与变形；本课程没有第21课。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appendix-1",
+      "title": "附1：当时课程目标下，日本人实际会怎么说",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "家人之间：鍵(かぎ)、どこ？\n对同事朋友：財布(さいふ)はどこですか。\n对上级工作人员：すみません、パスポートはどこにありますか。\n说明：同一句话随距离和是否需要打扰对方而调整礼貌程度。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appendix-2",
+      "title": "附2：常见误用",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "标记说明：✗包含语法错误，也包含本情境中事实不准确、未核实就断言或应对不合适的说法；不表示所有标记句都不合语法。"
+            ],
+            [
+              "パスポートはどこいますか。 ✗ → パスポートはどこにありますか。 ✓\n原因：物品的存在使用物品存在动词。\nSIMカードは空港(くうこう)に必(かなら)ずあります。 ✗ → SIMカードは空港(くうこう)で買(か)えますか。 ✓\n原因：库存与销售条件不能凭空断定，应先确认。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-1",
+      "title": "词汇读音与释义资料（原测试 1）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "读音：うえ\n答案：上(うえ) — 上面\n读音：つくえ\n答案：机(つくえ) — 桌子\n读音：かばん\n答案：かばん — 包\n读音：どこ\n答案：どこ — 哪里\n读音：あります\n答案：あります — 有；用于物品\n读音：まだ\n答案：まだ — 还；尚（与否定连用时表示“还没有”）\n读音：くうこう\n答案：空港(くうこう) — 机场\n读音：にもつ\n答案：荷物(にもつ) — 行李\n读音：ほん\n答案：本(ほん) — 书\n读音：した\n答案：下(した) — 下面\n读音：さいふ\n答案：財布(さいふ) — 钱包\n读音：かぎ\n答案：鍵(かぎ) — 钥匙\n读音：いっしょ\n答案：一緒(いっしょ) — 一起\n读音：みます\n答案：見(み)ます — 看\n读音：いれます\n答案：入(い)れます — 放入\n读音：パスポート\n答案：パスポート — 护照；生活高频场景词\n读音：SIMカード\n答案：SIMカード — 手机通信卡\n读音：きしゅ\n答案：機種(きしゅ) — 手机机型\n读音：げんかん\n答案：玄関(げんかん) — 玄关\n读音：けいたい\n答案：携帯(けいたい) — 手机\n读音：じゅうでんき\n答案：充電器(じゅうでんき) — 充电器\n读音：てにもつ\n答案：手荷物(てにもつ) — 随身行李\n读音：あんしん\n答案：安心(あんしん) — 安心\n读音：しらべます\n答案：調(しら)べます — 调查、查找\n读音：きないもちこみ\n答案：機内持(きないも)ち込(こ)み — 随身带入飞机"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-2",
+      "title": "文法例题与参考答案（原测试 2）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "题目：机(つくえ)の上(うえ)（　）あります。\n答案：に\n题目：（　）。空港(くうこう)で買(か)えるか、先(さき)に調(しら)べます。\n答案：まだありません"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "vocabulary-1",
+      "word": "上",
+      "reading": "うえ",
+      "meaning": "上面",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "さっき、机の上で見ましたよ。",
+          "zh": "刚才在桌子上看到了。",
+          "ttsText": "さっき、つくえのうえでみましたよ。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-2"
+      }
+    },
+    {
+      "id": "vocabulary-2",
+      "word": "机",
+      "reading": "つくえ",
+      "meaning": "桌子",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "さっき、机の上で見ましたよ。",
+          "zh": "刚才在桌子上看到了。",
+          "ttsText": "さっき、つくえのうえでみましたよ。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-2"
+      }
+    },
+    {
+      "id": "vocabulary-3",
+      "word": "かばん",
+      "reading": "かばん",
+      "meaning": "包",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "あ、ありました。かばんに入れます。",
+          "zh": "啊，找到了。我把它放进包里。",
+          "ttsText": "あ、ありました。かばんにいれます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-5"
+      }
+    },
+    {
+      "id": "vocabulary-4",
+      "word": "どこ",
+      "reading": "どこ",
+      "meaning": "哪里",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "パスポートはどこですか。",
+          "zh": "护照在哪里？",
+          "ttsText": "パスポートはどこですか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-5",
+      "word": "あります",
+      "reading": "あります",
+      "meaning": "有；用于物品",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "机の上にあります。",
+          "zh": "在桌子上。",
+          "ttsText": "つくえのうえにあります。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-4"
+      }
+    },
+    {
+      "id": "vocabulary-6",
+      "word": "まだ",
+      "reading": "まだ",
+      "meaning": "还；尚（与否定连用时表示“还没有”）",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "まだありません。空港で買えるか、先に調べます。",
+          "zh": "还没有。我先查一下能否在机场买到。",
+          "ttsText": "まだありません。くうこうでかえるか、さきにしらべます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-9"
+      }
+    },
+    {
+      "id": "vocabulary-7",
+      "word": "空港",
+      "reading": "くうこう",
+      "meaning": "机场",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "まだありません。空港で買えるか、先に調べます。",
+          "zh": "还没有。我先查一下能否在机场买到。",
+          "ttsText": "まだありません。くうこうでかえるか、さきにしらべます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-9"
+      }
+    },
+    {
+      "id": "vocabulary-8",
+      "word": "荷物",
+      "reading": "にもつ",
+      "meaning": "行李",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-9",
+      "word": "本",
+      "reading": "ほん",
+      "meaning": "书",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "本の下ですか。見えません。",
+          "zh": "在书下面吗？我看不到。",
+          "ttsText": "ほんのしたですか。みえません。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-3"
+      }
+    },
+    {
+      "id": "vocabulary-10",
+      "word": "下",
+      "reading": "した",
+      "meaning": "下面",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "本の下ですか。見えません。",
+          "zh": "在书下面吗？我看不到。",
+          "ttsText": "ほんのしたですか。みえません。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-3"
+      }
+    },
+    {
+      "id": "vocabulary-11",
+      "word": "財布",
+      "reading": "さいふ",
+      "meaning": "钱包",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "財布と鍵も一緒に入れましたか。",
+          "zh": "钱包和钥匙也一起放进去了吗？",
+          "ttsText": "さいふとかぎもいっしょにいれましたか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-6"
+      }
+    },
+    {
+      "id": "vocabulary-12",
+      "word": "鍵",
+      "reading": "かぎ",
+      "meaning": "钥匙",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "財布と鍵も一緒に入れましたか。",
+          "zh": "钱包和钥匙也一起放进去了吗？",
+          "ttsText": "さいふとかぎもいっしょにいれましたか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-6"
+      }
+    },
+    {
+      "id": "vocabulary-13",
+      "word": "一緒",
+      "reading": "いっしょ",
+      "meaning": "一起",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "財布と鍵も一緒に入れましたか。",
+          "zh": "钱包和钥匙也一起放进去了吗？",
+          "ttsText": "さいふとかぎもいっしょにいれましたか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-6"
+      }
+    },
+    {
+      "id": "vocabulary-14",
+      "word": "見ます",
+      "reading": "みます",
+      "meaning": "看",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-15",
+      "word": "入れます",
+      "reading": "いれます",
+      "meaning": "放入",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "あ、ありました。かばんに入れます。",
+          "zh": "啊，找到了。我把它放进包里。",
+          "ttsText": "あ、ありました。かばんにいれます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-5"
+      }
+    },
+    {
+      "id": "vocabulary-16",
+      "word": "パスポート",
+      "reading": "パスポート",
+      "meaning": "护照；生活高频场景词",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "パスポートはどこですか。",
+          "zh": "护照在哪里？",
+          "ttsText": "パスポートはどこですか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-17",
+      "word": "SIMカード",
+      "reading": "SIMカード",
+      "meaning": "手机通信卡",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "日本で使うSIMカードはありますか。",
+          "zh": "有在日本使用的 SIM 卡吗？",
+          "ttsText": "にほんでつかうSIMカードはありますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-8"
+      }
+    },
+    {
+      "id": "vocabulary-18",
+      "word": "機種",
+      "reading": "きしゅ",
+      "meaning": "手机机型",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-19",
+      "word": "玄関",
+      "reading": "げんかん",
+      "meaning": "玄关",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "財布はかばんの中にあります。鍵は玄関にあります。",
+          "zh": "钱包在包里。钥匙在玄关。",
+          "ttsText": "さいふはかばんのなかにあります。かぎはげんかんにあります。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-7"
+      }
+    },
+    {
+      "id": "vocabulary-20",
+      "word": "携帯",
+      "reading": "けいたい",
+      "meaning": "手机",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "はい。携帯が使えるかも確認します。",
+          "zh": "是的。我也会确认手机能否使用。",
+          "ttsText": "はい。けいたいがつかえるかもかくにんします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-11"
+      }
+    },
+    {
+      "id": "vocabulary-21",
+      "word": "充電器",
+      "reading": "じゅうでんき",
+      "meaning": "充电器",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-22",
+      "word": "手荷物",
+      "reading": "てにもつ",
+      "meaning": "随身行李",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-23",
+      "word": "安心",
+      "reading": "あんしん",
+      "meaning": "安心",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "着いてすぐ使えると安心ですね。",
+          "zh": "到了就能用的话会比较放心呢。",
+          "ttsText": "ついてすぐつかえるとあんしんですね。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-10"
+      }
+    },
+    {
+      "id": "vocabulary-24",
+      "word": "調べます",
+      "reading": "しらべます",
+      "meaning": "调查、查找",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "まだありません。空港で買えるか、先に調べます。",
+          "zh": "还没有。我先查一下能否在机场买到。",
+          "ttsText": "まだありません。くうこうでかえるか、さきにしらべます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-9"
+      }
+    },
+    {
+      "id": "vocabulary-25",
+      "word": "機内持ち込み",
+      "reading": "きないもちこみ",
+      "meaning": "随身带入飞机",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    }
+  ],
+  "expressions": [
+    {
+      "id": "expression-one",
+      "function": "询问某件东西在哪里。",
+      "pattern": "パスポートはどこですか。",
+      "meaning": "询问某件东西在哪里。",
+      "audience": "家人、同住者、可帮忙的工作人员。",
+      "notes": [
+        "固定句：パスポートはどこですか。",
+        "不可以替换什么：人名也能用于“田中さんはどこですか”询问所在位置。询问某人是否在场可用“田中さんはいますか”；物品存在用あります。",
+        "语感差异：对家人说可用更随意的词尾；对工作人员保留礼貌词尾。",
+        "对谁不能说：不能用责问语气向不负责保管的人反复追问。",
+        "其他用法：找遗失物时可配合询问是否有人看到。",
+        "本课要求：将物品名替换三次，马上问出口。"
+      ],
+      "slots": [
+        {
+          "key": "可替换部分",
+          "description": "可以把物品名词换成钱包、钥匙等。"
+        }
+      ],
+      "examples": [
+        {
+          "ja": "パスポートはどこですか。",
+          "zh": "护照在哪里？",
+          "ttsText": "パスポートはどこですか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "grammar-1",
+      "pattern": "物品存在",
+      "level": "N5",
+      "meaning": "说明东西在哪里。",
+      "connection": "地点后接地点助词，再接存在动词。",
+      "notes": [
+        "课文对应：机(つくえ)の上(うえ)にあります。",
+        "例题：机(つくえ)の上(うえ)（　）あります。",
+        "答案：に"
+      ],
+      "examples": [
+        {
+          "ja": "机の上にあります。",
+          "zh": "在桌子上。",
+          "ttsText": "つくえのうえにあります。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "pattern": "物品存在否定",
+      "level": "N5",
+      "meaning": "说还没有准备好某件物品。",
+      "connection": "主题后接否定存在表达。",
+      "notes": [
+        "课文对应：まだありません。空港(くうこう)で買(か)えるか、先(さき)に調(しら)べます。",
+        "例题：（　）。空港(くうこう)で買(か)えるか、先(さき)に調(しら)べます。",
+        "答案：まだありません"
+      ],
+      "examples": [
+        {
+          "ja": "まだありません。空港で買えるか、先に調べます。",
+          "zh": "还没有。我先查一下能否在机场买到。",
+          "ttsText": "まだありません。くうこうでかえるか、さきにしらべます。"
+        }
+      ]
+    }
+  ],
+  "shadowing": [
+    {
+      "id": "shadowing-polite",
+      "dialogueId": "polite",
+      "lineIds": [
+        "polite-line-1",
+        "polite-line-2",
+        "polite-line-3",
+        "polite-line-4",
+        "polite-line-5",
+        "polite-line-6",
+        "polite-line-7"
+      ],
+      "prompt": "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+    },
+    {
+      "id": "shadowing-plain",
+      "dialogueId": "plain",
+      "lineIds": [
+        "plain-line-1",
+        "plain-line-2",
+        "plain-line-3",
+        "plain-line-4",
+        "plain-line-5",
+        "plain-line-6",
+        "plain-line-7"
+      ],
+      "prompt": "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+    }
+  ],
+  "homework": [],
+  "references": [
+    {
+      "title": "seikatsu-nihongo/content/n5-source.txt",
+      "note": "唯一正文来源；第2课。源稿日语、事实与说明保持不变；本次新增忠实中文译文用于 v1 必填 zh，未创作场景或作业。 N5 章节的完整通用使用说明统一保存在同章 n5-1 的「N5 章节使用说明」素材中。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/README.md",
+      "note": "n5.json 为 TXT 生成结果，已通过 import-n5.mjs --check；不重复导出生成 README。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/review-notes.md",
+      "note": "沿用 2026-09-30 校订；现实条件与时限按原说明保留，不把课号当办事日期。"
+    },
+    {
+      "title": "JLPT官方考试指南",
+      "url": "https://jlpt.jp/cn/reference/pdf/guidebook1.pdf",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "出入国在留管理厅",
+      "url": "https://www.moj.go.jp/isa/applications/procedures/nyuukokukanri10_00021.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "日本海关",
+      "url": "https://www.customs.go.jp/english/passenger/declaration/declaration_app.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "东京燃气",
+      "url": "https://home.tokyo-gas.co.jp/gas_power/procedure/moving/khsn_k_nagare.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "povo官方",
+      "url": "https://povo.jp/procedure/",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "日本邮政银行",
+      "url": "https://www.jp-bank.japanpost.jp/kaisetu/kat_gaikokujin.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "厚生劳动省",
+      "url": "https://www.mhlw.go.jp/stf/newpage_50657.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    }
+  ]
+}

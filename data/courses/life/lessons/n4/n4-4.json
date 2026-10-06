@@ -1,0 +1,502 @@
+{
+  "schemaVersion": 1,
+  "id": "n4-4",
+  "unitId": "n4",
+  "order": 204,
+  "title": "第4课 与邻居商量夜间声音",
+  "level": "N4",
+  "kind": "scene",
+  "objectives": ["说明困扰而不指责人格", "提出具体可执行请求", "回应对方的解释"],
+  "scene": {
+    "background": "林与隔壁邻居在楼道交谈，说明昨晚十一点后的音乐声影响睡眠，双方商量不打扰彼此的办法。",
+    "channel": "in-person",
+    "tasks": ["说明困扰而不指责人格", "提出具体可执行请求", "回应对方的解释"],
+    "relationships": "你扮演“我（わたし）”（课文中的林）。林与邻居：相邻房间的住户；尚不熟悉；普通体补充场景见语体说明。"
+  },
+  "learnerSpeakerId": "learner",
+  "speakers": [
+    {
+      "id": "learner",
+      "name": "我（わたし）",
+      "role": "你扮演的角色（课文示例姓名：林／リン）；赴日学习者；沿用示例姓名林（リン），实际练习可替换为本人信息"
+    },
+    {
+      "id": "classmate",
+      "name": "王",
+      "role": "同班同学王（ワン）；熟悉后双方已接受普通体"
+    },
+    {
+      "id": "neighbor",
+      "name": "邻居",
+      "role": "相邻房间的住户；尚不熟悉"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "main",
+      "title": "主课文：与邻居商量夜间声音",
+      "variant": "main",
+      "lines": [
+        {
+          "id": "main-line-1",
+          "speakerId": "learner",
+          "ja": "少しお話してもいいですか。",
+          "zh": "可以稍微谈一下吗？",
+          "reading": "すこしおはなししてもいいですか。"
+        },
+        {
+          "id": "main-line-2",
+          "speakerId": "neighbor",
+          "ja": "はい、どうしましたか。",
+          "zh": "可以，怎么了？",
+          "reading": "はい、どうしましたか。"
+        },
+        {
+          "id": "main-line-3",
+          "speakerId": "learner",
+          "ja": "昨日、十一時を過ぎても音楽が聞こえて、眠れなかったんです。",
+          "zh": "昨天十一点以后还听到音乐，没能睡着。",
+          "reading": "きのう、じゅういちじをすぎてもおんがくがきこえて、ねむれなかったんです。"
+        },
+        {
+          "id": "main-line-4",
+          "speakerId": "neighbor",
+          "ja": "すみません。音が大きすぎましたね。",
+          "zh": "对不起，声音太大了。",
+          "reading": "すみません。おとがおおきすぎましたね。"
+        },
+        {
+          "id": "main-line-5",
+          "speakerId": "learner",
+          "ja": "夜は少し小さくしてもらえませんか。",
+          "zh": "晚上能不能把声音调小一点？",
+          "reading": "よるはすこしちいさくしてもらえませんか。"
+        },
+        {
+          "id": "main-line-6",
+          "speakerId": "neighbor",
+          "ja": "わかりました。遅い時間はヘッドホンを使うようにします。",
+          "zh": "知道了，晚些时候我会尽量用耳机。",
+          "reading": "わかりました。おそいじかんはヘッドホンをつかうようにします。"
+        },
+        {
+          "id": "main-line-7",
+          "speakerId": "learner",
+          "ja": "ありがとうございます。私も気をつけます。",
+          "zh": "谢谢，我也会注意。",
+          "reading": "ありがとうございます。わたしもきをつけます。"
+        },
+        {
+          "id": "main-line-8",
+          "speakerId": "neighbor",
+          "ja": "また聞こえるようなら、教えてください。",
+          "zh": "如果还听得到，请告诉我。",
+          "reading": "またきこえるようなら、おしえてください。"
+        }
+      ]
+    },
+    {
+      "id": "branch",
+      "title": "条件变化：另一种处理路径",
+      "variant": "branch",
+      "lines": [
+        {
+          "id": "branch-line-1",
+          "speakerId": "neighbor",
+          "ja": "その時間は、私は家にいなかったんです。",
+          "zh": "我那时不在家。",
+          "reading": "そのじかんは、わたしはいえにいなかったんです。"
+        },
+        {
+          "id": "branch-line-2",
+          "speakerId": "learner",
+          "ja": "そうでしたか。こちらの部屋の音かどうか、わからなかったんですね。",
+          "zh": "这样啊，原来还不能确定是这个房间的声音。",
+          "reading": "そうでしたか。こちらのへやのおとかどうか、わからなかったんですね。"
+        },
+        {
+          "id": "branch-line-3",
+          "speakerId": "neighbor",
+          "ja": "管理会社に状況を伝えてみませんか。",
+          "zh": "要不要向管理公司说明情况？",
+          "reading": "かんりがいしゃにじょうきょうをつたえてみませんか。"
+        },
+        {
+          "id": "branch-line-4",
+          "speakerId": "learner",
+          "ja": "はい。聞こえた時間を伝えます。",
+          "zh": "好，我会说明听到的时间。",
+          "reading": "はい。きこえたじかんをつたえます。"
+        }
+      ]
+    },
+    {
+      "id": "plain",
+      "title": "普通体：与熟悉同学交谈",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "plain-line-1",
+          "speakerId": "classmate",
+          "ja": "昨日はよく眠れた？",
+          "zh": "昨天睡得好吗？",
+          "reading": "きのうはよくねむれた？"
+        },
+        {
+          "id": "plain-line-2",
+          "speakerId": "learner",
+          "ja": "音楽が聞こえて、あまり眠れなかった。",
+          "zh": "听到音乐，没怎么睡好。",
+          "reading": "おんがくがきこえて、あまりねむれなかった。"
+        },
+        {
+          "id": "plain-line-3",
+          "speakerId": "classmate",
+          "ja": "隣の人と話したんだね。",
+          "zh": "你和邻居谈过了啊。",
+          "reading": "となりのひととはなしたんだね。"
+        },
+        {
+          "id": "plain-line-4",
+          "speakerId": "learner",
+          "ja": "うん。まず困ったことを説明したよ。",
+          "zh": "嗯，先说明了困扰。",
+          "reading": "うん。まずこまったことをせつめいしたよ。"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "scenario-information",
+      "title": "本课已知信息与约定",
+      "kind": "table",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["事项", "本例设定"],
+          "rows": [
+            ["时间", "昨晚23:00之后"],
+            ["困扰", "听到音乐，无法入睡"],
+            ["主路径", "邻居承认音量大并提出使用耳机"],
+            ["分支", "声源未确认，不认定邻居责任"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "version-context",
+      "title": "场景分支与语体说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["项目", "说明"],
+          "rows": [
+            ["主课文", "按 scene 中的背景与人物关系交流。"],
+            ["分支", "与主路径互斥的条件变化，不把两条路径的预约、结果或决定合并为同一事件。"],
+            ["普通体", "普通体版用于与熟悉同学王交谈；不把工作人员的礼貌表达机械改成普通体。"],
+            ["听后跟读", "先听完整一句，暂停后模仿；先理解人物、条件与任务。"],
+            ["影子跟读", "熟悉原句后，播放时稍落后连续跟随；平台使用合成语音，不称真人录音。"]
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "vocabulary-1",
+      "word": "隣",
+      "reading": "となり",
+      "meaning": "隔壁、旁边",
+      "usage": "用于本课的与邻居商量夜间声音场景",
+      "collocations": ["隣の部屋"],
+      "examples": []
+    },
+    {
+      "id": "vocabulary-2",
+      "word": "聞こえる",
+      "reading": "きこえる",
+      "meaning": "听得见",
+      "usage": "用于本课的与邻居商量夜间声音场景",
+      "collocations": ["音楽が聞こえる"],
+      "examples": [
+        {
+          "ja": "昨日、十一時を過ぎても音楽が聞こえて、眠れなかったんです。",
+          "zh": "昨天十一点以后还听到音乐，没能睡着。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-3"
+      }
+    },
+    {
+      "id": "vocabulary-3",
+      "word": "眠れる",
+      "reading": "ねむれる",
+      "meaning": "能睡着",
+      "usage": "用于本课的与邻居商量夜间声音场景",
+      "collocations": ["よく眠れる"],
+      "examples": [
+        {
+          "ja": "昨日、十一時を過ぎても音楽が聞こえて、眠れなかったんです。",
+          "zh": "昨天十一点以后还听到音乐，没能睡着。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-3"
+      }
+    },
+    {
+      "id": "vocabulary-4",
+      "word": "音",
+      "reading": "おと",
+      "meaning": "声音",
+      "usage": "用于本课的与邻居商量夜间声音场景",
+      "collocations": ["音を小さくする"],
+      "examples": [
+        {
+          "ja": "すみません。音が大きすぎましたね。",
+          "zh": "对不起，声音太大了。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-4"
+      }
+    },
+    {
+      "id": "vocabulary-5",
+      "word": "ヘッドホン",
+      "reading": "ヘッドホン",
+      "meaning": "耳机",
+      "usage": "用于本课的与邻居商量夜间声音场景",
+      "collocations": ["ヘッドホンを使う"],
+      "examples": [
+        {
+          "ja": "わかりました。遅い時間はヘッドホンを使うようにします。",
+          "zh": "知道了，晚些时候我会尽量用耳机。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-6"
+      }
+    },
+    {
+      "id": "vocabulary-6",
+      "word": "気をつける",
+      "reading": "きをつける",
+      "meaning": "注意",
+      "usage": "用于本课的与邻居商量夜间声音场景",
+      "collocations": ["音に気をつける"],
+      "examples": [
+        {
+          "ja": "ありがとうございます。私も気をつけます。",
+          "zh": "谢谢，我也会注意。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-7"
+      }
+    }
+  ],
+  "expressions": [
+    {
+      "id": "expression-1",
+      "function": "征求交谈许可",
+      "pattern": "少しお話ししてもいいですか。",
+      "meaning": "请求占用一点时间。",
+      "audience": "不熟悉的邻居",
+      "notes": ["先确认对方方便交谈。"],
+      "slots": [],
+      "examples": [
+        {
+          "ja": "少しお話してもいいですか。",
+          "zh": "可以稍微谈一下吗？"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "expression-2",
+      "function": "具体请求",
+      "pattern": "夜は〜てもらえませんか。",
+      "meaning": "请求夜间采取某项行动。",
+      "audience": "邻居、同住者",
+      "notes": ["请求应具体，避免反复责问。"],
+      "slots": [
+        {
+          "key": "〜",
+          "description": "降低音量等行为"
+        }
+      ],
+      "examples": [
+        {
+          "ja": "夜は少し小さくしてもらえませんか。",
+          "zh": "晚上能不能把声音调小一点？"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-5"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "grammar-1",
+      "pattern": "〜すぎる",
+      "level": "N4",
+      "meaning": "某动作或程度超过合适范围。",
+      "connection": "动词ます形去ます／い形容词去い／な形容词词干＋すぎる",
+      "notes": [
+        "评价具体声音大小，不评价对方的人品。",
+        "本章分级是教学目标，不声称现行 JLPT 有逐项公布的必考文法清单。"
+      ],
+      "examples": [
+        {
+          "ja": "すみません。音が大きすぎましたね。",
+          "zh": "对不起，声音太大了。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "pattern": "〜てもらえませんか",
+      "level": "N4",
+      "meaning": "委婉请求别人为自己采取行动。",
+      "connection": "动词て形＋もらえませんか",
+      "notes": [
+        "先说明困扰再请求，不能把礼貌句当作要求对方无条件服从。",
+        "本章分级是教学目标，不声称现行 JLPT 有逐项公布的必考文法清单。"
+      ],
+      "examples": [
+        {
+          "ja": "夜は少し小さくしてもらえませんか。",
+          "zh": "晚上能不能把声音调小一点？"
+        }
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "pattern": "〜ようにする",
+      "level": "N4",
+      "meaning": "为实现某行为而有意识地努力。",
+      "connection": "动词辞书形／ない形＋ようにする",
+      "notes": [
+        "相对于一次性决定，更强调之后注意实践。",
+        "本章分级是教学目标，不声称现行 JLPT 有逐项公布的必考文法清单。"
+      ],
+      "examples": [
+        {
+          "ja": "わかりました。遅い時間はヘッドホンを使うようにします。",
+          "zh": "知道了，晚些时候我会尽量用耳机。"
+        }
+      ]
+    }
+  ],
+  "shadowing": [
+    {
+      "id": "shadowing-main",
+      "dialogueId": "main",
+      "lineIds": [
+        "main-line-1",
+        "main-line-2",
+        "main-line-3",
+        "main-line-4",
+        "main-line-5",
+        "main-line-6",
+        "main-line-7",
+        "main-line-8"
+      ],
+      "prompt": "先听后跟读：整句听完再暂停模仿。理解本段任务后做影子跟读：播放时稍落后跟随。注意说明困扰而不指责人格；分支只在对应条件下练习。"
+    },
+    {
+      "id": "shadowing-branch",
+      "dialogueId": "branch",
+      "lineIds": ["branch-line-1", "branch-line-2", "branch-line-3", "branch-line-4"],
+      "prompt": "先听后跟读：整句听完再暂停模仿。理解本段任务后做影子跟读：播放时稍落后跟随。注意说明困扰而不指责人格；分支只在对应条件下练习。"
+    },
+    {
+      "id": "shadowing-plain",
+      "dialogueId": "plain",
+      "lineIds": ["plain-line-1", "plain-line-2", "plain-line-3", "plain-line-4"],
+      "prompt": "先听后跟读：整句听完再暂停模仿。理解本段任务后做影子跟读：播放时稍落后跟随。注意说明困扰而不指责人格；分支只在对应条件下练习。"
+    }
+  ],
+  "homework": [
+    {
+      "id": "oral-one",
+      "type": "oral",
+      "situation": "向邻居说明昨晚的困扰。",
+      "knownInformation": [
+        "时间：昨晚23:00之后",
+        "困扰：听到音乐，无法入睡",
+        "主路径：邻居承认音量大并提出使用耳机",
+        "分支：声源未确认，不认定邻居责任"
+      ],
+      "tasks": ["说出时间和影响", "提出一个具体请求"],
+      "requirements": [
+        "按情境向对应人物作出简洁、连贯的说明。",
+        "已知事项与尚待确认事项分开表达；参考答案只是可行示例。"
+      ],
+      "hints": [
+        "少しお話ししてもいいですか。",
+        "夜は〜てもらえませんか。",
+        "可使用本课文法和词汇，措辞不必与参考答案完全相同。"
+      ],
+      "functions": ["consult"],
+      "answers": [
+        {
+          "ja": "昨日、十一時を過ぎても音楽が聞こえて、眠れませんでした。夜は音を少し小さくしてもらえませんか。",
+          "zh": "昨晚十一点后还听到音乐，没能睡着。晚上能否把声音调小一点？"
+        }
+      ]
+    },
+    {
+      "id": "written-one",
+      "type": "written",
+      "situation": "向管理公司描述尚未确认声源的情况。",
+      "knownInformation": [
+        "时间：昨晚23:00之后",
+        "困扰：听到音乐，无法入睡",
+        "主路径：邻居承认音量大并提出使用耳机",
+        "分支：声源未确认，不认定邻居责任"
+      ],
+      "tasks": ["写清时间和现象", "不要断言是哪位住户"],
+      "requirements": [
+        "写成收件人能理解的短消息或学习记录。",
+        "已知事项与尚待确认事项分开表达；参考答案只是可行示例。"
+      ],
+      "hints": [
+        "少しお話ししてもいいですか。",
+        "夜は〜てもらえませんか。",
+        "可使用本课文法和词汇，措辞不必与参考答案完全相同。"
+      ],
+      "functions": ["contact"],
+      "answers": [
+        {
+          "ja": "昨日の夜、十一時ごろから音楽が聞こえました。どの部屋の音かはわかりません。状況を確認していただけますか。",
+          "zh": "昨晚十一点左右开始听到音乐，不清楚来自哪个房间。能否请您确认情况？"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "原创 N4 生活日语章节",
+      "note": "2026-10-04 按用户要求新作；课文、译文、分支、作业与参考答案均为原创教学场景，不来自真实机构原始记录。金额、时刻、条件是本例设定。"
+    },
+    {
+      "title": "nihongo/docs/content-format.md 与 schemas/*.schema.json",
+      "note": "遵循本项目 v1 数据契约；N4为学习目标，常见场景固定表达按需要整块理解，不宣称逐项对应官方必考清单。"
+    }
+  ]
+}

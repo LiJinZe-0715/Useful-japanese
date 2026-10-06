@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "it-business",
+  "title": "软件开发商务日语：Java后端与前端协作",
+  "description": "以N3为学习起点的Java / Spring Boot开发岗位商务日语，共82课：40课职场路线、6课后端基础专题、36课专项工作场景。覆盖Java代码、Spring配置、API、数据库与事务、测试、缓存消息、部署、安全、前端协作、业务系统和商务沟通。每课提供主课文与追问、词汇搭配与日中例句、完整读音、口头汇报、书面沟通及临时追问练习。职场基础标注N3；专项技术内容按任务组织、不按JLPT定级。集中词汇页展示全部课程词汇。",
+  "learningMode": "business",
+  "order": 1,
+  "enabled": true,
+  "levels": ["N3"],
+  "units": [
+    {
+      "id": "onboarding",
+      "title": "第1章 入职与团队融入",
+      "order": 1
+    },
+    {
+      "id": "setup",
+      "title": "第2章 开发环境与系统基础",
+      "order": 2
+    },
+    {
+      "id": "workflow",
+      "title": "第3章 日常协作与第一张任务单",
+      "order": 3
+    },
+    {
+      "id": "requirements",
+      "title": "第4章 需求与范围确认",
+      "order": 4
+    },
+    {
+      "id": "design",
+      "title": "第5章 设计与技术讨论",
+      "order": 5
+    },
+    {
+      "id": "implementation",
+      "title": "第6章 实现与技术排查",
+      "order": 6
+    },
+    {
+      "id": "delivery",
+      "title": "第7章 评审、测试与交付质量",
+      "order": 7
+    },
+    {
+      "id": "operations",
+      "title": "第8章 发布、监控与故障应对",
+      "order": 8
+    },
+    {
+      "id": "handover",
+      "title": "第9章 项目接手与知识移交",
+      "order": 9
+    },
+    {
+      "id": "ownership",
+      "title": "第10章 独立负责小项目",
+      "order": 10
+    },
+    {
+      "id": "java-backend",
+      "title": "Java后端与前端联调专题",
+      "order": 11
+    },
+    {
+      "id": "java-core",
+      "title": "Java 核心代码、金额时间与并发",
+      "order": 12
+    },
+    {
+      "id": "spring-development",
+      "title": "Spring 配置、验证与代理机制",
+      "order": 13
+    },
+    {
+      "id": "api-development",
+      "title": "API 设计、兼容与文件接口",
+      "order": 14
+    },
+    {
+      "id": "data-access",
+      "title": "MyBatis、SQL 性能与数据库迁移",
+      "order": 15
+    },
+    {
+      "id": "transactions",
+      "title": "事务边界、并发与幂等",
+      "order": 16
+    },
+    {
+      "id": "backend-testing",
+      "title": "后端测试、Mock 与回归验证",
+      "order": 17
+    },
+    {
+      "id": "cache-messaging",
+      "title": "缓存一致性、消息与重试",
+      "order": 18
+    },
+    {
+      "id": "delivery-runtime",
+      "title": "CI/CD、Linux、网络与云端部署",
+      "order": 19
+    },
+    {
+      "id": "application-security",
+      "title": "登录、权限与安全协作",
+      "order": 20
+    },
+    {
+      "id": "frontend-collaboration",
+      "title": "前端基础、状态管理与前后端联调",
+      "order": 21
+    },
+    {
+      "id": "business-systems",
+      "title": "订单、库存、账单与批处理业务",
+      "order": 22
+    },
+    {
+      "id": "business-communication",
+      "title": "商务沟通、交期协商与客户说明",
+      "order": 23
+    }
+  ]
+}

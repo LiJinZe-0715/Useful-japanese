@@ -1,0 +1,1057 @@
+{
+  "schemaVersion": 1,
+  "id": "n5-12",
+  "unitId": "n5",
+  "order": 112,
+  "title": "第12课 手机卡：povo2.0",
+  "level": "N5",
+  "kind": "scene",
+  "objectives": [
+    "1.1 能说自己想要手机上网还是通话。",
+    "1.2 能问自己的手机是否可用。",
+    "1.3 能在申请前核对卡型与身份验证条件。"
+  ],
+  "scene": {
+    "background": "我比较手机上网与通话需求，查看povo2.0的官方申请页面，并与朋友讨论。",
+    "channel": "other",
+    "tasks": [
+      "1.1 能说自己想要手机上网还是通话。",
+      "1.2 能问自己的手机是否可用。",
+      "1.3 能在申请前核对卡型与身份验证条件。"
+    ],
+    "relationships": "你扮演“我（わたし）”。朋友：朋友；私（学习者）：赴日学习者"
+  },
+  "learnerSpeakerId": "learner",
+  "speakers": [
+    {
+      "id": "speaker-1",
+      "name": "朋友",
+      "role": "朋友"
+    },
+    {
+      "id": "learner",
+      "name": "我（わたし）",
+      "role": "你扮演的角色；赴日学习者"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "main",
+      "title": "场景课文",
+      "variant": "main",
+      "lines": [
+        {
+          "id": "main-line-1",
+          "speakerId": "speaker-1",
+          "ja": "電話番号は要りますか。",
+          "zh": "需要电话号码吗？",
+          "reading": "でんわばんごうはいりますか。",
+          "ttsText": "でんわばんごうはいりますか。"
+        },
+        {
+          "id": "main-line-2",
+          "speakerId": "learner",
+          "ja": "はい、通話も使いたいです。",
+          "zh": "需要，我也想使用语音通话。",
+          "reading": "はい、つうわもつかいたいです。",
+          "ttsText": "はい、つうわもつかいたいです。"
+        },
+        {
+          "id": "main-line-3",
+          "speakerId": "speaker-1",
+          "ja": "学校や銀行の連絡にも使うんですね。",
+          "zh": "学校和银行联系时也要用吧。",
+          "reading": "がっこうやぎんこうのれんらくにもつかうんですね。",
+          "ttsText": "がっこうやぎんこうのれんらくにもつかうんですね。"
+        },
+        {
+          "id": "main-line-4",
+          "speakerId": "learner",
+          "ja": "はい。だから、番号がある方を見ています。",
+          "zh": "是的，所以我在看带号码的方案。",
+          "reading": "はい。だから、ばんごうがあるほうをみています。",
+          "ttsText": "はい。だから、ばんごうがあるほうをみています。"
+        },
+        {
+          "id": "main-line-5",
+          "speakerId": "speaker-1",
+          "ja": "この携帯はeSIMに対応していますか。",
+          "zh": "这部手机支持 eSIM 吗？",
+          "reading": "このけいたいはeSIMにたいおうしていますか。",
+          "ttsText": "このけいたいはeSIMにたいおうしていますか。"
+        },
+        {
+          "id": "main-line-6",
+          "speakerId": "learner",
+          "ja": "まだわかりません。公式の案内を見ます。",
+          "zh": "还不知道。我看看官方指引。",
+          "reading": "まだわかりません。こうしきのあんないをみます。",
+          "ttsText": "まだわかりません。こうしきのあんないをみます。"
+        },
+        {
+          "id": "main-line-7",
+          "speakerId": "speaker-1",
+          "ja": "まず、機種の設定画面を見ましょう。",
+          "zh": "先看看机型的设置页面吧。",
+          "reading": "まず、きしゅのせっていがめんをみましょう。",
+          "ttsText": "まず、きしゅのせっていがめんをみましょう。"
+        },
+        {
+          "id": "main-line-8",
+          "speakerId": "learner",
+          "ja": "わかりました。今すぐ契約せずに確認します。",
+          "zh": "明白了。我先确认，不马上签约。",
+          "reading": "わかりました。いますぐけいやくせずにかくにんします。",
+          "ttsText": "わかりました。いますぐけいやくせずにかくにんします。"
+        },
+        {
+          "id": "main-line-9",
+          "speakerId": "speaker-1",
+          "ja": "本人確認の書類も確認しましょう。",
+          "zh": "也确认一下身份验证材料吧。",
+          "reading": "ほんにんかくにんのしょるいもかくにんしましょう。",
+          "ttsText": "ほんにんかくにんのしょるいもかくにんしましょう。"
+        },
+        {
+          "id": "main-line-10",
+          "speakerId": "learner",
+          "ja": "はい。在留カードの条件も見ます。",
+          "zh": "好的。我也看看在留卡的条件。",
+          "reading": "はい。ざいりゅうカードのじょうけんもみます。",
+          "ttsText": "はい。ざいりゅうカードのじょうけんもみます。"
+        },
+        {
+          "id": "main-line-11",
+          "speakerId": "learner",
+          "ja": "在留カードの住所欄はまだ空欄です。",
+          "zh": "在留卡的地址栏还是空的。",
+          "reading": "ざいりゅうカードのじゅうしょらんはまだくうらんです。",
+          "ttsText": "ざいりゅうカードのじゅうしょらんはまだくうらんです。"
+        },
+        {
+          "id": "main-line-12",
+          "speakerId": "speaker-1",
+          "ja": "まず住居地の届出をして、本人確認の条件も確認しましょう。",
+          "zh": "先办理住居地届出，也确认一下身份验证条件吧。",
+          "reading": "まずじゅうきょちのとどけでをして、ほんにんかくにんのじょうけんもかくにんしましょう。",
+          "ttsText": "まずじゅうきょちのとどけでをして、ほんにんかくにんのじょうけんもかくにんしましょう。"
+        },
+        {
+          "id": "main-line-13",
+          "speakerId": "learner",
+          "ja": "はい。使える書類を確認してから進めます。",
+          "zh": "好的。我确认可用材料后再继续。",
+          "reading": "はい。つかえるしょるいをかくにんしてからすすめます。",
+          "ttsText": "はい。つかえるしょるいをかくにんしてからすすめます。"
+        }
+      ]
+    },
+    {
+      "id": "polite",
+      "title": "跟读文本（礼貌体版·朋友聊手机卡）",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "polite-line-1",
+          "speakerId": "speaker-1",
+          "ja": "ネットだけで大丈夫ですか。",
+          "zh": "只有网络就够了吗？",
+          "reading": "ネットだけでだいじょうぶですか。",
+          "ttsText": "ネットだけでだいじょうぶですか。"
+        },
+        {
+          "id": "polite-line-2",
+          "speakerId": "learner",
+          "ja": "いいえ、電話番号も欲しいです。",
+          "zh": "不，我也想要电话号码。",
+          "reading": "いいえ、でんわばんごうもほしいです。",
+          "ttsText": "いいえ、でんわばんごうもほしいです。"
+        },
+        {
+          "id": "polite-line-3",
+          "speakerId": "speaker-1",
+          "ja": "では、通話付きプランの案内を見ましょう。",
+          "zh": "那就看看带通话的方案说明吧。",
+          "reading": "では、つうわつきプランのあんないをみましょう。",
+          "ttsText": "では、つうわつきプランのあんないをみましょう。"
+        },
+        {
+          "id": "polite-line-4",
+          "speakerId": "speaker-1",
+          "ja": "この機種は対応していますか。",
+          "zh": "这个机型支持吗？",
+          "reading": "このきしゅはたいおうしていますか。",
+          "ttsText": "このきしゅはたいおうしていますか。"
+        },
+        {
+          "id": "polite-line-5",
+          "speakerId": "learner",
+          "ja": "まだ確認中です。申込みは後にします。",
+          "zh": "还在确认中。之后再申请。",
+          "reading": "まだかくにんちゅうです。もうしこみはあとにします。",
+          "ttsText": "まだかくにんちゅうです。もうしこみはあとにします。"
+        },
+        {
+          "id": "polite-line-6",
+          "speakerId": "speaker-1",
+          "ja": "番号も必要ですし、通話の条件も見ましょう。",
+          "zh": "也需要号码，我们看看通话条件吧。",
+          "reading": "ばんごうもひつようですし、つうわのじょうけんもみましょう。",
+          "ttsText": "ばんごうもひつようですし、つうわのじょうけんもみましょう。"
+        },
+        {
+          "id": "polite-line-7",
+          "speakerId": "learner",
+          "ja": "はい。公式ページで確認します。",
+          "zh": "好的，我在官方页面上确认。",
+          "reading": "はい。こうしきページでかくにんします。",
+          "ttsText": "はい。こうしきページでかくにんします。"
+        }
+      ]
+    },
+    {
+      "id": "plain",
+      "title": "跟读文本（普通体版·朋友聊手机卡）",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "plain-line-1",
+          "speakerId": "speaker-1",
+          "ja": "ネットだけで大丈夫？",
+          "zh": "只有网络就够了吗？",
+          "reading": "ネットだけでだいじょうぶ？",
+          "ttsText": "ネットだけでだいじょうぶ？"
+        },
+        {
+          "id": "plain-line-2",
+          "speakerId": "learner",
+          "ja": "ううん、電話番号も欲しい。",
+          "zh": "不，我也想要电话号码。",
+          "reading": "ううん、でんわばんごうもほしい。",
+          "ttsText": "ううん、でんわばんごうもほしい。"
+        },
+        {
+          "id": "plain-line-3",
+          "speakerId": "speaker-1",
+          "ja": "それなら、通話付きプランの案内を見よう。",
+          "zh": "那就看看带通话的方案说明吧。",
+          "reading": "それなら、つうわつきプランのあんないをみよう。",
+          "ttsText": "それなら、つうわつきプランのあんないをみよう。"
+        },
+        {
+          "id": "plain-line-4",
+          "speakerId": "speaker-1",
+          "ja": "この機種、対応している？",
+          "zh": "这个机型支持吗？",
+          "reading": "このきしゅ、たいおうしている？",
+          "ttsText": "このきしゅ、たいおうしている？"
+        },
+        {
+          "id": "plain-line-5",
+          "speakerId": "learner",
+          "ja": "まだ確認中。申込みは後にする。",
+          "zh": "还在确认中。之后再申请。",
+          "reading": "まだかくにんちゅう。もうしこみはあとにする。",
+          "ttsText": "まだかくにんちゅう。もうしこみはあとにする。"
+        },
+        {
+          "id": "plain-line-6",
+          "speakerId": "speaker-1",
+          "ja": "番号も必要だし、通話の条件も見よう。",
+          "zh": "也需要号码，我们看看通话条件吧。",
+          "reading": "ばんごうもひつようだし、つうわのじょうけんもみよう。",
+          "ttsText": "ばんごうもひつようだし、つうわのじょうけんもみよう。"
+        },
+        {
+          "id": "plain-line-7",
+          "speakerId": "learner",
+          "ja": "うん。公式ページで確認する。",
+          "zh": "好的，我在官方页面上确认。",
+          "reading": "うん。こうしきページでかくにんする。",
+          "ttsText": "うん。こうしきページでかくにんする。"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "lesson-context",
+      "title": "场景与使用说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "场景：我比较手机上网与通话需求，查看povo2.0的官方申请页面，并与朋友讨论。\n使用场合：说明要不要电话号码、手机是否支持相应卡型。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "goal-notes",
+      "title": "目标补充说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [["自测：查看自己的手机与官方页面，直接说出需要哪种服务；不确定就先暂停申请。"]]
+        }
+      ]
+    },
+    {
+      "id": "dialogue-context",
+      "title": "课文与语体版本的转场、交谈对象",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["对话 ID", "位置（在该行之后；下一行注明对象）", "原场景提示"],
+          "rows": [
+            [
+              "main",
+              "整体",
+              "情境：我考虑使用某款线上办理的手机服务；先与朋友确认需求，再自行看官方说明。"
+            ],
+            [
+              "main",
+              "整体",
+              "说明：以povo2.0为例，只有数据的方案与通话加数据的方案在电话号码和身份验证上不同；电子卡还需兼容设备。申请条件可能更新，实际办理以官方当时页面为准。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "register-comparison",
+      "title": "两版差异对照（行 ID 对应上方语体版本）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说话者", "礼貌体行 ID", "普通体行 ID", "原差异说明"],
+          "rows": [
+            ["朋友", "polite-line-1", "plain-line-1", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-2", "plain-line-2", "表达内容相同，语体不同"],
+            ["朋友", "polite-line-3", "plain-line-3", "表达内容相同，语体不同"],
+            ["朋友", "polite-line-4", "plain-line-4", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-5", "plain-line-5", "表达内容相同，语体不同"],
+            ["朋友", "polite-line-6", "plain-line-6", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-7", "plain-line-7", "表达内容相同，语体不同"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shadowing-notes",
+      "title": "跟读场景、前提与使用说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "唯一跟读场景：朋友问我选择仅上网还是通话加上网。\n关系与版本前提：普通体版用于平时说普通体的朋友；礼貌体版用于初识同学。\n与课文的区别：课文核对兼容和材料；这里聚焦使用需求。"
+            ],
+            ["■ 跟读步骤"],
+            [
+              "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+            ],
+            ["■ 跟读要点"],
+            [
+              "礼貌体版：先分辨对方问的是上网还是通话。\n普通体版：短句表达需求即可，不急着说商品名。"
+            ],
+            ["■ 为什么用这个版本"],
+            ["礼貌体版：初识同学讨论也适用。\n普通体版：熟悉朋友之间更自然。"],
+            ["■ 本课跟读目标"],
+            ["能明确自己的真实需求后再比较服务。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary-notes",
+      "title": "词汇分组与学习说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["■ 3A N5基础词汇"],
+            ["本栏指常见初级教材中的N5基础词，不表示官方保证考到。"],
+            ["■ 3B 场景补充词汇（先听懂）"],
+            ["本栏先听懂、能辨认；行政或商品词不要求会写。"],
+            ["词汇使用提醒：通信产品名称和申请条件具有时效性，不将其放进基础必考词汇。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-notes",
+      "title": "文法安排与补充表达（原 4B）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["■ 4A 基础句型与场景练习"],
+            [
+              "本栏练习基础句型和本课场景中的表达；长句中的敬语、复合结构可先整句理解。例句均从本课课文原样摘取。"
+            ],
+            ["■ 4B 补充表达与后续复习"],
+            [
+              "文法点：普通体愿望\n意思：与朋友可用普通体说自己的需求。\n例句：通話(つうわ)も使(つか)いたい。\n后续学习建议：结合本课语境复习，再在后续系统课程中学习接续与变形；本课程没有第21课。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appendix-1",
+      "title": "附1：当时课程目标下，日本人实际会怎么说",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "家人之间：電話番号(でんわばんごう)も欲(ほ)しい。\n对同事朋友：通話(つうわ)も使(つか)いたいです。\n对上级工作人员：本人確認(ほんにんかくにん)の条件(じょうけん)を確認(かくにん)したいです。\n说明：具体申请操作和资费以官方页面为准。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appendix-2",
+      "title": "附2：常见误用",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "标记说明：✗包含语法错误，也包含本情境中事实不准确、未核实就断言或应对不合适的说法；不表示所有标记句都不合语法。"
+            ],
+            [
+              "データ専用(せんよう)のプランで、携帯電話番号(けいたいでんわばんごう)の通話(つうわ)もできます。 ✗ → 通話(つうわ)のあるプランを確認(かくにん)します。 ✓\n原因：数据专用方案不等于提供手机号码的语音通话；使用数据的网络通话与号码通话需区分，不能断言联网就包含两者。\neSIMはどの携帯(けいたい)でも使(つか)えます。 ✗ → この携帯(けいたい)はeSIMに対応(たいおう)していますか。 ✓\n原因：先确认机型兼容。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-1",
+      "title": "词汇读音与释义资料（原测试 1）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "读音：でんわ\n答案：電話(でんわ) — 电话\n读音：ばんごう\n答案：番号(ばんごう) — 号码\n读音：つかいます\n答案：使(つか)います — 使用\n读音：みます\n答案：見(み)ます — 看\n读音：これ\n答案：これ — 这个\n读音：まだ\n答案：まだ — 还未\n读音：がっこう\n答案：学校(がっこう) — 学校\n读音：あたらしい\n答案：新(あたら)しい — 新的\n读音：いま\n答案：今(いま) — 现在\n读音：うら\n答案：裏(うら) — 背面\n读音：でんわばんごう\n答案：電話(でんわ)番号(ばんごう) — 电话号码\n读音：つうわ\n答案：通話(つうわ) — 语音通话\n读音：eSIM\n答案：eSIM — 嵌入式手机卡\n读音：たいおう\n答案：対応(たいおう) — 兼容、支持\n读音：ほんにんかくにん\n答案：本人確認(ほんにんかくにん) — 身份核验\n读音：しょるい\n答案：書類(しょるい) — 文件\n读音：こうしき\n答案：公式(こうしき) — 官方\n读音：ざいりゅうカード\n答案：在留(ざいりゅう)カード — 在留卡\n读音：ぎんこう\n答案：銀行(ぎんこう) — 银行\n读音：れんらく\n答案：連絡(れんらく) — 联系\n读音：きしゅ\n答案：機種(きしゅ) — 机型\n读音：せってい\n答案：設定(せってい) — 设置\n读音：けいやく\n答案：契約(けいやく) — 签约\n读音：こうしきページ\n答案：公式(こうしき)ページ — 官方页面\n读音：もうしこみ\n答案：申込(もうしこ)み — 申请\n读音：データせんよう\n答案：データ専用(せんよう) — 仅数据"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-2",
+      "title": "文法例题与参考答案（原测试 2）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "题目：はい、通話(つうわ)も（　）。\n答案：使(つか)いたいです\n题目：（　）。公式(こうしき)の案内(あんない)を見(み)ます。\n答案：まだわかりません"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "vocabulary-1",
+      "word": "電話",
+      "reading": "でんわ",
+      "meaning": "电话",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "電話番号は要りますか。",
+          "zh": "需要电话号码吗？",
+          "ttsText": "でんわばんごうはいりますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-2",
+      "word": "番号",
+      "reading": "ばんごう",
+      "meaning": "号码",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "電話番号は要りますか。",
+          "zh": "需要电话号码吗？",
+          "ttsText": "でんわばんごうはいりますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-3",
+      "word": "使います",
+      "reading": "つかいます",
+      "meaning": "使用",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-4",
+      "word": "見ます",
+      "reading": "みます",
+      "meaning": "看",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "まだわかりません。公式の案内を見ます。",
+          "zh": "还不知道。我看看官方指引。",
+          "ttsText": "まだわかりません。こうしきのあんないをみます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-6"
+      }
+    },
+    {
+      "id": "vocabulary-5",
+      "word": "これ",
+      "reading": "これ",
+      "meaning": "这个",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-6",
+      "word": "まだ",
+      "reading": "まだ",
+      "meaning": "还未",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "まだわかりません。公式の案内を見ます。",
+          "zh": "还不知道。我看看官方指引。",
+          "ttsText": "まだわかりません。こうしきのあんないをみます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-6"
+      }
+    },
+    {
+      "id": "vocabulary-7",
+      "word": "学校",
+      "reading": "がっこう",
+      "meaning": "学校",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "学校や銀行の連絡にも使うんですね。",
+          "zh": "学校和银行联系时也要用吧。",
+          "ttsText": "がっこうやぎんこうのれんらくにもつかうんですね。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-3"
+      }
+    },
+    {
+      "id": "vocabulary-8",
+      "word": "新しい",
+      "reading": "あたらしい",
+      "meaning": "新的",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-9",
+      "word": "今",
+      "reading": "いま",
+      "meaning": "现在",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "わかりました。今すぐ契約せずに確認します。",
+          "zh": "明白了。我先确认，不马上签约。",
+          "ttsText": "わかりました。いますぐけいやくせずにかくにんします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-8"
+      }
+    },
+    {
+      "id": "vocabulary-10",
+      "word": "裏",
+      "reading": "うら",
+      "meaning": "背面",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-11",
+      "word": "電話番号",
+      "reading": "でんわばんごう",
+      "meaning": "电话号码",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "電話番号は要りますか。",
+          "zh": "需要电话号码吗？",
+          "ttsText": "でんわばんごうはいりますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-12",
+      "word": "通話",
+      "reading": "つうわ",
+      "meaning": "语音通话",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "はい、通話も使いたいです。",
+          "zh": "需要，我也想使用语音通话。",
+          "ttsText": "はい、つうわもつかいたいです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-2"
+      }
+    },
+    {
+      "id": "vocabulary-13",
+      "word": "eSIM",
+      "reading": "eSIM",
+      "meaning": "嵌入式手机卡",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "この携帯はeSIMに対応していますか。",
+          "zh": "这部手机支持 eSIM 吗？",
+          "ttsText": "このけいたいはeSIMにたいおうしていますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-5"
+      }
+    },
+    {
+      "id": "vocabulary-14",
+      "word": "対応",
+      "reading": "たいおう",
+      "meaning": "兼容、支持",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "この携帯はeSIMに対応していますか。",
+          "zh": "这部手机支持 eSIM 吗？",
+          "ttsText": "このけいたいはeSIMにたいおうしていますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-5"
+      }
+    },
+    {
+      "id": "vocabulary-15",
+      "word": "本人確認",
+      "reading": "ほんにんかくにん",
+      "meaning": "身份核验",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "本人確認の書類も確認しましょう。",
+          "zh": "也确认一下身份验证材料吧。",
+          "ttsText": "ほんにんかくにんのしょるいもかくにんしましょう。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-9"
+      }
+    },
+    {
+      "id": "vocabulary-16",
+      "word": "書類",
+      "reading": "しょるい",
+      "meaning": "文件",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "本人確認の書類も確認しましょう。",
+          "zh": "也确认一下身份验证材料吧。",
+          "ttsText": "ほんにんかくにんのしょるいもかくにんしましょう。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-9"
+      }
+    },
+    {
+      "id": "vocabulary-17",
+      "word": "公式",
+      "reading": "こうしき",
+      "meaning": "官方",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "まだわかりません。公式の案内を見ます。",
+          "zh": "还不知道。我看看官方指引。",
+          "ttsText": "まだわかりません。こうしきのあんないをみます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-6"
+      }
+    },
+    {
+      "id": "vocabulary-18",
+      "word": "在留カード",
+      "reading": "ざいりゅうカード",
+      "meaning": "在留卡",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "はい。在留カードの条件も見ます。",
+          "zh": "好的。我也看看在留卡的条件。",
+          "ttsText": "はい。ざいりゅうカードのじょうけんもみます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-10"
+      }
+    },
+    {
+      "id": "vocabulary-19",
+      "word": "銀行",
+      "reading": "ぎんこう",
+      "meaning": "银行",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "学校や銀行の連絡にも使うんですね。",
+          "zh": "学校和银行联系时也要用吧。",
+          "ttsText": "がっこうやぎんこうのれんらくにもつかうんですね。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-3"
+      }
+    },
+    {
+      "id": "vocabulary-20",
+      "word": "連絡",
+      "reading": "れんらく",
+      "meaning": "联系",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "学校や銀行の連絡にも使うんですね。",
+          "zh": "学校和银行联系时也要用吧。",
+          "ttsText": "がっこうやぎんこうのれんらくにもつかうんですね。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-3"
+      }
+    },
+    {
+      "id": "vocabulary-21",
+      "word": "機種",
+      "reading": "きしゅ",
+      "meaning": "机型",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "まず、機種の設定画面を見ましょう。",
+          "zh": "先看看机型的设置页面吧。",
+          "ttsText": "まず、きしゅのせっていがめんをみましょう。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-7"
+      }
+    },
+    {
+      "id": "vocabulary-22",
+      "word": "設定",
+      "reading": "せってい",
+      "meaning": "设置",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "まず、機種の設定画面を見ましょう。",
+          "zh": "先看看机型的设置页面吧。",
+          "ttsText": "まず、きしゅのせっていがめんをみましょう。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-7"
+      }
+    },
+    {
+      "id": "vocabulary-23",
+      "word": "契約",
+      "reading": "けいやく",
+      "meaning": "签约",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "わかりました。今すぐ契約せずに確認します。",
+          "zh": "明白了。我先确认，不马上签约。",
+          "ttsText": "わかりました。いますぐけいやくせずにかくにんします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-8"
+      }
+    },
+    {
+      "id": "vocabulary-24",
+      "word": "公式ページ",
+      "reading": "こうしきページ",
+      "meaning": "官方页面",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "はい。公式ページで確認します。",
+          "zh": "好的，我在官方页面上确认。",
+          "ttsText": "はい。こうしきページでかくにんします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "polite",
+        "lineId": "polite-line-7"
+      }
+    },
+    {
+      "id": "vocabulary-25",
+      "word": "申込み",
+      "reading": "もうしこみ",
+      "meaning": "申请",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "まだ確認中です。申込みは後にします。",
+          "zh": "还在确认中。之后再申请。",
+          "ttsText": "まだかくにんちゅうです。もうしこみはあとにします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "polite",
+        "lineId": "polite-line-5"
+      }
+    },
+    {
+      "id": "vocabulary-26",
+      "word": "データ専用",
+      "reading": "データせんよう",
+      "meaning": "仅数据",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    }
+  ],
+  "expressions": [
+    {
+      "id": "expression-one",
+      "function": "我也想使用通话功能。",
+      "pattern": "通話も使いたいです。",
+      "meaning": "我也想使用通话功能。",
+      "audience": "朋友、通信服务人员。",
+      "notes": [
+        "固定句：通話(つうわ)も使(つか)いたいです。",
+        "不可以替换什么：不要把仅上网的方案误认成有通话号码。",
+        "语感差异：对朋友或服务人员都清楚。",
+        "对谁不能说：不宜向不了解产品的人要求保证资费或资格。",
+        "其他用法：申请前说明需求时很有用。",
+        "本课要求：先查自己是否真的需要号码。"
+      ],
+      "slots": [
+        {
+          "key": "可替换部分",
+          "description": "可把功能名词替换为自己真实需要的功能。"
+        }
+      ],
+      "examples": [
+        {
+          "ja": "はい、通話も使いたいです。",
+          "zh": "需要，我也想使用语音通话。",
+          "ttsText": "はい、つうわもつかいたいです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-2"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "grammar-1",
+      "pattern": "愿望",
+      "level": "N5",
+      "meaning": "说明自己也想打电话。",
+      "connection": "动词ます形去掉ます后＋たい。",
+      "notes": [
+        "课文对应：はい、通話(つうわ)も使(つか)いたいです。",
+        "例题：はい、通話(つうわ)も（　）。",
+        "答案：使(つか)いたいです"
+      ],
+      "examples": [
+        {
+          "ja": "はい、通話も使いたいです。",
+          "zh": "需要，我也想使用语音通话。",
+          "ttsText": "はい、つうわもつかいたいです。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "pattern": "否定状态",
+      "level": "N5",
+      "meaning": "说明目前不知道是否兼容。",
+      "connection": "まだ＋动词礼貌否定形，例如まだわかりません；まだ本身不表示否定。",
+      "notes": [
+        "课文对应：まだわかりません。公式(こうしき)の案内(あんない)を見(み)ます。",
+        "例题：（　）。公式(こうしき)の案内(あんない)を見(み)ます。",
+        "答案：まだわかりません"
+      ],
+      "examples": [
+        {
+          "ja": "まだわかりません。公式の案内を見ます。",
+          "zh": "还不知道。我看看官方指引。",
+          "ttsText": "まだわかりません。こうしきのあんないをみます。"
+        }
+      ]
+    }
+  ],
+  "shadowing": [
+    {
+      "id": "shadowing-polite",
+      "dialogueId": "polite",
+      "lineIds": [
+        "polite-line-1",
+        "polite-line-2",
+        "polite-line-3",
+        "polite-line-4",
+        "polite-line-5",
+        "polite-line-6",
+        "polite-line-7"
+      ],
+      "prompt": "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+    },
+    {
+      "id": "shadowing-plain",
+      "dialogueId": "plain",
+      "lineIds": [
+        "plain-line-1",
+        "plain-line-2",
+        "plain-line-3",
+        "plain-line-4",
+        "plain-line-5",
+        "plain-line-6",
+        "plain-line-7"
+      ],
+      "prompt": "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+    }
+  ],
+  "homework": [],
+  "references": [
+    {
+      "title": "seikatsu-nihongo/content/n5-source.txt",
+      "note": "唯一正文来源；第12课。源稿日语、事实与说明保持不变；本次新增忠实中文译文用于 v1 必填 zh，未创作场景或作业。 N5 章节的完整通用使用说明统一保存在同章 n5-1 的「N5 章节使用说明」素材中。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/README.md",
+      "note": "n5.json 为 TXT 生成结果，已通过 import-n5.mjs --check；不重复导出生成 README。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/review-notes.md",
+      "note": "沿用 2026-09-30 校订；现实条件与时限按原说明保留，不把课号当办事日期。"
+    },
+    {
+      "title": "JLPT官方考试指南",
+      "url": "https://jlpt.jp/cn/reference/pdf/guidebook1.pdf",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "出入国在留管理厅",
+      "url": "https://www.moj.go.jp/isa/applications/procedures/nyuukokukanri10_00021.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "日本海关",
+      "url": "https://www.customs.go.jp/english/passenger/declaration/declaration_app.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "东京燃气",
+      "url": "https://home.tokyo-gas.co.jp/gas_power/procedure/moving/khsn_k_nagare.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "povo官方",
+      "url": "https://povo.jp/procedure/",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "日本邮政银行",
+      "url": "https://www.jp-bank.japanpost.jp/kaisetu/kat_gaikokujin.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "厚生劳动省",
+      "url": "https://www.mhlw.go.jp/stf/newpage_50657.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    }
+  ]
+}

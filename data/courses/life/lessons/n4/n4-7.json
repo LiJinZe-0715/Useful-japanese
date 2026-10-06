@@ -1,0 +1,494 @@
+{
+  "schemaVersion": 1,
+  "id": "n4-7",
+  "unitId": "n4",
+  "order": 207,
+  "title": "第7课 按用途挑选雨具",
+  "level": "N4",
+  "kind": "scene",
+  "objectives": ["说明购买用途", "比较使用难度", "结合实际需求作选择"],
+  "scene": {
+    "background": "林想买通学用折叠伞，向店员比较两款商品的重量和开合方式；不只根据价格决定。",
+    "channel": "in-person",
+    "tasks": ["说明购买用途", "比较使用难度", "结合实际需求作选择"],
+    "relationships": "你扮演“我（わたし）”（课文中的林）。林与店员：雨具卖场工作人员；普通体补充场景见语体说明。"
+  },
+  "learnerSpeakerId": "learner",
+  "speakers": [
+    {
+      "id": "learner",
+      "name": "我（わたし）",
+      "role": "你扮演的角色（课文示例姓名：林／リン）；赴日学习者；沿用示例姓名林（リン），实际练习可替换为本人信息"
+    },
+    {
+      "id": "classmate",
+      "name": "王",
+      "role": "同班同学王（ワン）；熟悉后双方已接受普通体"
+    },
+    {
+      "id": "staff",
+      "name": "店员",
+      "role": "雨具卖场工作人员"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "main",
+      "title": "主课文：按用途挑选雨具",
+      "variant": "main",
+      "lines": [
+        {
+          "id": "main-line-1",
+          "speakerId": "learner",
+          "ja": "学校に通うために、軽い傘を探しています。",
+          "zh": "我在找上学用的轻便雨伞。",
+          "reading": "がっこうにかようために、かるいかさをさがしています。"
+        },
+        {
+          "id": "main-line-2",
+          "speakerId": "staff",
+          "ja": "折り畳み傘はいかがですか。",
+          "zh": "折叠伞怎么样？",
+          "reading": "おりたたみがさはいかがですか。"
+        },
+        {
+          "id": "main-line-3",
+          "speakerId": "learner",
+          "ja": "この二つは、重さが違いますね。",
+          "zh": "这两款重量不一样。",
+          "reading": "このふたつは、おもさがちがいますね。"
+        },
+        {
+          "id": "main-line-4",
+          "speakerId": "staff",
+          "ja": "こちらは軽いですが、閉じるとき少し力が要ります。",
+          "zh": "这款轻，但收起来时需要一点力。",
+          "reading": "こちらはかるいですが、とじるときすこしちからがいります。"
+        },
+        {
+          "id": "main-line-5",
+          "speakerId": "learner",
+          "ja": "こちらのほうが開けやすいです。試してもいいですか。",
+          "zh": "这款更容易打开，可以试试吗？",
+          "reading": "こちらのほうがあけやすいです。ためしてもいいですか。"
+        },
+        {
+          "id": "main-line-6",
+          "speakerId": "staff",
+          "ja": "はい。周りに人がいない所でお願いします。",
+          "zh": "可以，请在周围没人的地方试。",
+          "reading": "はい。まわりにひとがいないところでおねがいします。"
+        },
+        {
+          "id": "main-line-7",
+          "speakerId": "learner",
+          "ja": "これは閉じにくくないですね。少し重いですが、こちらにします。",
+          "zh": "这把收起来也不难。虽然稍重，我选这把。",
+          "reading": "これはとじにくくないですね。すこしおもいですが、こちらにします。"
+        },
+        {
+          "id": "main-line-8",
+          "speakerId": "staff",
+          "ja": "ありがとうございます。表示の値段は税込みです。",
+          "zh": "谢谢，标示价格含税。",
+          "reading": "ありがとうございます。ひょうじのねだんはぜいこみです。"
+        }
+      ]
+    },
+    {
+      "id": "branch",
+      "title": "条件变化：另一种处理路径",
+      "variant": "branch",
+      "lines": [
+        {
+          "id": "branch-line-1",
+          "speakerId": "learner",
+          "ja": "気に入った色がありませんね。",
+          "zh": "没有喜欢的颜色。",
+          "reading": "きにいったいろがありませんね。"
+        },
+        {
+          "id": "branch-line-2",
+          "speakerId": "staff",
+          "ja": "取り寄せできるか、確認しましょうか。",
+          "zh": "要帮您确认能否订货吗？",
+          "reading": "とりよせできるか、かくにんしましょうか。"
+        },
+        {
+          "id": "branch-line-3",
+          "speakerId": "learner",
+          "ja": "お願いします。届く日を聞いてから決めます。",
+          "zh": "麻烦您，听过到货日期后再决定。",
+          "reading": "おねがいします。とどくひをきいてからきめます。"
+        },
+        {
+          "id": "branch-line-4",
+          "speakerId": "staff",
+          "ja": "わかりました。先に在庫を調べます。",
+          "zh": "知道了，先查库存。",
+          "reading": "わかりました。さきにざいこをしらべます。"
+        }
+      ]
+    },
+    {
+      "id": "plain",
+      "title": "普通体：与熟悉同学交谈",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "plain-line-1",
+          "speakerId": "classmate",
+          "ja": "どんな傘を買った？",
+          "zh": "买了什么伞？",
+          "reading": "どんなかさをかった？"
+        },
+        {
+          "id": "plain-line-2",
+          "speakerId": "learner",
+          "ja": "少し重いけど、開けやすいのにした。",
+          "zh": "选了稍重但容易打开的。",
+          "reading": "すこしおもいけど、あけやすいのにした。"
+        },
+        {
+          "id": "plain-line-3",
+          "speakerId": "classmate",
+          "ja": "毎日使うなら、使いやすさも大事だね。",
+          "zh": "每天用的话，方便使用也很重要。",
+          "reading": "まいにちつかうなら、つかいやすさもだいじだね。"
+        },
+        {
+          "id": "plain-line-4",
+          "speakerId": "learner",
+          "ja": "うん。試してから決めてよかった。",
+          "zh": "嗯，幸好试过再决定。",
+          "reading": "うん。ためしてからきめてよかった。"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "scenario-information",
+      "title": "本课已知信息与约定",
+      "kind": "table",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["事项", "本例设定"],
+          "rows": [
+            ["用途", "通学"],
+            ["选择标准", "开合方便，也考虑重量"],
+            ["最终选择", "稍重但好开合的一款"],
+            ["价格", "本例标价含税，没有设定具体金额"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "version-context",
+      "title": "场景分支与语体说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["项目", "说明"],
+          "rows": [
+            ["主课文", "按 scene 中的背景与人物关系交流。"],
+            ["分支", "与主路径互斥的条件变化，不把两条路径的预约、结果或决定合并为同一事件。"],
+            ["普通体", "普通体版用于与熟悉同学王交谈；不把工作人员的礼貌表达机械改成普通体。"],
+            ["听后跟读", "先听完整一句，暂停后模仿；先理解人物、条件与任务。"],
+            ["影子跟读", "熟悉原句后，播放时稍落后连续跟随；平台使用合成语音，不称真人录音。"]
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "vocabulary-1",
+      "word": "通う",
+      "reading": "かよう",
+      "meaning": "往返、通学",
+      "usage": "用于本课的按用途挑选雨具场景",
+      "collocations": ["学校に通う"],
+      "examples": [
+        {
+          "ja": "学校に通うために、軽い傘を探しています。",
+          "zh": "我在找上学用的轻便雨伞。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-2",
+      "word": "軽い",
+      "reading": "かるい",
+      "meaning": "轻",
+      "usage": "用于本课的按用途挑选雨具场景",
+      "collocations": ["軽い傘"],
+      "examples": [
+        {
+          "ja": "学校に通うために、軽い傘を探しています。",
+          "zh": "我在找上学用的轻便雨伞。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-3",
+      "word": "折り畳み傘",
+      "reading": "おりたたみがさ",
+      "meaning": "折叠伞",
+      "usage": "用于本课的按用途挑选雨具场景",
+      "collocations": ["折り畳み傘を買う"],
+      "examples": [
+        {
+          "ja": "折り畳み傘はいかがですか。",
+          "zh": "折叠伞怎么样？"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-2"
+      }
+    },
+    {
+      "id": "vocabulary-4",
+      "word": "重さ",
+      "reading": "おもさ",
+      "meaning": "重量",
+      "usage": "用于本课的按用途挑选雨具场景",
+      "collocations": ["重さを比べる"],
+      "examples": [
+        {
+          "ja": "この二つは、重さが違いますね。",
+          "zh": "这两款重量不一样。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-3"
+      }
+    },
+    {
+      "id": "vocabulary-5",
+      "word": "力",
+      "reading": "ちから",
+      "meaning": "力气",
+      "usage": "用于本课的按用途挑选雨具场景",
+      "collocations": ["力が要る"],
+      "examples": [
+        {
+          "ja": "こちらは軽いですが、閉じるとき少し力が要ります。",
+          "zh": "这款轻，但收起来时需要一点力。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-4"
+      }
+    },
+    {
+      "id": "vocabulary-6",
+      "word": "税込み",
+      "reading": "ぜいこみ",
+      "meaning": "含税",
+      "usage": "用于本课的按用途挑选雨具场景",
+      "collocations": ["税込みの値段"],
+      "examples": [
+        {
+          "ja": "ありがとうございます。表示の値段は税込みです。",
+          "zh": "谢谢，标示价格含税。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-8"
+      }
+    }
+  ],
+  "expressions": [
+    {
+      "id": "expression-1",
+      "function": "说明用途",
+      "pattern": "〜ために、〜を探しています。",
+      "meaning": "为某用途寻找物品。",
+      "audience": "店员",
+      "notes": ["不要把商品名当作全部需求。"],
+      "slots": [
+        {
+          "key": "〜",
+          "description": "用途及商品"
+        }
+      ],
+      "examples": [
+        {
+          "ja": "学校に通うために、軽い傘を探しています。",
+          "zh": "我在找上学用的轻便雨伞。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "expression-2",
+      "function": "试用请求",
+      "pattern": "試してもいいですか。",
+      "meaning": "请求试用。",
+      "audience": "店员",
+      "notes": ["先得到许可，再按指示试用。"],
+      "slots": [],
+      "examples": [
+        {
+          "ja": "こちらのほうが開けやすいです。試してもいいですか。",
+          "zh": "这款更容易打开，可以试试吗？"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-5"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "grammar-1",
+      "pattern": "〜ために",
+      "level": "N4",
+      "meaning": "表示有意进行某行为的目的。",
+      "connection": "动词辞书形＋ために；名词＋のために",
+      "notes": [
+        "学校に通う是有意行为，ために后说明为此买伞。",
+        "本章分级是教学目标，不声称现行 JLPT 有逐项公布的必考文法清单。"
+      ],
+      "examples": [
+        {
+          "ja": "学校に通うために、軽い傘を探しています。",
+          "zh": "我在找上学用的轻便雨伞。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "pattern": "〜やすい／〜にくい",
+      "level": "N4",
+      "meaning": "表示做某动作容易或困难。",
+      "connection": "动词ます形去ます＋やすい／にくい",
+      "notes": [
+        "开合难度和重量是不同的比较项目。",
+        "本章分级是教学目标，不声称现行 JLPT 有逐项公布的必考文法清单。"
+      ],
+      "examples": [
+        {
+          "ja": "こちらのほうが開けやすいです。試してもいいですか。",
+          "zh": "这款更容易打开，可以试试吗？"
+        }
+      ]
+    }
+  ],
+  "shadowing": [
+    {
+      "id": "shadowing-main",
+      "dialogueId": "main",
+      "lineIds": [
+        "main-line-1",
+        "main-line-2",
+        "main-line-3",
+        "main-line-4",
+        "main-line-5",
+        "main-line-6",
+        "main-line-7",
+        "main-line-8"
+      ],
+      "prompt": "先听后跟读：整句听完再暂停模仿。理解本段任务后做影子跟读：播放时稍落后跟随。注意说明购买用途；分支只在对应条件下练习。"
+    },
+    {
+      "id": "shadowing-branch",
+      "dialogueId": "branch",
+      "lineIds": ["branch-line-1", "branch-line-2", "branch-line-3", "branch-line-4"],
+      "prompt": "先听后跟读：整句听完再暂停模仿。理解本段任务后做影子跟读：播放时稍落后跟随。注意说明购买用途；分支只在对应条件下练习。"
+    },
+    {
+      "id": "shadowing-plain",
+      "dialogueId": "plain",
+      "lineIds": ["plain-line-1", "plain-line-2", "plain-line-3", "plain-line-4"],
+      "prompt": "先听后跟读：整句听完再暂停模仿。理解本段任务后做影子跟读：播放时稍落后跟随。注意说明购买用途；分支只在对应条件下练习。"
+    }
+  ],
+  "homework": [
+    {
+      "id": "oral-one",
+      "type": "oral",
+      "situation": "向店员说明需求并请求试用。",
+      "knownInformation": [
+        "用途：通学",
+        "选择标准：开合方便，也考虑重量",
+        "最终选择：稍重但好开合的一款",
+        "价格：本例标价含税，没有设定具体金额"
+      ],
+      "tasks": ["说明通学用途", "询问能否试开合"],
+      "requirements": [
+        "按情境向对应人物作出简洁、连贯的说明。",
+        "已知事项与尚待确认事项分开表达；参考答案只是可行示例。"
+      ],
+      "hints": [
+        "〜ために、〜を探しています。",
+        "試してもいいですか。",
+        "可使用本课文法和词汇，措辞不必与参考答案完全相同。"
+      ],
+      "functions": ["consult"],
+      "answers": [
+        {
+          "ja": "学校に通うために傘を探しています。軽いものがいいですが、開けやすいかどうかも知りたいです。試してもいいですか。",
+          "zh": "我在找通学用雨伞。希望轻一些，也想知道是否容易打开。可以试试吗？"
+        }
+      ]
+    },
+    {
+      "id": "written-one",
+      "type": "written",
+      "situation": "给朋友说明选择理由。",
+      "knownInformation": [
+        "用途：通学",
+        "选择标准：开合方便，也考虑重量",
+        "最终选择：稍重但好开合的一款",
+        "价格：本例标价含税，没有设定具体金额"
+      ],
+      "tasks": ["比较重量和开合", "写出最终选择"],
+      "requirements": [
+        "写成收件人能理解的短消息或学习记录。",
+        "已知事项与尚待确认事项分开表达；参考答案只是可行示例。"
+      ],
+      "hints": [
+        "〜ために、〜を探しています。",
+        "試してもいいですか。",
+        "可使用本课文法和词汇，措辞不必与参考答案完全相同。"
+      ],
+      "functions": ["contact"],
+      "answers": [
+        {
+          "ja": "軽い傘もありましたが、少し重くても開けやすい傘にしました。店で試してから選びました。",
+          "zh": "也有轻的伞，不过我选了稍重但容易打开的。是在店里试过后选的。"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "原创 N4 生活日语章节",
+      "note": "2026-10-04 按用户要求新作；课文、译文、分支、作业与参考答案均为原创教学场景，不来自真实机构原始记录。金额、时刻、条件是本例设定。"
+    },
+    {
+      "title": "nihongo/docs/content-format.md 与 schemas/*.schema.json",
+      "note": "遵循本项目 v1 数据契约；N4为学习目标，常见场景固定表达按需要整块理解，不宣称逐项对应官方必考清单。"
+    }
+  ]
+}

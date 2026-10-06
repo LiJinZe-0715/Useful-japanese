@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "legal-business",
+  "title": "法律结构夹具",
+  "description": "只用于说明数据契约",
+  "learningMode": "business",
+  "order": 10,
+  "enabled": true,
+  "levels": []
+}

@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "id": "extended",
+  "unitId": "pre",
+  "order": 5,
+  "title": "特殊片假名组合",
+  "kind": "preparation",
+  "objectives": ["认识ティ（ti）等外来音的拼写：小字参与组合，不单独多读一拍。"],
+  "materials": [
+    {
+      "id": "learning-notes",
+      "title": "学习说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["ティ由テ＋小ィ组成，读ti；チ读chi。ディ与ヂ的读音也要区分。"],
+            ["トゥ读tu，ツ读tsu。ウィ和大字ウイ的拍数不同。"],
+            ["ヴ系列用于表示v音；实际口语中有时接近バ行。这里先认识拼写与读音。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kana-chart",
+      "title": "特殊片假名组合 · 字形与读音表",
+      "kind": "table",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["第1列", "第2列", "第3列", "第4列"],
+          "rows": [
+            ["ティ\nti · 1拍", "ディ\ndi · 1拍", "トゥ\ntu · 1拍", "ドゥ\ndu · 1拍"],
+            ["ファ\nfa · 1拍", "フィ\nfi · 1拍", "フェ\nfe · 1拍", "フォ\nfo · 1拍"],
+            ["ウィ\nwi · 1拍", "ウェ\nwe · 1拍", "ウォ\nwo · 1拍", "シェ\nshe · 1拍"],
+            ["ジェ\nje · 1拍", "チェ\nche · 1拍", "ツァ\ntsa · 1拍", "ツィ\ntsi · 1拍"],
+            ["ツェ\ntse · 1拍", "ツォ\ntso · 1拍", "ヴァ\nva · 1拍", "ヴィ\nvi · 1拍"],
+            ["ヴ\nvu · 1拍", "ヴェ\nve · 1拍", "ヴォ\nvo · 1拍", "テュ\ntyu · 1拍"],
+            ["デュ\ndyu · 1拍", "フュ\nfyu · 1拍", "", ""]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pronunciation",
+      "title": "认读与合成语音",
+      "kind": "pronunciation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["朗读说明"],
+          "rows": [["系统语音仅供辅助，不是真人发音示范。"]]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "ja": "ティ",
+              "zh": "ti · 1拍",
+              "ttsText": "ティ"
+            },
+            {
+              "ja": "ディ",
+              "zh": "di · 1拍",
+              "ttsText": "ディ"
+            },
+            {
+              "ja": "トゥ",
+              "zh": "tu · 1拍",
+              "ttsText": "トゥ"
+            },
+            {
+              "ja": "ドゥ",
+              "zh": "du · 1拍",
+              "ttsText": "ドゥ"
+            },
+            {
+              "ja": "ファ",
+              "zh": "fa · 1拍",
+              "ttsText": "ファ"
+            },
+            {
+              "ja": "フィ",
+              "zh": "fi · 1拍",
+              "ttsText": "フィ"
+            },
+            {
+              "ja": "フェ",
+              "zh": "fe · 1拍",
+              "ttsText": "フェ"
+            },
+            {
+              "ja": "フォ",
+              "zh": "fo · 1拍",
+              "ttsText": "フォ"
+            },
+            {
+              "ja": "ウィ",
+              "zh": "wi · 1拍",
+              "ttsText": "ウィ"
+            },
+            {
+              "ja": "ウェ",
+              "zh": "we · 1拍",
+              "ttsText": "ウェ"
+            },
+            {
+              "ja": "ウォ",
+              "zh": "wo · 1拍",
+              "ttsText": "ウォ"
+            },
+            {
+              "ja": "シェ",
+              "zh": "she · 1拍",
+              "ttsText": "シェ"
+            },
+            {
+              "ja": "ジェ",
+              "zh": "je · 1拍",
+              "ttsText": "ジェ"
+            },
+            {
+              "ja": "チェ",
+              "zh": "che · 1拍",
+              "ttsText": "チェ"
+            },
+            {
+              "ja": "ツァ",
+              "zh": "tsa · 1拍",
+              "ttsText": "ツァ"
+            },
+            {
+              "ja": "ツィ",
+              "zh": "tsi · 1拍",
+              "ttsText": "ツィ"
+            },
+            {
+              "ja": "ツェ",
+              "zh": "tse · 1拍",
+              "ttsText": "ツェ"
+            },
+            {
+              "ja": "ツォ",
+              "zh": "tso · 1拍",
+              "ttsText": "ツォ"
+            },
+            {
+              "ja": "ヴァ",
+              "zh": "va · 1拍",
+              "ttsText": "ヴァ"
+            },
+            {
+              "ja": "ヴィ",
+              "zh": "vi · 1拍",
+              "ttsText": "ヴィ"
+            },
+            {
+              "ja": "ヴ",
+              "zh": "vu · 1拍",
+              "ttsText": "ヴ"
+            },
+            {
+              "ja": "ヴェ",
+              "zh": "ve · 1拍",
+              "ttsText": "ヴェ"
+            },
+            {
+              "ja": "ヴォ",
+              "zh": "vo · 1拍",
+              "ttsText": "ヴォ"
+            },
+            {
+              "ja": "テュ",
+              "zh": "tyu · 1拍",
+              "ttsText": "テュ"
+            },
+            {
+              "ja": "デュ",
+              "zh": "dyu · 1拍",
+              "ttsText": "デュ"
+            },
+            {
+              "ja": "フュ",
+              "zh": "fyu · 1拍",
+              "ttsText": "フュ"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "speakers": [],
+  "dialogues": [],
+  "vocabulary": [],
+  "expressions": [],
+  "grammar": [],
+  "shadowing": [],
+  "homework": [],
+  "references": [
+    {
+      "title": "seikatsu-nihongo/content/preparation.json",
+      "note": "权威准备篇数据，units[4]（extended）；原文、读音提示、朗读文本和拍子按原数据保留。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/README.md",
+      "note": "来源关系说明：preparation.json 保存准备篇；n5-source.txt 与生成 n5.json 属于第1～20课，本次不导出。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/review-notes.md",
+      "note": "2026-09-30 校订说明：准备篇8个单元；未发现必须修改的假名表内容。"
+    },
+    {
+      "title": "seikatsu-nihongo/src/modules/learning/presentation/data/preparation-workspace-copy.ts",
+      "note": "保留原页面的合成语音辅助提示；仅有 beats 的单元保留圆点拍子说明。"
+    }
+  ]
+}

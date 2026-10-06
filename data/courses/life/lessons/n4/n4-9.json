@@ -1,0 +1,494 @@
+{
+  "schemaVersion": 1,
+  "id": "n4-9",
+  "unitId": "n4",
+  "order": 209,
+  "title": "第9课 寄送包裹并确认送达条件",
+  "level": "N4",
+  "kind": "scene",
+  "objectives": ["说明希望送达的时间", "理解预计与保证的区别", "确认包装与地址"],
+  "scene": {
+    "background": "林准备把书寄给朋友，希望周六前收到；在邮局询问可用方式、收件地址和包裹保护。",
+    "channel": "in-person",
+    "tasks": ["说明希望送达的时间", "理解预计与保证的区别", "确认包装与地址"],
+    "relationships": "你扮演“我（わたし）”（课文中的林）。林与邮局职员：受理寄件的工作人员；普通体补充场景见语体说明。"
+  },
+  "learnerSpeakerId": "learner",
+  "speakers": [
+    {
+      "id": "learner",
+      "name": "我（わたし）",
+      "role": "你扮演的角色（课文示例姓名：林／リン）；赴日学习者；沿用示例姓名林（リン），实际练习可替换为本人信息"
+    },
+    {
+      "id": "classmate",
+      "name": "王",
+      "role": "同班同学王（ワン）；熟悉后双方已接受普通体"
+    },
+    {
+      "id": "staff",
+      "name": "邮局职员",
+      "role": "受理寄件的工作人员"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "main",
+      "title": "主课文：寄送包裹并确认送达条件",
+      "variant": "main",
+      "lines": [
+        {
+          "id": "main-line-1",
+          "speakerId": "learner",
+          "ja": "この荷物を土曜日までに届けたいです。",
+          "zh": "希望这个包裹星期六前送到。",
+          "reading": "このにもつをどようびまでにとどけたいです。"
+        },
+        {
+          "id": "main-line-2",
+          "speakerId": "staff",
+          "ja": "お届け先はどちらですか。",
+          "zh": "收件地址在哪里？",
+          "reading": "おとどけさきはどちらですか。"
+        },
+        {
+          "id": "main-line-3",
+          "speakerId": "learner",
+          "ja": "住所はこちらです。中には本が入っています。",
+          "zh": "地址在这里，里面是书。",
+          "reading": "じゅうしょはこちらです。なかにはほんがはいっています。"
+        },
+        {
+          "id": "main-line-4",
+          "speakerId": "staff",
+          "ja": "本が動かないように、隙間を埋めてください。",
+          "zh": "请填好空隙，避免书在里面移动。",
+          "reading": "ほんがうごかないように、すきまをうめてください。"
+        },
+        {
+          "id": "main-line-5",
+          "speakerId": "learner",
+          "ja": "はい。今日出せば、土曜日までに届きますか。",
+          "zh": "好，今天寄的话，星期六前能到吗？",
+          "reading": "はい。きょうだせば、どようびまでにとどきますか。"
+        },
+        {
+          "id": "main-line-6",
+          "speakerId": "staff",
+          "ja": "こちらの方法では金曜日の予定ですが、状況によって遅れる場合があります。",
+          "zh": "这种方式预计星期五到，但视情况可能延误。",
+          "reading": "こちらのほうほうではきんようびのよていですが、じょうきょうによっておくれるばあいがあります。"
+        },
+        {
+          "id": "main-line-7",
+          "speakerId": "learner",
+          "ja": "わかりました。友達には予定として伝えます。",
+          "zh": "明白了，我会告诉朋友这只是预计。",
+          "reading": "わかりました。ともだちにはよていとしてつたえます。"
+        },
+        {
+          "id": "main-line-8",
+          "speakerId": "staff",
+          "ja": "では、宛名と郵便番号をもう一度確認してください。",
+          "zh": "那么请再核对收件姓名和邮政编码。",
+          "reading": "では、あてなとゆうびんばんごうをもういちどかくにんしてください。"
+        }
+      ]
+    },
+    {
+      "id": "branch",
+      "title": "条件变化：另一种处理路径",
+      "variant": "branch",
+      "lines": [
+        {
+          "id": "branch-line-1",
+          "speakerId": "learner",
+          "ja": "住所の部屋番号を確認していませんでした。",
+          "zh": "房间号还没确认。",
+          "reading": "じゅうしょのへやばんごうをかくにんしていませんでした。"
+        },
+        {
+          "id": "branch-line-2",
+          "speakerId": "staff",
+          "ja": "先に受け取る方に確認してください。",
+          "zh": "请先向收件人确认。",
+          "reading": "さきにうけとるかたにかくにんしてください。"
+        },
+        {
+          "id": "branch-line-3",
+          "speakerId": "learner",
+          "ja": "はい。確認できてから出します。",
+          "zh": "好，确认后再寄。",
+          "reading": "はい。かくにんできてからだします。"
+        },
+        {
+          "id": "branch-line-4",
+          "speakerId": "staff",
+          "ja": "お待ちしています。",
+          "zh": "等您再来。",
+          "reading": "おまちしています。"
+        }
+      ]
+    },
+    {
+      "id": "plain",
+      "title": "普通体：与熟悉同学交谈",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "plain-line-1",
+          "speakerId": "learner",
+          "ja": "本を送る方法を聞いてきたよ。",
+          "zh": "去问过寄书的方法了。",
+          "reading": "ほんをおくるほうほうをきいてきたよ。"
+        },
+        {
+          "id": "plain-line-2",
+          "speakerId": "classmate",
+          "ja": "金曜日には着く？",
+          "zh": "星期五能到吗？",
+          "reading": "きんようびにはつく？"
+        },
+        {
+          "id": "plain-line-3",
+          "speakerId": "learner",
+          "ja": "予定ではそうだけど、遅れる場合もあるって。",
+          "zh": "预计是，但也可能延误。",
+          "reading": "よていではそうだけど、おくれるばあいもあるって。"
+        },
+        {
+          "id": "plain-line-4",
+          "speakerId": "classmate",
+          "ja": "じゃあ、確実だとは言わないほうがいいね。",
+          "zh": "那最好不要说成肯定会到。",
+          "reading": "じゃあ、かくじつだとはいわないほうがいいね。"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "scenario-information",
+      "title": "本课已知信息与约定",
+      "kind": "table",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["事项", "本例设定"],
+          "rows": [
+            ["物品", "书"],
+            ["希望", "周六前送达"],
+            ["本例预计", "周五，但可能延误"],
+            ["寄出前", "确认收件地址、房号、姓名和邮编"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "version-context",
+      "title": "场景分支与语体说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["项目", "说明"],
+          "rows": [
+            ["主课文", "按 scene 中的背景与人物关系交流。"],
+            ["分支", "与主路径互斥的条件变化，不把两条路径的预约、结果或决定合并为同一事件。"],
+            ["普通体", "普通体版用于与熟悉同学王交谈；不把工作人员的礼貌表达机械改成普通体。"],
+            ["听后跟读", "先听完整一句，暂停后模仿；先理解人物、条件与任务。"],
+            ["影子跟读", "熟悉原句后，播放时稍落后连续跟随；平台使用合成语音，不称真人录音。"]
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "vocabulary-1",
+      "word": "荷物",
+      "reading": "にもつ",
+      "meaning": "包裹、行李",
+      "usage": "用于本课的寄送包裹并确认送达条件场景",
+      "collocations": ["荷物を送る"],
+      "examples": [
+        {
+          "ja": "この荷物を土曜日までに届けたいです。",
+          "zh": "希望这个包裹星期六前送到。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-2",
+      "word": "届け先",
+      "reading": "とどけさき",
+      "meaning": "收件地址",
+      "usage": "用于本课的寄送包裹并确认送达条件场景",
+      "collocations": ["届け先を確認する"],
+      "examples": [
+        {
+          "ja": "お届け先はどちらですか。",
+          "zh": "收件地址在哪里？"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-2"
+      }
+    },
+    {
+      "id": "vocabulary-3",
+      "word": "隙間",
+      "reading": "すきま",
+      "meaning": "空隙",
+      "usage": "用于本课的寄送包裹并确认送达条件场景",
+      "collocations": ["隙間を埋める"],
+      "examples": [
+        {
+          "ja": "本が動かないように、隙間を埋めてください。",
+          "zh": "请填好空隙，避免书在里面移动。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-4"
+      }
+    },
+    {
+      "id": "vocabulary-4",
+      "word": "埋める",
+      "reading": "うめる",
+      "meaning": "填满",
+      "usage": "用于本课的寄送包裹并确认送达条件场景",
+      "collocations": ["隙間を埋める"],
+      "examples": [
+        {
+          "ja": "本が動かないように、隙間を埋めてください。",
+          "zh": "请填好空隙，避免书在里面移动。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-4"
+      }
+    },
+    {
+      "id": "vocabulary-5",
+      "word": "宛名",
+      "reading": "あてな",
+      "meaning": "收件人姓名",
+      "usage": "用于本课的寄送包裹并确认送达条件场景",
+      "collocations": ["宛名を書く"],
+      "examples": [
+        {
+          "ja": "では、宛名と郵便番号をもう一度確認してください。",
+          "zh": "那么请再核对收件姓名和邮政编码。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-8"
+      }
+    },
+    {
+      "id": "vocabulary-6",
+      "word": "郵便番号",
+      "reading": "ゆうびんばんごう",
+      "meaning": "邮政编码",
+      "usage": "用于本课的寄送包裹并确认送达条件场景",
+      "collocations": ["郵便番号を確認する"],
+      "examples": [
+        {
+          "ja": "では、宛名と郵便番号をもう一度確認してください。",
+          "zh": "那么请再核对收件姓名和邮政编码。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-8"
+      }
+    }
+  ],
+  "expressions": [
+    {
+      "id": "expression-1",
+      "function": "说明期限",
+      "pattern": "〜までに届けたいです。",
+      "meaning": "希望在截止时间前送达。",
+      "audience": "邮局窗口",
+      "notes": ["表达希望后让工作人员说明可行性。"],
+      "slots": [
+        {
+          "key": "〜",
+          "description": "希望收件时刻"
+        }
+      ],
+      "examples": [
+        {
+          "ja": "この荷物を土曜日までに届けたいです。",
+          "zh": "希望这个包裹星期六前送到。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "expression-2",
+      "function": "保留预计性质",
+      "pattern": "予定として伝えます。",
+      "meaning": "作为预计告知。",
+      "audience": "服务人员、收件人",
+      "notes": ["不要把预计说成已确认结果。"],
+      "slots": [],
+      "examples": [
+        {
+          "ja": "わかりました。友達には予定として伝えます。",
+          "zh": "明白了，我会告诉朋友这只是预计。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-7"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "grammar-1",
+      "pattern": "〜までに",
+      "level": "N4",
+      "meaning": "在某截止点之前完成。",
+      "connection": "时间名词＋までに",
+      "notes": [
+        "までに届く说明送达截止点；まで用于持续到某时。",
+        "本章分级是教学目标，不声称现行 JLPT 有逐项公布的必考文法清单。"
+      ],
+      "examples": [
+        {
+          "ja": "この荷物を土曜日までに届けたいです。",
+          "zh": "希望这个包裹星期六前送到。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "pattern": "〜場合がある",
+      "level": "N4",
+      "meaning": "某种情况可能发生。",
+      "connection": "动词普通形＋場合がある",
+      "notes": [
+        "预计时间与实际送达有区别，不作物流保证。",
+        "本章分级是教学目标，不声称现行 JLPT 有逐项公布的必考文法清单。"
+      ],
+      "examples": [
+        {
+          "ja": "こちらの方法では金曜日の予定ですが、状況によって遅れる場合があります。",
+          "zh": "这种方式预计星期五到，但视情况可能延误。"
+        }
+      ]
+    }
+  ],
+  "shadowing": [
+    {
+      "id": "shadowing-main",
+      "dialogueId": "main",
+      "lineIds": [
+        "main-line-1",
+        "main-line-2",
+        "main-line-3",
+        "main-line-4",
+        "main-line-5",
+        "main-line-6",
+        "main-line-7",
+        "main-line-8"
+      ],
+      "prompt": "先听后跟读：整句听完再暂停模仿。理解本段任务后做影子跟读：播放时稍落后跟随。注意说明希望送达的时间；分支只在对应条件下练习。"
+    },
+    {
+      "id": "shadowing-branch",
+      "dialogueId": "branch",
+      "lineIds": ["branch-line-1", "branch-line-2", "branch-line-3", "branch-line-4"],
+      "prompt": "先听后跟读：整句听完再暂停模仿。理解本段任务后做影子跟读：播放时稍落后跟随。注意说明希望送达的时间；分支只在对应条件下练习。"
+    },
+    {
+      "id": "shadowing-plain",
+      "dialogueId": "plain",
+      "lineIds": ["plain-line-1", "plain-line-2", "plain-line-3", "plain-line-4"],
+      "prompt": "先听后跟读：整句听完再暂停模仿。理解本段任务后做影子跟读：播放时稍落后跟随。注意说明希望送达的时间；分支只在对应条件下练习。"
+    }
+  ],
+  "homework": [
+    {
+      "id": "oral-one",
+      "type": "oral",
+      "situation": "向窗口说明寄件需求。",
+      "knownInformation": [
+        "物品：书",
+        "希望：周六前送达",
+        "本例预计：周五，但可能延误",
+        "寄出前：确认收件地址、房号、姓名和邮编"
+      ],
+      "tasks": ["说明物品与希望时间", "询问可能延误情况"],
+      "requirements": [
+        "按情境向对应人物作出简洁、连贯的说明。",
+        "已知事项与尚待确认事项分开表达；参考答案只是可行示例。"
+      ],
+      "hints": [
+        "〜までに届けたいです。",
+        "予定として伝えます。",
+        "可使用本课文法和词汇，措辞不必与参考答案完全相同。"
+      ],
+      "functions": ["consult"],
+      "answers": [
+        {
+          "ja": "中には本が入っています。土曜日までに届けたいです。今日出した場合、いつ届く予定ですか。",
+          "zh": "里面是书，希望星期六前送到。今天寄的话，预计什么时候到？"
+        }
+      ]
+    },
+    {
+      "id": "written-one",
+      "type": "written",
+      "situation": "给收件朋友发送预计说明。",
+      "knownInformation": [
+        "物品：书",
+        "希望：周六前送达",
+        "本例预计：周五，但可能延误",
+        "寄出前：确认收件地址、房号、姓名和邮编"
+      ],
+      "tasks": ["把预计和保证分开", "请朋友确认地址"],
+      "requirements": [
+        "写成收件人能理解的短消息或学习记录。",
+        "已知事项与尚待确认事项分开表达；参考答案只是可行示例。"
+      ],
+      "hints": [
+        "〜までに届けたいです。",
+        "予定として伝えます。",
+        "可使用本课文法和词汇，措辞不必与参考答案完全相同。"
+      ],
+      "functions": ["contact"],
+      "answers": [
+        {
+          "ja": "郵便局では金曜日に届く予定だと言われましたが、遅れる場合もあるそうです。出す前に、部屋番号を確認させてください。",
+          "zh": "邮局说预计星期五到，但也可能延误。寄出前请让我确认房间号。"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "原创 N4 生活日语章节",
+      "note": "2026-10-04 按用户要求新作；课文、译文、分支、作业与参考答案均为原创教学场景，不来自真实机构原始记录。金额、时刻、条件是本例设定。"
+    },
+    {
+      "title": "nihongo/docs/content-format.md 与 schemas/*.schema.json",
+      "note": "遵循本项目 v1 数据契约；N4为学习目标，常见场景固定表达按需要整块理解，不宣称逐项对应官方必考清单。"
+    }
+  ]
+}

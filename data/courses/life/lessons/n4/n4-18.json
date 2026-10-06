@@ -1,0 +1,489 @@
+{
+  "schemaVersion": 1,
+  "id": "n4-18",
+  "unitId": "n4",
+  "order": 218,
+  "title": "第18课 天气变化时重新安排周末活动",
+  "level": "N4",
+  "kind": "scene",
+  "objectives": ["转述信息来源", "提出替代方案", "说明新安排仍有确认项"],
+  "scene": {
+    "background": "林和王计划周日去公园，看到天气预报可能下雨，讨论改去博物馆，并先确认开放时间。",
+    "channel": "in-person",
+    "tasks": ["转述信息来源", "提出替代方案", "说明新安排仍有确认项"],
+    "relationships": "你扮演“我（わたし）”（课文中的林）。林与王：周末同行的同学；普通体补充场景见语体说明。"
+  },
+  "learnerSpeakerId": "learner",
+  "speakers": [
+    {
+      "id": "learner",
+      "name": "我（わたし）",
+      "role": "你扮演的角色（课文示例姓名：林／リン）；赴日学习者；沿用示例姓名林（リン），实际练习可替换为本人信息"
+    },
+    {
+      "id": "classmate",
+      "name": "王",
+      "role": "周末同行的同学"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "main",
+      "title": "主课文：天气变化时重新安排周末活动",
+      "variant": "main",
+      "lines": [
+        {
+          "id": "main-line-1",
+          "speakerId": "classmate",
+          "ja": "天気予報によると、日曜日は雨だそうです。",
+          "zh": "据天气预报，星期日会下雨。",
+          "reading": "てんきよほうによると、にちようびはあめだそうです。"
+        },
+        {
+          "id": "main-line-2",
+          "speakerId": "learner",
+          "ja": "公園を歩く予定でしたが、どうしましょうか。",
+          "zh": "原计划在公园散步，怎么办呢？",
+          "reading": "こうえんをあるくよていでしたが、どうしましょうか。"
+        },
+        {
+          "id": "main-line-3",
+          "speakerId": "classmate",
+          "ja": "雨なら、博物館に行きませんか。",
+          "zh": "下雨的话，去博物馆怎么样？",
+          "reading": "あめなら、はくぶつかんにいきませんか。"
+        },
+        {
+          "id": "main-line-4",
+          "speakerId": "learner",
+          "ja": "いいですね。ただ、日曜日に開いているか確認しましょう。",
+          "zh": "好啊，不过先确认周日是否开放吧。",
+          "reading": "いいですね。ただ、にちようびにあいているかかくにんしましょう。"
+        },
+        {
+          "id": "main-line-5",
+          "speakerId": "classmate",
+          "ja": "公式の案内を見ます。午後から入れるようです。",
+          "zh": "我看官方说明，看起来下午能进去。",
+          "reading": "こうしきのあんないをみます。ごごからはいれるようです。"
+        },
+        {
+          "id": "main-line-6",
+          "speakerId": "learner",
+          "ja": "では、駅に一時に集まることにしましょう。",
+          "zh": "那决定一点在车站集合吧。",
+          "reading": "では、えきにいちじにあつまることにしましょう。"
+        },
+        {
+          "id": "main-line-7",
+          "speakerId": "classmate",
+          "ja": "はい。出かける前に、最新の案内も見ておきます。",
+          "zh": "好，出发前也会先看最新说明。",
+          "reading": "はい。でかけるまえに、さいしんのあんないもみておきます。"
+        },
+        {
+          "id": "main-line-8",
+          "speakerId": "learner",
+          "ja": "変わったら連絡してください。私も交通情報を見ます。",
+          "zh": "有变化请联系我，我也会看交通信息。",
+          "reading": "かわったられんらくしてください。わたしもこうつうじょうほうをみます。"
+        }
+      ]
+    },
+    {
+      "id": "branch",
+      "title": "条件变化：另一种处理路径",
+      "variant": "branch",
+      "lines": [
+        {
+          "id": "branch-line-1",
+          "speakerId": "classmate",
+          "ja": "日曜日は特別に休館するそうです。",
+          "zh": "通知说周日临时闭馆。",
+          "reading": "にちようびはとくべつにきゅうかんするそうです。"
+        },
+        {
+          "id": "branch-line-2",
+          "speakerId": "learner",
+          "ja": "それなら、近くの店でお茶にしませんか。",
+          "zh": "那要不要在附近店里喝茶？",
+          "reading": "それなら、ちかくのみせでおちゃにしませんか。"
+        },
+        {
+          "id": "branch-line-3",
+          "speakerId": "classmate",
+          "ja": "いいですね。待ち合わせは同じで大丈夫です。",
+          "zh": "好，集合安排不变可以。",
+          "reading": "いいですね。まちあわせはおなじでだいじょうぶです。"
+        },
+        {
+          "id": "branch-line-4",
+          "speakerId": "learner",
+          "ja": "では、公園も博物館も今回は行かないことにします。",
+          "zh": "那这次决定公园和博物馆都不去了。",
+          "reading": "では、こうえんもはくぶつかんもこんかいはいかないことにします。"
+        }
+      ]
+    },
+    {
+      "id": "plain",
+      "title": "普通体：与熟悉同学交谈",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "plain-line-1",
+          "speakerId": "learner",
+          "ja": "日曜日は雨だそうだよ。",
+          "zh": "据说周日下雨。",
+          "reading": "にちようびはあめだそうだよ。"
+        },
+        {
+          "id": "plain-line-2",
+          "speakerId": "classmate",
+          "ja": "じゃあ、屋内の場所に変えよう。",
+          "zh": "那改去室内场所吧。",
+          "reading": "じゃあ、おくないのばしょにかえよう。"
+        },
+        {
+          "id": "plain-line-3",
+          "speakerId": "learner",
+          "ja": "博物館の案内を先に見るね。",
+          "zh": "我先看博物馆说明。",
+          "reading": "はくぶつかんのあんないをさきにみるね。"
+        },
+        {
+          "id": "plain-line-4",
+          "speakerId": "classmate",
+          "ja": "うん。開いていたら、一時に駅で会おう。",
+          "zh": "好，如果开放，就一点在车站见。",
+          "reading": "うん。あいていたら、いちじにえきであおう。"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "scenario-information",
+      "title": "本课已知信息与约定",
+      "kind": "table",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["事项", "本例设定"],
+          "rows": [
+            ["原计划", "周日公园散步"],
+            ["主路径替代", "博物馆，开放仍需最新确认"],
+            ["集合", "周日13:00，车站"],
+            ["分支", "临时闭馆则附近喝茶，集合不变"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "version-context",
+      "title": "场景分支与语体说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["项目", "说明"],
+          "rows": [
+            ["主课文", "按 scene 中的背景与人物关系交流。"],
+            ["分支", "与主路径互斥的条件变化，不把两条路径的预约、结果或决定合并为同一事件。"],
+            ["普通体", "普通体版用于与熟悉同学王交谈；不把工作人员的礼貌表达机械改成普通体。"],
+            ["听后跟读", "先听完整一句，暂停后模仿；先理解人物、条件与任务。"],
+            ["影子跟读", "熟悉原句后，播放时稍落后连续跟随；平台使用合成语音，不称真人录音。"]
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "vocabulary-1",
+      "word": "天気予報",
+      "reading": "てんきよほう",
+      "meaning": "天气预报",
+      "usage": "用于本课的天气变化时重新安排周末活动场景",
+      "collocations": ["天気予報を見る"],
+      "examples": [
+        {
+          "ja": "天気予報によると、日曜日は雨だそうです。",
+          "zh": "据天气预报，星期日会下雨。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-2",
+      "word": "博物館",
+      "reading": "はくぶつかん",
+      "meaning": "博物馆",
+      "usage": "用于本课的天气变化时重新安排周末活动场景",
+      "collocations": ["博物館に行く"],
+      "examples": [
+        {
+          "ja": "雨なら、博物館に行きませんか。",
+          "zh": "下雨的话，去博物馆怎么样？"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-3"
+      }
+    },
+    {
+      "id": "vocabulary-3",
+      "word": "公式",
+      "reading": "こうしき",
+      "meaning": "官方",
+      "usage": "用于本课的天气变化时重新安排周末活动场景",
+      "collocations": ["公式の案内"],
+      "examples": [
+        {
+          "ja": "公式の案内を見ます。午後から入れるようです。",
+          "zh": "我看官方说明，看起来下午能进去。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-5"
+      }
+    },
+    {
+      "id": "vocabulary-4",
+      "word": "集まる",
+      "reading": "あつまる",
+      "meaning": "集合",
+      "usage": "用于本课的天气变化时重新安排周末活动场景",
+      "collocations": ["駅に集まる"],
+      "examples": [
+        {
+          "ja": "では、駅に一時に集まることにしましょう。",
+          "zh": "那决定一点在车站集合吧。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-6"
+      }
+    },
+    {
+      "id": "vocabulary-5",
+      "word": "最新",
+      "reading": "さいしん",
+      "meaning": "最新",
+      "usage": "用于本课的天气变化时重新安排周末活动场景",
+      "collocations": ["最新の案内"],
+      "examples": [
+        {
+          "ja": "はい。出かける前に、最新の案内も見ておきます。",
+          "zh": "好，出发前也会先看最新说明。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-7"
+      }
+    },
+    {
+      "id": "vocabulary-6",
+      "word": "交通情報",
+      "reading": "こうつうじょうほう",
+      "meaning": "交通信息",
+      "usage": "用于本课的天气变化时重新安排周末活动场景",
+      "collocations": ["交通情報を見る"],
+      "examples": [
+        {
+          "ja": "変わったら連絡してください。私も交通情報を見ます。",
+          "zh": "有变化请联系我，我也会看交通信息。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-8"
+      }
+    }
+  ],
+  "expressions": [
+    {
+      "id": "expression-1",
+      "function": "提出替代",
+      "pattern": "〜なら、〜に行きませんか。",
+      "meaning": "在条件变化时提议替代地点。",
+      "audience": "同行者",
+      "notes": ["让对方参与决定。"],
+      "slots": [
+        {
+          "key": "〜",
+          "description": "条件及地点"
+        }
+      ],
+      "examples": [
+        {
+          "ja": "雨なら、博物館に行きませんか。",
+          "zh": "下雨的话，去博物馆怎么样？"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-3"
+      }
+    },
+    {
+      "id": "expression-2",
+      "function": "要求变更联络",
+      "pattern": "変わったら連絡してください。",
+      "meaning": "出现变化时请联络。",
+      "audience": "同行者",
+      "notes": ["说明关心的是开放或交通变化。"],
+      "slots": [],
+      "examples": [
+        {
+          "ja": "変わったら連絡してください。私も交通情報を見ます。",
+          "zh": "有变化请联系我，我也会看交通信息。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-8"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "grammar-1",
+      "pattern": "〜そうだ（传闻）",
+      "level": "N4",
+      "meaning": "转述从别处得到的信息。",
+      "connection": "普通形＋そうだ；名词／な形容词现在肯定保留だ",
+      "notes": [
+        "雨だそう与看起来要下雨的雨が降りそう区分；注明天气预报来源。",
+        "本章分级是教学目标，不声称现行 JLPT 有逐项公布的必考文法清单。"
+      ],
+      "examples": [
+        {
+          "ja": "天気予報によると、日曜日は雨だそうです。",
+          "zh": "据天气预报，星期日会下雨。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "pattern": "〜ことにする",
+      "level": "N4",
+      "meaning": "共同商量后作出决定。",
+      "connection": "动词辞书形／ない形＋ことにする",
+      "notes": [
+        "先确认场所可用，再决定集合；最新通知可能仍变化。",
+        "本章分级是教学目标，不声称现行 JLPT 有逐项公布的必考文法清单。"
+      ],
+      "examples": [
+        {
+          "ja": "では、駅に一時に集まることにしましょう。",
+          "zh": "那决定一点在车站集合吧。"
+        }
+      ]
+    }
+  ],
+  "shadowing": [
+    {
+      "id": "shadowing-main",
+      "dialogueId": "main",
+      "lineIds": [
+        "main-line-1",
+        "main-line-2",
+        "main-line-3",
+        "main-line-4",
+        "main-line-5",
+        "main-line-6",
+        "main-line-7",
+        "main-line-8"
+      ],
+      "prompt": "先听后跟读：整句听完再暂停模仿。理解本段任务后做影子跟读：播放时稍落后跟随。注意转述信息来源；分支只在对应条件下练习。"
+    },
+    {
+      "id": "shadowing-branch",
+      "dialogueId": "branch",
+      "lineIds": ["branch-line-1", "branch-line-2", "branch-line-3", "branch-line-4"],
+      "prompt": "先听后跟读：整句听完再暂停模仿。理解本段任务后做影子跟读：播放时稍落后跟随。注意转述信息来源；分支只在对应条件下练习。"
+    },
+    {
+      "id": "shadowing-plain",
+      "dialogueId": "plain",
+      "lineIds": ["plain-line-1", "plain-line-2", "plain-line-3", "plain-line-4"],
+      "prompt": "先听后跟读：整句听完再暂停模仿。理解本段任务后做影子跟读：播放时稍落后跟随。注意转述信息来源；分支只在对应条件下练习。"
+    }
+  ],
+  "homework": [
+    {
+      "id": "oral-one",
+      "type": "oral",
+      "situation": "与同学商量雨天替代活动。",
+      "knownInformation": [
+        "原计划：周日公园散步",
+        "主路径替代：博物馆，开放仍需最新确认",
+        "集合：周日13:00，车站",
+        "分支：临时闭馆则附近喝茶，集合不变"
+      ],
+      "tasks": ["注明天气信息来源", "提出室内方案", "确认开放与集合"],
+      "requirements": [
+        "按情境向对应人物作出简洁、连贯的说明。",
+        "已知事项与尚待确认事项分开表达；参考答案只是可行示例。"
+      ],
+      "hints": [
+        "〜なら、〜に行きませんか。",
+        "変わったら連絡してください。",
+        "可使用本课文法和词汇，措辞不必与参考答案完全相同。"
+      ],
+      "functions": ["consult"],
+      "answers": [
+        {
+          "ja": "天気予報では日曜日は雨だそうです。博物館に変えませんか。開いているか確認して、一時に駅で会いましょう。",
+          "zh": "天气预报说周日下雨，改去博物馆好吗？确认是否开放后，一点在车站见吧。"
+        }
+      ]
+    },
+    {
+      "id": "written-one",
+      "type": "written",
+      "situation": "发送主路径安排消息。",
+      "knownInformation": [
+        "原计划：周日公园散步",
+        "主路径替代：博物馆，开放仍需最新确认",
+        "集合：周日13:00，车站",
+        "分支：临时闭馆则附近喝茶，集合不变"
+      ],
+      "tasks": ["说清公园计划已调整", "保留最新确认步骤"],
+      "requirements": [
+        "写成收件人能理解的短消息或学习记录。",
+        "已知事项与尚待确认事项分开表达；参考答案只是可行示例。"
+      ],
+      "hints": [
+        "〜なら、〜に行きませんか。",
+        "変わったら連絡してください。",
+        "可使用本课文法和词汇，措辞不必与参考答案完全相同。"
+      ],
+      "functions": ["contact"],
+      "answers": [
+        {
+          "ja": "日曜日は公園ではなく、博物館に行くことにしました。一時に駅で集まります。出かける前に最新の案内を確認します。",
+          "zh": "周日决定改去博物馆，不去公园。一点在车站集合，出发前确认最新说明。"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "原创 N4 生活日语章节",
+      "note": "2026-10-04 按用户要求新作；课文、译文、分支、作业与参考答案均为原创教学场景，不来自真实机构原始记录。金额、时刻、条件是本例设定。"
+    },
+    {
+      "title": "nihongo/docs/content-format.md 与 schemas/*.schema.json",
+      "note": "遵循本项目 v1 数据契约；N4为学习目标，常见场景固定表达按需要整块理解，不宣称逐项对应官方必考清单。"
+    }
+  ]
+}

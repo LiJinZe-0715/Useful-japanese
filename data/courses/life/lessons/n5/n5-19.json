@@ -1,0 +1,1187 @@
+{
+  "schemaVersion": 1,
+  "id": "n5-19",
+  "unitId": "n5",
+  "order": 119,
+  "title": "第19课 身体不舒服时去诊所和药局",
+  "level": "N5",
+  "kind": "scene",
+  "objectives": [
+    "1.1 能用简单句子说哪里不舒服。",
+    "1.2 能说明症状从什么时候开始。",
+    "1.3 能在没听懂时请医护人员再说。"
+  ],
+  "scene": {
+    "background": "我发烧并喉咙痛，先联系适合的诊所确认能否就诊，再按指示到诊所、药局。",
+    "channel": "other",
+    "tasks": [
+      "1.1 能用简单句子说哪里不舒服。",
+      "1.2 能说明症状从什么时候开始。",
+      "1.3 能在没听懂时请医护人员再说。"
+    ],
+    "relationships": "你扮演“我（わたし）”。私（学习者）：赴日学习者；接待：接待；医生：医生；药师：药师；家人：家人"
+  },
+  "learnerSpeakerId": "learner",
+  "speakers": [
+    {
+      "id": "learner",
+      "name": "我（わたし）",
+      "role": "你扮演的角色；赴日学习者"
+    },
+    {
+      "id": "speaker-2",
+      "name": "接待",
+      "role": "接待"
+    },
+    {
+      "id": "speaker-3",
+      "name": "医生",
+      "role": "医生"
+    },
+    {
+      "id": "speaker-4",
+      "name": "药师",
+      "role": "药师"
+    },
+    {
+      "id": "speaker-5",
+      "name": "家人",
+      "role": "家人"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "main",
+      "title": "场景课文",
+      "variant": "main",
+      "lines": [
+        {
+          "id": "main-line-1",
+          "speakerId": "learner",
+          "ja": "すみません、熱があります。受付はこちらですか。",
+          "zh": "不好意思，我发烧了。接待处是在这里吗？",
+          "reading": "すみません、ねつがあります。うけつけはこちらですか。",
+          "ttsText": "すみません、ねつがあります。うけつけはこちらですか。"
+        },
+        {
+          "id": "main-line-2",
+          "speakerId": "speaker-2",
+          "ja": "お電話で予約していますか。",
+          "zh": "您打电话预约过了吗？",
+          "reading": "おでんわでよやくしていますか。",
+          "ttsText": "おでんわでよやくしていますか。"
+        },
+        {
+          "id": "main-line-3",
+          "speakerId": "learner",
+          "ja": "はい、予約しました。",
+          "zh": "是的，预约过了。",
+          "reading": "はい、よやくしました。",
+          "ttsText": "はい、よやくしました。"
+        },
+        {
+          "id": "main-line-4",
+          "speakerId": "speaker-2",
+          "ja": "体温は測りましたか。",
+          "zh": "量过体温了吗？",
+          "reading": "たいおんははかりましたか。",
+          "ttsText": "たいおんははかりましたか。"
+        },
+        {
+          "id": "main-line-5",
+          "speakerId": "learner",
+          "ja": "はい。朝、三十八度でした。",
+          "zh": "量过了，早上是三十八度。",
+          "reading": "はい。あさ、さんじゅうはちどでした。",
+          "ttsText": "はい。あさ、さんじゅうはちどでした。"
+        },
+        {
+          "id": "main-line-6",
+          "speakerId": "speaker-2",
+          "ja": "資格確認書かマイナ保険証をお願いします。",
+          "zh": "请出示资格确认书或登记保险用途的个人编号卡。",
+          "reading": "しかくかくにんしょかマイナほけんしょうをおねがいします。",
+          "ttsText": "しかくかくにんしょかマイナほけんしょうをおねがいします。"
+        },
+        {
+          "id": "main-line-7",
+          "speakerId": "learner",
+          "ja": "資格確認書があります。",
+          "zh": "我有资格确认书。",
+          "reading": "しかくかくにんしょがあります。",
+          "ttsText": "しかくかくにんしょがあります。"
+        },
+        {
+          "id": "main-line-8",
+          "speakerId": "speaker-2",
+          "ja": "少しお待ちください。お名前を呼びます。",
+          "zh": "请稍等，我们会叫您的姓名。",
+          "reading": "すこしおまちください。おなまえをよびます。",
+          "ttsText": "すこしおまちください。おなまえをよびます。"
+        },
+        {
+          "id": "main-line-9",
+          "speakerId": "learner",
+          "ja": "はい。",
+          "zh": "好的。",
+          "reading": "はい。",
+          "ttsText": "はい。"
+        },
+        {
+          "id": "main-line-10",
+          "speakerId": "learner",
+          "ja": "昨日から熱があります。喉も痛いです。",
+          "zh": "从昨天起发烧，喉咙也疼。",
+          "reading": "きのうからねつがあります。のどもいたいです。",
+          "ttsText": "きのうからねつがあります。のどもいたいです。"
+        },
+        {
+          "id": "main-line-11",
+          "speakerId": "speaker-3",
+          "ja": "咳や鼻水はありますか。",
+          "zh": "有咳嗽或流鼻涕吗？",
+          "reading": "せきやはなみずはありますか。",
+          "ttsText": "せきやはなみずはありますか。"
+        },
+        {
+          "id": "main-line-12",
+          "speakerId": "learner",
+          "ja": "咳が少しあります。鼻水はありません。",
+          "zh": "有一点咳嗽，没有流鼻涕。",
+          "reading": "せきがすこしあります。はなみずはありません。",
+          "ttsText": "せきがすこしあります。はなみずはありません。"
+        },
+        {
+          "id": "main-line-13",
+          "speakerId": "speaker-3",
+          "ja": "わかりました。診ますね。",
+          "zh": "明白了，我来诊察一下。",
+          "reading": "わかりました。みますね。",
+          "ttsText": "わかりました。みますね。"
+        },
+        {
+          "id": "main-line-14",
+          "speakerId": "learner",
+          "ja": "よろしくお願いします。",
+          "zh": "麻烦您了。",
+          "reading": "よろしくおねがいします。",
+          "ttsText": "よろしくおねがいします。"
+        },
+        {
+          "id": "main-line-15",
+          "speakerId": "speaker-3",
+          "ja": "処方箋を出します。",
+          "zh": "我开一张处方笺。",
+          "reading": "しょほうせんをだします。",
+          "ttsText": "しょほうせんをだします。"
+        },
+        {
+          "id": "main-line-16",
+          "speakerId": "learner",
+          "ja": "わかりました。ありがとうございます。",
+          "zh": "明白了，谢谢。",
+          "reading": "わかりました。ありがとうございます。",
+          "ttsText": "わかりました。ありがとうございます。"
+        },
+        {
+          "id": "main-line-17",
+          "speakerId": "learner",
+          "ja": "この処方箋をお願いします。",
+          "zh": "这张处方笺麻烦您。",
+          "reading": "このしょほうせんをおねがいします。",
+          "ttsText": "このしょほうせんをおねがいします。"
+        },
+        {
+          "id": "main-line-18",
+          "speakerId": "speaker-4",
+          "ja": "はい。薬ができたらお名前を呼びます。",
+          "zh": "好的，药配好后会叫您的姓名。",
+          "reading": "はい。くすりができたらおなまえをよびます。",
+          "ttsText": "はい。くすりができたらおなまえをよびます。"
+        }
+      ]
+    },
+    {
+      "id": "polite",
+      "title": "跟读文本（礼貌体版·诊所与药局）",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "polite-line-1",
+          "speakerId": "speaker-4",
+          "ja": "こちらの薬は食後です。",
+          "zh": "这里的药是饭后服用。",
+          "reading": "こちらのくすりはしょくごです。",
+          "ttsText": "こちらのくすりはしょくごです。"
+        },
+        {
+          "id": "polite-line-2",
+          "speakerId": "learner",
+          "ja": "すみません、もう一度お願いします。",
+          "zh": "不好意思，请再说一遍。",
+          "reading": "すみません、もういちどおねがいします。",
+          "ttsText": "すみません、もういちどおねがいします。"
+        },
+        {
+          "id": "polite-line-3",
+          "speakerId": "speaker-4",
+          "ja": "食事の後です。",
+          "zh": "吃饭之后服用。",
+          "reading": "しょくじのあとです。",
+          "ttsText": "しょくじのあとです。"
+        },
+        {
+          "id": "polite-line-4",
+          "speakerId": "learner",
+          "ja": "はい、わかりました。",
+          "zh": "好的，明白了。",
+          "reading": "はい、わかりました。",
+          "ttsText": "はい、わかりました。"
+        },
+        {
+          "id": "polite-line-5",
+          "speakerId": "learner",
+          "ja": "食事の後です。",
+          "zh": "是吃饭之后。",
+          "reading": "しょくじのあとです。",
+          "ttsText": "しょくじのあとです。"
+        },
+        {
+          "id": "polite-line-6",
+          "speakerId": "speaker-5",
+          "ja": "薬袋にも書いてありますか。",
+          "zh": "药袋上也有写吗？",
+          "reading": "くすりぶくろにもかいてありますか。",
+          "ttsText": "くすりぶくろにもかいてありますか。"
+        },
+        {
+          "id": "polite-line-7",
+          "speakerId": "learner",
+          "ja": "はい。薬剤師さんの説明と同じです。",
+          "zh": "有，和药师的说明一样。",
+          "reading": "はい。やくざいしさんのせつめいとおなじです。",
+          "ttsText": "はい。やくざいしさんのせつめいとおなじです。"
+        },
+        {
+          "id": "polite-line-8",
+          "speakerId": "speaker-5",
+          "ja": "わからないことは残っていませんか。",
+          "zh": "还有不明白的事情吗？",
+          "reading": "わからないことはのこっていませんか。",
+          "ttsText": "わからないことはのこっていませんか。"
+        },
+        {
+          "id": "polite-line-9",
+          "speakerId": "learner",
+          "ja": "今は大丈夫です。",
+          "zh": "现在没有问题了。",
+          "reading": "いまはだいじょうぶです。",
+          "ttsText": "いまはだいじょうぶです。"
+        }
+      ]
+    },
+    {
+      "id": "plain",
+      "title": "跟读文本（普通体版·诊所与药局）",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "plain-line-1",
+          "speakerId": "speaker-4",
+          "ja": "こちらの薬は食後です。",
+          "zh": "这里的药是饭后服用。",
+          "reading": "こちらのくすりはしょくごです。",
+          "ttsText": "こちらのくすりはしょくごです。"
+        },
+        {
+          "id": "plain-line-2",
+          "speakerId": "learner",
+          "ja": "すみません、もう一度お願いします。",
+          "zh": "不好意思，请再说一遍。",
+          "reading": "すみません、もういちどおねがいします。",
+          "ttsText": "すみません、もういちどおねがいします。"
+        },
+        {
+          "id": "plain-line-3",
+          "speakerId": "speaker-4",
+          "ja": "食事の後です。",
+          "zh": "吃饭之后服用。",
+          "reading": "しょくじのあとです。",
+          "ttsText": "しょくじのあとです。"
+        },
+        {
+          "id": "plain-line-4",
+          "speakerId": "learner",
+          "ja": "はい、わかりました。",
+          "zh": "好的，明白了。",
+          "reading": "はい、わかりました。",
+          "ttsText": "はい、わかりました。"
+        },
+        {
+          "id": "plain-line-5",
+          "speakerId": "learner",
+          "ja": "食事の後だよ。",
+          "zh": "是吃饭之后。",
+          "reading": "しょくじのあとだよ。",
+          "ttsText": "しょくじのあとだよ。"
+        },
+        {
+          "id": "plain-line-6",
+          "speakerId": "speaker-5",
+          "ja": "薬袋にも書いてある？",
+          "zh": "药袋上也有写吗？",
+          "reading": "くすりぶくろにもかいてある？",
+          "ttsText": "くすりぶくろにもかいてある？"
+        },
+        {
+          "id": "plain-line-7",
+          "speakerId": "learner",
+          "ja": "うん。薬剤師さんの説明と同じ。",
+          "zh": "有，和药师的说明一样。",
+          "reading": "うん。やくざいしさんのせつめいとおなじ。",
+          "ttsText": "うん。やくざいしさんのせつめいとおなじ。"
+        },
+        {
+          "id": "plain-line-8",
+          "speakerId": "speaker-5",
+          "ja": "わからないこと、残っていない？",
+          "zh": "还有不明白的事情吗？",
+          "reading": "わからないこと、のこっていない？",
+          "ttsText": "わからないこと、のこっていない？"
+        },
+        {
+          "id": "plain-line-9",
+          "speakerId": "learner",
+          "ja": "今は大丈夫。",
+          "zh": "现在没有问题了。",
+          "reading": "いまはだいじょうぶ。",
+          "ttsText": "いまはだいじょうぶ。"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "lesson-context",
+      "title": "场景与使用说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "场景：我发烧并喉咙痛，先联系适合的诊所确认能否就诊，再按指示到诊所、药局。\n使用场合：向接待人员说症状和持续时间，按实际情况提供就诊资格材料。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "goal-notes",
+      "title": "目标补充说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [["自测：不猜病名，只说自己的症状、开始时间和目前体温信息。"]]
+        }
+      ]
+    },
+    {
+      "id": "dialogue-context",
+      "title": "课文与语体版本的转场、交谈对象",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["对话 ID", "位置（在该行之后；下一行注明对象）", "原场景提示"],
+          "rows": [
+            [
+              "main",
+              "整体",
+              "情境：示例中诊所同意接诊。到院后我先完成接待，再向医生说症状；若获得处方，再去药局。"
+            ],
+            ["main", "下一行 1", "私(わたし)→接待"],
+            ["main", "main-line-9", "〔接待后，叫到姓名，进入诊室〕"],
+            ["main", "下一行 10", "私(わたし)→医生"],
+            ["main", "main-line-14", "〔诊察后；本例获得处方〕"],
+            ["main", "main-line-16", "〔之后，在药局〕"],
+            ["main", "下一行 17", "私(わたし)→药师"],
+            [
+              "main",
+              "整体",
+              "说明：是否预约、发热患者如何接诊由医疗机构决定，去之前应确认。医疗机构和药局的资格确认使用已登记的个人编号卡或资格确认书。本例假设医生诊察后开了处方；实际是否开处方由医生决定。"
+            ],
+            ["polite", "polite-line-4", "〔离开药局后，向家人复述〕"],
+            ["polite", "下一行 5", "私(わたし)→家人"],
+            ["plain", "plain-line-4", "〔离开药局后，向家人复述〕"],
+            ["plain", "下一行 5", "私(わたし)→家人"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "register-comparison",
+      "title": "两版差异对照（行 ID 对应上方语体版本）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说话者", "礼貌体行 ID", "普通体行 ID", "原差异说明"],
+          "rows": [
+            ["药师", "polite-line-1", "plain-line-1", "两版保持同一句表达"],
+            ["私(わたし)", "polite-line-2", "plain-line-2", "两版保持同一句表达"],
+            ["药师", "polite-line-3", "plain-line-3", "两版保持同一句表达"],
+            ["私(わたし)", "polite-line-4", "plain-line-4", "两版保持同一句表达"],
+            ["私(わたし)→家人", "polite-line-5", "plain-line-5", "表达内容相同，语体不同"],
+            ["家人", "polite-line-6", "plain-line-6", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-7", "plain-line-7", "表达内容相同，语体不同"],
+            ["家人", "polite-line-8", "plain-line-8", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-9", "plain-line-9", "表达内容相同，语体不同"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shadowing-notes",
+      "title": "跟读场景、前提与使用说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "唯一跟读场景：诊所接诊后，我拿到处方并去药局确认用药说明。\n关系与版本前提：普通体版用于离开药局后与家人复述；面对医护人员保持礼貌体。\n与课文的区别：课文重在描述发热；这里重在药局听懂说明。\n用药前提：食后仅是这份虚构处方的时间设定，不适用于所有药。实际服用时间、剂量与注意事项按本人处方和药师说明确认。"
+            ],
+            ["■ 跟读步骤"],
+            [
+              "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+            ],
+            ["■ 跟读要点"],
+            [
+              "礼貌体版：重点听用药时间；听不懂就确认。\n普通体版：普通体只用于向家人复述，不能改变药师指示内容。"
+            ],
+            ["■ 为什么用这个版本"],
+            ["礼貌体版：医疗与药局沟通使用。\n普通体版：家人之间复述用药信息可使用。"],
+            ["■ 本课跟读目标"],
+            ["能准确复述药师给自己的用药时间。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary-notes",
+      "title": "词汇分组与学习说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["■ 3A N5基础词汇"],
+            ["本栏指常见初级教材中的N5基础词，不表示官方保证考到。"],
+            ["■ 3B 场景补充词汇（先听懂）"],
+            ["本栏先听懂、能辨认；行政或商品词不要求会写。"],
+            ["词汇使用提醒：症状与医疗文件词先求准确听懂；不要仅凭词汇自行判断病名或用药。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-notes",
+      "title": "文法安排与补充表达（原 4B）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["■ 4A 基础句型与场景练习"],
+            [
+              "本栏练习基础句型和本课场景中的表达；长句中的敬语、复合结构可先整句理解。例句均从本课课文原样摘取。"
+            ],
+            ["■ 4B 补充表达与后续复习"],
+            [
+              "文法点：请求别人为自己做事\n意思：表示希望医生为自己看诊；先整块使用。\n例句：今日(きょう)、診(み)てもらえますか。\n后续学习建议：结合本课语境复习，再在后续系统课程中学习接续与变形；本课程没有第21课。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appendix-1",
+      "title": "附1：当时课程目标下，日本人实际会怎么说",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "家人之间：昨日(きのう)から熱(ねつ)がある。\n对同事朋友：昨日(きのう)から熱(ねつ)があります。\n对上级工作人员：昨日(きのう)から熱(ねつ)があり、喉(のど)も痛(いた)いです。\n说明：如果症状严重、持续或特殊，应按医疗机构指导就医；教材不提供诊断。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appendix-2",
+      "title": "附2：常见误用",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "标记说明：✗包含语法错误，也包含本情境中事实不准确、未核实就断言或应对不合适的说法；不表示所有标记句都不合语法。"
+            ],
+            [
+              "喉(のど)が痛(いた)いから風邪(かぜ)です。 ✗ → 喉(のど)が痛(いた)いです。 ✓\n原因：报告症状即可，不自行下病名结论。\n薬(くすり)は全部(ぜんぶ)同(おな)じ時間(じかん)に飲(の)みます。 ✗ → 薬(くすり)の飲(の)み方(かた)を確認(かくにん)します。 ✓\n原因：用法以药师和药袋说明为准。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-1",
+      "title": "词汇读音与释义资料（原测试 1）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "读音：きのう\n答案：昨日(きのう) — 昨天\n读音：きょう\n答案：今日(きょう) — 今天\n读音：いたい\n答案：痛(いた)い — 疼\n读音：でんわ\n答案：電話(でんわ) — 电话\n读音：みます\n答案：見(み)ます — 看\n读音：くすり\n答案：薬(くすり) — 药\n读音：みず\n答案：水(みず) — 水\n读音：あさ\n答案：朝(あさ) — 早上\n读音：すこし\n答案：少(すこ)し — 一点\n读音：なまえ\n答案：名前(なまえ) — 姓名\n读音：よびます\n答案：呼(よ)びます — 叫\n读音：だします\n答案：出(だ)します — 开具、拿出\n读音：ありません\n答案：ありません — 没有\n读音：ねつ\n答案：熱(ねつ) — 发热\n读音：のど\n答案：喉(のど) — 喉咙\n读音：みてもらえますか\n答案：診(み)てもらえますか — 能否请医生看诊\n读音：しかくかくにんしょ\n答案：資格確認書(しかくかくにんしょ) — 资格确认书\n读音：マイナほけんしょう\n答案：マイナ保険証(ほけんしょう) — 已登记保险用途的个人编号卡\n读音：しょほうせん\n答案：処方箋(しょほうせん) — 处方笺\n读音：やっきょく\n答案：薬局(やっきょく) — 药局\n读音：たいおん\n答案：体温(たいおん) — 体温\n读音：はかります\n答案：測(はか)ります — 测量\n读音：さんじゅうはちど\n答案：三十八度(さんじゅうはちど) — 三十八度\n读音：せき\n答案：咳(せき) — 咳嗽\n读音：はなみず\n答案：鼻水(はなみず) — 鼻涕\n读音：しんさつ\n答案：診察(しんさつ) — 诊察\n读音：やくざいし\n答案：薬剤師(やくざいし) — 药师"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-2",
+      "title": "文法例题与参考答案（原测试 2）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "题目：すみません、（　）。受付(うけつけ)はこちらですか。\n答案：熱(ねつ)があります\n题目：（　）熱(ねつ)があります。喉(のど)も痛(いた)いです。\n答案：昨日(きのう)から\n题目：昨日(きのう)から熱(ねつ)があります。喉(のど)も（　）。\n答案：痛(いた)いです"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "vocabulary-1",
+      "word": "昨日",
+      "reading": "きのう",
+      "meaning": "昨天",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "昨日から熱があります。喉も痛いです。",
+          "zh": "从昨天起发烧，喉咙也疼。",
+          "ttsText": "きのうからねつがあります。のどもいたいです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-10"
+      }
+    },
+    {
+      "id": "vocabulary-2",
+      "word": "今日",
+      "reading": "きょう",
+      "meaning": "今天",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-3",
+      "word": "痛い",
+      "reading": "いたい",
+      "meaning": "疼",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "昨日から熱があります。喉も痛いです。",
+          "zh": "从昨天起发烧，喉咙也疼。",
+          "ttsText": "きのうからねつがあります。のどもいたいです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-10"
+      }
+    },
+    {
+      "id": "vocabulary-4",
+      "word": "電話",
+      "reading": "でんわ",
+      "meaning": "电话",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "お電話で予約していますか。",
+          "zh": "您打电话预约过了吗？",
+          "ttsText": "おでんわでよやくしていますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-2"
+      }
+    },
+    {
+      "id": "vocabulary-5",
+      "word": "見ます",
+      "reading": "みます",
+      "meaning": "看",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-6",
+      "word": "薬",
+      "reading": "くすり",
+      "meaning": "药",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "はい。薬ができたらお名前を呼びます。",
+          "zh": "好的，药配好后会叫您的姓名。",
+          "ttsText": "はい。くすりができたらおなまえをよびます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-18"
+      }
+    },
+    {
+      "id": "vocabulary-7",
+      "word": "水",
+      "reading": "みず",
+      "meaning": "水",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "咳や鼻水はありますか。",
+          "zh": "有咳嗽或流鼻涕吗？",
+          "ttsText": "せきやはなみずはありますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-11"
+      }
+    },
+    {
+      "id": "vocabulary-8",
+      "word": "朝",
+      "reading": "あさ",
+      "meaning": "早上",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "はい。朝、三十八度でした。",
+          "zh": "量过了，早上是三十八度。",
+          "ttsText": "はい。あさ、さんじゅうはちどでした。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-5"
+      }
+    },
+    {
+      "id": "vocabulary-9",
+      "word": "少し",
+      "reading": "すこし",
+      "meaning": "一点",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "少しお待ちください。お名前を呼びます。",
+          "zh": "请稍等，我们会叫您的姓名。",
+          "ttsText": "すこしおまちください。おなまえをよびます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-8"
+      }
+    },
+    {
+      "id": "vocabulary-10",
+      "word": "名前",
+      "reading": "なまえ",
+      "meaning": "姓名",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "少しお待ちください。お名前を呼びます。",
+          "zh": "请稍等，我们会叫您的姓名。",
+          "ttsText": "すこしおまちください。おなまえをよびます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-8"
+      }
+    },
+    {
+      "id": "vocabulary-11",
+      "word": "呼びます",
+      "reading": "よびます",
+      "meaning": "叫",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "少しお待ちください。お名前を呼びます。",
+          "zh": "请稍等，我们会叫您的姓名。",
+          "ttsText": "すこしおまちください。おなまえをよびます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-8"
+      }
+    },
+    {
+      "id": "vocabulary-12",
+      "word": "出します",
+      "reading": "だします",
+      "meaning": "开具、拿出",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "処方箋を出します。",
+          "zh": "我开一张处方笺。",
+          "ttsText": "しょほうせんをだします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-15"
+      }
+    },
+    {
+      "id": "vocabulary-13",
+      "word": "ありません",
+      "reading": "ありません",
+      "meaning": "没有",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "咳が少しあります。鼻水はありません。",
+          "zh": "有一点咳嗽，没有流鼻涕。",
+          "ttsText": "せきがすこしあります。はなみずはありません。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-12"
+      }
+    },
+    {
+      "id": "vocabulary-14",
+      "word": "熱",
+      "reading": "ねつ",
+      "meaning": "发热",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "すみません、熱があります。受付はこちらですか。",
+          "zh": "不好意思，我发烧了。接待处是在这里吗？",
+          "ttsText": "すみません、ねつがあります。うけつけはこちらですか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-15",
+      "word": "喉",
+      "reading": "のど",
+      "meaning": "喉咙",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "昨日から熱があります。喉も痛いです。",
+          "zh": "从昨天起发烧，喉咙也疼。",
+          "ttsText": "きのうからねつがあります。のどもいたいです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-10"
+      }
+    },
+    {
+      "id": "vocabulary-16",
+      "word": "診てもらえますか",
+      "reading": "みてもらえますか",
+      "meaning": "能否请医生看诊",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-17",
+      "word": "資格確認書",
+      "reading": "しかくかくにんしょ",
+      "meaning": "资格确认书",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "資格確認書かマイナ保険証をお願いします。",
+          "zh": "请出示资格确认书或登记保险用途的个人编号卡。",
+          "ttsText": "しかくかくにんしょかマイナほけんしょうをおねがいします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-6"
+      }
+    },
+    {
+      "id": "vocabulary-18",
+      "word": "マイナ保険証",
+      "reading": "マイナほけんしょう",
+      "meaning": "已登记保险用途的个人编号卡",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "資格確認書かマイナ保険証をお願いします。",
+          "zh": "请出示资格确认书或登记保险用途的个人编号卡。",
+          "ttsText": "しかくかくにんしょかマイナほけんしょうをおねがいします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-6"
+      }
+    },
+    {
+      "id": "vocabulary-19",
+      "word": "処方箋",
+      "reading": "しょほうせん",
+      "meaning": "处方笺",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "処方箋を出します。",
+          "zh": "我开一张处方笺。",
+          "ttsText": "しょほうせんをだします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-15"
+      }
+    },
+    {
+      "id": "vocabulary-20",
+      "word": "薬局",
+      "reading": "やっきょく",
+      "meaning": "药局",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-21",
+      "word": "体温",
+      "reading": "たいおん",
+      "meaning": "体温",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "体温は測りましたか。",
+          "zh": "量过体温了吗？",
+          "ttsText": "たいおんははかりましたか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-4"
+      }
+    },
+    {
+      "id": "vocabulary-22",
+      "word": "測ります",
+      "reading": "はかります",
+      "meaning": "测量",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-23",
+      "word": "三十八度",
+      "reading": "さんじゅうはちど",
+      "meaning": "三十八度",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "はい。朝、三十八度でした。",
+          "zh": "量过了，早上是三十八度。",
+          "ttsText": "はい。あさ、さんじゅうはちどでした。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-5"
+      }
+    },
+    {
+      "id": "vocabulary-24",
+      "word": "咳",
+      "reading": "せき",
+      "meaning": "咳嗽",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "咳や鼻水はありますか。",
+          "zh": "有咳嗽或流鼻涕吗？",
+          "ttsText": "せきやはなみずはありますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-11"
+      }
+    },
+    {
+      "id": "vocabulary-25",
+      "word": "鼻水",
+      "reading": "はなみず",
+      "meaning": "鼻涕",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "咳や鼻水はありますか。",
+          "zh": "有咳嗽或流鼻涕吗？",
+          "ttsText": "せきやはなみずはありますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-11"
+      }
+    },
+    {
+      "id": "vocabulary-26",
+      "word": "診察",
+      "reading": "しんさつ",
+      "meaning": "诊察",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-27",
+      "word": "薬剤師",
+      "reading": "やくざいし",
+      "meaning": "药师",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "はい。薬剤師さんの説明と同じです。",
+          "zh": "有，和药师的说明一样。",
+          "ttsText": "はい。やくざいしさんのせつめいとおなじです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "polite",
+        "lineId": "polite-line-7"
+      }
+    }
+  ],
+  "expressions": [
+    {
+      "id": "expression-one",
+      "function": "从昨天起发烧。",
+      "pattern": "昨日から熱があります。",
+      "meaning": "从昨天起发烧。",
+      "audience": "诊所接待、医生、药师。",
+      "notes": [
+        "固定句：昨日(きのう)から熱(ねつ)があります。",
+        "不可以替换什么：不能为了套句而编造发烧或时间。",
+        "语感差异：向医疗人员报告症状清楚直接。",
+        "对谁不能说：对非医疗人员求诊断不合适。",
+        "其他用法：报告其他持续症状也可套用结构。",
+        "本课要求：把症状和开始时间换成实际信息。"
+      ],
+      "slots": [
+        {
+          "key": "可替换部分",
+          "description": "可替换真实的起始时间和症状名词。"
+        }
+      ],
+      "examples": [
+        {
+          "ja": "昨日から熱があります。喉も痛いです。",
+          "zh": "从昨天起发烧，喉咙也疼。",
+          "ttsText": "きのうからねつがあります。のどもいたいです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-10"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "grammar-1",
+      "pattern": "症状存在",
+      "level": "N5",
+      "meaning": "说明发热。",
+      "connection": "症状名词后接主体助词，再接存在动词。",
+      "notes": [
+        "课文对应：すみません、熱(ねつ)があります。受付(うけつけ)はこちらですか。",
+        "例题：すみません、（　）。受付(うけつけ)はこちらですか。",
+        "答案：熱(ねつ)があります"
+      ],
+      "examples": [
+        {
+          "ja": "すみません、熱があります。受付はこちらですか。",
+          "zh": "不好意思，我发烧了。接待处是在这里吗？",
+          "ttsText": "すみません、ねつがあります。うけつけはこちらですか。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "pattern": "起始时间",
+      "level": "N5",
+      "meaning": "说明从昨天起发热。",
+      "connection": "时间后接表示起点的助词。",
+      "notes": [
+        "课文对应：昨日(きのう)から熱(ねつ)があります。喉(のど)も痛(いた)いです。",
+        "例题：（　）熱(ねつ)があります。喉(のど)も痛(いた)いです。",
+        "答案：昨日(きのう)から"
+      ],
+      "examples": [
+        {
+          "ja": "昨日から熱があります。喉も痛いです。",
+          "zh": "从昨天起发烧，喉咙也疼。",
+          "ttsText": "きのうからねつがあります。のどもいたいです。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "pattern": "形容词礼貌表达",
+      "level": "N5",
+      "meaning": "说明喉咙痛。",
+      "connection": "表示身体感受的形容词后接礼貌词尾。",
+      "notes": [
+        "课文对应：昨日(きのう)から熱(ねつ)があります。喉(のど)も痛(いた)いです。",
+        "例题：昨日(きのう)から熱(ねつ)があります。喉(のど)も（　）。",
+        "答案：痛(いた)いです"
+      ],
+      "examples": [
+        {
+          "ja": "昨日から熱があります。喉も痛いです。",
+          "zh": "从昨天起发烧，喉咙也疼。",
+          "ttsText": "きのうからねつがあります。のどもいたいです。"
+        }
+      ]
+    }
+  ],
+  "shadowing": [
+    {
+      "id": "shadowing-polite",
+      "dialogueId": "polite",
+      "lineIds": [
+        "polite-line-1",
+        "polite-line-2",
+        "polite-line-3",
+        "polite-line-4",
+        "polite-line-5",
+        "polite-line-6",
+        "polite-line-7",
+        "polite-line-8",
+        "polite-line-9"
+      ],
+      "prompt": "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+    },
+    {
+      "id": "shadowing-plain",
+      "dialogueId": "plain",
+      "lineIds": [
+        "plain-line-1",
+        "plain-line-2",
+        "plain-line-3",
+        "plain-line-4",
+        "plain-line-5",
+        "plain-line-6",
+        "plain-line-7",
+        "plain-line-8",
+        "plain-line-9"
+      ],
+      "prompt": "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+    }
+  ],
+  "homework": [],
+  "references": [
+    {
+      "title": "seikatsu-nihongo/content/n5-source.txt",
+      "note": "唯一正文来源；第19课。源稿日语、事实与说明保持不变；本次新增忠实中文译文用于 v1 必填 zh，未创作场景或作业。 N5 章节的完整通用使用说明统一保存在同章 n5-1 的「N5 章节使用说明」素材中。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/README.md",
+      "note": "n5.json 为 TXT 生成结果，已通过 import-n5.mjs --check；不重复导出生成 README。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/review-notes.md",
+      "note": "沿用 2026-09-30 校订；现实条件与时限按原说明保留，不把课号当办事日期。"
+    },
+    {
+      "title": "JLPT官方考试指南",
+      "url": "https://jlpt.jp/cn/reference/pdf/guidebook1.pdf",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "出入国在留管理厅",
+      "url": "https://www.moj.go.jp/isa/applications/procedures/nyuukokukanri10_00021.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "日本海关",
+      "url": "https://www.customs.go.jp/english/passenger/declaration/declaration_app.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "东京燃气",
+      "url": "https://home.tokyo-gas.co.jp/gas_power/procedure/moving/khsn_k_nagare.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "povo官方",
+      "url": "https://povo.jp/procedure/",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "日本邮政银行",
+      "url": "https://www.jp-bank.japanpost.jp/kaisetu/kat_gaikokujin.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "厚生劳动省",
+      "url": "https://www.mhlw.go.jp/stf/newpage_50657.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    }
+  ]
+}

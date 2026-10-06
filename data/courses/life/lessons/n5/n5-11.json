@@ -1,0 +1,1101 @@
+{
+  "schemaVersion": 1,
+  "id": "n5-11",
+  "unitId": "n5",
+  "order": 111,
+  "title": "第11课 第一晚给家里打电话",
+  "level": "N5",
+  "kind": "scene",
+  "objectives": [
+    "1.1 能向家人说自己已到住处。",
+    "1.2 能用简短句子说房间与晚饭怎么样。",
+    "1.3 能告诉家人自己今晚会休息。"
+  ],
+  "scene": {
+    "background": "入住后的第一晚，我打电话向家人报平安，说说房间和晚饭的感受。",
+    "channel": "phone",
+    "tasks": [
+      "1.1 能向家人说自己已到住处。",
+      "1.2 能用简短句子说房间与晚饭怎么样。",
+      "1.3 能告诉家人自己今晚会休息。"
+    ],
+    "relationships": "你扮演“我（わたし）”。私（学习者）：赴日学习者；母亲：母亲"
+  },
+  "learnerSpeakerId": "learner",
+  "speakers": [
+    {
+      "id": "learner",
+      "name": "我（わたし）",
+      "role": "你扮演的角色；赴日学习者"
+    },
+    {
+      "id": "speaker-2",
+      "name": "母亲",
+      "role": "母亲"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "main",
+      "title": "场景课文",
+      "variant": "main",
+      "lines": [
+        {
+          "id": "main-line-1",
+          "speakerId": "learner",
+          "ja": "もしもし。無事に着きました。",
+          "zh": "喂，我平安到了。",
+          "reading": "もしもし。ぶじにつきました。",
+          "ttsText": "もしもし。ぶじにつきました。"
+        },
+        {
+          "id": "main-line-2",
+          "speakerId": "speaker-2",
+          "ja": "声が聞けて安心しました。疲れていませんか。",
+          "zh": "听到你的声音就放心了。累不累？",
+          "reading": "こえがきけてあんしんしました。つかれていませんか。",
+          "ttsText": "こえがきけてあんしんしました。つかれていませんか。"
+        },
+        {
+          "id": "main-line-3",
+          "speakerId": "learner",
+          "ja": "少し疲れました。でも、大丈夫です。",
+          "zh": "有点累，不过没事。",
+          "reading": "すこしつかれました。でも、だいじょうぶです。",
+          "ttsText": "すこしつかれました。でも、だいじょうぶです。"
+        },
+        {
+          "id": "main-line-4",
+          "speakerId": "speaker-2",
+          "ja": "よかった。部屋はどうですか。",
+          "zh": "太好了。房间怎么样？",
+          "reading": "よかった。へやはどうですか。",
+          "ttsText": "よかった。へやはどうですか。"
+        },
+        {
+          "id": "main-line-5",
+          "speakerId": "learner",
+          "ja": "部屋は小さいですが、静かです。",
+          "zh": "房间虽小，但很安静。",
+          "reading": "へやはちいさいですが、しずかです。",
+          "ttsText": "へやはちいさいですが、しずかです。"
+        },
+        {
+          "id": "main-line-6",
+          "speakerId": "speaker-2",
+          "ja": "必要なものは買えましたか。",
+          "zh": "需要的东西买到了吗？",
+          "reading": "ひつようなものはかえましたか。",
+          "ttsText": "ひつようなものはかえましたか。"
+        },
+        {
+          "id": "main-line-7",
+          "speakerId": "learner",
+          "ja": "枕は買いました。まだ買うものもあります。",
+          "zh": "买了枕头。还有一些东西没买。",
+          "reading": "まくらはかいました。まだかうものもあります。",
+          "ttsText": "まくらはかいました。まだかうものもあります。"
+        },
+        {
+          "id": "main-line-8",
+          "speakerId": "speaker-2",
+          "ja": "晩ご飯は食べましたか。",
+          "zh": "吃过晚饭了吗？",
+          "reading": "ばんごはんはたべましたか。",
+          "ttsText": "ばんごはんはたべましたか。"
+        },
+        {
+          "id": "main-line-9",
+          "speakerId": "learner",
+          "ja": "はい。カレーを食べました。おいしかったです。",
+          "zh": "吃了，吃的咖喱。很好吃。",
+          "reading": "はい。カレーをたべました。おいしかったです。",
+          "ttsText": "はい。カレーをたべました。おいしかったです。"
+        },
+        {
+          "id": "main-line-10",
+          "speakerId": "speaker-2",
+          "ja": "近くに食べる所があってよかったね。",
+          "zh": "附近有吃饭的地方，真好。",
+          "reading": "ちかくにたべるところがあってよかったね。",
+          "ttsText": "ちかくにたべるところがあってよかったね。"
+        },
+        {
+          "id": "main-line-11",
+          "speakerId": "learner",
+          "ja": "はい。店の人も親切でした。",
+          "zh": "是的，店里的人也很亲切。",
+          "reading": "はい。みせのひともしんせつでした。",
+          "ttsText": "はい。みせのひともしんせつでした。"
+        },
+        {
+          "id": "main-line-12",
+          "speakerId": "speaker-2",
+          "ja": "それならよかった。",
+          "zh": "那就好。",
+          "reading": "それならよかった。",
+          "ttsText": "それならよかった。"
+        },
+        {
+          "id": "main-line-13",
+          "speakerId": "learner",
+          "ja": "今日は早く寝ます。",
+          "zh": "今天我早点睡。",
+          "reading": "きょうははやくねます。",
+          "ttsText": "きょうははやくねます。"
+        },
+        {
+          "id": "main-line-14",
+          "speakerId": "speaker-2",
+          "ja": "明日も連絡してくださいね。",
+          "zh": "明天也要联系我哦。",
+          "reading": "あしたもれんらくしてくださいね。",
+          "ttsText": "あしたもれんらくしてくださいね。"
+        },
+        {
+          "id": "main-line-15",
+          "speakerId": "learner",
+          "ja": "うん。おやすみなさい。",
+          "zh": "嗯，晚安。",
+          "reading": "うん。おやすみなさい。",
+          "ttsText": "うん。おやすみなさい。"
+        },
+        {
+          "id": "main-line-16",
+          "speakerId": "speaker-2",
+          "ja": "おやすみ。",
+          "zh": "晚安。",
+          "reading": "おやすみ。",
+          "ttsText": "おやすみ。"
+        }
+      ]
+    },
+    {
+      "id": "polite",
+      "title": "跟读文本（礼貌体版·母子电话）",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "polite-line-1",
+          "speakerId": "speaker-2",
+          "ja": "ベッドはどうですか。",
+          "zh": "床怎么样？",
+          "reading": "ベッドはどうですか。",
+          "ttsText": "ベッドはどうですか。"
+        },
+        {
+          "id": "polite-line-2",
+          "speakerId": "learner",
+          "ja": "新しいです。よく寝られそうです。",
+          "zh": "是新的。看起来能睡个好觉。",
+          "reading": "あたらしいです。よくねられそうです。",
+          "ttsText": "あたらしいです。よくねられそうです。"
+        },
+        {
+          "id": "polite-line-3",
+          "speakerId": "speaker-2",
+          "ja": "明日は学校ですか。",
+          "zh": "明天要去学校吗？",
+          "reading": "あしたはがっこうですか。",
+          "ttsText": "あしたはがっこうですか。"
+        },
+        {
+          "id": "polite-line-4",
+          "speakerId": "learner",
+          "ja": "はい。朝行きます。",
+          "zh": "是的，早上去。",
+          "reading": "はい。あさいきます。",
+          "ttsText": "はい。あさいきます。"
+        },
+        {
+          "id": "polite-line-5",
+          "speakerId": "speaker-2",
+          "ja": "明日の準備はできましたか。",
+          "zh": "明天的准备做好了吗？",
+          "reading": "あしたのじゅんびはできましたか。",
+          "ttsText": "あしたのじゅんびはできましたか。"
+        },
+        {
+          "id": "polite-line-6",
+          "speakerId": "learner",
+          "ja": "学校の場所をもう一度見ます。",
+          "zh": "我再看一遍学校的位置。",
+          "reading": "がっこうのばしょをもういちどみます。",
+          "ttsText": "がっこうのばしょをもういちどみます。"
+        },
+        {
+          "id": "polite-line-7",
+          "speakerId": "speaker-2",
+          "ja": "では、確認したら休んでください。",
+          "zh": "那确认好就休息吧。",
+          "reading": "では、かくにんしたらやすんでください。",
+          "ttsText": "では、かくにんしたらやすんでください。"
+        },
+        {
+          "id": "polite-line-8",
+          "speakerId": "learner",
+          "ja": "はい。おやすみなさい。",
+          "zh": "好的，晚安。",
+          "reading": "はい。おやすみなさい。",
+          "ttsText": "はい。おやすみなさい。"
+        }
+      ]
+    },
+    {
+      "id": "plain",
+      "title": "跟读文本（普通体版·母子电话）",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "plain-line-1",
+          "speakerId": "speaker-2",
+          "ja": "ベッド、どう？",
+          "zh": "床怎么样？",
+          "reading": "ベッド、どう？",
+          "ttsText": "ベッド、どう？"
+        },
+        {
+          "id": "plain-line-2",
+          "speakerId": "learner",
+          "ja": "新しいよ。よく寝られそう。",
+          "zh": "是新的。看起来能睡个好觉。",
+          "reading": "あたらしいよ。よくねられそう。",
+          "ttsText": "あたらしいよ。よくねられそう。"
+        },
+        {
+          "id": "plain-line-3",
+          "speakerId": "speaker-2",
+          "ja": "明日は学校？",
+          "zh": "明天要去学校吗？",
+          "reading": "あしたはがっこう？",
+          "ttsText": "あしたはがっこう？"
+        },
+        {
+          "id": "plain-line-4",
+          "speakerId": "learner",
+          "ja": "うん。朝行く。",
+          "zh": "是的，早上去。",
+          "reading": "うん。あさいく。",
+          "ttsText": "うん。あさいく。"
+        },
+        {
+          "id": "plain-line-5",
+          "speakerId": "speaker-2",
+          "ja": "明日の準備、できた？",
+          "zh": "明天的准备做好了吗？",
+          "reading": "あしたのじゅんび、できた？",
+          "ttsText": "あしたのじゅんび、できた？"
+        },
+        {
+          "id": "plain-line-6",
+          "speakerId": "learner",
+          "ja": "学校の場所をもう一度見る。",
+          "zh": "我再看一遍学校的位置。",
+          "reading": "がっこうのばしょをもういちどみる。",
+          "ttsText": "がっこうのばしょをもういちどみる。"
+        },
+        {
+          "id": "plain-line-7",
+          "speakerId": "speaker-2",
+          "ja": "それなら、確認したら休んでね。",
+          "zh": "那确认好就休息吧。",
+          "reading": "それなら、かくにんしたらやすんでね。",
+          "ttsText": "それなら、かくにんしたらやすんでね。"
+        },
+        {
+          "id": "plain-line-8",
+          "speakerId": "learner",
+          "ja": "うん。おやすみ。",
+          "zh": "好的，晚安。",
+          "reading": "うん。おやすみ。",
+          "ttsText": "うん。おやすみ。"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "lesson-context",
+      "title": "场景与使用说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "场景：入住后的第一晚，我打电话向家人报平安，说说房间和晚饭的感受。\n使用场合：说自己平安到住处、描述当天简单感受。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "goal-notes",
+      "title": "目标补充说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [["自测：用真实的一件好事和一件仍需适应的事，给家人做三句口头汇报。"]]
+        }
+      ]
+    },
+    {
+      "id": "dialogue-context",
+      "title": "课文与语体版本的转场、交谈对象",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["对话 ID", "位置（在该行之后；下一行注明对象）", "原场景提示"],
+          "rows": [
+            ["main", "整体", "情境：我已入住、吃完晚饭；母亲先确认安全，再聊感受。"],
+            ["main", "整体", "说明：只说自己实际体验过的房间和食物；形容词评价没有标准答案。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "register-comparison",
+      "title": "两版差异对照（行 ID 对应上方语体版本）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说话者", "礼貌体行 ID", "普通体行 ID", "原差异说明"],
+          "rows": [
+            ["母亲", "polite-line-1", "plain-line-1", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-2", "plain-line-2", "表达内容相同，语体不同"],
+            ["母亲", "polite-line-3", "plain-line-3", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-4", "plain-line-4", "表达内容相同，语体不同"],
+            ["母亲", "polite-line-5", "plain-line-5", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-6", "plain-line-6", "表达内容相同，语体不同"],
+            ["母亲", "polite-line-7", "plain-line-7", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-8", "plain-line-8", "表达内容相同，语体不同"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shadowing-notes",
+      "title": "跟读场景、前提与使用说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "唯一跟读场景：入住第一晚母子通话，谈房间和第二天安排。\n关系与版本前提：普通体版用于母子平时说普通体的关系。\n与课文的区别：课文谈晚餐与房间；这里谈床铺与明天到校确认安排，不表示正式授课已开始。"
+            ],
+            ["■ 跟读步骤"],
+            [
+              "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+            ],
+            ["■ 跟读要点"],
+            ["礼貌体版：先听清母亲问的是房间还是明天的安排。\n普通体版：短句之间停顿，别只求快。"],
+            ["■ 为什么用这个版本"],
+            ["礼貌体版：用于礼貌对话练习或与不熟的亲属沟通。\n普通体版：亲近家人之间自然。"],
+            ["■ 本课跟读目标"],
+            ["能不看稿报平安并说一件真实感受。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary-notes",
+      "title": "词汇分组与学习说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["■ 3A N5基础词汇"],
+            ["本栏指常见初级教材中的N5基础词，不表示官方保证考到。"],
+            ["■ 3B 场景补充词汇（先听懂）"],
+            ["本栏先听懂、能辨认；行政或商品词不要求会写。"],
+            ["词汇使用提醒：评价词要与真实感受相符，不硬凑积极结论。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-notes",
+      "title": "文法安排与补充表达（原 4B）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["■ 4A 基础句型与场景练习"],
+            [
+              "本栏练习基础句型和本课场景中的表达；长句中的敬语、复合结构可先整句理解。例句均从本课课文原样摘取。"
+            ],
+            ["■ 4B 补充表达与后续复习"],
+            [
+              "文法点：形容词普通体过去\n意思：与家人随意聊天时可用普通体过去。\n例句：おいしかった。\n后续学习建议：结合本课语境复习，再在后续系统课程中学习接续与变形；本课程没有第21课。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appendix-1",
+      "title": "附1：当时课程目标下，日本人实际会怎么说",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "家人之间：無事(ぶじ)に着(つ)いたよ。\n对同事朋友：部屋(へや)は静(しず)かです。\n对上级工作人员：無事(ぶじ)に到着(とうちゃく)しました。\n说明：正式报到可用更正式的到达表达，亲近家人说得更短。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appendix-2",
+      "title": "附2：常见误用",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "标记说明：✗包含语法错误，也包含本情境中事实不准确、未核实就断言或应对不合适的说法；不表示所有标记句都不合语法。"
+            ],
+            [
+              "おいしいでした。 ✗ → おいしかったです。 ✓\n原因：该类形容词的过去形式不能直接在现在形后加过去词尾。\nまだ着(つ)いていませんが、無事(ぶじ)に着(つ)きました。 ✗ → 着(つ)いたら連絡(れんらく)します。 ✓\n原因：尚未到达时不能说已经平安抵达。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-1",
+      "title": "词汇读音与释义资料（原测试 1）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "读音：へや\n答案：部屋(へや) — 房间\n读音：ちいさい\n答案：小(ちい)さい — 小\n读音：しずか\n答案：静(しず)か — 安静\n读音：たべました\n答案：食(た)べました — 吃了\n读音：きょう\n答案：今日(きょう) — 今天\n读音：はやく\n答案：早(はや)く — 早地\n读音：ねます\n答案：寝(ね)ます — 睡觉\n读音：こえ\n答案：声(こえ) — 声音\n读音：ききます\n答案：聞(き)きます — 听\n读音：すこし\n答案：少(すこ)し — 一点\n读音：かいます\n答案：買(か)います — 买\n读音：ひとり\n答案：一人(ひとり) — 一个人\n读音：あした\n答案：明日(あした) — 明天\n读音：みせ\n答案：店(みせ) — 店\n读音：ぶじに\n答案：無事(ぶじ)に — 平安地\n读音：ばんごはん\n答案：晩(ばん)ご飯(はん) — 晚饭；生活组合词\n读音：もしもし\n答案：もしもし — 电话开场\n读音：それなら\n答案：それなら — 既然这样\n读音：あんしん\n答案：安心(あんしん) — 放心\n读音：つかれます\n答案：疲(つか)れます — 疲惫\n读音：ひつよう\n答案：必要(ひつよう) — 需要\n读音：しんせつ\n答案：親切(しんせつ) — 亲切\n读音：れんらく\n答案：連絡(れんらく) — 联系\n读音：おやすみなさい\n答案：おやすみなさい — 晚安\n读音：まくら\n答案：枕(まくら) — 枕头"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-2",
+      "title": "文法例题与参考答案（原测试 2）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "题目：はい。カレーを食(た)べました。（　）。\n答案：おいしかったです\n题目：部屋(へや)は小(ちい)さい（　）、静(しず)かです。\n答案：ですが\n题目：はい。カレーを（　）。おいしかったです。\n答案：食(た)べました"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "vocabulary-1",
+      "word": "部屋",
+      "reading": "へや",
+      "meaning": "房间",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "よかった。部屋はどうですか。",
+          "zh": "太好了。房间怎么样？",
+          "ttsText": "よかった。へやはどうですか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-4"
+      }
+    },
+    {
+      "id": "vocabulary-2",
+      "word": "小さい",
+      "reading": "ちいさい",
+      "meaning": "小",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "部屋は小さいですが、静かです。",
+          "zh": "房间虽小，但很安静。",
+          "ttsText": "へやはちいさいですが、しずかです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-5"
+      }
+    },
+    {
+      "id": "vocabulary-3",
+      "word": "静か",
+      "reading": "しずか",
+      "meaning": "安静",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "部屋は小さいですが、静かです。",
+          "zh": "房间虽小，但很安静。",
+          "ttsText": "へやはちいさいですが、しずかです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-5"
+      }
+    },
+    {
+      "id": "vocabulary-4",
+      "word": "食べました",
+      "reading": "たべました",
+      "meaning": "吃了",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "晩ご飯は食べましたか。",
+          "zh": "吃过晚饭了吗？",
+          "ttsText": "ばんごはんはたべましたか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-8"
+      }
+    },
+    {
+      "id": "vocabulary-5",
+      "word": "今日",
+      "reading": "きょう",
+      "meaning": "今天",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "今日は早く寝ます。",
+          "zh": "今天我早点睡。",
+          "ttsText": "きょうははやくねます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-13"
+      }
+    },
+    {
+      "id": "vocabulary-6",
+      "word": "早く",
+      "reading": "はやく",
+      "meaning": "早地",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "今日は早く寝ます。",
+          "zh": "今天我早点睡。",
+          "ttsText": "きょうははやくねます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-13"
+      }
+    },
+    {
+      "id": "vocabulary-7",
+      "word": "寝ます",
+      "reading": "ねます",
+      "meaning": "睡觉",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "今日は早く寝ます。",
+          "zh": "今天我早点睡。",
+          "ttsText": "きょうははやくねます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-13"
+      }
+    },
+    {
+      "id": "vocabulary-8",
+      "word": "声",
+      "reading": "こえ",
+      "meaning": "声音",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "声が聞けて安心しました。疲れていませんか。",
+          "zh": "听到你的声音就放心了。累不累？",
+          "ttsText": "こえがきけてあんしんしました。つかれていませんか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-2"
+      }
+    },
+    {
+      "id": "vocabulary-9",
+      "word": "聞きます",
+      "reading": "ききます",
+      "meaning": "听",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-10",
+      "word": "少し",
+      "reading": "すこし",
+      "meaning": "一点",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "少し疲れました。でも、大丈夫です。",
+          "zh": "有点累，不过没事。",
+          "ttsText": "すこしつかれました。でも、だいじょうぶです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-3"
+      }
+    },
+    {
+      "id": "vocabulary-11",
+      "word": "買います",
+      "reading": "かいます",
+      "meaning": "买",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-12",
+      "word": "一人",
+      "reading": "ひとり",
+      "meaning": "一个人",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-13",
+      "word": "明日",
+      "reading": "あした",
+      "meaning": "明天",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "明日も連絡してくださいね。",
+          "zh": "明天也要联系我哦。",
+          "ttsText": "あしたもれんらくしてくださいね。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-14"
+      }
+    },
+    {
+      "id": "vocabulary-14",
+      "word": "店",
+      "reading": "みせ",
+      "meaning": "店",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "はい。店の人も親切でした。",
+          "zh": "是的，店里的人也很亲切。",
+          "ttsText": "はい。みせのひともしんせつでした。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-11"
+      }
+    },
+    {
+      "id": "vocabulary-15",
+      "word": "無事に",
+      "reading": "ぶじに",
+      "meaning": "平安地",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "もしもし。無事に着きました。",
+          "zh": "喂，我平安到了。",
+          "ttsText": "もしもし。ぶじにつきました。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-16",
+      "word": "晩ご飯",
+      "reading": "ばんごはん",
+      "meaning": "晚饭；生活组合词",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "晩ご飯は食べましたか。",
+          "zh": "吃过晚饭了吗？",
+          "ttsText": "ばんごはんはたべましたか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-8"
+      }
+    },
+    {
+      "id": "vocabulary-17",
+      "word": "もしもし",
+      "reading": "もしもし",
+      "meaning": "电话开场",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "もしもし。無事に着きました。",
+          "zh": "喂，我平安到了。",
+          "ttsText": "もしもし。ぶじにつきました。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-18",
+      "word": "それなら",
+      "reading": "それなら",
+      "meaning": "既然这样",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "それならよかった。",
+          "zh": "那就好。",
+          "ttsText": "それならよかった。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-12"
+      }
+    },
+    {
+      "id": "vocabulary-19",
+      "word": "安心",
+      "reading": "あんしん",
+      "meaning": "放心",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "声が聞けて安心しました。疲れていませんか。",
+          "zh": "听到你的声音就放心了。累不累？",
+          "ttsText": "こえがきけてあんしんしました。つかれていませんか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-2"
+      }
+    },
+    {
+      "id": "vocabulary-20",
+      "word": "疲れます",
+      "reading": "つかれます",
+      "meaning": "疲惫",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-21",
+      "word": "必要",
+      "reading": "ひつよう",
+      "meaning": "需要",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "必要なものは買えましたか。",
+          "zh": "需要的东西买到了吗？",
+          "ttsText": "ひつようなものはかえましたか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-6"
+      }
+    },
+    {
+      "id": "vocabulary-22",
+      "word": "親切",
+      "reading": "しんせつ",
+      "meaning": "亲切",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "はい。店の人も親切でした。",
+          "zh": "是的，店里的人也很亲切。",
+          "ttsText": "はい。みせのひともしんせつでした。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-11"
+      }
+    },
+    {
+      "id": "vocabulary-23",
+      "word": "連絡",
+      "reading": "れんらく",
+      "meaning": "联系",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "明日も連絡してくださいね。",
+          "zh": "明天也要联系我哦。",
+          "ttsText": "あしたもれんらくしてくださいね。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-14"
+      }
+    },
+    {
+      "id": "vocabulary-24",
+      "word": "おやすみなさい",
+      "reading": "おやすみなさい",
+      "meaning": "晚安",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "うん。おやすみなさい。",
+          "zh": "嗯，晚安。",
+          "ttsText": "うん。おやすみなさい。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-15"
+      }
+    },
+    {
+      "id": "vocabulary-25",
+      "word": "枕",
+      "reading": "まくら",
+      "meaning": "枕头",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "枕は買いました。まだ買うものもあります。",
+          "zh": "买了枕头。还有一些东西没买。",
+          "ttsText": "まくらはかいました。まだかうものもあります。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-7"
+      }
+    }
+  ],
+  "expressions": [
+    {
+      "id": "expression-one",
+      "function": "我平安到了。",
+      "pattern": "無事に着きました。",
+      "meaning": "我平安到了。",
+      "audience": "关心行程的家人、朋友。",
+      "notes": [
+        "固定句：無事(ぶじ)に着(つ)きました。",
+        "不可以替换什么：未到达时不能提前发这句报平安。",
+        "语感差异：报平安时直接、自然。",
+        "对谁不能说：没有通知义务的陌生人通常无需主动说。",
+        "其他用法：也可在文字消息中使用。",
+        "本课要求：真正到达并安全后再说。"
+      ],
+      "slots": [
+        {
+          "key": "可替换部分",
+          "description": "可在句首补充真实到达地点，例如「住む所に無事着きました」。原句没有可直接替换的地点名词。"
+        }
+      ],
+      "examples": [
+        {
+          "ja": "もしもし。無事に着きました。",
+          "zh": "喂，我平安到了。",
+          "ttsText": "もしもし。ぶじにつきました。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "grammar-1",
+      "pattern": "形容词礼貌过去",
+      "level": "N5",
+      "meaning": "评价刚吃过的食物。",
+      "connection": "表示性质的形容词变为过去，再接礼貌词尾。",
+      "notes": [
+        "课文对应：はい。カレーを食(た)べました。おいしかったです。",
+        "例题：はい。カレーを食(た)べました。（　）。",
+        "答案：おいしかったです"
+      ],
+      "examples": [
+        {
+          "ja": "はい。カレーを食べました。おいしかったです。",
+          "zh": "吃了，吃的咖喱。很好吃。",
+          "ttsText": "はい。カレーをたべました。おいしかったです。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "pattern": "两种评价的转折",
+      "level": "N5",
+      "meaning": "说房间小但安静。",
+      "connection": "前一描述后接转折连接，再说另一描述。",
+      "notes": [
+        "课文对应：部屋(へや)は小(ちい)さいですが、静(しず)かです。",
+        "例题：部屋(へや)は小(ちい)さい（　）、静(しず)かです。",
+        "答案：ですが"
+      ],
+      "examples": [
+        {
+          "ja": "部屋は小さいですが、静かです。",
+          "zh": "房间虽小，但很安静。",
+          "ttsText": "へやはちいさいですが、しずかです。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "pattern": "动词礼貌过去",
+      "level": "N5",
+      "meaning": "说晚饭已经吃过。",
+      "connection": "动词的礼貌过去形表示已完成。",
+      "notes": [
+        "课文对应：はい。カレーを食(た)べました。おいしかったです。",
+        "例题：はい。カレーを（　）。おいしかったです。",
+        "答案：食(た)べました"
+      ],
+      "examples": [
+        {
+          "ja": "はい。カレーを食べました。おいしかったです。",
+          "zh": "吃了，吃的咖喱。很好吃。",
+          "ttsText": "はい。カレーをたべました。おいしかったです。"
+        }
+      ]
+    }
+  ],
+  "shadowing": [
+    {
+      "id": "shadowing-polite",
+      "dialogueId": "polite",
+      "lineIds": [
+        "polite-line-1",
+        "polite-line-2",
+        "polite-line-3",
+        "polite-line-4",
+        "polite-line-5",
+        "polite-line-6",
+        "polite-line-7",
+        "polite-line-8"
+      ],
+      "prompt": "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+    },
+    {
+      "id": "shadowing-plain",
+      "dialogueId": "plain",
+      "lineIds": [
+        "plain-line-1",
+        "plain-line-2",
+        "plain-line-3",
+        "plain-line-4",
+        "plain-line-5",
+        "plain-line-6",
+        "plain-line-7",
+        "plain-line-8"
+      ],
+      "prompt": "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+    }
+  ],
+  "homework": [],
+  "references": [
+    {
+      "title": "seikatsu-nihongo/content/n5-source.txt",
+      "note": "唯一正文来源；第11课。源稿日语、事实与说明保持不变；本次新增忠实中文译文用于 v1 必填 zh，未创作场景或作业。 N5 章节的完整通用使用说明统一保存在同章 n5-1 的「N5 章节使用说明」素材中。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/README.md",
+      "note": "n5.json 为 TXT 生成结果，已通过 import-n5.mjs --check；不重复导出生成 README。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/review-notes.md",
+      "note": "沿用 2026-09-30 校订；现实条件与时限按原说明保留，不把课号当办事日期。"
+    },
+    {
+      "title": "JLPT官方考试指南",
+      "url": "https://jlpt.jp/cn/reference/pdf/guidebook1.pdf",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "出入国在留管理厅",
+      "url": "https://www.moj.go.jp/isa/applications/procedures/nyuukokukanri10_00021.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "日本海关",
+      "url": "https://www.customs.go.jp/english/passenger/declaration/declaration_app.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "东京燃气",
+      "url": "https://home.tokyo-gas.co.jp/gas_power/procedure/moving/khsn_k_nagare.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "povo官方",
+      "url": "https://povo.jp/procedure/",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "日本邮政银行",
+      "url": "https://www.jp-bank.japanpost.jp/kaisetu/kat_gaikokujin.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "厚生劳动省",
+      "url": "https://www.mhlw.go.jp/stf/newpage_50657.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    }
+  ]
+}

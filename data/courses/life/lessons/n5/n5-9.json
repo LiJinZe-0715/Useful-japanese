@@ -1,0 +1,1130 @@
+{
+  "schemaVersion": 1,
+  "id": "n5-9",
+  "unitId": "n5",
+  "order": 109,
+  "title": "第9课 餐馆点餐与便利店购物",
+  "level": "N5",
+  "kind": "scene",
+  "objectives": [
+    "1.1 能在菜单里选一道菜。",
+    "1.2 能问商品多少钱。",
+    "1.3 能在便利店回答要不要袋子。"
+  ],
+  "scene": {
+    "background": "入住后我到附近餐馆吃晚饭，随后在便利店买第二天的饮料。",
+    "channel": "other",
+    "tasks": ["1.1 能在菜单里选一道菜。", "1.2 能问商品多少钱。", "1.3 能在便利店回答要不要袋子。"],
+    "relationships": "你扮演“我（わたし）”。私（学习者）：赴日学习者；店员：店员；便利店员：便利店员；朋友：朋友"
+  },
+  "learnerSpeakerId": "learner",
+  "speakers": [
+    {
+      "id": "learner",
+      "name": "我（わたし）",
+      "role": "你扮演的角色；赴日学习者"
+    },
+    {
+      "id": "speaker-2",
+      "name": "店员",
+      "role": "店员"
+    },
+    {
+      "id": "speaker-3",
+      "name": "便利店员",
+      "role": "便利店员"
+    },
+    {
+      "id": "speaker-4",
+      "name": "朋友",
+      "role": "朋友"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "main",
+      "title": "场景课文",
+      "variant": "main",
+      "lines": [
+        {
+          "id": "main-line-1",
+          "speakerId": "learner",
+          "ja": "すみません、このカレーをお願いします。",
+          "zh": "不好意思，请给我这份咖喱。",
+          "reading": "すみません、このカレーをおねがいします。",
+          "ttsText": "すみません、このカレーをおねがいします。"
+        },
+        {
+          "id": "main-line-2",
+          "speakerId": "speaker-2",
+          "ja": "店内でお召し上がりですか。",
+          "zh": "在店内用餐吗？",
+          "reading": "てんないでおめしあがりですか。",
+          "ttsText": "てんないでおめしあがりですか。"
+        },
+        {
+          "id": "main-line-3",
+          "speakerId": "learner",
+          "ja": "はい、ここで食べます。",
+          "zh": "是的，在这里吃。",
+          "reading": "はい、ここでたべます。",
+          "ttsText": "はい、ここでたべます。"
+        },
+        {
+          "id": "main-line-4",
+          "speakerId": "speaker-2",
+          "ja": "はい。お飲み物はどうしますか。",
+          "zh": "好的。饮料要什么？",
+          "reading": "はい。おのみものはどうしますか。",
+          "ttsText": "はい。おのみものはどうしますか。"
+        },
+        {
+          "id": "main-line-5",
+          "speakerId": "learner",
+          "ja": "水をお願いします。",
+          "zh": "请给我水。",
+          "reading": "みずをおねがいします。",
+          "ttsText": "みずをおねがいします。"
+        },
+        {
+          "id": "main-line-6",
+          "speakerId": "speaker-2",
+          "ja": "かしこまりました。",
+          "zh": "好的。",
+          "reading": "かしこまりました。",
+          "ttsText": "かしこまりました。"
+        },
+        {
+          "id": "main-line-7",
+          "speakerId": "speaker-2",
+          "ja": "お待たせしました。カレーです。",
+          "zh": "让您久等了，这是咖喱。",
+          "reading": "おまたせしました。カレーです。",
+          "ttsText": "おまたせしました。カレーです。"
+        },
+        {
+          "id": "main-line-8",
+          "speakerId": "learner",
+          "ja": "ありがとうございます。",
+          "zh": "谢谢。",
+          "reading": "ありがとうございます。",
+          "ttsText": "ありがとうございます。"
+        },
+        {
+          "id": "main-line-9",
+          "speakerId": "learner",
+          "ja": "すみません、お会計をお願いします。",
+          "zh": "不好意思，请结账。",
+          "reading": "すみません、おかいけいをおねがいします。",
+          "ttsText": "すみません、おかいけいをおねがいします。"
+        },
+        {
+          "id": "main-line-10",
+          "speakerId": "speaker-2",
+          "ja": "はい、こちらへどうぞ。",
+          "zh": "好的，请到这里来。",
+          "reading": "はい、こちらへどうぞ。",
+          "ttsText": "はい、こちらへどうぞ。"
+        },
+        {
+          "id": "main-line-11",
+          "speakerId": "learner",
+          "ja": "このお茶はいくらですか。",
+          "zh": "这瓶茶多少钱？",
+          "reading": "このおちゃはいくらですか。",
+          "ttsText": "このおちゃはいくらですか。"
+        },
+        {
+          "id": "main-line-12",
+          "speakerId": "speaker-3",
+          "ja": "百五十円です。袋は要りますか。",
+          "zh": "一百五十日元。需要袋子吗？",
+          "reading": "ひゃくごじゅうえんです。ふくろはいりますか。",
+          "ttsText": "ひゃくごじゅうえんです。ふくろはいりますか。"
+        },
+        {
+          "id": "main-line-13",
+          "speakerId": "learner",
+          "ja": "いいえ、袋は要りません。",
+          "zh": "不用，不需要袋子。",
+          "reading": "いいえ、ふくろはいりません。",
+          "ttsText": "いいえ、ふくろはいりません。"
+        },
+        {
+          "id": "main-line-14",
+          "speakerId": "speaker-3",
+          "ja": "お支払いはどうされますか。",
+          "zh": "您想怎么付款？",
+          "reading": "おしはらいはどうされますか。",
+          "ttsText": "おしはらいはどうされますか。"
+        },
+        {
+          "id": "main-line-15",
+          "speakerId": "learner",
+          "ja": "現金で払います。",
+          "zh": "用现金付款。",
+          "reading": "げんきんではらいます。",
+          "ttsText": "げんきんではらいます。"
+        },
+        {
+          "id": "main-line-16",
+          "speakerId": "speaker-3",
+          "ja": "ありがとうございます。レシートは要りますか。",
+          "zh": "谢谢。需要收据吗？",
+          "reading": "ありがとうございます。レシートはいりますか。",
+          "ttsText": "ありがとうございます。レシートはいりますか。"
+        },
+        {
+          "id": "main-line-17",
+          "speakerId": "learner",
+          "ja": "はい、お願いします。",
+          "zh": "需要，麻烦您。",
+          "reading": "はい、おねがいします。",
+          "ttsText": "はい、おねがいします。"
+        }
+      ]
+    },
+    {
+      "id": "polite",
+      "title": "跟读文本（礼貌体版·便利店买便当）",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "polite-line-1",
+          "speakerId": "speaker-4",
+          "ja": "お弁当を買いますか。",
+          "zh": "买便当吗？",
+          "reading": "おべんとうをかいますか。",
+          "ttsText": "おべんとうをかいますか。"
+        },
+        {
+          "id": "polite-line-2",
+          "speakerId": "learner",
+          "ja": "はい、このお弁当を買います。",
+          "zh": "是的，我买这个便当。",
+          "reading": "はい、このおべんとうをかいます。",
+          "ttsText": "はい、このおべんとうをかいます。"
+        },
+        {
+          "id": "polite-line-3",
+          "speakerId": "learner",
+          "ja": "ジュースもお願いします。",
+          "zh": "也请给我果汁。",
+          "reading": "ジュースもおねがいします。",
+          "ttsText": "ジュースもおねがいします。"
+        },
+        {
+          "id": "polite-line-4",
+          "speakerId": "speaker-4",
+          "ja": "お弁当と飲み物、両方買いましたか。",
+          "zh": "便当和饮料都买了吗？",
+          "reading": "おべんとうとのみもの、りょうほうかいましたか。",
+          "ttsText": "おべんとうとのみもの、りょうほうかいましたか。"
+        },
+        {
+          "id": "polite-line-5",
+          "speakerId": "learner",
+          "ja": "はい。袋は要らなかったです。",
+          "zh": "是的。没有要袋子。",
+          "reading": "はい。ふくろはいらなかったです。",
+          "ttsText": "はい。ふくろはいらなかったです。"
+        },
+        {
+          "id": "polite-line-6",
+          "speakerId": "speaker-4",
+          "ja": "では、帰りましょう。",
+          "zh": "那回去吧。",
+          "reading": "では、かえりましょう。",
+          "ttsText": "では、かえりましょう。"
+        },
+        {
+          "id": "polite-line-7",
+          "speakerId": "learner",
+          "ja": "はい、帰ります。",
+          "zh": "好的，我回去。",
+          "reading": "はい、かえります。",
+          "ttsText": "はい、かえります。"
+        }
+      ]
+    },
+    {
+      "id": "plain",
+      "title": "跟读文本（普通体版·便利店买便当）",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "plain-line-1",
+          "speakerId": "speaker-4",
+          "ja": "お弁当、買う？",
+          "zh": "买便当吗？",
+          "reading": "おべんとう、かう？",
+          "ttsText": "おべんとう、かう？"
+        },
+        {
+          "id": "plain-line-2",
+          "speakerId": "learner",
+          "ja": "うん、このお弁当を買う。",
+          "zh": "是的，我买这个便当。",
+          "reading": "うん、このおべんとうをかう。",
+          "ttsText": "うん、このおべんとうをかう。"
+        },
+        {
+          "id": "plain-line-3",
+          "speakerId": "learner",
+          "ja": "ジュースもお願いします。",
+          "zh": "也请给我果汁。",
+          "reading": "ジュースもおねがいします。",
+          "ttsText": "ジュースもおねがいします。"
+        },
+        {
+          "id": "plain-line-4",
+          "speakerId": "speaker-4",
+          "ja": "お弁当と飲み物、両方買った？",
+          "zh": "便当和饮料都买了吗？",
+          "reading": "おべんとうとのみもの、りょうほうかった？",
+          "ttsText": "おべんとうとのみもの、りょうほうかった？"
+        },
+        {
+          "id": "plain-line-5",
+          "speakerId": "learner",
+          "ja": "うん。袋は要らなかった。",
+          "zh": "是的。没有要袋子。",
+          "reading": "うん。ふくろはいらなかった。",
+          "ttsText": "うん。ふくろはいらなかった。"
+        },
+        {
+          "id": "plain-line-6",
+          "speakerId": "speaker-4",
+          "ja": "それなら、帰ろう。",
+          "zh": "那回去吧。",
+          "reading": "それなら、かえろう。",
+          "ttsText": "それなら、かえろう。"
+        },
+        {
+          "id": "plain-line-7",
+          "speakerId": "learner",
+          "ja": "うん、帰る。",
+          "zh": "好的，我回去。",
+          "reading": "うん、かえる。",
+          "ttsText": "うん、かえる。"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "lesson-context",
+      "title": "场景与使用说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "场景：入住后我到附近餐馆吃晚饭，随后在便利店买第二天的饮料。\n使用场合：看菜单选择食物，询问价格，结账时说明是否需要袋子。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "goal-notes",
+      "title": "目标补充说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [["自测：看真实菜单或货架标价，直接说出要买什么；不确定价格时问价。"]]
+        }
+      ]
+    },
+    {
+      "id": "dialogue-context",
+      "title": "课文与语体版本的转场、交谈对象",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["对话 ID", "位置（在该行之后；下一行注明对象）", "原场景提示"],
+          "rows": [
+            [
+              "main",
+              "整体",
+              "情境：先在提供柜台点单的小店点餐，再到便利店购物；两段对话按实际顺序发生。"
+            ],
+            ["main", "下一行 1", "私(わたし)→店员"],
+            ["main", "main-line-8", "〔用餐后〕"],
+            ["main", "main-line-10", "〔之后，在便利店〕"],
+            ["main", "下一行 11", "私(わたし)→便利店员"],
+            [
+              "main",
+              "整体",
+              "说明：价格仅为例题设定，须以店内标价和结账金额为准。是否自助取水、是否柜台点餐因店而异。"
+            ],
+            ["polite", "下一行 3", "私(わたし)→店员"],
+            ["polite", "polite-line-3", "〔结账后，与朋友交谈〕"],
+            ["plain", "下一行 3", "私(わたし)→店员"],
+            ["plain", "plain-line-3", "〔结账后，与朋友交谈〕"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "register-comparison",
+      "title": "两版差异对照（行 ID 对应上方语体版本）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说话者", "礼貌体行 ID", "普通体行 ID", "原差异说明"],
+          "rows": [
+            ["朋友", "polite-line-1", "plain-line-1", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-2", "plain-line-2", "表达内容相同，语体不同"],
+            ["私(わたし)→店员", "polite-line-3", "plain-line-3", "两版保持同一句表达"],
+            ["朋友", "polite-line-4", "plain-line-4", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-5", "plain-line-5", "表达内容相同，语体不同"],
+            ["朋友", "polite-line-6", "plain-line-6", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-7", "plain-line-7", "表达内容相同，语体不同"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shadowing-notes",
+      "title": "跟读场景、前提与使用说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "唯一跟读场景：在便利店买便当和饮料。\n关系与版本前提：普通体版用于我和熟悉朋友在排队前商量；结账时对店员仍说礼貌体。\n与课文的区别：课文在餐馆点咖喱、便利店问茶价；这里买便当和果汁。"
+            ],
+            ["■ 跟读步骤"],
+            [
+              "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+            ],
+            ["■ 跟读要点"],
+            [
+              "礼貌体版：点单时指清商品，避免只说一个泛泛的词。\n普通体版：朋友商量与店员结账的语体界线要清楚。"
+            ],
+            ["■ 为什么用这个版本"],
+            ["礼貌体版：不熟的朋友和店员适用。\n普通体版：熟悉朋友之间的商量自然。"],
+            ["■ 本课跟读目标"],
+            ["看到商品就能直接说要买什么。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary-notes",
+      "title": "词汇分组与学习说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["■ 3A N5基础词汇"],
+            ["本栏指常见初级教材中的N5基础词，不表示官方保证考到。"],
+            ["■ 3B 场景补充词汇（先听懂）"],
+            ["本栏先听懂、能辨认；行政或商品词不要求会写。"],
+            ["词汇使用提醒：商品和服务词应结合自己常去的店积累，不凭例句推断所有店的价格。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-notes",
+      "title": "文法安排与补充表达（原 4B）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["■ 4A 基础句型与场景练习"],
+            [
+              "本栏练习基础句型和本课场景中的表达；长句中的敬语、复合结构可先整句理解。例句均从本课课文原样摘取。"
+            ],
+            ["■ 4B 补充表达与后续复习"],
+            [
+              "文法点：形容词说明味道\n意思：可以用形容词表达对餐食的感受；第11课结合实际体验学习。\n例句：このカレーはおいしいです。\n后续学习建议：结合本课语境复习，再在后续系统课程中学习接续与变形；本课程没有第21课。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appendix-1",
+      "title": "附1：当时课程目标下，日本人实际会怎么说",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "家人之间：このお弁当(べんとう)、買(か)う？\n对同事朋友：このお弁当(べんとう)を買(か)います。\n对上级工作人员：このお弁当(べんとう)をお願(ねが)いします。\n说明：拿在手里的便利店商品通常直接结账；是否口头逐件点单取决于收银情境。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appendix-2",
+      "title": "附2：常见误用",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "标记说明：✗包含语法错误，也包含本情境中事实不准确、未核实就断言或应对不合适的说法；不表示所有标记句都不合语法。"
+            ],
+            [
+              "このお茶(ちゃ)はいくつですか。 ✗ → このお茶(ちゃ)はいくらですか。 ✓\n原因：问价格使用价格疑问词。\n袋(ふくろ)はいいえ。 ✗ → 袋(ふくろ)は要(い)りません。 ✓\n原因：完整回答需要与不需要更清楚。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-1",
+      "title": "词汇读音与释义资料（原测试 1）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "读音：みず\n答案：水(みず) — 水\n读音：おちゃ\n答案：お茶(ちゃ) — 茶\n读音：いくら\n答案：いくら — 多少钱\n读音：えん\n答案：円(えん) — 日元\n读音：これ\n答案：これ — 这个\n读音：のみもの\n答案：飲(の)み物(もの) — 饮料\n读音：ひゃく\n答案：百(ひゃく) — 一百\n读音：ここ\n答案：ここ — 这里\n读音：たべます\n答案：食(た)べます — 吃\n读音：まちます\n答案：待(ま)ちます — 等\n读音：でます\n答案：出(で)ます — 出现\n读音：はらいます\n答案：払(はら)います — 支付\n读音：はい\n答案：はい — 是\n读音：カレー\n答案：カレー — 咖喱饭\n读音：ふくろ\n答案：袋(ふくろ) — 袋子\n读音：いります\n答案：要(い)ります — 需要\n读音：いりません\n答案：要(い)りません — 不需要\n读音：かしこまりました\n答案：かしこまりました — 服务人员表示明白\n读音：てんない\n答案：店内(てんない) — 店内\n读音：おめしあがり\n答案：お召(め)し上(あ)がり — 服务方询问堂食\n读音：おかいけい\n答案：お会計(かいけい) — 结账\n读音：たな\n答案：棚(たな) — 货架\n读音：ねだん\n答案：値段(ねだん) — 价格\n读音：おしはらい\n答案：お支払(しはら)い — 付款\n读音：げんきん\n答案：現金(げんきん) — 现金\n读音：レシート\n答案：レシート — 收据\n读音：ごりようですか\n答案：ご利用(りよう)ですか — 是否需要；服务方说法"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-2",
+      "title": "文法例题与参考答案（原测试 2）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "题目：すみません、（　）カレーをお願(ねが)いします。\n答案：この\n题目：このお茶(ちゃ)は（　）。\n答案：いくらですか\n题目：いいえ、袋(ふくろ)は（　）。\n答案：要(い)りません"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "vocabulary-1",
+      "word": "水",
+      "reading": "みず",
+      "meaning": "水",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "水をお願いします。",
+          "zh": "请给我水。",
+          "ttsText": "みずをおねがいします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-5"
+      }
+    },
+    {
+      "id": "vocabulary-2",
+      "word": "お茶",
+      "reading": "おちゃ",
+      "meaning": "茶",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "このお茶はいくらですか。",
+          "zh": "这瓶茶多少钱？",
+          "ttsText": "このおちゃはいくらですか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-11"
+      }
+    },
+    {
+      "id": "vocabulary-3",
+      "word": "いくら",
+      "reading": "いくら",
+      "meaning": "多少钱",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "このお茶はいくらですか。",
+          "zh": "这瓶茶多少钱？",
+          "ttsText": "このおちゃはいくらですか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-11"
+      }
+    },
+    {
+      "id": "vocabulary-4",
+      "word": "円",
+      "reading": "えん",
+      "meaning": "日元",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "百五十円です。袋は要りますか。",
+          "zh": "一百五十日元。需要袋子吗？",
+          "ttsText": "ひゃくごじゅうえんです。ふくろはいりますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-12"
+      }
+    },
+    {
+      "id": "vocabulary-5",
+      "word": "これ",
+      "reading": "これ",
+      "meaning": "这个",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-6",
+      "word": "飲み物",
+      "reading": "のみもの",
+      "meaning": "饮料",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "はい。お飲み物はどうしますか。",
+          "zh": "好的。饮料要什么？",
+          "ttsText": "はい。おのみものはどうしますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-4"
+      }
+    },
+    {
+      "id": "vocabulary-7",
+      "word": "百",
+      "reading": "ひゃく",
+      "meaning": "一百",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "百五十円です。袋は要りますか。",
+          "zh": "一百五十日元。需要袋子吗？",
+          "ttsText": "ひゃくごじゅうえんです。ふくろはいりますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-12"
+      }
+    },
+    {
+      "id": "vocabulary-8",
+      "word": "ここ",
+      "reading": "ここ",
+      "meaning": "这里",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "はい、ここで食べます。",
+          "zh": "是的，在这里吃。",
+          "ttsText": "はい、ここでたべます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-3"
+      }
+    },
+    {
+      "id": "vocabulary-9",
+      "word": "食べます",
+      "reading": "たべます",
+      "meaning": "吃",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "はい、ここで食べます。",
+          "zh": "是的，在这里吃。",
+          "ttsText": "はい、ここでたべます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-3"
+      }
+    },
+    {
+      "id": "vocabulary-10",
+      "word": "待ちます",
+      "reading": "まちます",
+      "meaning": "等",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-11",
+      "word": "出ます",
+      "reading": "でます",
+      "meaning": "出现",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-12",
+      "word": "払います",
+      "reading": "はらいます",
+      "meaning": "支付",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "現金で払います。",
+          "zh": "用现金付款。",
+          "ttsText": "げんきんではらいます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-15"
+      }
+    },
+    {
+      "id": "vocabulary-13",
+      "word": "はい",
+      "reading": "はい",
+      "meaning": "是",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "はい、ここで食べます。",
+          "zh": "是的，在这里吃。",
+          "ttsText": "はい、ここでたべます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-3"
+      }
+    },
+    {
+      "id": "vocabulary-14",
+      "word": "カレー",
+      "reading": "カレー",
+      "meaning": "咖喱饭",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "すみません、このカレーをお願いします。",
+          "zh": "不好意思，请给我这份咖喱。",
+          "ttsText": "すみません、このカレーをおねがいします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-15",
+      "word": "袋",
+      "reading": "ふくろ",
+      "meaning": "袋子",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "百五十円です。袋は要りますか。",
+          "zh": "一百五十日元。需要袋子吗？",
+          "ttsText": "ひゃくごじゅうえんです。ふくろはいりますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-12"
+      }
+    },
+    {
+      "id": "vocabulary-16",
+      "word": "要ります",
+      "reading": "いります",
+      "meaning": "需要",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "百五十円です。袋は要りますか。",
+          "zh": "一百五十日元。需要袋子吗？",
+          "ttsText": "ひゃくごじゅうえんです。ふくろはいりますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-12"
+      }
+    },
+    {
+      "id": "vocabulary-17",
+      "word": "要りません",
+      "reading": "いりません",
+      "meaning": "不需要",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "いいえ、袋は要りません。",
+          "zh": "不用，不需要袋子。",
+          "ttsText": "いいえ、ふくろはいりません。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-13"
+      }
+    },
+    {
+      "id": "vocabulary-18",
+      "word": "かしこまりました",
+      "reading": "かしこまりました",
+      "meaning": "服务人员表示明白",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "かしこまりました。",
+          "zh": "好的。",
+          "ttsText": "かしこまりました。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-6"
+      }
+    },
+    {
+      "id": "vocabulary-19",
+      "word": "店内",
+      "reading": "てんない",
+      "meaning": "店内",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "店内でお召し上がりですか。",
+          "zh": "在店内用餐吗？",
+          "ttsText": "てんないでおめしあがりですか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-2"
+      }
+    },
+    {
+      "id": "vocabulary-20",
+      "word": "お召し上がり",
+      "reading": "おめしあがり",
+      "meaning": "服务方询问堂食",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "店内でお召し上がりですか。",
+          "zh": "在店内用餐吗？",
+          "ttsText": "てんないでおめしあがりですか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-2"
+      }
+    },
+    {
+      "id": "vocabulary-21",
+      "word": "お会計",
+      "reading": "おかいけい",
+      "meaning": "结账",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "すみません、お会計をお願いします。",
+          "zh": "不好意思，请结账。",
+          "ttsText": "すみません、おかいけいをおねがいします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-9"
+      }
+    },
+    {
+      "id": "vocabulary-22",
+      "word": "棚",
+      "reading": "たな",
+      "meaning": "货架",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-23",
+      "word": "値段",
+      "reading": "ねだん",
+      "meaning": "价格",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-24",
+      "word": "お支払い",
+      "reading": "おしはらい",
+      "meaning": "付款",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "お支払いはどうされますか。",
+          "zh": "您想怎么付款？",
+          "ttsText": "おしはらいはどうされますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-14"
+      }
+    },
+    {
+      "id": "vocabulary-25",
+      "word": "現金",
+      "reading": "げんきん",
+      "meaning": "现金",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "現金で払います。",
+          "zh": "用现金付款。",
+          "ttsText": "げんきんではらいます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-15"
+      }
+    },
+    {
+      "id": "vocabulary-26",
+      "word": "レシート",
+      "reading": "レシート",
+      "meaning": "收据",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "ありがとうございます。レシートは要りますか。",
+          "zh": "谢谢。需要收据吗？",
+          "ttsText": "ありがとうございます。レシートはいりますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-16"
+      }
+    },
+    {
+      "id": "vocabulary-27",
+      "word": "ご利用ですか",
+      "reading": "ごりようですか",
+      "meaning": "是否需要；服务方说法",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    }
+  ],
+  "expressions": [
+    {
+      "id": "expression-one",
+      "function": "请给我这份咖喱。",
+      "pattern": "このカレーをお願いします。",
+      "meaning": "请给我这份咖喱。",
+      "audience": "餐馆和商店的服务人员。",
+      "notes": [
+        "固定句：このカレーをお願(ねが)いします。",
+        "不可以替换什么：不能在未提供该商品的店里照念；先看菜单或货架。",
+        "语感差异：礼貌且具体。",
+        "对谁不能说：不宜把同样的点单口吻用于和家人商量吃什么。",
+        "其他用法：可指着菜单使用。",
+        "本课要求：先看菜单，再替换商品名说出。"
+      ],
+      "slots": [
+        {
+          "key": "可替换部分",
+          "description": "可替换商品或菜名名词。"
+        }
+      ],
+      "examples": [
+        {
+          "ja": "すみません、このカレーをお願いします。",
+          "zh": "不好意思，请给我这份咖喱。",
+          "ttsText": "すみません、このカレーをおねがいします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "grammar-1",
+      "pattern": "指示词加名词",
+      "level": "N5",
+      "meaning": "指着菜单上的一道菜。",
+      "connection": "近处事物指示词后直接接名词。",
+      "notes": [
+        "课文对应：すみません、このカレーをお願(ねが)いします。",
+        "例题：すみません、（　）カレーをお願(ねが)いします。",
+        "答案：この"
+      ],
+      "examples": [
+        {
+          "ja": "すみません、このカレーをお願いします。",
+          "zh": "不好意思，请给我这份咖喱。",
+          "ttsText": "すみません、このカレーをおねがいします。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "pattern": "询问价钱",
+      "level": "N5",
+      "meaning": "询问茶的价格。",
+      "connection": "商品作主题后接价格疑问词。",
+      "notes": [
+        "课文对应：このお茶(ちゃ)はいくらですか。",
+        "例题：このお茶(ちゃ)は（　）。",
+        "答案：いくらですか"
+      ],
+      "examples": [
+        {
+          "ja": "このお茶はいくらですか。",
+          "zh": "这瓶茶多少钱？",
+          "ttsText": "このおちゃはいくらですか。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "pattern": "否定礼貌形",
+      "level": "N5",
+      "meaning": "回答不要袋子。",
+      "connection": "动词礼貌否定形说明不需要。",
+      "notes": [
+        "课文对应：いいえ、袋(ふくろ)は要(い)りません。",
+        "例题：いいえ、袋(ふくろ)は（　）。",
+        "答案：要(い)りません"
+      ],
+      "examples": [
+        {
+          "ja": "いいえ、袋は要りません。",
+          "zh": "不用，不需要袋子。",
+          "ttsText": "いいえ、ふくろはいりません。"
+        }
+      ]
+    }
+  ],
+  "shadowing": [
+    {
+      "id": "shadowing-polite",
+      "dialogueId": "polite",
+      "lineIds": [
+        "polite-line-1",
+        "polite-line-2",
+        "polite-line-3",
+        "polite-line-4",
+        "polite-line-5",
+        "polite-line-6",
+        "polite-line-7"
+      ],
+      "prompt": "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+    },
+    {
+      "id": "shadowing-plain",
+      "dialogueId": "plain",
+      "lineIds": [
+        "plain-line-1",
+        "plain-line-2",
+        "plain-line-3",
+        "plain-line-4",
+        "plain-line-5",
+        "plain-line-6",
+        "plain-line-7"
+      ],
+      "prompt": "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+    }
+  ],
+  "homework": [],
+  "references": [
+    {
+      "title": "seikatsu-nihongo/content/n5-source.txt",
+      "note": "唯一正文来源；第9课。源稿日语、事实与说明保持不变；本次新增忠实中文译文用于 v1 必填 zh，未创作场景或作业。 N5 章节的完整通用使用说明统一保存在同章 n5-1 的「N5 章节使用说明」素材中。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/README.md",
+      "note": "n5.json 为 TXT 生成结果，已通过 import-n5.mjs --check；不重复导出生成 README。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/review-notes.md",
+      "note": "沿用 2026-09-30 校订；现实条件与时限按原说明保留，不把课号当办事日期。"
+    },
+    {
+      "title": "JLPT官方考试指南",
+      "url": "https://jlpt.jp/cn/reference/pdf/guidebook1.pdf",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "出入国在留管理厅",
+      "url": "https://www.moj.go.jp/isa/applications/procedures/nyuukokukanri10_00021.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "日本海关",
+      "url": "https://www.customs.go.jp/english/passenger/declaration/declaration_app.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "东京燃气",
+      "url": "https://home.tokyo-gas.co.jp/gas_power/procedure/moving/khsn_k_nagare.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "povo官方",
+      "url": "https://povo.jp/procedure/",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "日本邮政银行",
+      "url": "https://www.jp-bank.japanpost.jp/kaisetu/kat_gaikokujin.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "厚生劳动省",
+      "url": "https://www.mhlw.go.jp/stf/newpage_50657.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    }
+  ]
+}

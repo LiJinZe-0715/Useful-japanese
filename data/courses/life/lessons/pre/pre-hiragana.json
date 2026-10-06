@@ -1,0 +1,324 @@
+{
+  "schemaVersion": 1,
+  "id": "hiragana",
+  "unitId": "pre",
+  "order": 1,
+  "title": "平假名五十音",
+  "kind": "preparation",
+  "objectives": ["按 a・i・u・e・o 的顺序，一行一行认读。现代基本平假名有46个。"],
+  "materials": [
+    {
+      "id": "learning-notes",
+      "title": "学习说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["空位不是漏字；现代通常不使用旧假名ゐ、ゑ。"],
+            ["し读 shi，ち读 chi，つ读 tsu，ふ读 fu；を通常读 o。"],
+            ["罗马字仅作读音提示，不是英语发音。ん的拍子和发音放到最后单独练习。"],
+            ["单独认读时は读ha、へ读he；作助词时分别读wa、e。助词を读o。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kana-chart",
+      "title": "平假名五十音 · 字形与读音表",
+      "kind": "table",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["第1列", "第2列", "第3列", "第4列", "第5列"],
+          "rows": [
+            ["あ\na", "い\ni", "う\nu", "え\ne", "お\no"],
+            ["か\nka", "き\nki", "く\nku", "け\nke", "こ\nko"],
+            ["さ\nsa", "し\nshi", "す\nsu", "せ\nse", "そ\nso"],
+            ["た\nta", "ち\nchi", "つ\ntsu", "て\nte", "と\nto"],
+            ["な\nna", "に\nni", "ぬ\nnu", "ね\nne", "の\nno"],
+            ["は\nha", "ひ\nhi", "ふ\nfu", "へ\nhe", "ほ\nho"],
+            ["ま\nma", "み\nmi", "む\nmu", "め\nme", "も\nmo"],
+            ["や\nya", "", "ゆ\nyu", "", "よ\nyo"],
+            ["ら\nra", "り\nri", "る\nru", "れ\nre", "ろ\nro"],
+            ["わ\nwa", "", "", "", "を\no (wo)"],
+            ["ん\nn", "", "", "", ""]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pronunciation",
+      "title": "认读与合成语音",
+      "kind": "pronunciation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["朗读说明"],
+          "rows": [["系统语音仅供辅助，不是真人发音示范。"]]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "ja": "あ",
+              "zh": "a",
+              "ttsText": "あ"
+            },
+            {
+              "ja": "い",
+              "zh": "i",
+              "ttsText": "い"
+            },
+            {
+              "ja": "う",
+              "zh": "u",
+              "ttsText": "う"
+            },
+            {
+              "ja": "え",
+              "zh": "e",
+              "ttsText": "え"
+            },
+            {
+              "ja": "お",
+              "zh": "o",
+              "ttsText": "お"
+            },
+            {
+              "ja": "か",
+              "zh": "ka",
+              "ttsText": "か"
+            },
+            {
+              "ja": "き",
+              "zh": "ki",
+              "ttsText": "き"
+            },
+            {
+              "ja": "く",
+              "zh": "ku",
+              "ttsText": "く"
+            },
+            {
+              "ja": "け",
+              "zh": "ke",
+              "ttsText": "け"
+            },
+            {
+              "ja": "こ",
+              "zh": "ko",
+              "ttsText": "こ"
+            },
+            {
+              "ja": "さ",
+              "zh": "sa",
+              "ttsText": "さ"
+            },
+            {
+              "ja": "し",
+              "zh": "shi",
+              "ttsText": "し"
+            },
+            {
+              "ja": "す",
+              "zh": "su",
+              "ttsText": "す"
+            },
+            {
+              "ja": "せ",
+              "zh": "se",
+              "ttsText": "せ"
+            },
+            {
+              "ja": "そ",
+              "zh": "so",
+              "ttsText": "そ"
+            },
+            {
+              "ja": "た",
+              "zh": "ta",
+              "ttsText": "た"
+            },
+            {
+              "ja": "ち",
+              "zh": "chi",
+              "ttsText": "ち"
+            },
+            {
+              "ja": "つ",
+              "zh": "tsu",
+              "ttsText": "つ"
+            },
+            {
+              "ja": "て",
+              "zh": "te",
+              "ttsText": "て"
+            },
+            {
+              "ja": "と",
+              "zh": "to",
+              "ttsText": "と"
+            },
+            {
+              "ja": "な",
+              "zh": "na",
+              "ttsText": "な"
+            },
+            {
+              "ja": "に",
+              "zh": "ni",
+              "ttsText": "に"
+            },
+            {
+              "ja": "ぬ",
+              "zh": "nu",
+              "ttsText": "ぬ"
+            },
+            {
+              "ja": "ね",
+              "zh": "ne",
+              "ttsText": "ね"
+            },
+            {
+              "ja": "の",
+              "zh": "no",
+              "ttsText": "の"
+            },
+            {
+              "ja": "は",
+              "zh": "ha",
+              "ttsText": "ハ"
+            },
+            {
+              "ja": "ひ",
+              "zh": "hi",
+              "ttsText": "ひ"
+            },
+            {
+              "ja": "ふ",
+              "zh": "fu",
+              "ttsText": "ふ"
+            },
+            {
+              "ja": "へ",
+              "zh": "he",
+              "ttsText": "ヘ"
+            },
+            {
+              "ja": "ほ",
+              "zh": "ho",
+              "ttsText": "ほ"
+            },
+            {
+              "ja": "ま",
+              "zh": "ma",
+              "ttsText": "ま"
+            },
+            {
+              "ja": "み",
+              "zh": "mi",
+              "ttsText": "み"
+            },
+            {
+              "ja": "む",
+              "zh": "mu",
+              "ttsText": "む"
+            },
+            {
+              "ja": "め",
+              "zh": "me",
+              "ttsText": "め"
+            },
+            {
+              "ja": "も",
+              "zh": "mo",
+              "ttsText": "も"
+            },
+            {
+              "ja": "や",
+              "zh": "ya",
+              "ttsText": "や"
+            },
+            {
+              "ja": "ゆ",
+              "zh": "yu",
+              "ttsText": "ゆ"
+            },
+            {
+              "ja": "よ",
+              "zh": "yo",
+              "ttsText": "よ"
+            },
+            {
+              "ja": "ら",
+              "zh": "ra",
+              "ttsText": "ら"
+            },
+            {
+              "ja": "り",
+              "zh": "ri",
+              "ttsText": "り"
+            },
+            {
+              "ja": "る",
+              "zh": "ru",
+              "ttsText": "る"
+            },
+            {
+              "ja": "れ",
+              "zh": "re",
+              "ttsText": "れ"
+            },
+            {
+              "ja": "ろ",
+              "zh": "ro",
+              "ttsText": "ろ"
+            },
+            {
+              "ja": "わ",
+              "zh": "wa",
+              "ttsText": "わ"
+            },
+            {
+              "ja": "を",
+              "zh": "o (wo)",
+              "ttsText": "オ"
+            },
+            {
+              "ja": "ん",
+              "zh": "n",
+              "ttsText": "ん"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "speakers": [],
+  "dialogues": [],
+  "vocabulary": [],
+  "expressions": [],
+  "grammar": [],
+  "shadowing": [],
+  "homework": [],
+  "references": [
+    {
+      "title": "seikatsu-nihongo/content/preparation.json",
+      "note": "权威准备篇数据，units[0]（hiragana）；原文、读音提示、朗读文本和拍子按原数据保留。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/README.md",
+      "note": "来源关系说明：preparation.json 保存准备篇；n5-source.txt 与生成 n5.json 属于第1～20课，本次不导出。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/review-notes.md",
+      "note": "2026-09-30 校订说明：准备篇8个单元；未发现必须修改的假名表内容。"
+    },
+    {
+      "title": "seikatsu-nihongo/src/modules/learning/presentation/data/preparation-workspace-copy.ts",
+      "note": "保留原页面的合成语音辅助提示；仅有 beats 的单元保留圆点拍子说明。"
+    }
+  ]
+}

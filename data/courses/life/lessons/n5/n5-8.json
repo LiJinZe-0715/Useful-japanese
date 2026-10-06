@@ -1,0 +1,1118 @@
+{
+  "schemaVersion": 1,
+  "id": "n5-8",
+  "unitId": "n5",
+  "order": 108,
+  "title": "第8课 到达住处并开通燃气与电",
+  "level": "N5",
+  "kind": "scene",
+  "objectives": [
+    "1.1 能说明自己已经到住处。",
+    "1.2 能确认今天是否有燃气上门服务。",
+    "1.3 能在工作人员到访时请对方进入。"
+  ],
+  "scene": {
+    "background": "我进入东京的租住房间，确认电能否使用，并按预约接待东京燃气的开栓人员。",
+    "channel": "other",
+    "tasks": [
+      "1.1 能说明自己已经到住处。",
+      "1.2 能确认今天是否有燃气上门服务。",
+      "1.3 能在工作人员到访时请对方进入。"
+    ],
+    "relationships": "你扮演“我（わたし）”。私（学习者）：赴日学习者；工作人员：工作人员；客服：客服；朋友：朋友"
+  },
+  "learnerSpeakerId": "learner",
+  "speakers": [
+    {
+      "id": "learner",
+      "name": "我（わたし）",
+      "role": "你扮演的角色；赴日学习者"
+    },
+    {
+      "id": "speaker-2",
+      "name": "工作人员",
+      "role": "工作人员"
+    },
+    {
+      "id": "speaker-3",
+      "name": "客服",
+      "role": "客服"
+    },
+    {
+      "id": "speaker-4",
+      "name": "朋友",
+      "role": "朋友"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "main",
+      "title": "场景课文",
+      "variant": "main",
+      "lines": [
+        {
+          "id": "main-line-1",
+          "speakerId": "learner",
+          "ja": "こんにちは。林です。今日、ガスの開栓をお願いしています。",
+          "zh": "您好，我是林。今天预约了燃气开通。",
+          "reading": "こんにちは。リンです。きょう、ガスのかいせんをおねがいしています。",
+          "ttsText": "こんにちは。リンです。きょう、ガスのかいせんをおねがいしています。"
+        },
+        {
+          "id": "main-line-2",
+          "speakerId": "speaker-2",
+          "ja": "ガスの開栓で伺いました。住所を確認します。",
+          "zh": "我来办理燃气开通。先确认地址。",
+          "reading": "ガスのかいせんでうかがいました。じゅうしょをかくにんします。",
+          "ttsText": "ガスのかいせんでうかがいました。じゅうしょをかくにんします。"
+        },
+        {
+          "id": "main-line-3",
+          "speakerId": "speaker-2",
+          "ja": "予約の時間より少し早く着きました。今お時間は大丈夫ですか。",
+          "zh": "比预约时间稍早到了，现在方便吗？",
+          "reading": "よやくのじかんよりすこしはやくつきました。いまおじかんはだいじょうぶですか。",
+          "ttsText": "よやくのじかんよりすこしはやくつきました。いまおじかんはだいじょうぶですか。"
+        },
+        {
+          "id": "main-line-4",
+          "speakerId": "learner",
+          "ja": "はい、大丈夫です。",
+          "zh": "方便。",
+          "reading": "はい、だいじょうぶです。",
+          "ttsText": "はい、だいじょうぶです。"
+        },
+        {
+          "id": "main-line-5",
+          "speakerId": "speaker-2",
+          "ja": "お名前もお願いします。",
+          "zh": "也请告知姓名。",
+          "reading": "おなまえもおねがいします。",
+          "ttsText": "おなまえもおねがいします。"
+        },
+        {
+          "id": "main-line-6",
+          "speakerId": "learner",
+          "ja": "林です。予約の画面もあります。",
+          "zh": "我叫林。也有预约页面。",
+          "reading": "リンです。よやくのがめんもあります。",
+          "ttsText": "リンです。よやくのがめんもあります。"
+        },
+        {
+          "id": "main-line-7",
+          "speakerId": "speaker-2",
+          "ja": "では、中に入ってもよろしいですか。",
+          "zh": "那么，可以进去吗？",
+          "reading": "では、なかにはいってもよろしいですか。",
+          "ttsText": "では、なかにはいってもよろしいですか。"
+        },
+        {
+          "id": "main-line-8",
+          "speakerId": "learner",
+          "ja": "はい。こちらです。どうぞ入ってください。",
+          "zh": "可以，在这里。请进。",
+          "reading": "はい。こちらです。どうぞはいってください。",
+          "ttsText": "はい。こちらです。どうぞはいってください。"
+        },
+        {
+          "id": "main-line-9",
+          "speakerId": "speaker-2",
+          "ja": "ガスを確認します。電気は使えますか。",
+          "zh": "我检查燃气。电能用吗？",
+          "reading": "ガスをかくにんします。でんきはつかえますか。",
+          "ttsText": "ガスをかくにんします。でんきはつかえますか。"
+        },
+        {
+          "id": "main-line-10",
+          "speakerId": "learner",
+          "ja": "はい、電気は使えます。",
+          "zh": "能，电可以用。",
+          "reading": "はい、でんきはつかえます。",
+          "ttsText": "はい、でんきはつかえます。"
+        },
+        {
+          "id": "main-line-11",
+          "speakerId": "speaker-2",
+          "ja": "給湯器があるので、お湯も確認します。",
+          "zh": "有热水器，所以我也检查热水。",
+          "reading": "きゅうとうきがあるので、おゆもかくにんします。",
+          "ttsText": "きゅうとうきがあるので、おゆもかくにんします。"
+        },
+        {
+          "id": "main-line-12",
+          "speakerId": "learner",
+          "ja": "わかりました。どこにいたらいいですか。",
+          "zh": "明白了。我在哪里等比较好？",
+          "reading": "わかりました。どこにいたらいいですか。",
+          "ttsText": "わかりました。どこにいたらいいですか。"
+        },
+        {
+          "id": "main-line-13",
+          "speakerId": "speaker-2",
+          "ja": "ここで少しお待ちください。",
+          "zh": "请在这里稍等。",
+          "reading": "ここですこしおまちください。",
+          "ttsText": "ここですこしおまちください。"
+        },
+        {
+          "id": "main-line-14",
+          "speakerId": "learner",
+          "ja": "はい、ここで待ちます。",
+          "zh": "好的，我在这里等。",
+          "reading": "はい、ここでまちます。",
+          "ttsText": "はい、ここでまちます。"
+        },
+        {
+          "id": "main-line-15",
+          "speakerId": "learner",
+          "ja": "ガスは作業が終わってから使えますか。",
+          "zh": "燃气是工作完成后才能用吗？",
+          "reading": "ガスはさぎょうがおわってからつかえますか。",
+          "ttsText": "ガスはさぎょうがおわってからつかえますか。"
+        },
+        {
+          "id": "main-line-16",
+          "speakerId": "speaker-2",
+          "ja": "はい。作業の後で使い方をご案内します。",
+          "zh": "是的。工作完成后会向您说明用法。",
+          "reading": "はい。さぎょうのあとでつかいかたをごあんないします。",
+          "ttsText": "はい。さぎょうのあとでつかいかたをごあんないします。"
+        }
+      ]
+    },
+    {
+      "id": "polite",
+      "title": "跟读文本（礼貌体版·电话确认燃气）",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "polite-line-1",
+          "speakerId": "learner",
+          "ja": "明日のガスの予約を確認したいです。",
+          "zh": "我想确认明天的燃气预约。",
+          "reading": "あしたのガスのよやくをかくにんしたいです。",
+          "ttsText": "あしたのガスのよやくをかくにんしたいです。"
+        },
+        {
+          "id": "polite-line-2",
+          "speakerId": "speaker-3",
+          "ja": "お名前と住所をお願いします。",
+          "zh": "请告知姓名和地址。",
+          "reading": "おなまえとじゅうしょをおねがいします。",
+          "ttsText": "おなまえとじゅうしょをおねがいします。"
+        },
+        {
+          "id": "polite-line-3",
+          "speakerId": "learner",
+          "ja": "林です。住所をお伝えします。",
+          "zh": "我叫林。我来报地址。",
+          "reading": "リンです。じゅうしょをおつたえします。",
+          "ttsText": "リンです。じゅうしょをおつたえします。"
+        },
+        {
+          "id": "polite-line-4",
+          "speakerId": "speaker-3",
+          "ja": "明日のご予約を確認しました。",
+          "zh": "已确认您明天的预约。",
+          "reading": "あしたのごよやくをかくにんしました。",
+          "ttsText": "あしたのごよやくをかくにんしました。"
+        },
+        {
+          "id": "polite-line-5",
+          "speakerId": "learner",
+          "ja": "ありがとうございます。",
+          "zh": "谢谢。",
+          "reading": "ありがとうございます。",
+          "ttsText": "ありがとうございます。"
+        },
+        {
+          "id": "polite-line-6",
+          "speakerId": "learner",
+          "ja": "予約は明日です。",
+          "zh": "预约是明天。",
+          "reading": "よやくはあしたです。",
+          "ttsText": "よやくはあしたです。"
+        },
+        {
+          "id": "polite-line-7",
+          "speakerId": "speaker-4",
+          "ja": "予約の時間はわかりましたか。",
+          "zh": "确认预约时间了吗？",
+          "reading": "よやくのじかんはわかりましたか。",
+          "ttsText": "よやくのじかんはわかりましたか。"
+        },
+        {
+          "id": "polite-line-8",
+          "speakerId": "learner",
+          "ja": "はい。確認の画面にあります。",
+          "zh": "确认了，在确认页面上。",
+          "reading": "はい。かくにんのがめんにあります。",
+          "ttsText": "はい。かくにんのがめんにあります。"
+        },
+        {
+          "id": "polite-line-9",
+          "speakerId": "speaker-4",
+          "ja": "明日は家にいますか。",
+          "zh": "明天在家吗？",
+          "reading": "あしたはいえにいますか。",
+          "ttsText": "あしたはいえにいますか。"
+        },
+        {
+          "id": "polite-line-10",
+          "speakerId": "learner",
+          "ja": "はい。予定を空けました。",
+          "zh": "在。我把时间空出来了。",
+          "reading": "はい。よていをあけました。",
+          "ttsText": "はい。よていをあけました。"
+        }
+      ]
+    },
+    {
+      "id": "plain",
+      "title": "跟读文本（普通体版·电话确认燃气）",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "plain-line-1",
+          "speakerId": "learner",
+          "ja": "明日のガスの予約を確認したいです。",
+          "zh": "我想确认明天的燃气预约。",
+          "reading": "あしたのガスのよやくをかくにんしたいです。",
+          "ttsText": "あしたのガスのよやくをかくにんしたいです。"
+        },
+        {
+          "id": "plain-line-2",
+          "speakerId": "speaker-3",
+          "ja": "お名前と住所をお願いします。",
+          "zh": "请告知姓名和地址。",
+          "reading": "おなまえとじゅうしょをおねがいします。",
+          "ttsText": "おなまえとじゅうしょをおねがいします。"
+        },
+        {
+          "id": "plain-line-3",
+          "speakerId": "learner",
+          "ja": "林です。住所をお伝えします。",
+          "zh": "我叫林。我来报地址。",
+          "reading": "リンです。じゅうしょをおつたえします。",
+          "ttsText": "リンです。じゅうしょをおつたえします。"
+        },
+        {
+          "id": "plain-line-4",
+          "speakerId": "speaker-3",
+          "ja": "明日のご予約を確認しました。",
+          "zh": "已确认您明天的预约。",
+          "reading": "あしたのごよやくをかくにんしました。",
+          "ttsText": "あしたのごよやくをかくにんしました。"
+        },
+        {
+          "id": "plain-line-5",
+          "speakerId": "learner",
+          "ja": "ありがとうございます。",
+          "zh": "谢谢。",
+          "reading": "ありがとうございます。",
+          "ttsText": "ありがとうございます。"
+        },
+        {
+          "id": "plain-line-6",
+          "speakerId": "learner",
+          "ja": "予約は明日だよ。",
+          "zh": "预约是明天。",
+          "reading": "よやくはあしただよ。",
+          "ttsText": "よやくはあしただよ。"
+        },
+        {
+          "id": "plain-line-7",
+          "speakerId": "speaker-4",
+          "ja": "予約の時間、わかった？",
+          "zh": "确认预约时间了吗？",
+          "reading": "よやくのじかん、わかった？",
+          "ttsText": "よやくのじかん、わかった？"
+        },
+        {
+          "id": "plain-line-8",
+          "speakerId": "learner",
+          "ja": "うん。確認の画面にある。",
+          "zh": "确认了，在确认页面上。",
+          "reading": "うん。かくにんのがめんにある。",
+          "ttsText": "うん。かくにんのがめんにある。"
+        },
+        {
+          "id": "plain-line-9",
+          "speakerId": "speaker-4",
+          "ja": "明日は家にいる？",
+          "zh": "明天在家吗？",
+          "reading": "あしたはいえにいる？",
+          "ttsText": "あしたはいえにいる？"
+        },
+        {
+          "id": "plain-line-10",
+          "speakerId": "learner",
+          "ja": "うん。予定を空けた。",
+          "zh": "在。我把时间空出来了。",
+          "reading": "うん。よていをあけた。",
+          "ttsText": "うん。よていをあけた。"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "lesson-context",
+      "title": "场景与使用说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "场景：我进入东京的租住房间，确认电能否使用，并按预约接待东京燃气的开栓人员。\n使用场合：确认水电燃气状态，向服务人员说明住址与预约事项。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "goal-notes",
+      "title": "目标补充说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [["自测：查看自己的预约确认信息，练习说地址和预约日期；没有预约时不说已经预约。"]]
+        }
+      ]
+    },
+    {
+      "id": "dialogue-context",
+      "title": "课文与语体版本的转场、交谈对象",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["对话 ID", "位置（在该行之后；下一行注明对象）", "原场景提示"],
+          "rows": [
+            [
+              "main",
+              "整体",
+              "情境：示例中燃气开栓已事先预约；工作人员到访时，我确认身份后开门。电力是否已启动另按本人合同确认。"
+            ],
+            [
+              "main",
+              "整体",
+              "说明：东京燃气的燃气开栓通常需有人在场；电力启动通常不需到场，但具体合同和房屋状态需确认。来访前核对预约与工作人员身份。"
+            ],
+            ["polite", "下一行 1", "私(わたし)→客服"],
+            ["polite", "polite-line-3", "〔按本人实际地址报读并完成预约核对后〕"],
+            ["polite", "下一行 5", "私(わたし)→客服"],
+            ["polite", "polite-line-5", "〔电话结束后，与朋友交谈〕"],
+            ["polite", "下一行 6", "私(わたし)→朋友"],
+            ["plain", "下一行 1", "私(わたし)→客服"],
+            ["plain", "plain-line-3", "〔按本人实际地址报读并完成预约核对后〕"],
+            ["plain", "下一行 5", "私(わたし)→客服"],
+            ["plain", "plain-line-5", "〔电话结束后，与朋友交谈〕"],
+            ["plain", "下一行 6", "私(わたし)→朋友"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "register-comparison",
+      "title": "两版差异对照（行 ID 对应上方语体版本）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说话者", "礼貌体行 ID", "普通体行 ID", "原差异说明"],
+          "rows": [
+            ["私(わたし)→客服", "polite-line-1", "plain-line-1", "两版保持同一句表达"],
+            ["客服", "polite-line-2", "plain-line-2", "两版保持同一句表达"],
+            ["私(わたし)", "polite-line-3", "plain-line-3", "两版保持同一句表达"],
+            ["客服", "polite-line-4", "plain-line-4", "两版保持同一句表达"],
+            ["私(わたし)→客服", "polite-line-5", "plain-line-5", "两版保持同一句表达"],
+            ["私(わたし)→朋友", "polite-line-6", "plain-line-6", "表达内容相同，语体不同"],
+            ["朋友", "polite-line-7", "plain-line-7", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-8", "plain-line-8", "表达内容相同，语体不同"],
+            ["朋友", "polite-line-9", "plain-line-9", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-10", "plain-line-10", "表达内容相同，语体不同"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shadowing-notes",
+      "title": "跟读场景、前提与使用说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "唯一跟读场景：电话里向燃气客服核对预约日期。\n关系与版本前提：普通体版是挂断后向熟悉朋友复述同一信息；客服通话始终用礼貌体。\n与课文的区别：课文是开栓当天面对面；这里提前电话确认。"
+            ],
+            ["■ 跟读步骤"],
+            [
+              "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+            ],
+            ["■ 跟读要点"],
+            ["礼貌体版：电话中慢速说姓名和住址。\n普通体版：复述给朋友时不重复客服口吻。"],
+            ["■ 为什么用这个版本"],
+            ["礼貌体版：正式客服通话使用。\n普通体版：挂断后与朋友闲聊可使用。"],
+            ["■ 本课跟读目标"],
+            ["能区分办理事务的说法与私下复述。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary-notes",
+      "title": "词汇分组与学习说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["■ 3A N5基础词汇"],
+            ["本栏指常见初级教材中的N5基础词，不表示官方保证考到。"],
+            ["■ 3B 场景补充词汇（先听懂）"],
+            ["本栏先听懂、能辨认；行政或商品词不要求会写。"],
+            ["词汇使用提醒：燃气开栓是服务流程词，先认得预约通知中的写法。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-notes",
+      "title": "文法安排与补充表达（原 4B）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["■ 4A 基础句型与场景练习"],
+            [
+              "本栏练习基础句型和本课场景中的表达；长句中的敬语、复合结构可先整句理解。例句均从本课课文原样摘取。"
+            ],
+            ["■ 4B 补充表达与后续复习"],
+            [
+              "文法点：可能形\n意思：表示能做某事；第16课会集中学习。\n例句：電気(でんき)は使(つか)えます。\n后续学习建议：结合本课语境复习，再在后续系统课程中学习接续与变形；本课程没有第21课。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appendix-1",
+      "title": "附1：当时课程目标下，日本人实际会怎么说",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "家人之间：ガスの予約(よやく)、明日(あした)だよ。\n对同事朋友：ガスの予約(よやく)は明日(あした)です。\n对上级工作人员：ガスの予約(よやく)を確認(かくにん)したいです。\n说明：是否需要电话确认取决于预约方式；教材只训练适用时的表达。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appendix-2",
+      "title": "附2：常见误用",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "标记说明：✗包含语法错误，也包含本情境中事实不准确、未核实就断言或应对不合适的说法；不表示所有标记句都不合语法。"
+            ],
+            [
+              "電気(でんき)も必(かなら)ず立(た)ち会(あ)います。 ✗ → 電気(でんき)の開始(かいし)を確認(かくにん)します。 ✓\n原因：电力开通不应写成必定上门。\nガスは予約(よやく)なしで使(つか)えます。 ✗ → ガスの開栓(かいせん)を予約(よやく)します。 ✓\n原因：燃气需要按供应商要求办理开栓。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-1",
+      "title": "词汇读音与释义资料（原测试 1）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "读音：きょう\n答案：今日(きょう) — 今天\n读音：ここ\n答案：ここ — 这里\n读音：でんき\n答案：電気(でんき) — 电\n读音：はいります\n答案：入(はい)ります — 进入\n读音：つかいます\n答案：使(つか)います — 使用\n读音：いえ\n答案：家(いえ) — 家\n读音：みず\n答案：水(みず) — 水\n读音：はやい\n答案：早(はや)い — 早\n读音：じかん\n答案：時間(じかん) — 时间\n读音：いま\n答案：今(いま) — 现在\n读音：なまえ\n答案：名前(なまえ) — 姓名\n读音：まちます\n答案：待(ま)ちます — 等\n读音：あと\n答案：後(あと) — 之后\n读音：とうきょうガス\n答案：東京(とうきょう)ガス — 东京燃气\n读音：ガス\n答案：ガス — 燃气\n读音：かいせん\n答案：開栓(かいせん) — 燃气开栓\n读音：さぎょう\n答案：作業(さぎょう) — 作业\n读音：よやく\n答案：予約(よやく) — 预约\n读音：じゅうしょ\n答案：住所(じゅうしょ) — 地址\n读音：きゅうとうき\n答案：給湯器(きゅうとうき) — 热水器\n读音：おゆ\n答案：お湯(ゆ) — 热水\n读音：つかいかた\n答案：使(つか)い方(かた) — 使用方法\n读音：がめん\n答案：画面(がめん) — 屏幕\n读音：たちあい\n答案：立会(たちあ)い — 到场配合\n读音：あんぜんかくにん\n答案：安全確認(あんぜんかくにん) — 安全确认"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-2",
+      "title": "文法例题与参考答案（原测试 2）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "题目：はい。こちらです。どうぞ（　）。\n答案：入(はい)ってください\n题目：はい、（　）使(つか)えます。\n答案：電気(でんき)は"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "vocabulary-1",
+      "word": "今日",
+      "reading": "きょう",
+      "meaning": "今天",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "こんにちは。林です。今日、ガスの開栓をお願いしています。",
+          "zh": "您好，我是林。今天预约了燃气开通。",
+          "ttsText": "こんにちは。リンです。きょう、ガスのかいせんをおねがいしています。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-2",
+      "word": "ここ",
+      "reading": "ここ",
+      "meaning": "这里",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "ここで少しお待ちください。",
+          "zh": "请在这里稍等。",
+          "ttsText": "ここですこしおまちください。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-13"
+      }
+    },
+    {
+      "id": "vocabulary-3",
+      "word": "電気",
+      "reading": "でんき",
+      "meaning": "电",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "ガスを確認します。電気は使えますか。",
+          "zh": "我检查燃气。电能用吗？",
+          "ttsText": "ガスをかくにんします。でんきはつかえますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-9"
+      }
+    },
+    {
+      "id": "vocabulary-4",
+      "word": "入ります",
+      "reading": "はいります",
+      "meaning": "进入",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-5",
+      "word": "使います",
+      "reading": "つかいます",
+      "meaning": "使用",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-6",
+      "word": "家",
+      "reading": "いえ",
+      "meaning": "家",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "明日は家にいますか。",
+          "zh": "明天在家吗？",
+          "ttsText": "あしたはいえにいますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "polite",
+        "lineId": "polite-line-9"
+      }
+    },
+    {
+      "id": "vocabulary-7",
+      "word": "水",
+      "reading": "みず",
+      "meaning": "水",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-8",
+      "word": "早い",
+      "reading": "はやい",
+      "meaning": "早",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-9",
+      "word": "時間",
+      "reading": "じかん",
+      "meaning": "时间",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "予約の時間より少し早く着きました。今お時間は大丈夫ですか。",
+          "zh": "比预约时间稍早到了，现在方便吗？",
+          "ttsText": "よやくのじかんよりすこしはやくつきました。いまおじかんはだいじょうぶですか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-3"
+      }
+    },
+    {
+      "id": "vocabulary-10",
+      "word": "今",
+      "reading": "いま",
+      "meaning": "现在",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "こんにちは。林です。今日、ガスの開栓をお願いしています。",
+          "zh": "您好，我是林。今天预约了燃气开通。",
+          "ttsText": "こんにちは。リンです。きょう、ガスのかいせんをおねがいしています。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-11",
+      "word": "名前",
+      "reading": "なまえ",
+      "meaning": "姓名",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "お名前もお願いします。",
+          "zh": "也请告知姓名。",
+          "ttsText": "おなまえもおねがいします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-5"
+      }
+    },
+    {
+      "id": "vocabulary-12",
+      "word": "待ちます",
+      "reading": "まちます",
+      "meaning": "等",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "はい、ここで待ちます。",
+          "zh": "好的，我在这里等。",
+          "ttsText": "はい、ここでまちます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-14"
+      }
+    },
+    {
+      "id": "vocabulary-13",
+      "word": "後",
+      "reading": "あと",
+      "meaning": "之后",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "はい。作業の後で使い方をご案内します。",
+          "zh": "是的。工作完成后会向您说明用法。",
+          "ttsText": "はい。さぎょうのあとでつかいかたをごあんないします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-16"
+      }
+    },
+    {
+      "id": "vocabulary-14",
+      "word": "東京ガス",
+      "reading": "とうきょうガス",
+      "meaning": "东京燃气",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-15",
+      "word": "ガス",
+      "reading": "ガス",
+      "meaning": "燃气",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "こんにちは。林です。今日、ガスの開栓をお願いしています。",
+          "zh": "您好，我是林。今天预约了燃气开通。",
+          "ttsText": "こんにちは。リンです。きょう、ガスのかいせんをおねがいしています。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-16",
+      "word": "開栓",
+      "reading": "かいせん",
+      "meaning": "燃气开栓",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "こんにちは。林です。今日、ガスの開栓をお願いしています。",
+          "zh": "您好，我是林。今天预约了燃气开通。",
+          "ttsText": "こんにちは。リンです。きょう、ガスのかいせんをおねがいしています。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-17",
+      "word": "作業",
+      "reading": "さぎょう",
+      "meaning": "作业",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "ガスは作業が終わってから使えますか。",
+          "zh": "燃气是工作完成后才能用吗？",
+          "ttsText": "ガスはさぎょうがおわってからつかえますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-15"
+      }
+    },
+    {
+      "id": "vocabulary-18",
+      "word": "予約",
+      "reading": "よやく",
+      "meaning": "预约",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "予約の時間より少し早く着きました。今お時間は大丈夫ですか。",
+          "zh": "比预约时间稍早到了，现在方便吗？",
+          "ttsText": "よやくのじかんよりすこしはやくつきました。いまおじかんはだいじょうぶですか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-3"
+      }
+    },
+    {
+      "id": "vocabulary-19",
+      "word": "住所",
+      "reading": "じゅうしょ",
+      "meaning": "地址",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "ガスの開栓で伺いました。住所を確認します。",
+          "zh": "我来办理燃气开通。先确认地址。",
+          "ttsText": "ガスのかいせんでうかがいました。じゅうしょをかくにんします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-2"
+      }
+    },
+    {
+      "id": "vocabulary-20",
+      "word": "給湯器",
+      "reading": "きゅうとうき",
+      "meaning": "热水器",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "給湯器があるので、お湯も確認します。",
+          "zh": "有热水器，所以我也检查热水。",
+          "ttsText": "きゅうとうきがあるので、おゆもかくにんします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-11"
+      }
+    },
+    {
+      "id": "vocabulary-21",
+      "word": "お湯",
+      "reading": "おゆ",
+      "meaning": "热水",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "給湯器があるので、お湯も確認します。",
+          "zh": "有热水器，所以我也检查热水。",
+          "ttsText": "きゅうとうきがあるので、おゆもかくにんします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-11"
+      }
+    },
+    {
+      "id": "vocabulary-22",
+      "word": "使い方",
+      "reading": "つかいかた",
+      "meaning": "使用方法",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "はい。作業の後で使い方をご案内します。",
+          "zh": "是的。工作完成后会向您说明用法。",
+          "ttsText": "はい。さぎょうのあとでつかいかたをごあんないします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-16"
+      }
+    },
+    {
+      "id": "vocabulary-23",
+      "word": "画面",
+      "reading": "がめん",
+      "meaning": "屏幕",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "林です。予約の画面もあります。",
+          "zh": "我叫林。也有预约页面。",
+          "ttsText": "リンです。よやくのがめんもあります。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-6"
+      }
+    },
+    {
+      "id": "vocabulary-24",
+      "word": "立会い",
+      "reading": "たちあい",
+      "meaning": "到场配合",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-25",
+      "word": "安全確認",
+      "reading": "あんぜんかくにん",
+      "meaning": "安全确认",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    }
+  ],
+  "expressions": [
+    {
+      "id": "expression-one",
+      "function": "请进。",
+      "pattern": "どうぞ入ってください。",
+      "meaning": "请进。",
+      "audience": "已核对身份的预约来访工作人员或受邀客人。",
+      "notes": [
+        "固定句：どうぞ入(はい)ってください。",
+        "不可以替换什么：确认来访者身份之前不要因背了这句就开门。",
+        "语感差异：礼貌而自然。",
+        "对谁不能说：不能对未经确认的陌生人直接放行。",
+        "其他用法：访客进门时也可以使用。",
+        "本课要求：连贯说出并配合手势。"
+      ],
+      "slots": [
+        {
+          "key": "可替换部分",
+          "description": "可换成另一种已学的简单动作词，但本课先不换动词。"
+        }
+      ],
+      "examples": [
+        {
+          "ja": "はい。こちらです。どうぞ入ってください。",
+          "zh": "可以，在这里。请进。",
+          "ttsText": "はい。こちらです。どうぞはいってください。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-8"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "grammar-1",
+      "pattern": "礼貌请求",
+      "level": "N5",
+      "meaning": "请核对过身份的工作人员进入。",
+      "connection": "动词て形＋ください。",
+      "notes": [
+        "课文对应：はい。こちらです。どうぞ入(はい)ってください。",
+        "例题：はい。こちらです。どうぞ（　）。",
+        "答案：入(はい)ってください"
+      ],
+      "examples": [
+        {
+          "ja": "はい。こちらです。どうぞ入ってください。",
+          "zh": "可以，在这里。请进。",
+          "ttsText": "はい。こちらです。どうぞはいってください。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "pattern": "主题提示",
+      "level": "N5",
+      "meaning": "报告电力可使用。",
+      "connection": "名词后接主题提示助词，再说明情况。",
+      "notes": [
+        "课文对应：はい、電気(でんき)は使(つか)えます。",
+        "例题：はい、（　）使(つか)えます。",
+        "答案：電気(でんき)は"
+      ],
+      "examples": [
+        {
+          "ja": "はい、電気は使えます。",
+          "zh": "能，电可以用。",
+          "ttsText": "はい、でんきはつかえます。"
+        }
+      ]
+    }
+  ],
+  "shadowing": [
+    {
+      "id": "shadowing-polite",
+      "dialogueId": "polite",
+      "lineIds": [
+        "polite-line-1",
+        "polite-line-2",
+        "polite-line-3",
+        "polite-line-4",
+        "polite-line-5",
+        "polite-line-6",
+        "polite-line-7",
+        "polite-line-8",
+        "polite-line-9",
+        "polite-line-10"
+      ],
+      "prompt": "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+    },
+    {
+      "id": "shadowing-plain",
+      "dialogueId": "plain",
+      "lineIds": [
+        "plain-line-1",
+        "plain-line-2",
+        "plain-line-3",
+        "plain-line-4",
+        "plain-line-5",
+        "plain-line-6",
+        "plain-line-7",
+        "plain-line-8",
+        "plain-line-9",
+        "plain-line-10"
+      ],
+      "prompt": "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+    }
+  ],
+  "homework": [],
+  "references": [
+    {
+      "title": "seikatsu-nihongo/content/n5-source.txt",
+      "note": "唯一正文来源；第8课。源稿日语、事实与说明保持不变；本次新增忠实中文译文用于 v1 必填 zh，未创作场景或作业。 N5 章节的完整通用使用说明统一保存在同章 n5-1 的「N5 章节使用说明」素材中。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/README.md",
+      "note": "n5.json 为 TXT 生成结果，已通过 import-n5.mjs --check；不重复导出生成 README。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/review-notes.md",
+      "note": "沿用 2026-09-30 校订；现实条件与时限按原说明保留，不把课号当办事日期。"
+    },
+    {
+      "title": "JLPT官方考试指南",
+      "url": "https://jlpt.jp/cn/reference/pdf/guidebook1.pdf",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "出入国在留管理厅",
+      "url": "https://www.moj.go.jp/isa/applications/procedures/nyuukokukanri10_00021.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "日本海关",
+      "url": "https://www.customs.go.jp/english/passenger/declaration/declaration_app.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "东京燃气",
+      "url": "https://home.tokyo-gas.co.jp/gas_power/procedure/moving/khsn_k_nagare.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "povo官方",
+      "url": "https://povo.jp/procedure/",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "日本邮政银行",
+      "url": "https://www.jp-bank.japanpost.jp/kaisetu/kat_gaikokujin.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "厚生劳动省",
+      "url": "https://www.mhlw.go.jp/stf/newpage_50657.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    }
+  ]
+}

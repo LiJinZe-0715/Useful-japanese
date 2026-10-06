@@ -1,0 +1,494 @@
+{
+  "schemaVersion": 1,
+  "id": "n4-17",
+  "unitId": "n4",
+  "order": 217,
+  "title": "第17课 小组发表时分工并报告进度",
+  "level": "N4",
+  "kind": "scene",
+  "objectives": ["约定责任分工", "报告完成与未完成部分", "协商检查和练习时间"],
+  "scene": {
+    "background": "林与王准备下周二课堂上的生活介绍发表，分为照片说明和路线说明；周五核对草稿，周一练习。",
+    "channel": "in-person",
+    "tasks": ["约定责任分工", "报告完成与未完成部分", "协商检查和练习时间"],
+    "relationships": "你扮演“我（わたし）”（课文中的林）。林与王：同组同学；共同完成课堂发表；普通体补充场景见语体说明。"
+  },
+  "learnerSpeakerId": "learner",
+  "speakers": [
+    {
+      "id": "learner",
+      "name": "我（わたし）",
+      "role": "你扮演的角色（课文示例姓名：林／リン）；赴日学习者；沿用示例姓名林（リン），实际练习可替换为本人信息"
+    },
+    {
+      "id": "classmate",
+      "name": "王",
+      "role": "同组同学；共同完成课堂发表"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "main",
+      "title": "主课文：小组发表时分工并报告进度",
+      "variant": "main",
+      "lines": [
+        {
+          "id": "main-line-1",
+          "speakerId": "classmate",
+          "ja": "来週の火曜日は、二人で発表することになりましたね。",
+          "zh": "下周二决定由我们两人发表，对吧。",
+          "reading": "らいしゅうのかようびは、ふたりではっぴょうすることになりましたね。"
+        },
+        {
+          "id": "main-line-2",
+          "speakerId": "learner",
+          "ja": "はい。私は写真の説明をするつもりです。",
+          "zh": "对，我打算负责照片说明。",
+          "reading": "はい。わたしはしゃしんのせつめいをするつもりです。"
+        },
+        {
+          "id": "main-line-3",
+          "speakerId": "classmate",
+          "ja": "では、私は道順を説明します。写真は用意できましたか。",
+          "zh": "那么我说明路线。照片准备好了吗？",
+          "reading": "では、わたしはみちじゅんをせつめいします。しゃしんはよういできましたか。"
+        },
+        {
+          "id": "main-line-4",
+          "speakerId": "learner",
+          "ja": "写真は選びましたが、説明文はまだ書いているところです。",
+          "zh": "照片选好了，说明文字还在写。",
+          "reading": "しゃしんはえらびましたが、せつめいぶんはまだかいているところです。"
+        },
+        {
+          "id": "main-line-5",
+          "speakerId": "classmate",
+          "ja": "金曜日に二人で確認できそうですか。",
+          "zh": "星期五看起来能一起确认吗？",
+          "reading": "きんようびにふたりでかくにんできそうですか。"
+        },
+        {
+          "id": "main-line-6",
+          "speakerId": "learner",
+          "ja": "はい。木曜日の夜までに送ります。",
+          "zh": "能，周四晚上之前发给你。",
+          "reading": "はい。もくようびのよるまでにおくります。"
+        },
+        {
+          "id": "main-line-7",
+          "speakerId": "classmate",
+          "ja": "では、月曜日に一度練習しておきましょう。",
+          "zh": "那周一先练习一次吧。",
+          "reading": "では、げつようびにいちどれんしゅうしておきましょう。"
+        },
+        {
+          "id": "main-line-8",
+          "speakerId": "learner",
+          "ja": "そうしましょう。時間は先生の案内で確認します。",
+          "zh": "就这么办，发表时长会按老师的通知确认。",
+          "reading": "そうしましょう。じかんはせんせいのあんないでかくにんします。"
+        }
+      ]
+    },
+    {
+      "id": "branch",
+      "title": "条件变化：另一种处理路径",
+      "variant": "branch",
+      "lines": [
+        {
+          "id": "branch-line-1",
+          "speakerId": "learner",
+          "ja": "説明文が長すぎて、まだ終わりません。",
+          "zh": "说明文字太长，还没写完。",
+          "reading": "せつめいぶんがながすぎて、まだおわりません。"
+        },
+        {
+          "id": "branch-line-2",
+          "speakerId": "classmate",
+          "ja": "全部言おうとせずに、大切なことを三つにしましょう。",
+          "zh": "别试图全说，把重要的内容整理为三点吧。",
+          "reading": "ぜんぶいおうとせずに、たいせつなことをみっつにしましょう。"
+        },
+        {
+          "id": "branch-line-3",
+          "speakerId": "learner",
+          "ja": "では、短くしてから送ります。",
+          "zh": "那缩短后再发给你。",
+          "reading": "では、みじかくしてからおくります。"
+        },
+        {
+          "id": "branch-line-4",
+          "speakerId": "classmate",
+          "ja": "難しければ、途中のものを先に見せてください。",
+          "zh": "有困难的话先给我看看写到一半的内容。",
+          "reading": "むずかしければ、とちゅうのものをさきにみせてください。"
+        }
+      ]
+    },
+    {
+      "id": "plain",
+      "title": "普通体：与熟悉同学交谈",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "plain-line-1",
+          "speakerId": "classmate",
+          "ja": "写真の準備、どう？",
+          "zh": "照片准备得怎么样？",
+          "reading": "しゃしんのじゅんび、どう？"
+        },
+        {
+          "id": "plain-line-2",
+          "speakerId": "learner",
+          "ja": "選んだけど、説明はまだ書いてるところ。",
+          "zh": "选好了，但说明还在写。",
+          "reading": "えらんだけど、せつめいはまだかいてるところ。"
+        },
+        {
+          "id": "plain-line-3",
+          "speakerId": "classmate",
+          "ja": "金曜日に一緒に見よう。",
+          "zh": "星期五一起看看吧。",
+          "reading": "きんようびにいっしょにみよう。"
+        },
+        {
+          "id": "plain-line-4",
+          "speakerId": "learner",
+          "ja": "うん。木曜日の夜までに送るね。",
+          "zh": "好，周四晚上之前发给你。",
+          "reading": "うん。もくようびのよるまでにおくるね。"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "scenario-information",
+      "title": "本课已知信息与约定",
+      "kind": "table",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["事项", "本例设定"],
+          "rows": [
+            ["发表", "下周二"],
+            ["林", "照片及其说明"],
+            ["王", "路线说明"],
+            ["安排", "周四夜前发稿，周五核对内容，周一练习"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "version-context",
+      "title": "场景分支与语体说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["项目", "说明"],
+          "rows": [
+            ["主课文", "按 scene 中的背景与人物关系交流。"],
+            ["分支", "与主路径互斥的条件变化，不把两条路径的预约、结果或决定合并为同一事件。"],
+            ["普通体", "普通体版用于与熟悉同学王交谈；不把工作人员的礼貌表达机械改成普通体。"],
+            ["听后跟读", "先听完整一句，暂停后模仿；先理解人物、条件与任务。"],
+            ["影子跟读", "熟悉原句后，播放时稍落后连续跟随；平台使用合成语音，不称真人录音。"]
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "vocabulary-1",
+      "word": "発表",
+      "reading": "はっぴょう",
+      "meaning": "发表、报告展示",
+      "usage": "用于本课的小组发表时分工并报告进度场景",
+      "collocations": ["発表する"],
+      "examples": [
+        {
+          "ja": "来週の火曜日は、二人で発表することになりましたね。",
+          "zh": "下周二决定由我们两人发表，对吧。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-2",
+      "word": "道順",
+      "reading": "みちじゅん",
+      "meaning": "路线",
+      "usage": "用于本课的小组发表时分工并报告进度场景",
+      "collocations": ["道順を説明する"],
+      "examples": [
+        {
+          "ja": "では、私は道順を説明します。写真は用意できましたか。",
+          "zh": "那么我说明路线。照片准备好了吗？"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-3"
+      }
+    },
+    {
+      "id": "vocabulary-3",
+      "word": "用意",
+      "reading": "ようい",
+      "meaning": "准备",
+      "usage": "用于本课的小组发表时分工并报告进度场景",
+      "collocations": ["写真を用意する"],
+      "examples": [
+        {
+          "ja": "では、私は道順を説明します。写真は用意できましたか。",
+          "zh": "那么我说明路线。照片准备好了吗？"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-3"
+      }
+    },
+    {
+      "id": "vocabulary-4",
+      "word": "説明文",
+      "reading": "せつめいぶん",
+      "meaning": "说明文字",
+      "usage": "用于本课的小组发表时分工并报告进度场景",
+      "collocations": ["説明文を書く"],
+      "examples": [
+        {
+          "ja": "写真は選びましたが、説明文はまだ書いているところです。",
+          "zh": "照片选好了，说明文字还在写。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-4"
+      }
+    },
+    {
+      "id": "vocabulary-5",
+      "word": "選ぶ",
+      "reading": "えらぶ",
+      "meaning": "挑选",
+      "usage": "用于本课的小组发表时分工并报告进度场景",
+      "collocations": ["写真を選ぶ"],
+      "examples": [
+        {
+          "ja": "写真は選びましたが、説明文はまだ書いているところです。",
+          "zh": "照片选好了，说明文字还在写。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-4"
+      }
+    },
+    {
+      "id": "vocabulary-6",
+      "word": "練習",
+      "reading": "れんしゅう",
+      "meaning": "练习",
+      "usage": "用于本课的小组发表时分工并报告进度场景",
+      "collocations": ["発表を練習する"],
+      "examples": [
+        {
+          "ja": "では、月曜日に一度練習しておきましょう。",
+          "zh": "那周一先练习一次吧。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-7"
+      }
+    }
+  ],
+  "expressions": [
+    {
+      "id": "expression-1",
+      "function": "报告进度",
+      "pattern": "〜ましたが、〜はまだ〜ところです。",
+      "meaning": "区分已完成与进行中。",
+      "audience": "同组成员",
+      "notes": ["报告具体内容，避免一句还没好。"],
+      "slots": [
+        {
+          "key": "〜",
+          "description": "照片选择、说明文字等任务"
+        }
+      ],
+      "examples": [
+        {
+          "ja": "写真は選びましたが、説明文はまだ書いているところです。",
+          "zh": "照片选好了，说明文字还在写。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-4"
+      }
+    },
+    {
+      "id": "expression-2",
+      "function": "约定交付",
+      "pattern": "〜までに送ります。",
+      "meaning": "承诺截止时刻前发送。",
+      "audience": "同组成员",
+      "notes": ["困难出现时提前联络，不等过期后才说。"],
+      "slots": [
+        {
+          "key": "〜",
+          "description": "约定日期或时刻"
+        }
+      ],
+      "examples": [
+        {
+          "ja": "はい。木曜日の夜までに送ります。",
+          "zh": "能，周四晚上之前发给你。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-6"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "grammar-1",
+      "pattern": "〜ことになる",
+      "level": "N4",
+      "meaning": "说明安排或协商形成的决定。",
+      "connection": "动词辞书形／ない形＋ことになる",
+      "notes": [
+        "本例是小组发表安排；个人打算则使用つもり或ことにする。",
+        "本章分级是教学目标，不声称现行 JLPT 有逐项公布的必考文法清单。"
+      ],
+      "examples": [
+        {
+          "ja": "来週の火曜日は、二人で発表することになりましたね。",
+          "zh": "下周二决定由我们两人发表，对吧。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "pattern": "〜ているところ",
+      "level": "N4",
+      "meaning": "正处于进行某动作的阶段。",
+      "connection": "动词ている＋ところだ",
+      "notes": [
+        "写作进行中，不能说已经完成。",
+        "本章分级是教学目标，不声称现行 JLPT 有逐项公布的必考文法清单。"
+      ],
+      "examples": [
+        {
+          "ja": "写真は選びましたが、説明文はまだ書いているところです。",
+          "zh": "照片选好了，说明文字还在写。"
+        }
+      ]
+    }
+  ],
+  "shadowing": [
+    {
+      "id": "shadowing-main",
+      "dialogueId": "main",
+      "lineIds": [
+        "main-line-1",
+        "main-line-2",
+        "main-line-3",
+        "main-line-4",
+        "main-line-5",
+        "main-line-6",
+        "main-line-7",
+        "main-line-8"
+      ],
+      "prompt": "先听后跟读：整句听完再暂停模仿。理解本段任务后做影子跟读：播放时稍落后跟随。注意约定责任分工；分支只在对应条件下练习。"
+    },
+    {
+      "id": "shadowing-branch",
+      "dialogueId": "branch",
+      "lineIds": ["branch-line-1", "branch-line-2", "branch-line-3", "branch-line-4"],
+      "prompt": "先听后跟读：整句听完再暂停模仿。理解本段任务后做影子跟读：播放时稍落后跟随。注意约定责任分工；分支只在对应条件下练习。"
+    },
+    {
+      "id": "shadowing-plain",
+      "dialogueId": "plain",
+      "lineIds": ["plain-line-1", "plain-line-2", "plain-line-3", "plain-line-4"],
+      "prompt": "先听后跟读：整句听完再暂停模仿。理解本段任务后做影子跟读：播放时稍落后跟随。注意约定责任分工；分支只在对应条件下练习。"
+    }
+  ],
+  "homework": [
+    {
+      "id": "oral-one",
+      "type": "oral",
+      "situation": "向组员报告本课进度。",
+      "knownInformation": [
+        "发表：下周二",
+        "林：照片及其说明",
+        "王：路线说明",
+        "安排：周四夜前发稿，周五核对内容，周一练习"
+      ],
+      "tasks": ["分别说明已完成和未完成", "确认交付时间"],
+      "requirements": [
+        "按情境向对应人物作出简洁、连贯的说明。",
+        "已知事项与尚待确认事项分开表达；参考答案只是可行示例。"
+      ],
+      "hints": [
+        "〜ましたが、〜はまだ〜ところです。",
+        "〜までに送ります。",
+        "可使用本课文法和词汇，措辞不必与参考答案完全相同。"
+      ],
+      "functions": ["consult"],
+      "answers": [
+        {
+          "ja": "写真は選びましたが、説明文はまだ書いているところです。木曜日の夜までに送ります。金曜日に一緒に確認しましょう。",
+          "zh": "照片选好了，说明文字还在写。周四晚上前发给你，周五一起确认吧。"
+        }
+      ]
+    },
+    {
+      "id": "written-one",
+      "type": "written",
+      "situation": "记录两人的分工与安排。",
+      "knownInformation": [
+        "发表：下周二",
+        "林：照片及其说明",
+        "王：路线说明",
+        "安排：周四夜前发稿，周五核对内容，周一练习"
+      ],
+      "tasks": ["写出双方任务", "写出交稿与练习安排"],
+      "requirements": [
+        "写成收件人能理解的短消息或学习记录。",
+        "已知事项与尚待确认事项分开表达；参考答案只是可行示例。"
+      ],
+      "hints": [
+        "〜ましたが、〜はまだ〜ところです。",
+        "〜までに送ります。",
+        "可使用本课文法和词汇，措辞不必与参考答案完全相同。"
+      ],
+      "functions": ["contact"],
+      "answers": [
+        {
+          "ja": "私は写真、王さんは道順の説明を担当します。木曜日の夜までに原稿を送り、金曜日に確認します。月曜日に練習する予定です。",
+          "zh": "我负责照片，王负责路线说明。周四晚上前发稿，周五确认，计划周一练习。"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "原创 N4 生活日语章节",
+      "note": "2026-10-04 按用户要求新作；课文、译文、分支、作业与参考答案均为原创教学场景，不来自真实机构原始记录。金额、时刻、条件是本例设定。"
+    },
+    {
+      "title": "nihongo/docs/content-format.md 与 schemas/*.schema.json",
+      "note": "遵循本项目 v1 数据契约；N4为学习目标，常见场景固定表达按需要整块理解，不宣称逐项对应官方必考清单。"
+    }
+  ]
+}

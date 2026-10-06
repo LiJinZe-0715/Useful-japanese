@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "example-scene",
+  "unitId": "unit-one",
+  "order": 1,
+  "title": "结构示范",
+  "kind": "scene",
+  "objectives": ["了解示例格式"],
+  "scene": {
+    "background": "格式演示",
+    "channel": "meeting",
+    "tasks": ["说明安排"],
+    "relationships": "你扮演“我（わたし）”。同事"
+  },
+  "learnerSpeakerId": "a",
+  "speakers": [
+    {
+      "id": "a",
+      "name": "我（わたし）",
+      "role": "你扮演的角色；同事",
+      "voice": {
+        "voicevoxStyleId": 3
+      }
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "main",
+      "title": "主课文",
+      "variant": "main",
+      "lines": [
+        {
+          "id": "line-one",
+          "speakerId": "a",
+          "ja": "確認します。",
+          "zh": "我确认一下。",
+          "reading": "かくにんします。"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "note",
+      "title": "说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "ja": "例です。",
+          "zh": "这是示例。"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "confirm",
+      "word": "確認",
+      "reading": "かくにん",
+      "meaning": "确认",
+      "usage": "确认安排",
+      "collocations": ["確認する"],
+      "examples": [
+        {
+          "ja": "確認します。",
+          "zh": "我确认一下。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "line-one"
+      }
+    }
+  ],
+  "expressions": [
+    {
+      "id": "expression-one",
+      "function": "联络",
+      "pattern": "〜します",
+      "meaning": "将做某事",
+      "audience": "同事",
+      "notes": ["格式示例"],
+      "slots": [
+        {
+          "key": "〜",
+          "description": "动作"
+        }
+      ],
+      "examples": [
+        {
+          "ja": "確認します。",
+          "zh": "我确认一下。"
+        }
+      ]
+    }
+  ],
+  "grammar": [],
+  "shadowing": [
+    {
+      "id": "practice-one",
+      "dialogueId": "main",
+      "lineIds": ["line-one"],
+      "prompt": "先听后跟读，再同步影子跟读。"
+    }
+  ],
+  "homework": [
+    {
+      "id": "task-one",
+      "type": "oral",
+      "situation": "说明下一步",
+      "knownInformation": ["需要确认"],
+      "tasks": ["说出安排"],
+      "requirements": ["简洁"],
+      "hints": ["参考固定表达"],
+      "functions": ["contact"],
+      "answers": [
+        {
+          "ja": "確認します。",
+          "zh": "我确认一下。"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "自编格式示范",
+      "note": "不作为正式课程内容发布"
+    }
+  ]
+}

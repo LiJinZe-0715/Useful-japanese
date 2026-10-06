@@ -1,0 +1,1062 @@
+{
+  "schemaVersion": 1,
+  "id": "n5-13",
+  "unitId": "n5",
+  "order": 113,
+  "title": "第13课 在亚马逊买家电",
+  "level": "N5",
+  "kind": "scene",
+  "objectives": [
+    "1.1 能说想买哪件家电。",
+    "1.2 能确认商品尺寸和配送地址。",
+    "1.3 能区分下单、发货和到货。"
+  ],
+  "scene": {
+    "background": "我在亚马逊网站选一台电热水壶，先核对尺寸、电压、配送地址和到货方式。",
+    "channel": "other",
+    "tasks": [
+      "1.1 能说想买哪件家电。",
+      "1.2 能确认商品尺寸和配送地址。",
+      "1.3 能区分下单、发货和到货。"
+    ],
+    "relationships": "你扮演“我（わたし）”。私（学习者）：赴日学习者；朋友：朋友"
+  },
+  "learnerSpeakerId": "learner",
+  "speakers": [
+    {
+      "id": "learner",
+      "name": "我（わたし）",
+      "role": "你扮演的角色；赴日学习者"
+    },
+    {
+      "id": "speaker-2",
+      "name": "朋友",
+      "role": "朋友"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "main",
+      "title": "场景课文",
+      "variant": "main",
+      "lines": [
+        {
+          "id": "main-line-1",
+          "speakerId": "learner",
+          "ja": "電気ケトルを買いたいです。",
+          "zh": "我想买电热水壶。",
+          "reading": "でんきケトルをかいたいです。",
+          "ttsText": "でんきケトルをかいたいです。"
+        },
+        {
+          "id": "main-line-2",
+          "speakerId": "speaker-2",
+          "ja": "ケトルはもう持っていますか。",
+          "zh": "已经有水壶了吗？",
+          "reading": "ケトルはもうもっていますか。",
+          "ttsText": "ケトルはもうもっていますか。"
+        },
+        {
+          "id": "main-line-3",
+          "speakerId": "learner",
+          "ja": "まだ持っていません。お湯を沸かしたいです。",
+          "zh": "还没有。我想烧热水。",
+          "reading": "まだもっていません。おゆをわかしたいです。",
+          "ttsText": "まだもっていません。おゆをわかしたいです。"
+        },
+        {
+          "id": "main-line-4",
+          "speakerId": "speaker-2",
+          "ja": "こちらのほうが小さいですね。大きさと電圧を見ましたか。",
+          "zh": "这款更小呢。看过大小和电压了吗？",
+          "reading": "こちらのほうがちいさいですね。おおきさとでんあつをみましたか。",
+          "ttsText": "こちらのほうがちいさいですね。おおきさとでんあつをみましたか。"
+        },
+        {
+          "id": "main-line-5",
+          "speakerId": "learner",
+          "ja": "小さい方なら台所に置けそうです。",
+          "zh": "小的这款应该能放在厨房里。",
+          "reading": "ちいさいほうならだいどころにおけそうです。",
+          "ttsText": "ちいさいほうならだいどころにおけそうです。"
+        },
+        {
+          "id": "main-line-6",
+          "speakerId": "learner",
+          "ja": "大きさは見ました。電圧はまだです。",
+          "zh": "大小看过了，电压还没看。",
+          "reading": "おおきさはみました。でんあつはまだです。",
+          "ttsText": "おおきさはみました。でんあつはまだです。"
+        },
+        {
+          "id": "main-line-7",
+          "speakerId": "speaker-2",
+          "ja": "商品の説明に書いてありますか。",
+          "zh": "商品说明上有写吗？",
+          "reading": "しょうひんのせつめいにかいてありますか。",
+          "ttsText": "しょうひんのせつめいにかいてありますか。"
+        },
+        {
+          "id": "main-line-8",
+          "speakerId": "learner",
+          "ja": "下まで見ます。",
+          "zh": "我往下看看。",
+          "reading": "したまでみます。",
+          "ttsText": "したまでみます。"
+        },
+        {
+          "id": "main-line-9",
+          "speakerId": "speaker-2",
+          "ja": "住所と配達日も確認してください。",
+          "zh": "也请确认地址和配送日期。",
+          "reading": "じゅうしょとはいたつびもかくにんしてください。",
+          "ttsText": "じゅうしょとはいたつびもかくにんしてください。"
+        },
+        {
+          "id": "main-line-10",
+          "speakerId": "learner",
+          "ja": "あ、郵便番号が違います。直します。",
+          "zh": "啊，邮政编码不对。我改一下。",
+          "reading": "あ、ゆうびんばんごうがちがいます。なおします。",
+          "ttsText": "あ、ゆうびんばんごうがちがいます。なおします。"
+        },
+        {
+          "id": "main-line-11",
+          "speakerId": "speaker-2",
+          "ja": "気づいてよかったですね。",
+          "zh": "幸好发现了。",
+          "reading": "きづいてよかったですね。",
+          "ttsText": "きづいてよかったですね。"
+        },
+        {
+          "id": "main-line-12",
+          "speakerId": "learner",
+          "ja": "はい。注文する前に確認します。",
+          "zh": "是的，我会在下单前确认。",
+          "reading": "はい。ちゅうもんするまえにかくにんします。",
+          "ttsText": "はい。ちゅうもんするまえにかくにんします。"
+        },
+        {
+          "id": "main-line-13",
+          "speakerId": "speaker-2",
+          "ja": "送料と返品の条件も見てからにしましょう。",
+          "zh": "也看过运费和退货条件后再决定吧。",
+          "reading": "そうりょうとへんぴんのじょうけんもみてからにしましょう。",
+          "ttsText": "そうりょうとへんぴんのじょうけんもみてからにしましょう。"
+        },
+        {
+          "id": "main-line-14",
+          "speakerId": "learner",
+          "ja": "はい。まだ注文しません。",
+          "zh": "好的，我还不下单。",
+          "reading": "はい。まだちゅうもんしません。",
+          "ttsText": "はい。まだちゅうもんしません。"
+        }
+      ]
+    },
+    {
+      "id": "polite",
+      "title": "跟读文本（礼貌体版·网购家电）",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "polite-line-1",
+          "speakerId": "speaker-2",
+          "ja": "このケトルは大きいですね。",
+          "zh": "这个水壶很大呢。",
+          "reading": "このケトルはおおきいですね。",
+          "ttsText": "このケトルはおおきいですね。"
+        },
+        {
+          "id": "polite-line-2",
+          "speakerId": "learner",
+          "ja": "はい。でも、このケトルは安いです。",
+          "zh": "是的，不过这个水壶便宜。",
+          "reading": "はい。でも、このケトルはやすいです。",
+          "ttsText": "はい。でも、このケトルはやすいです。"
+        },
+        {
+          "id": "polite-line-3",
+          "speakerId": "speaker-2",
+          "ja": "では、もう少し見ましょう。",
+          "zh": "那再看看吧。",
+          "reading": "では、もうすこしみましょう。",
+          "ttsText": "では、もうすこしみましょう。"
+        },
+        {
+          "id": "polite-line-4",
+          "speakerId": "learner",
+          "ja": "こちらの住所も見てください。",
+          "zh": "也请看看这里的地址。",
+          "reading": "こちらのじゅうしょもみてください。",
+          "ttsText": "こちらのじゅうしょもみてください。"
+        },
+        {
+          "id": "polite-line-5",
+          "speakerId": "speaker-2",
+          "ja": "部屋番号まで入っていますか。",
+          "zh": "房间号也填了吗？",
+          "reading": "へやばんごうまではいっていますか。",
+          "ttsText": "へやばんごうまではいっていますか。"
+        },
+        {
+          "id": "polite-line-6",
+          "speakerId": "learner",
+          "ja": "はい、あります。配達日も確認します。",
+          "zh": "填了。我也会确认配送日期。",
+          "reading": "はい、あります。はいたつびもかくにんします。",
+          "ttsText": "はい、あります。はいたつびもかくにんします。"
+        },
+        {
+          "id": "polite-line-7",
+          "speakerId": "speaker-2",
+          "ja": "それなら、最後に合計を見ましょう。",
+          "zh": "那最后看看总金额吧。",
+          "reading": "それなら、さいごにごうけいをみましょう。",
+          "ttsText": "それなら、さいごにごうけいをみましょう。"
+        }
+      ]
+    },
+    {
+      "id": "plain",
+      "title": "跟读文本（普通体版·网购家电）",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "plain-line-1",
+          "speakerId": "speaker-2",
+          "ja": "このケトルは大きいね。",
+          "zh": "这个水壶很大呢。",
+          "reading": "このケトルはおおきいね。",
+          "ttsText": "このケトルはおおきいね。"
+        },
+        {
+          "id": "plain-line-2",
+          "speakerId": "learner",
+          "ja": "うん。でも、このケトルは安い。",
+          "zh": "是的，不过这个水壶便宜。",
+          "reading": "うん。でも、このケトルはやすい。",
+          "ttsText": "うん。でも、このケトルはやすい。"
+        },
+        {
+          "id": "plain-line-3",
+          "speakerId": "speaker-2",
+          "ja": "それなら、もう少し見よう。",
+          "zh": "那再看看吧。",
+          "reading": "それなら、もうすこしみよう。",
+          "ttsText": "それなら、もうすこしみよう。"
+        },
+        {
+          "id": "plain-line-4",
+          "speakerId": "learner",
+          "ja": "この住所も見て。",
+          "zh": "也请看看这里的地址。",
+          "reading": "このじゅうしょもみて。",
+          "ttsText": "このじゅうしょもみて。"
+        },
+        {
+          "id": "plain-line-5",
+          "speakerId": "speaker-2",
+          "ja": "部屋番号まで入っている？",
+          "zh": "房间号也填了吗？",
+          "reading": "へやばんごうまではいっている？",
+          "ttsText": "へやばんごうまではいっている？"
+        },
+        {
+          "id": "plain-line-6",
+          "speakerId": "learner",
+          "ja": "うん、ある。配達日も確認する。",
+          "zh": "填了。我也会确认配送日期。",
+          "reading": "うん、ある。はいたつびもかくにんする。",
+          "ttsText": "うん、ある。はいたつびもかくにんする。"
+        },
+        {
+          "id": "plain-line-7",
+          "speakerId": "speaker-2",
+          "ja": "それなら、最後に合計を見よう。",
+          "zh": "那最后看看总金额吧。",
+          "reading": "それなら、さいごにごうけいをみよう。",
+          "ttsText": "それなら、さいごにごうけいをみよう。"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "lesson-context",
+      "title": "场景与使用说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "场景：我在亚马逊网站选一台电热水壶，先核对尺寸、电压、配送地址和到货方式。\n使用场合：读商品信息，和朋友确认购买前必须检查的项目。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "goal-notes",
+      "title": "目标补充说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [["自测：打开一个实际商品页面，只说查到的规格；没有看到的信息就不猜。"]]
+        }
+      ]
+    },
+    {
+      "id": "dialogue-context",
+      "title": "课文与语体版本的转场、交谈对象",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["对话 ID", "位置（在该行之后；下一行注明对象）", "原场景提示"],
+          "rows": [
+            [
+              "main",
+              "整体",
+              "情境：我在手机上比较两款商品，朋友提醒我在付款前查看详情；最终是否购买由自己决定。"
+            ],
+            [
+              "main",
+              "整体",
+              "说明：本课用购物网站的一般页面，不承诺某平台所有卖家都提供同样的送达日期、安装服务或退货条件。电器规格以商品页面和说明书为准。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "register-comparison",
+      "title": "两版差异对照（行 ID 对应上方语体版本）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说话者", "礼貌体行 ID", "普通体行 ID", "原差异说明"],
+          "rows": [
+            ["朋友", "polite-line-1", "plain-line-1", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-2", "plain-line-2", "表达内容相同，语体不同"],
+            ["朋友", "polite-line-3", "plain-line-3", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-4", "plain-line-4", "表达内容相同，语体不同"],
+            ["朋友", "polite-line-5", "plain-line-5", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-6", "plain-line-6", "表达内容相同，语体不同"],
+            ["朋友", "polite-line-7", "plain-line-7", "表达内容相同，语体不同"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shadowing-notes",
+      "title": "跟读场景、前提与使用说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "唯一跟读场景：朋友和我比较两台电热水壶，尚未付款。\n关系与版本前提：普通体版用于熟悉朋友；礼貌体版用于刚认识的同学帮忙看页面。\n与课文的区别：课文核对规格与地址；这里比较体积与价格，再核对配送地址；不把“大きい”当作已核实的容量数值。"
+            ],
+            ["■ 跟读步骤"],
+            [
+              "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+            ],
+            ["■ 跟读要点"],
+            ["礼貌体版：比较的对象要说清楚。\n普通体版：指示词的口语形式只用于随意交谈。"],
+            ["■ 为什么用这个版本"],
+            ["礼貌体版：不熟悉同学帮忙时适用。\n普通体版：熟悉朋友之间自然。"],
+            ["■ 本课跟读目标"],
+            ["在下单前能说出还需确认的事实。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary-notes",
+      "title": "词汇分组与学习说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["■ 3A N5基础词汇"],
+            ["本栏指常见初级教材中的N5基础词，不表示官方保证考到。"],
+            ["■ 3B 场景补充词汇（先听懂）"],
+            ["本栏先听懂、能辨认；行政或商品词不要求会写。"],
+            ["词汇使用提醒：商品规格是实际购物信息，不由教材代替实物标示。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-notes",
+      "title": "文法安排与补充表达（原 4B）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["■ 4A 基础句型与场景练习"],
+            [
+              "本栏练习基础句型和本课场景中的表达；长句中的敬语、复合结构可先整句理解。例句均从本课课文原样摘取。"
+            ],
+            ["■ 4B 补充表达与后续复习"],
+            [
+              "文法点：过去动作修饰名词\n意思：可用已完成的动作说明是哪一件商品；第17课正式学习。\n例句：注文(ちゅうもん)したケトルです。\n后续学习建议：结合本课语境复习，再在后续系统课程中学习接续与变形；本课程没有第21课。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appendix-1",
+      "title": "附1：当时课程目标下，日本人实际会怎么说",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "家人之间：住所(じゅうしょ)、これでいい？\n对同事朋友：住所(じゅうしょ)を確認(かくにん)します。\n对上级工作人员：配達日(はいたつび)を確認(かくにん)したいです。\n说明：实际下单时最关键的信息应以结算页面为准。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appendix-2",
+      "title": "附2：常见误用",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "标记说明：✗包含语法错误，也包含本情境中事实不准确、未核实就断言或应对不合适的说法；不表示所有标记句都不合语法。"
+            ],
+            [
+              "注文(ちゅうもん)しましたから今日(きょう)届(とど)きます。 ✗ → 配達日(はいたつび)を確認(かくにん)します。 ✓\n原因：下单不等于当天送达。\n電圧(でんあつ)はたぶん大丈夫(だいじょうぶ)です。 ✗ → 電圧(でんあつ)を表示(ひょうじ)で確認(かくにん)します。 ✓\n原因：电器规格要查商品标示。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-1",
+      "title": "词汇读音与释义资料（原测试 1）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "读音：かいます\n答案：買(か)います — 买\n读音：おおきい\n答案：大(おお)きい — 大\n读音：まえ\n答案：前(まえ) — 之前\n读音：これ\n答案：これ — 这个\n读音：みました\n答案：見(み)ました — 看过了\n读音：まだ\n答案：まだ — 还未\n读音：いま\n答案：今(いま) — 现在\n读音：した\n答案：下(した) — 下面\n读音：かきます\n答案：書(か)きます — 写\n读音：おきます\n答案：置(お)きます — 放\n读音：ちがいます\n答案：違(ちが)います — 不同\n读音：でんきケトル\n答案：電気(でんき)ケトル — 电热水壶\n读音：でんあつ\n答案：電圧(でんあつ) — 电压\n读音：はいたつび\n答案：配達日(はいたつび) — 配送日期\n读音：じゅうしょ\n答案：住所(じゅうしょ) — 地址\n读音：ちゅうもん\n答案：注文(ちゅうもん) — 下单\n读音：しょうひん\n答案：商品(しょうひん) — 商品\n读音：おゆ\n答案：お湯(ゆ) — 热水\n读音：わかします\n答案：沸(わ)かします — 烧开\n读音：だいどころ\n答案：台所(だいどころ) — 厨房\n读音：しょうひんせつめい\n答案：商品説明(しょうひんせつめい) — 商品说明\n读音：ゆうびんばんごう\n答案：郵便番号(ゆうびんばんごう) — 邮政编码\n读音：なおします\n答案：直(なお)します — 改正\n读音：そうりょう\n答案：送料(そうりょう) — 运费\n读音：へんぴん\n答案：返品(へんぴん) — 退货\n读音：じょうけん\n答案：条件(じょうけん) — 条件"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-2",
+      "title": "文法例题与参考答案（原测试 2）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "题目：電気(でんき)ケトルを（　）。\n答案：買(か)いたいです\n题目：はい。（　）確認(かくにん)します。\n答案：注文(ちゅうもん)する前(まえ)に\n题目：こちらの（　）が小(ちい)さいですね。大(おお)きさと電圧(でんあつ)を見(み)ましたか。\n答案：ほう"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "vocabulary-1",
+      "word": "買います",
+      "reading": "かいます",
+      "meaning": "买",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-2",
+      "word": "大きい",
+      "reading": "おおきい",
+      "meaning": "大",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "このケトルは大きいですね。",
+          "zh": "这个水壶很大呢。",
+          "ttsText": "このケトルはおおきいですね。"
+        }
+      ],
+      "source": {
+        "dialogueId": "polite",
+        "lineId": "polite-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-3",
+      "word": "前",
+      "reading": "まえ",
+      "meaning": "之前",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "はい。注文する前に確認します。",
+          "zh": "是的，我会在下单前确认。",
+          "ttsText": "はい。ちゅうもんするまえにかくにんします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-12"
+      }
+    },
+    {
+      "id": "vocabulary-4",
+      "word": "これ",
+      "reading": "これ",
+      "meaning": "这个",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-5",
+      "word": "見ました",
+      "reading": "みました",
+      "meaning": "看过了",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "こちらのほうが小さいですね。大きさと電圧を見ましたか。",
+          "zh": "这款更小呢。看过大小和电压了吗？",
+          "ttsText": "こちらのほうがちいさいですね。おおきさとでんあつをみましたか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-4"
+      }
+    },
+    {
+      "id": "vocabulary-6",
+      "word": "まだ",
+      "reading": "まだ",
+      "meaning": "还未",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "まだ持っていません。お湯を沸かしたいです。",
+          "zh": "还没有。我想烧热水。",
+          "ttsText": "まだもっていません。おゆをわかしたいです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-3"
+      }
+    },
+    {
+      "id": "vocabulary-7",
+      "word": "今",
+      "reading": "いま",
+      "meaning": "现在",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-8",
+      "word": "下",
+      "reading": "した",
+      "meaning": "下面",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "下まで見ます。",
+          "zh": "我往下看看。",
+          "ttsText": "したまでみます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-8"
+      }
+    },
+    {
+      "id": "vocabulary-9",
+      "word": "書きます",
+      "reading": "かきます",
+      "meaning": "写",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-10",
+      "word": "置きます",
+      "reading": "おきます",
+      "meaning": "放",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-11",
+      "word": "違います",
+      "reading": "ちがいます",
+      "meaning": "不同",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "あ、郵便番号が違います。直します。",
+          "zh": "啊，邮政编码不对。我改一下。",
+          "ttsText": "あ、ゆうびんばんごうがちがいます。なおします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-10"
+      }
+    },
+    {
+      "id": "vocabulary-12",
+      "word": "電気ケトル",
+      "reading": "でんきケトル",
+      "meaning": "电热水壶",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "電気ケトルを買いたいです。",
+          "zh": "我想买电热水壶。",
+          "ttsText": "でんきケトルをかいたいです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-13",
+      "word": "電圧",
+      "reading": "でんあつ",
+      "meaning": "电压",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "こちらのほうが小さいですね。大きさと電圧を見ましたか。",
+          "zh": "这款更小呢。看过大小和电压了吗？",
+          "ttsText": "こちらのほうがちいさいですね。おおきさとでんあつをみましたか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-4"
+      }
+    },
+    {
+      "id": "vocabulary-14",
+      "word": "配達日",
+      "reading": "はいたつび",
+      "meaning": "配送日期",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "住所と配達日も確認してください。",
+          "zh": "也请确认地址和配送日期。",
+          "ttsText": "じゅうしょとはいたつびもかくにんしてください。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-9"
+      }
+    },
+    {
+      "id": "vocabulary-15",
+      "word": "住所",
+      "reading": "じゅうしょ",
+      "meaning": "地址",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "住所と配達日も確認してください。",
+          "zh": "也请确认地址和配送日期。",
+          "ttsText": "じゅうしょとはいたつびもかくにんしてください。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-9"
+      }
+    },
+    {
+      "id": "vocabulary-16",
+      "word": "注文",
+      "reading": "ちゅうもん",
+      "meaning": "下单",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "はい。注文する前に確認します。",
+          "zh": "是的，我会在下单前确认。",
+          "ttsText": "はい。ちゅうもんするまえにかくにんします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-12"
+      }
+    },
+    {
+      "id": "vocabulary-17",
+      "word": "商品",
+      "reading": "しょうひん",
+      "meaning": "商品",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "商品の説明に書いてありますか。",
+          "zh": "商品说明上有写吗？",
+          "ttsText": "しょうひんのせつめいにかいてありますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-7"
+      }
+    },
+    {
+      "id": "vocabulary-18",
+      "word": "お湯",
+      "reading": "おゆ",
+      "meaning": "热水",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "まだ持っていません。お湯を沸かしたいです。",
+          "zh": "还没有。我想烧热水。",
+          "ttsText": "まだもっていません。おゆをわかしたいです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-3"
+      }
+    },
+    {
+      "id": "vocabulary-19",
+      "word": "沸かします",
+      "reading": "わかします",
+      "meaning": "烧开",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-20",
+      "word": "台所",
+      "reading": "だいどころ",
+      "meaning": "厨房",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "小さい方なら台所に置けそうです。",
+          "zh": "小的这款应该能放在厨房里。",
+          "ttsText": "ちいさいほうならだいどころにおけそうです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-5"
+      }
+    },
+    {
+      "id": "vocabulary-21",
+      "word": "商品説明",
+      "reading": "しょうひんせつめい",
+      "meaning": "商品说明",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-22",
+      "word": "郵便番号",
+      "reading": "ゆうびんばんごう",
+      "meaning": "邮政编码",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "あ、郵便番号が違います。直します。",
+          "zh": "啊，邮政编码不对。我改一下。",
+          "ttsText": "あ、ゆうびんばんごうがちがいます。なおします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-10"
+      }
+    },
+    {
+      "id": "vocabulary-23",
+      "word": "直します",
+      "reading": "なおします",
+      "meaning": "改正",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "あ、郵便番号が違います。直します。",
+          "zh": "啊，邮政编码不对。我改一下。",
+          "ttsText": "あ、ゆうびんばんごうがちがいます。なおします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-10"
+      }
+    },
+    {
+      "id": "vocabulary-24",
+      "word": "送料",
+      "reading": "そうりょう",
+      "meaning": "运费",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "送料と返品の条件も見てからにしましょう。",
+          "zh": "也看过运费和退货条件后再决定吧。",
+          "ttsText": "そうりょうとへんぴんのじょうけんもみてからにしましょう。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-13"
+      }
+    },
+    {
+      "id": "vocabulary-25",
+      "word": "返品",
+      "reading": "へんぴん",
+      "meaning": "退货",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "送料と返品の条件も見てからにしましょう。",
+          "zh": "也看过运费和退货条件后再决定吧。",
+          "ttsText": "そうりょうとへんぴんのじょうけんもみてからにしましょう。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-13"
+      }
+    },
+    {
+      "id": "vocabulary-26",
+      "word": "条件",
+      "reading": "じょうけん",
+      "meaning": "条件",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "送料と返品の条件も見てからにしましょう。",
+          "zh": "也看过运费和退货条件后再决定吧。",
+          "ttsText": "そうりょうとへんぴんのじょうけんもみてからにしましょう。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-13"
+      }
+    }
+  ],
+  "expressions": [
+    {
+      "id": "expression-one",
+      "function": "下单前我会确认。",
+      "pattern": "注文する前に確認します。",
+      "meaning": "下单前我会确认。",
+      "audience": "一起购物的朋友或家人。",
+      "notes": [
+        "固定句：注文(ちゅうもん)する前(まえ)に確認(かくにん)します。",
+        "不可以替换什么：不能在没有核对地址和规格时把这句当作已完成确认。",
+        "语感差异：审慎而明确。",
+        "对谁不能说：不适合向卖家表述为对方已经替我确认。",
+        "其他用法：也可用于预约或填写表格前的自查。",
+        "本课要求：付款前真实核对商品、地址和配送信息。"
+      ],
+      "slots": [
+        {
+          "key": "可替换部分",
+          "description": "可替换要做的动作名词，但需检查整句搭配。"
+        }
+      ],
+      "examples": [
+        {
+          "ja": "はい。注文する前に確認します。",
+          "zh": "是的，我会在下单前确认。",
+          "ttsText": "はい。ちゅうもんするまえにかくにんします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-12"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "grammar-1",
+      "pattern": "愿望",
+      "level": "N5",
+      "meaning": "说明想买电热水壶。",
+      "connection": "动词ます形去掉ます后＋たい。",
+      "notes": [
+        "课文对应：電気(でんき)ケトルを買(か)いたいです。",
+        "例题：電気(でんき)ケトルを（　）。",
+        "答案：買(か)いたいです"
+      ],
+      "examples": [
+        {
+          "ja": "電気ケトルを買いたいです。",
+          "zh": "我想买电热水壶。",
+          "ttsText": "でんきケトルをかいたいです。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "pattern": "动作之前",
+      "level": "N5",
+      "meaning": "说明下单前核对。",
+      "connection": "动词基本形后接表示之前的名词。",
+      "notes": [
+        "课文对应：はい。注文(ちゅうもん)する前(まえ)に確認(かくにん)します。",
+        "例题：はい。（　）確認(かくにん)します。",
+        "答案：注文(ちゅうもん)する前(まえ)に"
+      ],
+      "examples": [
+        {
+          "ja": "はい。注文する前に確認します。",
+          "zh": "是的，我会在下单前确认。",
+          "ttsText": "はい。ちゅうもんするまえにかくにんします。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "pattern": "两个商品的比较",
+      "level": "N5",
+      "meaning": "比较的是两个页面上看得到的商品。",
+      "connection": "指着两个商品时，用比较表达说明其中一个更小。",
+      "notes": [
+        "课文对应：こちらのほうが小(ちい)さいですね。大(おお)きさと電圧(でんあつ)を見(み)ましたか。",
+        "例题：こちらの（　）が小(ちい)さいですね。大(おお)きさと電圧(でんあつ)を見(み)ましたか。",
+        "答案：ほう"
+      ],
+      "examples": [
+        {
+          "ja": "こちらのほうが小さいですね。大きさと電圧を見ましたか。",
+          "zh": "这款更小呢。看过大小和电压了吗？",
+          "ttsText": "こちらのほうがちいさいですね。おおきさとでんあつをみましたか。"
+        }
+      ]
+    }
+  ],
+  "shadowing": [
+    {
+      "id": "shadowing-polite",
+      "dialogueId": "polite",
+      "lineIds": [
+        "polite-line-1",
+        "polite-line-2",
+        "polite-line-3",
+        "polite-line-4",
+        "polite-line-5",
+        "polite-line-6",
+        "polite-line-7"
+      ],
+      "prompt": "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+    },
+    {
+      "id": "shadowing-plain",
+      "dialogueId": "plain",
+      "lineIds": [
+        "plain-line-1",
+        "plain-line-2",
+        "plain-line-3",
+        "plain-line-4",
+        "plain-line-5",
+        "plain-line-6",
+        "plain-line-7"
+      ],
+      "prompt": "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+    }
+  ],
+  "homework": [],
+  "references": [
+    {
+      "title": "seikatsu-nihongo/content/n5-source.txt",
+      "note": "唯一正文来源；第13课。源稿日语、事实与说明保持不变；本次新增忠实中文译文用于 v1 必填 zh，未创作场景或作业。 N5 章节的完整通用使用说明统一保存在同章 n5-1 的「N5 章节使用说明」素材中。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/README.md",
+      "note": "n5.json 为 TXT 生成结果，已通过 import-n5.mjs --check；不重复导出生成 README。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/review-notes.md",
+      "note": "沿用 2026-09-30 校订；现实条件与时限按原说明保留，不把课号当办事日期。"
+    },
+    {
+      "title": "JLPT官方考试指南",
+      "url": "https://jlpt.jp/cn/reference/pdf/guidebook1.pdf",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "出入国在留管理厅",
+      "url": "https://www.moj.go.jp/isa/applications/procedures/nyuukokukanri10_00021.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "日本海关",
+      "url": "https://www.customs.go.jp/english/passenger/declaration/declaration_app.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "东京燃气",
+      "url": "https://home.tokyo-gas.co.jp/gas_power/procedure/moving/khsn_k_nagare.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "povo官方",
+      "url": "https://povo.jp/procedure/",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "日本邮政银行",
+      "url": "https://www.jp-bank.japanpost.jp/kaisetu/kat_gaikokujin.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "厚生劳动省",
+      "url": "https://www.mhlw.go.jp/stf/newpage_50657.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "life",
+  "title": "生活日语",
+  "description": "从赴日前准备到抵日后的生活交流，按准备篇、N5、N4、N3、N2章节组织。包含假名与基础发音准备篇、N5第1～20课（校订版）、原创N4和N3各20课，以及原创N2共60课。",
+  "learningMode": "life",
+  "order": 0,
+  "enabled": true,
+  "levels": ["N5", "N4", "N3", "N2"],
+  "units": [
+    {
+      "id": "pre",
+      "title": "准备篇：假名与基础发音",
+      "order": 0
+    },
+    {
+      "id": "n5",
+      "title": "N5",
+      "order": 1
+    },
+    {
+      "id": "n4",
+      "title": "N4",
+      "order": 2
+    },
+    {
+      "id": "n3",
+      "title": "N3",
+      "order": 3
+    },
+    {
+      "id": "n2",
+      "title": "N2",
+      "order": 4
+    }
+  ]
+}

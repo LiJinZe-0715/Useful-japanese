@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.vinext/
+.next/
+.idea/
+.env*
+!.env.example
+*.tsbuildinfo
+src/generated/
+public/course-assets/

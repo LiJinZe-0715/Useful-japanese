@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "life-demo",
+  "title": "生活结构夹具",
+  "description": "只用于说明数据契约",
+  "learningMode": "life",
+  "order": 20,
+  "enabled": true,
+  "levels": ["N5"]
+}

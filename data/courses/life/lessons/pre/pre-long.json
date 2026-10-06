@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "id": "long",
+  "unitId": "pre",
+  "order": 6,
+  "title": "长音：把母音延长一拍",
+  "kind": "preparation",
+  "objectives": ["拉长的是母音，不是把整段声音重新发一次。"],
+  "materials": [
+    {
+      "id": "learning-notes",
+      "title": "学习说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["片假名常用「ー」表示长音：アー是两拍，ティー也是两拍。"],
+            [
+              "平假名常见「ああ・いい・うう・えい・おう」等拼写。えい、おう在许多情况下读成长e、长o；也有保留两个母音的情况，不能一律合并。"
+            ],
+            ["下方仅为声音组合练习。按圆点保持等长拍子。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kana-chart",
+      "title": "长音：把母音延长一拍 · 字形与读音表",
+      "kind": "table",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["第1列", "第2列", "第3列"],
+          "rows": [
+            ["ア → アー\na → aa", "イ → イー\ni → ii", "ウ → ウー\nu → uu"],
+            ["エ → エー\ne → ee", "オ → オー\no → oo", "ティ → ティー\nti → tii"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pronunciation",
+      "title": "认读与合成语音",
+      "kind": "pronunciation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["朗读说明"],
+          "rows": [["系统语音仅供辅助，不是真人发音示范。"]]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "ja": "ア → アー",
+              "zh": "a → aa",
+              "ttsText": "アー"
+            },
+            {
+              "ja": "イ → イー",
+              "zh": "i → ii",
+              "ttsText": "イー"
+            },
+            {
+              "ja": "ウ → ウー",
+              "zh": "u → uu",
+              "ttsText": "ウー"
+            },
+            {
+              "ja": "エ → エー",
+              "zh": "e → ee",
+              "ttsText": "エー"
+            },
+            {
+              "ja": "オ → オー",
+              "zh": "o → oo",
+              "ttsText": "オー"
+            },
+            {
+              "ja": "ティ → ティー",
+              "zh": "ti → tii",
+              "ttsText": "ティー"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mora",
+      "title": "拍子示例",
+      "kind": "table",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [["圆点表示拍子，每一点保持同样的时长。"]]
+        },
+        {
+          "type": "table",
+          "headers": ["声音组合", "第1拍", "第2拍"],
+          "rows": [
+            ["ア → アー", "● ア", "● ー"],
+            ["イ → イー", "● イ", "● ー"],
+            ["ウ → ウー", "● ウ", "● ー"],
+            ["エ → エー", "● エ", "● ー"],
+            ["オ → オー", "● オ", "● ー"],
+            ["ティ → ティー", "● ティ", "● ー"]
+          ]
+        }
+      ]
+    }
+  ],
+  "speakers": [],
+  "dialogues": [],
+  "vocabulary": [],
+  "expressions": [],
+  "grammar": [],
+  "shadowing": [],
+  "homework": [],
+  "references": [
+    {
+      "title": "seikatsu-nihongo/content/preparation.json",
+      "note": "权威准备篇数据，units[5]（long）；原文、读音提示、朗读文本和拍子按原数据保留。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/README.md",
+      "note": "来源关系说明：preparation.json 保存准备篇；n5-source.txt 与生成 n5.json 属于第1～20课，本次不导出。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/review-notes.md",
+      "note": "2026-09-30 校订说明：准备篇8个单元；未发现必须修改的假名表内容。"
+    },
+    {
+      "title": "seikatsu-nihongo/src/modules/learning/presentation/data/preparation-workspace-copy.ts",
+      "note": "保留原页面的合成语音辅助提示；仅有 beats 的单元保留圆点拍子说明。"
+    }
+  ]
+}

@@ -1,0 +1,489 @@
+{
+  "schemaVersion": 1,
+  "id": "n4-12",
+  "unitId": "n4",
+  "order": 212,
+  "title": "第12课 受邀吃饭时说明偏好与分工",
+  "level": "N4",
+  "kind": "scene",
+  "objectives": ["说明饮食偏好", "商量来访准备", "确认分工与时间"],
+  "scene": {
+    "background": "王邀请林周六到家里做饭。林不太能吃辣，双方商量菜单、采购和到访时间；不是过敏处理课。",
+    "channel": "in-person",
+    "tasks": ["说明饮食偏好", "商量来访准备", "确认分工与时间"],
+    "relationships": "你扮演“我（わたし）”（课文中的林）。林与王：熟悉的同班同学；已接受普通体；普通体补充场景见语体说明。"
+  },
+  "learnerSpeakerId": "learner",
+  "speakers": [
+    {
+      "id": "learner",
+      "name": "我（わたし）",
+      "role": "你扮演的角色（课文示例姓名：林／リン）；赴日学习者；沿用示例姓名林（リン），实际练习可替换为本人信息"
+    },
+    {
+      "id": "classmate",
+      "name": "王",
+      "role": "熟悉的同班同学；已接受普通体"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "main",
+      "title": "主课文：受邀吃饭时说明偏好与分工",
+      "variant": "main",
+      "lines": [
+        {
+          "id": "main-line-1",
+          "speakerId": "classmate",
+          "ja": "土曜日、うちで一緒に晩ご飯を作りませんか。",
+          "zh": "星期六要不要在我家一起做晚饭？",
+          "reading": "どようび、うちでいっしょにばんごはんをつくりませんか。"
+        },
+        {
+          "id": "main-line-2",
+          "speakerId": "learner",
+          "ja": "いいですね。私は辛い料理があまり得意ではないんです。",
+          "zh": "好啊，我不太能吃辣的菜。",
+          "reading": "いいですね。わたしはからいりょうりがあまりとくいではないんです。"
+        },
+        {
+          "id": "main-line-3",
+          "speakerId": "classmate",
+          "ja": "それなら、辛くないスープにしましょう。",
+          "zh": "那就做不辣的汤吧。",
+          "reading": "それなら、からくないスープにしましょう。"
+        },
+        {
+          "id": "main-line-4",
+          "speakerId": "learner",
+          "ja": "ありがとうございます。何か買って行ったほうがいいですか。",
+          "zh": "谢谢，我需要买什么带去吗？",
+          "reading": "ありがとうございます。なにかかっていったほうがいいですか。"
+        },
+        {
+          "id": "main-line-5",
+          "speakerId": "classmate",
+          "ja": "野菜はこちらで買っておきます。パンを持って来てもらえますか。",
+          "zh": "蔬菜我会提前买好，能请你带面包吗？",
+          "reading": "やさいはこちらでかっておきます。パンをもってきてもらえますか。"
+        },
+        {
+          "id": "main-line-6",
+          "speakerId": "learner",
+          "ja": "はい。二人分を買って行きます。六時ごろで大丈夫ですか。",
+          "zh": "可以，买两人份带去。六点左右可以吗？",
+          "reading": "はい。ふたりぶんをかっていきます。ろくじごろでだいじょうぶですか。"
+        },
+        {
+          "id": "main-line-7",
+          "speakerId": "classmate",
+          "ja": "はい。着いたら連絡してください。",
+          "zh": "可以，到了请联系我。",
+          "reading": "はい。ついたられんらくしてください。"
+        },
+        {
+          "id": "main-line-8",
+          "speakerId": "learner",
+          "ja": "わかりました。片付けも一緒にしますね。",
+          "zh": "明白了，收拾也一起做。",
+          "reading": "わかりました。かたづけもいっしょにしますね。"
+        }
+      ]
+    },
+    {
+      "id": "branch",
+      "title": "条件变化：另一种处理路径",
+      "variant": "branch",
+      "lines": [
+        {
+          "id": "branch-line-1",
+          "speakerId": "learner",
+          "ja": "土曜日の六時には間に合いそうにありません。",
+          "zh": "星期六六点可能赶不上。",
+          "reading": "どようびのろくじにはまにあいそうにありません。"
+        },
+        {
+          "id": "branch-line-2",
+          "speakerId": "classmate",
+          "ja": "何時なら来られますか。",
+          "zh": "几点能来？",
+          "reading": "なんじならこられますか。"
+        },
+        {
+          "id": "branch-line-3",
+          "speakerId": "learner",
+          "ja": "七時なら行けます。遅くても大丈夫ですか。",
+          "zh": "七点能来，晚些可以吗？",
+          "reading": "しちじならいけます。おそくてもだいじょうぶですか。"
+        },
+        {
+          "id": "branch-line-4",
+          "speakerId": "classmate",
+          "ja": "はい。では七時から作りましょう。",
+          "zh": "可以，那从七点开始做吧。",
+          "reading": "はい。ではしちじからつくりましょう。"
+        }
+      ]
+    },
+    {
+      "id": "plain",
+      "title": "普通体：与熟悉同学交谈",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "plain-line-1",
+          "speakerId": "learner",
+          "ja": "辛いのはあまり得意じゃないんだ。",
+          "zh": "我不太能吃辣。",
+          "reading": "からいのはあまりとくいじゃないんだ。"
+        },
+        {
+          "id": "plain-line-2",
+          "speakerId": "classmate",
+          "ja": "じゃあ、辛くないスープにしよう。",
+          "zh": "那做不辣的汤吧。",
+          "reading": "じゃあ、からくないスープにしよう。"
+        },
+        {
+          "id": "plain-line-3",
+          "speakerId": "learner",
+          "ja": "パンは私が買って行くね。",
+          "zh": "面包我买了带去。",
+          "reading": "パンはわたしがかっていくね。"
+        },
+        {
+          "id": "plain-line-4",
+          "speakerId": "classmate",
+          "ja": "ありがとう。野菜は買っておくよ。",
+          "zh": "谢谢，蔬菜我会提前买好。",
+          "reading": "ありがとう。やさいはかっておくよ。"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "scenario-information",
+      "title": "本课已知信息与约定",
+      "kind": "table",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["事项", "本例设定"],
+          "rows": [
+            ["主路径时间", "周六18:00"],
+            ["菜单", "不辣的汤和面包"],
+            ["王", "提前买蔬菜"],
+            ["林", "带两人份面包，协助收拾"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "version-context",
+      "title": "场景分支与语体说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["项目", "说明"],
+          "rows": [
+            ["主课文", "按 scene 中的背景与人物关系交流。"],
+            ["分支", "与主路径互斥的条件变化，不把两条路径的预约、结果或决定合并为同一事件。"],
+            ["普通体", "普通体版用于与熟悉同学王交谈；不把工作人员的礼貌表达机械改成普通体。"],
+            ["听后跟读", "先听完整一句，暂停后模仿；先理解人物、条件与任务。"],
+            ["影子跟读", "熟悉原句后，播放时稍落后连续跟随；平台使用合成语音，不称真人录音。"]
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "vocabulary-1",
+      "word": "得意",
+      "reading": "とくい",
+      "meaning": "擅长、善于应对",
+      "usage": "用于本课的受邀吃饭时说明偏好与分工场景",
+      "collocations": ["辛い料理が得意ではない"],
+      "examples": [
+        {
+          "ja": "いいですね。私は辛い料理があまり得意ではないんです。",
+          "zh": "好啊，我不太能吃辣的菜。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-2"
+      }
+    },
+    {
+      "id": "vocabulary-2",
+      "word": "辛い",
+      "reading": "からい",
+      "meaning": "辣",
+      "usage": "用于本课的受邀吃饭时说明偏好与分工场景",
+      "collocations": ["辛い料理"],
+      "examples": [
+        {
+          "ja": "いいですね。私は辛い料理があまり得意ではないんです。",
+          "zh": "好啊，我不太能吃辣的菜。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-2"
+      }
+    },
+    {
+      "id": "vocabulary-3",
+      "word": "野菜",
+      "reading": "やさい",
+      "meaning": "蔬菜",
+      "usage": "用于本课的受邀吃饭时说明偏好与分工场景",
+      "collocations": ["野菜を買う"],
+      "examples": [
+        {
+          "ja": "野菜はこちらで買っておきます。パンを持って来てもらえますか。",
+          "zh": "蔬菜我会提前买好，能请你带面包吗？"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-5"
+      }
+    },
+    {
+      "id": "vocabulary-4",
+      "word": "二人分",
+      "reading": "ふたりぶん",
+      "meaning": "两人份",
+      "usage": "用于本课的受邀吃饭时说明偏好与分工场景",
+      "collocations": ["二人分を用意する"],
+      "examples": [
+        {
+          "ja": "はい。二人分を買って行きます。六時ごろで大丈夫ですか。",
+          "zh": "可以，买两人份带去。六点左右可以吗？"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-6"
+      }
+    },
+    {
+      "id": "vocabulary-5",
+      "word": "片付け",
+      "reading": "かたづけ",
+      "meaning": "收拾",
+      "usage": "用于本课的受邀吃饭时说明偏好与分工场景",
+      "collocations": ["片付けをする"],
+      "examples": [
+        {
+          "ja": "わかりました。片付けも一緒にしますね。",
+          "zh": "明白了，收拾也一起做。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-8"
+      }
+    },
+    {
+      "id": "vocabulary-6",
+      "word": "着く",
+      "reading": "つく",
+      "meaning": "到达",
+      "usage": "用于本课的受邀吃饭时说明偏好与分工场景",
+      "collocations": ["家に着く"],
+      "examples": [
+        {
+          "ja": "はい。着いたら連絡してください。",
+          "zh": "可以，到了请联系我。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-7"
+      }
+    }
+  ],
+  "expressions": [
+    {
+      "id": "expression-1",
+      "function": "礼貌说明偏好",
+      "pattern": "〜があまり得意ではないんです。",
+      "meaning": "温和说明某种偏好或不擅长。",
+      "audience": "邀请者",
+      "notes": ["本句说饮食偏好，不表示医疗上的过敏。"],
+      "slots": [
+        {
+          "key": "〜",
+          "description": "偏好涉及的食物"
+        }
+      ],
+      "examples": [
+        {
+          "ja": "いいですね。私は辛い料理があまり得意ではないんです。",
+          "zh": "好啊，我不太能吃辣的菜。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-2"
+      }
+    },
+    {
+      "id": "expression-2",
+      "function": "询问准备",
+      "pattern": "何か買って行ったほうがいいですか。",
+      "meaning": "询问是否应买东西带去。",
+      "audience": "邀请者",
+      "notes": ["先询问分工，不自行增加对方的负担。"],
+      "slots": [],
+      "examples": [
+        {
+          "ja": "ありがとうございます。何か買って行ったほうがいいですか。",
+          "zh": "谢谢，我需要买什么带去吗？"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-4"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "grammar-1",
+      "pattern": "〜なら",
+      "level": "N4",
+      "meaning": "根据对方提供的条件提出回应。",
+      "connection": "普通形＋なら；名词／な形容词词干＋なら",
+      "notes": [
+        "それなら承接不太能吃辣这一信息，不是先决定菜单再要求接受。",
+        "本章分级是教学目标，不声称现行 JLPT 有逐项公布的必考文法清单。"
+      ],
+      "examples": [
+        {
+          "ja": "それなら、辛くないスープにしましょう。",
+          "zh": "那就做不辣的汤吧。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "pattern": "〜ておく",
+      "level": "N4",
+      "meaning": "事先做好准备。",
+      "connection": "动词て形＋おく",
+      "notes": [
+        "买好蔬菜是来访前的准备；动作与主体应明确。",
+        "本章分级是教学目标，不声称现行 JLPT 有逐项公布的必考文法清单。"
+      ],
+      "examples": [
+        {
+          "ja": "野菜はこちらで買っておきます。パンを持って来てもらえますか。",
+          "zh": "蔬菜我会提前买好，能请你带面包吗？"
+        }
+      ]
+    }
+  ],
+  "shadowing": [
+    {
+      "id": "shadowing-main",
+      "dialogueId": "main",
+      "lineIds": [
+        "main-line-1",
+        "main-line-2",
+        "main-line-3",
+        "main-line-4",
+        "main-line-5",
+        "main-line-6",
+        "main-line-7",
+        "main-line-8"
+      ],
+      "prompt": "先听后跟读：整句听完再暂停模仿。理解本段任务后做影子跟读：播放时稍落后跟随。注意说明饮食偏好；分支只在对应条件下练习。"
+    },
+    {
+      "id": "shadowing-branch",
+      "dialogueId": "branch",
+      "lineIds": ["branch-line-1", "branch-line-2", "branch-line-3", "branch-line-4"],
+      "prompt": "先听后跟读：整句听完再暂停模仿。理解本段任务后做影子跟读：播放时稍落后跟随。注意说明饮食偏好；分支只在对应条件下练习。"
+    },
+    {
+      "id": "shadowing-plain",
+      "dialogueId": "plain",
+      "lineIds": ["plain-line-1", "plain-line-2", "plain-line-3", "plain-line-4"],
+      "prompt": "先听后跟读：整句听完再暂停模仿。理解本段任务后做影子跟读：播放时稍落后跟随。注意说明饮食偏好；分支只在对应条件下练习。"
+    }
+  ],
+  "homework": [
+    {
+      "id": "oral-one",
+      "type": "oral",
+      "situation": "回应邀请并确认分工。",
+      "knownInformation": [
+        "主路径时间：周六18:00",
+        "菜单：不辣的汤和面包",
+        "王：提前买蔬菜",
+        "林：带两人份面包，协助收拾"
+      ],
+      "tasks": ["说明不太能吃辣", "确认面包份量及时间"],
+      "requirements": [
+        "按情境向对应人物作出简洁、连贯的说明。",
+        "已知事项与尚待确认事项分开表达；参考答案只是可行示例。"
+      ],
+      "hints": [
+        "〜があまり得意ではないんです。",
+        "何か買って行ったほうがいいですか。",
+        "可使用本课文法和词汇，措辞不必与参考答案完全相同。"
+      ],
+      "functions": ["consult"],
+      "answers": [
+        {
+          "ja": "辛い料理があまり得意ではないので、辛くないスープだとうれしいです。パンは二人分買って行きます。土曜日の六時ごろに行きますね。",
+          "zh": "不太能吃辣，如果是不辣的汤就很开心。我买两人份面包带去，星期六六点左右到。"
+        }
+      ]
+    },
+    {
+      "id": "written-one",
+      "type": "written",
+      "situation": "发消息确认来访准备。",
+      "knownInformation": [
+        "主路径时间：周六18:00",
+        "菜单：不辣的汤和面包",
+        "王：提前买蔬菜",
+        "林：带两人份面包，协助收拾"
+      ],
+      "tasks": ["区分双方采购分工", "说明到达后会联络"],
+      "requirements": [
+        "写成收件人能理解的短消息或学习记录。",
+        "已知事项与尚待确认事项分开表达；参考答案只是可行示例。"
+      ],
+      "hints": [
+        "〜があまり得意ではないんです。",
+        "何か買って行ったほうがいいですか。",
+        "可使用本课文法和词汇，措辞不必与参考答案完全相同。"
+      ],
+      "functions": ["contact"],
+      "answers": [
+        {
+          "ja": "土曜日は六時ごろに行きます。パンは私が買って行くので、野菜をお願いします。着いたら連絡します。",
+          "zh": "星期六六点左右去。面包我买了带去，蔬菜就麻烦你了。到了会联系。"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "原创 N4 生活日语章节",
+      "note": "2026-10-04 按用户要求新作；课文、译文、分支、作业与参考答案均为原创教学场景，不来自真实机构原始记录。金额、时刻、条件是本例设定。"
+    },
+    {
+      "title": "nihongo/docs/content-format.md 与 schemas/*.schema.json",
+      "note": "遵循本项目 v1 数据契约；N4为学习目标，常见场景固定表达按需要整块理解，不宣称逐项对应官方必考清单。"
+    }
+  ]
+}

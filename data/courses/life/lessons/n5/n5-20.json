@@ -1,0 +1,1064 @@
+{
+  "schemaVersion": 1,
+  "id": "n5-20",
+  "unitId": "n5",
+  "order": 120,
+  "title": "第20课 学校远足与同学闲聊",
+  "level": "N5",
+  "kind": "scene",
+  "objectives": [
+    "1.1 能确认集合地点与时间。",
+    "1.2 能在途中向同学说想休息或拍照。",
+    "1.3 能自然回应同学对天气和风景的评价。"
+  ],
+  "scene": {
+    "background": "学校组织短途远足；我按学校通知集合，与同学在途中聊天气、照片和接下来的安排。",
+    "channel": "other",
+    "tasks": [
+      "1.1 能确认集合地点与时间。",
+      "1.2 能在途中向同学说想休息或拍照。",
+      "1.3 能自然回应同学对天气和风景的评价。"
+    ],
+    "relationships": "你扮演“我（わたし）”。同学：同学；私（学习者）：赴日学习者"
+  },
+  "learnerSpeakerId": "learner",
+  "speakers": [
+    {
+      "id": "speaker-1",
+      "name": "同学",
+      "role": "同学"
+    },
+    {
+      "id": "learner",
+      "name": "我（わたし）",
+      "role": "你扮演的角色；赴日学习者"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "main",
+      "title": "场景课文",
+      "variant": "main",
+      "lines": [
+        {
+          "id": "main-line-1",
+          "speakerId": "speaker-1",
+          "ja": "今日はいい天気ですね。",
+          "zh": "今天天气真好。",
+          "reading": "きょうはいいてんきですね。",
+          "ttsText": "きょうはいいてんきですね。"
+        },
+        {
+          "id": "main-line-2",
+          "speakerId": "learner",
+          "ja": "朝は少し寒かったですが、今は暖かいですね。",
+          "zh": "早上有些冷，现在很暖和呢。",
+          "reading": "あさはすこしさむかったですが、いまはあたたかいですね。",
+          "ttsText": "あさはすこしさむかったですが、いまはあたたかいですね。"
+        },
+        {
+          "id": "main-line-3",
+          "speakerId": "speaker-1",
+          "ja": "そうですね。あの山もきれいです。",
+          "zh": "是啊，那座山也很漂亮。",
+          "reading": "そうですね。あのやまもきれいです。",
+          "ttsText": "そうですね。あのやまもきれいです。"
+        },
+        {
+          "id": "main-line-4",
+          "speakerId": "learner",
+          "ja": "そうですね。写真を撮りたいです。",
+          "zh": "是啊，我想拍照。",
+          "reading": "そうですね。しゃしんをとりたいです。",
+          "ttsText": "そうですね。しゃしんをとりたいです。"
+        },
+        {
+          "id": "main-line-5",
+          "speakerId": "speaker-1",
+          "ja": "この道からよく見えますね。歩きながら撮るのは危ないので、止まってからにしましょう。",
+          "zh": "从这条路能看得很清楚。边走边拍很危险，停下来再拍吧。",
+          "reading": "このみちからよくみえますね。あるきながらとるのはあぶないので、とまってからにしましょう。",
+          "ttsText": "このみちからよくみえますね。あるきながらとるのはあぶないので、とまってからにしましょう。"
+        },
+        {
+          "id": "main-line-6",
+          "speakerId": "learner",
+          "ja": "本当ですね。あとで一緒に撮りませんか。",
+          "zh": "确实如此。等会儿要不要一起拍？",
+          "reading": "ほんとうですね。あとでいっしょにとりませんか。",
+          "ttsText": "ほんとうですね。あとでいっしょにとりませんか。"
+        },
+        {
+          "id": "main-line-7",
+          "speakerId": "speaker-1",
+          "ja": "いいですね。集合は三時、場所は公園の入口です。",
+          "zh": "好啊。三点集合，地点在公园入口。",
+          "reading": "いいですね。しゅうごうはさんじ、ばしょはこうえんのいりぐちです。",
+          "ttsText": "いいですね。しゅうごうはさんじ、ばしょはこうえんのいりぐちです。"
+        },
+        {
+          "id": "main-line-8",
+          "speakerId": "learner",
+          "ja": "わかりました。時間までに戻ります。",
+          "zh": "明白了，我会在规定时间前回来。",
+          "reading": "わかりました。じかんまでにもどります。",
+          "ttsText": "わかりました。じかんまでにもどります。"
+        },
+        {
+          "id": "main-line-9",
+          "speakerId": "speaker-1",
+          "ja": "今は二時半です。まだ少し時間があります。",
+          "zh": "现在两点半，还稍有一些时间。",
+          "reading": "いまはにじはんです。まだすこしじかんがあります。",
+          "ttsText": "いまはにじはんです。まだすこしじかんがあります。"
+        },
+        {
+          "id": "main-line-10",
+          "speakerId": "learner",
+          "ja": "一緒に撮るなら、顔が写っても大丈夫ですか。",
+          "zh": "如果一起拍，拍到你的脸可以吗？",
+          "reading": "いっしょにとるなら、かおがうつってもだいじょうぶですか。",
+          "ttsText": "いっしょにとるなら、かおがうつってもだいじょうぶですか。"
+        },
+        {
+          "id": "main-line-11",
+          "speakerId": "speaker-1",
+          "ja": "はい、大丈夫です。",
+          "zh": "可以，没关系。",
+          "reading": "はい、だいじょうぶです。",
+          "ttsText": "はい、だいじょうぶです。"
+        },
+        {
+          "id": "main-line-12",
+          "speakerId": "learner",
+          "ja": "先に聞いてよかったです。",
+          "zh": "幸好先问过了。",
+          "reading": "さきにきいてよかったです。",
+          "ttsText": "さきにきいてよかったです。"
+        },
+        {
+          "id": "main-line-13",
+          "speakerId": "speaker-1",
+          "ja": "では、ここで撮りましょう。",
+          "zh": "那就在这里拍吧。",
+          "reading": "では、ここでとりましょう。",
+          "ttsText": "では、ここでとりましょう。"
+        },
+        {
+          "id": "main-line-14",
+          "speakerId": "learner",
+          "ja": "はい。写真を撮ってから戻りましょう。",
+          "zh": "好的，拍完照再回去吧。",
+          "reading": "はい。しゃしんをとってからもどりましょう。",
+          "ttsText": "はい。しゃしんをとってからもどりましょう。"
+        }
+      ]
+    },
+    {
+      "id": "polite",
+      "title": "跟读文本（礼貌体版·远足途中闲聊）",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "polite-line-1",
+          "speakerId": "learner",
+          "ja": "少し休みたいです。",
+          "zh": "想稍微休息一下。",
+          "reading": "すこしやすみたいです。",
+          "ttsText": "すこしやすみたいです。"
+        },
+        {
+          "id": "polite-line-2",
+          "speakerId": "speaker-1",
+          "ja": "そうですね。ここで休みましょう。",
+          "zh": "是啊，在这里休息吧。",
+          "reading": "そうですね。ここでやすみましょう。",
+          "ttsText": "そうですね。ここでやすみましょう。"
+        },
+        {
+          "id": "polite-line-3",
+          "speakerId": "learner",
+          "ja": "集合は何時ですか。",
+          "zh": "几点集合？",
+          "reading": "しゅうごうはなんじですか。",
+          "ttsText": "しゅうごうはなんじですか。"
+        },
+        {
+          "id": "polite-line-4",
+          "speakerId": "speaker-1",
+          "ja": "三時です。時間までに戻りましょう。",
+          "zh": "三点，要在规定时间前回去。",
+          "reading": "さんじです。じかんまでにもどりましょう。",
+          "ttsText": "さんじです。じかんまでにもどりましょう。"
+        },
+        {
+          "id": "polite-line-5",
+          "speakerId": "speaker-1",
+          "ja": "水を飲みますか。",
+          "zh": "喝水吗？",
+          "reading": "みずをのみますか。",
+          "ttsText": "みずをのみますか。"
+        },
+        {
+          "id": "polite-line-6",
+          "speakerId": "learner",
+          "ja": "はい、少し飲みます。",
+          "zh": "好的，喝一点。",
+          "reading": "はい、すこしのみます。",
+          "ttsText": "はい、すこしのみます。"
+        },
+        {
+          "id": "polite-line-7",
+          "speakerId": "speaker-1",
+          "ja": "では、休んでから戻りましょう。",
+          "zh": "那休息后再回去吧。",
+          "reading": "では、やすんでからもどりましょう。",
+          "ttsText": "では、やすんでからもどりましょう。"
+        },
+        {
+          "id": "polite-line-8",
+          "speakerId": "learner",
+          "ja": "はい。時間も見ます。",
+          "zh": "好的，我也会注意时间。",
+          "reading": "はい。じかんもみます。",
+          "ttsText": "はい。じかんもみます。"
+        }
+      ]
+    },
+    {
+      "id": "plain",
+      "title": "跟读文本（普通体版·远足途中闲聊）",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "plain-line-1",
+          "speakerId": "learner",
+          "ja": "少し休みたい。",
+          "zh": "想稍微休息一下。",
+          "reading": "すこしやすみたい。",
+          "ttsText": "すこしやすみたい。"
+        },
+        {
+          "id": "plain-line-2",
+          "speakerId": "speaker-1",
+          "ja": "そうだね。ここで休もう。",
+          "zh": "是啊，在这里休息吧。",
+          "reading": "そうだね。ここでやすもう。",
+          "ttsText": "そうだね。ここでやすもう。"
+        },
+        {
+          "id": "plain-line-3",
+          "speakerId": "learner",
+          "ja": "集合、何時？",
+          "zh": "几点集合？",
+          "reading": "しゅうごう、なんじ？",
+          "ttsText": "しゅうごう、なんじ？"
+        },
+        {
+          "id": "plain-line-4",
+          "speakerId": "speaker-1",
+          "ja": "三時。時間までに戻ろう。",
+          "zh": "三点，要在规定时间前回去。",
+          "reading": "さんじ。じかんまでにもどろう。",
+          "ttsText": "さんじ。じかんまでにもどろう。"
+        },
+        {
+          "id": "plain-line-5",
+          "speakerId": "speaker-1",
+          "ja": "水、飲む？",
+          "zh": "喝水吗？",
+          "reading": "みず、のむ？",
+          "ttsText": "みず、のむ？"
+        },
+        {
+          "id": "plain-line-6",
+          "speakerId": "learner",
+          "ja": "うん、少し飲む。",
+          "zh": "好的，喝一点。",
+          "reading": "うん、すこしのむ。",
+          "ttsText": "うん、すこしのむ。"
+        },
+        {
+          "id": "plain-line-7",
+          "speakerId": "speaker-1",
+          "ja": "それなら、休んでから戻ろう。",
+          "zh": "那休息后再回去吧。",
+          "reading": "それなら、やすんでからもどろう。",
+          "ttsText": "それなら、やすんでからもどろう。"
+        },
+        {
+          "id": "plain-line-8",
+          "speakerId": "learner",
+          "ja": "うん。時間も見る。",
+          "zh": "好的，我也会注意时间。",
+          "reading": "うん。じかんもみる。",
+          "ttsText": "うん。じかんもみる。"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "lesson-context",
+      "title": "场景与使用说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "场景：学校组织短途远足；我按学校通知集合，与同学在途中聊天气、照片和接下来的安排。\n使用场合：听懂集合信息，向同学说出想拍照、想休息，以及自己的感受。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "goal-notes",
+      "title": "目标补充说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [["自测：拿学校真实通知，说出集合地与时间；途中能说一件想做的事。"]]
+        }
+      ]
+    },
+    {
+      "id": "dialogue-context",
+      "title": "课文与语体版本的转场、交谈对象",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["对话 ID", "位置（在该行之后；下一行注明对象）", "原场景提示"],
+          "rows": [
+            [
+              "main",
+              "整体",
+              "情境：学校已通知集合时间和地点。车上或步行途中，我与同学只聊当下眼前的事。"
+            ],
+            ["main", "main-line-9", "〔停在安全、不妨碍通行的位置后〕"],
+            [
+              "main",
+              "整体",
+              "说明：远足地点和集合时间只是本课示例，实际活动须以学校通知及带队人员的最新指示为准。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "register-comparison",
+      "title": "两版差异对照（行 ID 对应上方语体版本）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说话者", "礼貌体行 ID", "普通体行 ID", "原差异说明"],
+          "rows": [
+            ["私(わたし)", "polite-line-1", "plain-line-1", "表达内容相同，语体不同"],
+            ["同学", "polite-line-2", "plain-line-2", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-3", "plain-line-3", "表达内容相同，语体不同"],
+            ["同学", "polite-line-4", "plain-line-4", "表达内容相同，语体不同"],
+            ["同学", "polite-line-5", "plain-line-5", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-6", "plain-line-6", "表达内容相同，语体不同"],
+            ["同学", "polite-line-7", "plain-line-7", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-8", "plain-line-8", "表达内容相同，语体不同"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shadowing-notes",
+      "title": "跟读场景、前提与使用说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "唯一跟读场景：远足路上，我提出想休息，同学回应；我再询问集合时间，同学回答。\n关系与版本前提：普通体版用于已熟悉并互用普通体的同学。\n与课文的区别：课文聊天气和拍照；这里聊休息与返回时间。"
+            ],
+            ["■ 跟读步骤"],
+            [
+              "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+            ],
+            ["■ 跟读要点"],
+            [
+              "礼貌体版：听清集合时间，回应要完整。\n普通体版：邀请和回应说得自然，不把命令式误作邀请。"
+            ],
+            ["■ 为什么用这个版本"],
+            ["礼貌体版：与初识同学、带队老师交流稳妥。\n普通体版：熟悉同学途中闲聊自然。"],
+            ["■ 本课跟读目标"],
+            ["既能轻松闲聊，也不漏掉集合信息。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary-notes",
+      "title": "词汇分组与学习说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["■ 3A N5基础词汇"],
+            ["本栏指常见初级教材中的N5基础词，不表示官方保证考到。"],
+            ["■ 3B 场景补充词汇（先听懂）"],
+            ["本栏先听懂、能辨认；行政或商品词不要求会写。"],
+            ["词汇使用提醒：活动规则由学校决定，不用教材中的时间替代当天通知。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-notes",
+      "title": "文法安排与补充表达（原 4B）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["■ 4A 基础句型与场景练习"],
+            [
+              "本栏练习基础句型和本课场景中的表达；长句中的敬语、复合结构可先整句理解。例句均从本课课文原样摘取。"
+            ],
+            ["■ 4B 补充表达与后续复习"],
+            [
+              "文法点：普通形与引用\n意思：普通形可用于转述他人的话；此处了解，不要求分析所有变形。\n例句：集合(しゅうごう)は三時(さんじ)だと言(い)っていました。\n后续学习建议：结合本课语境复习，再在后续系统课程中学习接续与变形；本课程没有第21课。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appendix-1",
+      "title": "附1：当时课程目标下，日本人实际会怎么说",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "家人之间：ちょっと休(やす)もう。\n对同事朋友：少(すこ)し休(やす)みましょう。\n对上级工作人员：三時(さんじ)までに集合場所(しゅうごうばしょ)へ戻(もど)ります。\n说明：关于集合地和时间，以当天老师或学校的实际通知为准。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appendix-2",
+      "title": "附2：常见误用",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "标记说明：✗包含语法错误，也包含本情境中事实不准确、未核实就断言或应对不合适的说法；不表示所有标记句都不合语法。"
+            ],
+            [
+              "集合(しゅうごう)は三時(さんじ)だから、三時(さんじ)に出発(しゅっぱつ)します。 ✗ → 三時(さんじ)までに戻(もど)ります。 ✓\n原因：集合时刻通常要求那时已到指定地点，不能当作开始返回时间。\n写真(しゃしん)を撮(と)りたいから、どこでも撮(と)ります。 ✗ → 撮(と)ってもいい場所(ばしょ)か確認(かくにん)します。 ✓\n原因：实际场地和人物拍摄需要遵守现场规则。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-1",
+      "title": "词汇读音与释义资料（原测试 1）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "读音：きょう\n答案：今日(きょう) — 今天\n读音：てんき\n答案：天気(てんき) — 天气\n读音：しゃしん\n答案：写真(しゃしん) — 照片\n读音：やま\n答案：山(やま) — 山\n读音：いっしょ\n答案：一緒(いっしょ) — 一起\n读音：さんじ\n答案：三時(さんじ) — 三点\n读音：じかん\n答案：時間(じかん) — 时间\n读音：あさ\n答案：朝(あさ) — 早上\n读音：さむい\n答案：寒(さむ)い — 冷\n读音：いま\n答案：今(いま) — 现在\n读音：みち\n答案：道(みち) — 道路\n读音：あるきます\n答案：歩(ある)きます — 走\n读音：かお\n答案：顔(かお) — 脸\n读音：ききます\n答案：聞(き)きます — 问、听\n读音：えんそく\n答案：遠足(えんそく) — 远足\n读音：しゅうごう\n答案：集合(しゅうごう) — 集合\n读音：もどります\n答案：戻(もど)ります — 返回\n读音：とります\n答案：撮(と)ります — 拍摄\n读音：ほんとう\n答案：本当(ほんとう) — 真的\n读音：あたたかい\n答案：暖(あたた)かい — 暖和\n读音：あぶない\n答案：危(あぶ)ない — 危险\n读音：うつります\n答案：写(うつ)ります — 拍进照片\n读音：とまります\n答案：止(と)まります — 停下\n读音：にじはん\n答案：二時半(にじはん) — 两点半\n读音：さつえい\n答案：撮影(さつえい) — 拍摄\n读音：しゅうごうばしょ\n答案：集合場所(しゅうごうばしょ) — 集合地点"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-2",
+      "title": "文法例题与参考答案（原测试 2）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "题目：本当(ほんとう)ですね。あとで一緒(いっしょ)に（　）。\n答案：撮(と)りませんか\n题目：わかりました。（　）戻(もど)ります。\n答案：時間(じかん)までに\n题目：そうですね。写真(しゃしん)を（　）。\n答案：撮(と)りたいです"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "vocabulary-1",
+      "word": "今日",
+      "reading": "きょう",
+      "meaning": "今天",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "今日はいい天気ですね。",
+          "zh": "今天天气真好。",
+          "ttsText": "きょうはいいてんきですね。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-2",
+      "word": "天気",
+      "reading": "てんき",
+      "meaning": "天气",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "今日はいい天気ですね。",
+          "zh": "今天天气真好。",
+          "ttsText": "きょうはいいてんきですね。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-3",
+      "word": "写真",
+      "reading": "しゃしん",
+      "meaning": "照片",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "そうですね。写真を撮りたいです。",
+          "zh": "是啊，我想拍照。",
+          "ttsText": "そうですね。しゃしんをとりたいです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-4"
+      }
+    },
+    {
+      "id": "vocabulary-4",
+      "word": "山",
+      "reading": "やま",
+      "meaning": "山",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "そうですね。あの山もきれいです。",
+          "zh": "是啊，那座山也很漂亮。",
+          "ttsText": "そうですね。あのやまもきれいです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-3"
+      }
+    },
+    {
+      "id": "vocabulary-5",
+      "word": "一緒",
+      "reading": "いっしょ",
+      "meaning": "一起",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "本当ですね。あとで一緒に撮りませんか。",
+          "zh": "确实如此。等会儿要不要一起拍？",
+          "ttsText": "ほんとうですね。あとでいっしょにとりませんか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-6"
+      }
+    },
+    {
+      "id": "vocabulary-6",
+      "word": "三時",
+      "reading": "さんじ",
+      "meaning": "三点",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "いいですね。集合は三時、場所は公園の入口です。",
+          "zh": "好啊。三点集合，地点在公园入口。",
+          "ttsText": "いいですね。しゅうごうはさんじ、ばしょはこうえんのいりぐちです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-7"
+      }
+    },
+    {
+      "id": "vocabulary-7",
+      "word": "時間",
+      "reading": "じかん",
+      "meaning": "时间",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "わかりました。時間までに戻ります。",
+          "zh": "明白了，我会在规定时间前回来。",
+          "ttsText": "わかりました。じかんまでにもどります。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-8"
+      }
+    },
+    {
+      "id": "vocabulary-8",
+      "word": "朝",
+      "reading": "あさ",
+      "meaning": "早上",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "朝は少し寒かったですが、今は暖かいですね。",
+          "zh": "早上有些冷，现在很暖和呢。",
+          "ttsText": "あさはすこしさむかったですが、いまはあたたかいですね。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-2"
+      }
+    },
+    {
+      "id": "vocabulary-9",
+      "word": "寒い",
+      "reading": "さむい",
+      "meaning": "冷",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-10",
+      "word": "今",
+      "reading": "いま",
+      "meaning": "现在",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "今日はいい天気ですね。",
+          "zh": "今天天气真好。",
+          "ttsText": "きょうはいいてんきですね。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-11",
+      "word": "道",
+      "reading": "みち",
+      "meaning": "道路",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "この道からよく見えますね。歩きながら撮るのは危ないので、止まってからにしましょう。",
+          "zh": "从这条路能看得很清楚。边走边拍很危险，停下来再拍吧。",
+          "ttsText": "このみちからよくみえますね。あるきながらとるのはあぶないので、とまってからにしましょう。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-5"
+      }
+    },
+    {
+      "id": "vocabulary-12",
+      "word": "歩きます",
+      "reading": "あるきます",
+      "meaning": "走",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-13",
+      "word": "顔",
+      "reading": "かお",
+      "meaning": "脸",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "一緒に撮るなら、顔が写っても大丈夫ですか。",
+          "zh": "如果一起拍，拍到你的脸可以吗？",
+          "ttsText": "いっしょにとるなら、かおがうつってもだいじょうぶですか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-10"
+      }
+    },
+    {
+      "id": "vocabulary-14",
+      "word": "聞きます",
+      "reading": "ききます",
+      "meaning": "问、听",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-15",
+      "word": "遠足",
+      "reading": "えんそく",
+      "meaning": "远足",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-16",
+      "word": "集合",
+      "reading": "しゅうごう",
+      "meaning": "集合",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "いいですね。集合は三時、場所は公園の入口です。",
+          "zh": "好啊。三点集合，地点在公园入口。",
+          "ttsText": "いいですね。しゅうごうはさんじ、ばしょはこうえんのいりぐちです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-7"
+      }
+    },
+    {
+      "id": "vocabulary-17",
+      "word": "戻ります",
+      "reading": "もどります",
+      "meaning": "返回",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "わかりました。時間までに戻ります。",
+          "zh": "明白了，我会在规定时间前回来。",
+          "ttsText": "わかりました。じかんまでにもどります。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-8"
+      }
+    },
+    {
+      "id": "vocabulary-18",
+      "word": "撮ります",
+      "reading": "とります",
+      "meaning": "拍摄",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-19",
+      "word": "本当",
+      "reading": "ほんとう",
+      "meaning": "真的",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "本当ですね。あとで一緒に撮りませんか。",
+          "zh": "确实如此。等会儿要不要一起拍？",
+          "ttsText": "ほんとうですね。あとでいっしょにとりませんか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-6"
+      }
+    },
+    {
+      "id": "vocabulary-20",
+      "word": "暖かい",
+      "reading": "あたたかい",
+      "meaning": "暖和",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "朝は少し寒かったですが、今は暖かいですね。",
+          "zh": "早上有些冷，现在很暖和呢。",
+          "ttsText": "あさはすこしさむかったですが、いまはあたたかいですね。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-2"
+      }
+    },
+    {
+      "id": "vocabulary-21",
+      "word": "危ない",
+      "reading": "あぶない",
+      "meaning": "危险",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "この道からよく見えますね。歩きながら撮るのは危ないので、止まってからにしましょう。",
+          "zh": "从这条路能看得很清楚。边走边拍很危险，停下来再拍吧。",
+          "ttsText": "このみちからよくみえますね。あるきながらとるのはあぶないので、とまってからにしましょう。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-5"
+      }
+    },
+    {
+      "id": "vocabulary-22",
+      "word": "写ります",
+      "reading": "うつります",
+      "meaning": "拍进照片",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-23",
+      "word": "止まります",
+      "reading": "とまります",
+      "meaning": "停下",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-24",
+      "word": "二時半",
+      "reading": "にじはん",
+      "meaning": "两点半",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "今は二時半です。まだ少し時間があります。",
+          "zh": "现在两点半，还稍有一些时间。",
+          "ttsText": "いまはにじはんです。まだすこしじかんがあります。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-9"
+      }
+    },
+    {
+      "id": "vocabulary-25",
+      "word": "撮影",
+      "reading": "さつえい",
+      "meaning": "拍摄",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-26",
+      "word": "集合場所",
+      "reading": "しゅうごうばしょ",
+      "meaning": "集合地点",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    }
+  ],
+  "expressions": [
+    {
+      "id": "expression-one",
+      "function": "等会儿一起拍照好吗。",
+      "pattern": "あとで一緒に撮りませんか。",
+      "meaning": "等会儿一起拍照好吗。",
+      "audience": "同学、朋友。",
+      "notes": [
+        "固定句：あとで一緒(いっしょ)に撮(と)りませんか。",
+        "不可以替换什么：不能在禁止拍摄或影响他人的地方照用。",
+        "语感差异：委婉邀请，给对方拒绝的余地。",
+        "对谁不能说：对需要保持工作距离的工作人员不适合随意邀请拍照。",
+        "其他用法：也可以用相同句型邀请同行活动。",
+        "本课要求：先确认拍摄地点与时间，再提出邀请。"
+      ],
+      "slots": [
+        {
+          "key": "可替换部分",
+          "description": "可替换动作动词，但本课先整块模仿。"
+        }
+      ],
+      "examples": [
+        {
+          "ja": "本当ですね。あとで一緒に撮りませんか。",
+          "zh": "确实如此。等会儿要不要一起拍？",
+          "ttsText": "ほんとうですね。あとでいっしょにとりませんか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-6"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "grammar-1",
+      "pattern": "邀请",
+      "level": "N5",
+      "meaning": "邀请同学稍后一起拍照。",
+      "connection": "动词礼貌否定疑问形可用于邀请。",
+      "notes": [
+        "课文对应：本当(ほんとう)ですね。あとで一緒(いっしょ)に撮(と)りませんか。",
+        "例题：本当(ほんとう)ですね。あとで一緒(いっしょ)に（　）。",
+        "答案：撮(と)りませんか"
+      ],
+      "examples": [
+        {
+          "ja": "本当ですね。あとで一緒に撮りませんか。",
+          "zh": "确实如此。等会儿要不要一起拍？",
+          "ttsText": "ほんとうですね。あとでいっしょにとりませんか。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "pattern": "期限",
+      "level": "N5",
+      "meaning": "说明会在指定时间前回来。",
+      "connection": "时间后接表示截止点的表达。",
+      "notes": [
+        "课文对应：わかりました。時間(じかん)までに戻(もど)ります。",
+        "例题：わかりました。（　）戻(もど)ります。",
+        "答案：時間(じかん)までに"
+      ],
+      "examples": [
+        {
+          "ja": "わかりました。時間までに戻ります。",
+          "zh": "明白了，我会在规定时间前回来。",
+          "ttsText": "わかりました。じかんまでにもどります。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "pattern": "愿望",
+      "level": "N5",
+      "meaning": "说想拍照片。",
+      "connection": "动词ます形去掉ます后＋たい。",
+      "notes": [
+        "课文对应：そうですね。写真(しゃしん)を撮(と)りたいです。",
+        "例题：そうですね。写真(しゃしん)を（　）。",
+        "答案：撮(と)りたいです"
+      ],
+      "examples": [
+        {
+          "ja": "そうですね。写真を撮りたいです。",
+          "zh": "是啊，我想拍照。",
+          "ttsText": "そうですね。しゃしんをとりたいです。"
+        }
+      ]
+    }
+  ],
+  "shadowing": [
+    {
+      "id": "shadowing-polite",
+      "dialogueId": "polite",
+      "lineIds": [
+        "polite-line-1",
+        "polite-line-2",
+        "polite-line-3",
+        "polite-line-4",
+        "polite-line-5",
+        "polite-line-6",
+        "polite-line-7",
+        "polite-line-8"
+      ],
+      "prompt": "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+    },
+    {
+      "id": "shadowing-plain",
+      "dialogueId": "plain",
+      "lineIds": [
+        "plain-line-1",
+        "plain-line-2",
+        "plain-line-3",
+        "plain-line-4",
+        "plain-line-5",
+        "plain-line-6",
+        "plain-line-7",
+        "plain-line-8"
+      ],
+      "prompt": "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+    }
+  ],
+  "homework": [],
+  "references": [
+    {
+      "title": "seikatsu-nihongo/content/n5-source.txt",
+      "note": "唯一正文来源；第20课。源稿日语、事实与说明保持不变；本次新增忠实中文译文用于 v1 必填 zh，未创作场景或作业。 N5 章节的完整通用使用说明统一保存在同章 n5-1 的「N5 章节使用说明」素材中。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/README.md",
+      "note": "n5.json 为 TXT 生成结果，已通过 import-n5.mjs --check；不重复导出生成 README。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/review-notes.md",
+      "note": "沿用 2026-09-30 校订；现实条件与时限按原说明保留，不把课号当办事日期。"
+    },
+    {
+      "title": "JLPT官方考试指南",
+      "url": "https://jlpt.jp/cn/reference/pdf/guidebook1.pdf",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "出入国在留管理厅",
+      "url": "https://www.moj.go.jp/isa/applications/procedures/nyuukokukanri10_00021.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "日本海关",
+      "url": "https://www.customs.go.jp/english/passenger/declaration/declaration_app.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "东京燃气",
+      "url": "https://home.tokyo-gas.co.jp/gas_power/procedure/moving/khsn_k_nagare.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "povo官方",
+      "url": "https://povo.jp/procedure/",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "日本邮政银行",
+      "url": "https://www.jp-bank.japanpost.jp/kaisetu/kat_gaikokujin.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "厚生劳动省",
+      "url": "https://www.mhlw.go.jp/stf/newpage_50657.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    }
+  ]
+}

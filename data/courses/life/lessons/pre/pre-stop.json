@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "stop",
+  "unitId": "pre",
+  "order": 7,
+  "title": "促音：小っ／ッ占一拍",
+  "kind": "preparation",
+  "objectives": ["先短暂堵住或停住气流，再发后面的辅音；不要把小っ读成「つ」。"],
+  "materials": [
+    {
+      "id": "learning-notes",
+      "title": "学习说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["ッ本身没有可单独朗读的母音；练习时放进声音组合。"],
+            ["「カッカ」有三拍：カ・停一拍・カ。两侧的カ不能直接连起来。"],
+            ["停顿是一拍，不是随意拖长。与「カー」延长母音的感觉不同。"],
+            [
+              "在サ行等摩擦音前，促音表现为摩擦声延长一拍，不一定完全无声；サッサ中保持s的摩擦，再发后面的サ。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kana-chart",
+      "title": "促音：小っ／ッ占一拍 · 字形与读音表",
+      "kind": "table",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["第1列", "第2列", "第3列"],
+          "rows": [["カッカ\nka · 停 · ka", "パッパ\npa · 停 · pa", "サッサ\nsa · 停 · sa"]]
+        }
+      ]
+    },
+    {
+      "id": "pronunciation",
+      "title": "认读与合成语音",
+      "kind": "pronunciation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["朗读说明"],
+          "rows": [["系统语音仅供辅助，不是真人发音示范。"]]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "ja": "カッカ",
+              "zh": "ka · 停 · ka",
+              "ttsText": "カッカ"
+            },
+            {
+              "ja": "パッパ",
+              "zh": "pa · 停 · pa",
+              "ttsText": "パッパ"
+            },
+            {
+              "ja": "サッサ",
+              "zh": "sa · 停 · sa",
+              "ttsText": "サッサ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mora",
+      "title": "拍子示例",
+      "kind": "table",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [["圆点表示拍子，每一点保持同样的时长。"]]
+        },
+        {
+          "type": "table",
+          "headers": ["声音组合", "第1拍", "第2拍", "第3拍"],
+          "rows": [
+            ["カッカ", "● カ", "● ッ（停）", "● カ"],
+            ["パッパ", "● パ", "● ッ（停）", "● パ"],
+            ["サッサ", "● サ", "● ッ（停）", "● サ"]
+          ]
+        }
+      ]
+    }
+  ],
+  "speakers": [],
+  "dialogues": [],
+  "vocabulary": [],
+  "expressions": [],
+  "grammar": [],
+  "shadowing": [],
+  "homework": [],
+  "references": [
+    {
+      "title": "seikatsu-nihongo/content/preparation.json",
+      "note": "权威准备篇数据，units[6]（stop）；原文、读音提示、朗读文本和拍子按原数据保留。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/README.md",
+      "note": "来源关系说明：preparation.json 保存准备篇；n5-source.txt 与生成 n5.json 属于第1～20课，本次不导出。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/review-notes.md",
+      "note": "2026-09-30 校订说明：准备篇8个单元；未发现必须修改的假名表内容。"
+    },
+    {
+      "title": "seikatsu-nihongo/src/modules/learning/presentation/data/preparation-workspace-copy.ts",
+      "note": "保留原页面的合成语音辅助提示；仅有 beats 的单元保留圆点拍子说明。"
+    }
+  ]
+}

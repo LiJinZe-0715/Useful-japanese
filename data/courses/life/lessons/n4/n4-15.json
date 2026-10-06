@@ -1,0 +1,499 @@
+{
+  "schemaVersion": 1,
+  "id": "n4-15",
+  "unitId": "n4",
+  "order": 215,
+  "title": "第15课 上班时报告问题并确认处理顺序",
+  "level": "N4",
+  "kind": "scene",
+  "objectives": ["报告差错或不足", "确认处理顺序", "复述指示并避免隐瞒"],
+  "scene": {
+    "background": "在已录用的另一个虚构阶段，林完成入职说明后协助咖啡店工作。发现少了一把勺子，向前辈报告并接受指示。",
+    "channel": "in-person",
+    "tasks": ["报告差错或不足", "确认处理顺序", "复述指示并避免隐瞒"],
+    "relationships": "你扮演“我（わたし）”（课文中的林）。林与前辈：当班指导人员；林的工作前辈；普通体补充场景见语体说明。"
+  },
+  "learnerSpeakerId": "learner",
+  "speakers": [
+    {
+      "id": "learner",
+      "name": "我（わたし）",
+      "role": "你扮演的角色（课文示例姓名：林／リン）；赴日学习者；沿用示例姓名林（リン），实际练习可替换为本人信息"
+    },
+    {
+      "id": "classmate",
+      "name": "王",
+      "role": "同班同学王（ワン）；熟悉后双方已接受普通体"
+    },
+    {
+      "id": "staff",
+      "name": "前辈",
+      "role": "当班指导人员；林的工作前辈"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "main",
+      "title": "主课文：上班时报告问题并确认处理顺序",
+      "variant": "main",
+      "lines": [
+        {
+          "id": "main-line-1",
+          "speakerId": "learner",
+          "ja": "三番のテーブルに、スプーンが一つ足りません。",
+          "zh": "三号桌少一把勺子。",
+          "reading": "さんばんのテーブルに、スプーンがひとつたりません。"
+        },
+        {
+          "id": "main-line-2",
+          "speakerId": "staff",
+          "ja": "今、何本ありますか。",
+          "zh": "现在有几把？",
+          "reading": "いま、なんぼんありますか。"
+        },
+        {
+          "id": "main-line-3",
+          "speakerId": "learner",
+          "ja": "三本です。四人なので、一本足りません。",
+          "zh": "三把，四个人，所以少一把。",
+          "reading": "さんぼんです。よにんなので、いっぽんたりません。"
+        },
+        {
+          "id": "main-line-4",
+          "speakerId": "staff",
+          "ja": "まず一本持って行ってください。その後で残りを確認しましょう。",
+          "zh": "先拿一把过去，之后再确认剩余数量。",
+          "reading": "まずいっぽんもっていってください。そのあとでのこりをかくにんしましょう。"
+        },
+        {
+          "id": "main-line-5",
+          "speakerId": "learner",
+          "ja": "わかりました。急いでいて、数を間違えてしまいました。",
+          "zh": "明白了，刚才赶着做，把数量弄错了。",
+          "reading": "わかりました。いそいでいて、かずをまちがえてしまいました。"
+        },
+        {
+          "id": "main-line-6",
+          "speakerId": "staff",
+          "ja": "気づいたときに報告してくれて助かります。",
+          "zh": "发现后马上报告，帮上忙了。",
+          "reading": "きづいたときにほうこくしてくれてたすかります。"
+        },
+        {
+          "id": "main-line-7",
+          "speakerId": "learner",
+          "ja": "次は持って行く前に数えるようにします。",
+          "zh": "下次会注意送过去前先数一遍。",
+          "reading": "つぎはもっていくまえにかぞえるようにします。"
+        },
+        {
+          "id": "main-line-8",
+          "speakerId": "staff",
+          "ja": "はい。わからなければ、一人で決めずに聞いてください。",
+          "zh": "好，不明白时不要自己决定，请来问。",
+          "reading": "はい。わからなければ、ひとりできめずにきいてください。"
+        }
+      ]
+    },
+    {
+      "id": "branch",
+      "title": "条件变化：另一种处理路径",
+      "variant": "branch",
+      "lines": [
+        {
+          "id": "branch-line-1",
+          "speakerId": "learner",
+          "ja": "新しいスプーンが見つかりません。",
+          "zh": "找不到新的勺子。",
+          "reading": "あたらしいスプーンがみつかりません。"
+        },
+        {
+          "id": "branch-line-2",
+          "speakerId": "staff",
+          "ja": "私が確認します。代わりに使っていい物を勝手に決めないでください。",
+          "zh": "我来确认，请不要擅自决定替代用品。",
+          "reading": "わたしがかくにんします。かわりにつかっていいものをかってにきめないでください。"
+        },
+        {
+          "id": "branch-line-3",
+          "speakerId": "learner",
+          "ja": "はい。お客さんには少し待っていただきます。",
+          "zh": "好，会请顾客稍等。",
+          "reading": "はい。おきゃくさんにはすこしまっていただきます。"
+        },
+        {
+          "id": "branch-line-4",
+          "speakerId": "staff",
+          "ja": "お願いします。こちらから持って行きます。",
+          "zh": "麻烦了，我来送过去。",
+          "reading": "おねがいします。こちらからもっていきます。"
+        }
+      ]
+    },
+    {
+      "id": "plain",
+      "title": "普通体：与熟悉同学交谈",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "plain-line-1",
+          "speakerId": "learner",
+          "ja": "スプーンの数を間違えてしまった。",
+          "zh": "把勺子数量弄错了。",
+          "reading": "スプーンのかずをまちがえてしまった。"
+        },
+        {
+          "id": "plain-line-2",
+          "speakerId": "classmate",
+          "ja": "どうしたの？",
+          "zh": "怎么处理了？",
+          "reading": "どうしたの？"
+        },
+        {
+          "id": "plain-line-3",
+          "speakerId": "learner",
+          "ja": "先輩に報告して、一本持って行った。",
+          "zh": "向前辈报告后送了一把过去。",
+          "reading": "せんぱいにほうこくして、いっぽんもっていった。"
+        },
+        {
+          "id": "plain-line-4",
+          "speakerId": "classmate",
+          "ja": "次の確認方法も決めたんだね。",
+          "zh": "也决定了下次如何确认啊。",
+          "reading": "つぎのかくにんほうほうもきめたんだね。"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "scenario-information",
+      "title": "本课已知信息与约定",
+      "kind": "table",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["事项", "本例设定"],
+          "rows": [
+            ["桌号", "3号桌"],
+            ["客人数", "4人"],
+            ["现有勺子", "3把，少1把"],
+            ["顺序", "先补1把，再核对剩余"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "version-context",
+      "title": "场景分支与语体说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["项目", "说明"],
+          "rows": [
+            ["主课文", "按 scene 中的背景与人物关系交流。"],
+            ["分支", "与主路径互斥的条件变化，不把两条路径的预约、结果或决定合并为同一事件。"],
+            ["普通体", "普通体版用于与熟悉同学王交谈；不把工作人员的礼貌表达机械改成普通体。"],
+            ["听后跟读", "先听完整一句，暂停后模仿；先理解人物、条件与任务。"],
+            ["影子跟读", "熟悉原句后，播放时稍落后连续跟随；平台使用合成语音，不称真人录音。"]
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "vocabulary-1",
+      "word": "足りる",
+      "reading": "たりる",
+      "meaning": "足够",
+      "usage": "用于本课的上班时报告问题并确认处理顺序场景",
+      "collocations": ["数が足りない"],
+      "examples": [
+        {
+          "ja": "三番のテーブルに、スプーンが一つ足りません。",
+          "zh": "三号桌少一把勺子。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-2",
+      "word": "数",
+      "reading": "かず",
+      "meaning": "数量",
+      "usage": "用于本课的上班时报告问题并确认处理顺序场景",
+      "collocations": ["数を間違える"],
+      "examples": [
+        {
+          "ja": "わかりました。急いでいて、数を間違えてしまいました。",
+          "zh": "明白了，刚才赶着做，把数量弄错了。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-5"
+      }
+    },
+    {
+      "id": "vocabulary-3",
+      "word": "間違える",
+      "reading": "まちがえる",
+      "meaning": "弄错",
+      "usage": "用于本课的上班时报告问题并确认处理顺序场景",
+      "collocations": ["数を間違える"],
+      "examples": [
+        {
+          "ja": "わかりました。急いでいて、数を間違えてしまいました。",
+          "zh": "明白了，刚才赶着做，把数量弄错了。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-5"
+      }
+    },
+    {
+      "id": "vocabulary-4",
+      "word": "報告",
+      "reading": "ほうこく",
+      "meaning": "报告",
+      "usage": "用于本课的上班时报告问题并确认处理顺序场景",
+      "collocations": ["問題を報告する"],
+      "examples": [
+        {
+          "ja": "気づいたときに報告してくれて助かります。",
+          "zh": "发现后马上报告，帮上忙了。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-6"
+      }
+    },
+    {
+      "id": "vocabulary-5",
+      "word": "数える",
+      "reading": "かぞえる",
+      "meaning": "计数",
+      "usage": "用于本课的上班时报告问题并确认处理顺序场景",
+      "collocations": ["スプーンを数える"],
+      "examples": [
+        {
+          "ja": "次は持って行く前に数えるようにします。",
+          "zh": "下次会注意送过去前先数一遍。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-7"
+      }
+    },
+    {
+      "id": "vocabulary-6",
+      "word": "残り",
+      "reading": "のこり",
+      "meaning": "剩余",
+      "usage": "用于本课的上班时报告问题并确认处理顺序场景",
+      "collocations": ["残りを確認する"],
+      "examples": [
+        {
+          "ja": "まず一本持って行ってください。その後で残りを確認しましょう。",
+          "zh": "先拿一把过去，之后再确认剩余数量。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-4"
+      }
+    }
+  ],
+  "expressions": [
+    {
+      "id": "expression-1",
+      "function": "报告不足",
+      "pattern": "〜が一つ足りません。",
+      "meaning": "说明数量不足。",
+      "audience": "前辈、负责人",
+      "notes": ["给出桌号与数量便于行动。"],
+      "slots": [
+        {
+          "key": "〜",
+          "description": "具体物品"
+        }
+      ],
+      "examples": [
+        {
+          "ja": "三番のテーブルに、スプーンが一つ足りません。",
+          "zh": "三号桌少一把勺子。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "expression-2",
+      "function": "说明改进",
+      "pattern": "次は〜ようにします。",
+      "meaning": "下次有意识地这样做。",
+      "audience": "指导人员",
+      "notes": ["措施要可执行，不只说绝不再错。"],
+      "slots": [
+        {
+          "key": "〜",
+          "description": "送出前先计数等动作"
+        }
+      ],
+      "examples": [
+        {
+          "ja": "次は持って行く前に数えるようにします。",
+          "zh": "下次会注意送过去前先数一遍。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-7"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "grammar-1",
+      "pattern": "〜てしまう",
+      "level": "N4",
+      "meaning": "对已完成但不希望发生的事表示遗憾。",
+      "connection": "动词て形＋しまう",
+      "notes": [
+        "承认差错后说明处理行动，不只反复道歉。",
+        "本章分级是教学目标，不声称现行 JLPT 有逐项公布的必考文法清单。"
+      ],
+      "examples": [
+        {
+          "ja": "わかりました。急いでいて、数を間違えてしまいました。",
+          "zh": "明白了，刚才赶着做，把数量弄错了。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "pattern": "〜ようにする",
+      "level": "N4",
+      "meaning": "有意识地采取某种行动。",
+      "connection": "动词辞书形／ない形＋ようにする",
+      "notes": [
+        "明确下一次的确认动作；不是通过完成标记计算工作能力。",
+        "本章分级是教学目标，不声称现行 JLPT 有逐项公布的必考文法清单。"
+      ],
+      "examples": [
+        {
+          "ja": "次は持って行く前に数えるようにします。",
+          "zh": "下次会注意送过去前先数一遍。"
+        }
+      ]
+    }
+  ],
+  "shadowing": [
+    {
+      "id": "shadowing-main",
+      "dialogueId": "main",
+      "lineIds": [
+        "main-line-1",
+        "main-line-2",
+        "main-line-3",
+        "main-line-4",
+        "main-line-5",
+        "main-line-6",
+        "main-line-7",
+        "main-line-8"
+      ],
+      "prompt": "先听后跟读：整句听完再暂停模仿。理解本段任务后做影子跟读：播放时稍落后跟随。注意报告差错或不足；分支只在对应条件下练习。"
+    },
+    {
+      "id": "shadowing-branch",
+      "dialogueId": "branch",
+      "lineIds": ["branch-line-1", "branch-line-2", "branch-line-3", "branch-line-4"],
+      "prompt": "先听后跟读：整句听完再暂停模仿。理解本段任务后做影子跟读：播放时稍落后跟随。注意报告差错或不足；分支只在对应条件下练习。"
+    },
+    {
+      "id": "shadowing-plain",
+      "dialogueId": "plain",
+      "lineIds": ["plain-line-1", "plain-line-2", "plain-line-3", "plain-line-4"],
+      "prompt": "先听后跟读：整句听完再暂停模仿。理解本段任务后做影子跟读：播放时稍落后跟随。注意报告差错或不足；分支只在对应条件下练习。"
+    }
+  ],
+  "homework": [
+    {
+      "id": "oral-one",
+      "type": "oral",
+      "situation": "向前辈报告数量不足。",
+      "knownInformation": [
+        "桌号：3号桌",
+        "客人数：4人",
+        "现有勺子：3把，少1把",
+        "顺序：先补1把，再核对剩余"
+      ],
+      "tasks": ["说明桌号和已有数量", "复述处理顺序"],
+      "requirements": [
+        "按情境向对应人物作出简洁、连贯的说明。",
+        "已知事项与尚待确认事项分开表达；参考答案只是可行示例。"
+      ],
+      "hints": [
+        "〜が一つ足りません。",
+        "次は〜ようにします。",
+        "可使用本课文法和词汇，措辞不必与参考答案完全相同。"
+      ],
+      "functions": ["consult"],
+      "answers": [
+        {
+          "ja": "三番のテーブルは四人ですが、スプーンが三本しかありません。まず一本持って行って、その後で残りを確認します。",
+          "zh": "三号桌有四个人，但只有三把勺子。先送一把过去，再确认剩余。"
+        }
+      ]
+    },
+    {
+      "id": "written-one",
+      "type": "written",
+      "situation": "写一则工作学习记录。",
+      "knownInformation": [
+        "桌号：3号桌",
+        "客人数：4人",
+        "现有勺子：3把，少1把",
+        "顺序：先补1把，再核对剩余"
+      ],
+      "tasks": ["写出发生的事和处理", "给出下次具体措施"],
+      "requirements": [
+        "写成收件人能理解的短消息或学习记录。",
+        "已知事项与尚待确认事项分开表达；参考答案只是可行示例。"
+      ],
+      "hints": [
+        "〜が一つ足りません。",
+        "次は〜ようにします。",
+        "可使用本课文法和词汇，措辞不必与参考答案完全相同。"
+      ],
+      "functions": ["contact"],
+      "answers": [
+        {
+          "ja": "スプーンの数を間違えてしまいました。先輩に報告して一本持って行きました。次は運ぶ前に数えるようにします。",
+          "zh": "弄错了勺子数量，向前辈报告后送了一把过去。下次会注意送过去前先数。"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "原创 N4 生活日语章节",
+      "note": "2026-10-04 按用户要求新作；课文、译文、分支、作业与参考答案均为原创教学场景，不来自真实机构原始记录。金额、时刻、条件是本例设定。"
+    },
+    {
+      "title": "nihongo/docs/content-format.md 与 schemas/*.schema.json",
+      "note": "遵循本项目 v1 数据契约；N4为学习目标，常见场景固定表达按需要整块理解，不宣称逐项对应官方必考清单。"
+    }
+  ]
+}

@@ -1,0 +1,1063 @@
+{
+  "schemaVersion": 1,
+  "id": "n5-5",
+  "unitId": "n5",
+  "order": 105,
+  "title": "第5课 飞机上的广播与餐饮选择",
+  "level": "N5",
+  "kind": "scene",
+  "objectives": [
+    "1.1 能听出广播中要求系好安全带。",
+    "1.2 有餐食可选时，能指出自己要哪一种。",
+    "1.3 能向乘务员说出想要的饮料。"
+  ],
+  "scene": {
+    "background": "航班提供机上餐饮服务时，我听到广播和乘务员的提问，选择餐食和饮料。",
+    "channel": "other",
+    "tasks": [
+      "1.1 能听出广播中要求系好安全带。",
+      "1.2 有餐食可选时，能指出自己要哪一种。",
+      "1.3 能向乘务员说出想要的饮料。"
+    ],
+    "relationships": "你扮演“我（わたし）”。广播：广播；乘务员：乘务员；私（学习者）：赴日学习者；朋友：朋友"
+  },
+  "learnerSpeakerId": "learner",
+  "speakers": [
+    {
+      "id": "speaker-1",
+      "name": "广播",
+      "role": "广播"
+    },
+    {
+      "id": "speaker-2",
+      "name": "乘务员",
+      "role": "乘务员"
+    },
+    {
+      "id": "learner",
+      "name": "我（わたし）",
+      "role": "你扮演的角色；赴日学习者"
+    },
+    {
+      "id": "speaker-4",
+      "name": "朋友",
+      "role": "朋友"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "main",
+      "title": "场景课文",
+      "variant": "main",
+      "lines": [
+        {
+          "id": "main-line-1",
+          "speakerId": "speaker-1",
+          "ja": "シートベルトをお締めください。",
+          "zh": "请系好安全带。",
+          "reading": "シートベルトをおしめください。",
+          "ttsText": "シートベルトをおしめください。"
+        },
+        {
+          "id": "main-line-2",
+          "speakerId": "speaker-1",
+          "ja": "離陸までお座席でお待ちください。",
+          "zh": "起飞前请在座位上等候。",
+          "reading": "りりくまでおざせきでおまちください。",
+          "ttsText": "りりくまでおざせきでおまちください。"
+        },
+        {
+          "id": "main-line-3",
+          "speakerId": "speaker-2",
+          "ja": "お食事は魚と肉、どちらがよろしいですか。",
+          "zh": "餐食有鱼和肉，您想要哪一种？",
+          "reading": "おしょくじはさかなとにく、どちらがよろしいですか。",
+          "ttsText": "おしょくじはさかなとにく、どちらがよろしいですか。"
+        },
+        {
+          "id": "main-line-4",
+          "speakerId": "learner",
+          "ja": "魚はまだありますか。",
+          "zh": "鱼餐还有吗？",
+          "reading": "さかなはまだありますか。",
+          "ttsText": "さかなはまだありますか。"
+        },
+        {
+          "id": "main-line-5",
+          "speakerId": "speaker-2",
+          "ja": "はい、ございます。",
+          "zh": "有的。",
+          "reading": "はい、ございます。",
+          "ttsText": "はい、ございます。"
+        },
+        {
+          "id": "main-line-6",
+          "speakerId": "learner",
+          "ja": "魚をお願いします。",
+          "zh": "请给我鱼餐。",
+          "reading": "さかなをおねがいします。",
+          "ttsText": "さかなをおねがいします。"
+        },
+        {
+          "id": "main-line-7",
+          "speakerId": "speaker-2",
+          "ja": "お飲み物は何になさいますか。",
+          "zh": "您想喝什么？",
+          "reading": "おのみものはなにになさいますか。",
+          "ttsText": "おのみものはなにになさいますか。"
+        },
+        {
+          "id": "main-line-8",
+          "speakerId": "learner",
+          "ja": "水をお願いします。",
+          "zh": "请给我水。",
+          "reading": "みずをおねがいします。",
+          "ttsText": "みずをおねがいします。"
+        },
+        {
+          "id": "main-line-9",
+          "speakerId": "speaker-2",
+          "ja": "冷たいお水でよろしいですか。",
+          "zh": "凉水可以吗？",
+          "reading": "つめたいおみずでよろしいですか。",
+          "ttsText": "つめたいおみずでよろしいですか。"
+        },
+        {
+          "id": "main-line-10",
+          "speakerId": "learner",
+          "ja": "はい、それでお願いします。",
+          "zh": "可以，就这个。",
+          "reading": "はい、それでおねがいします。",
+          "ttsText": "はい、それでおねがいします。"
+        },
+        {
+          "id": "main-line-11",
+          "speakerId": "speaker-2",
+          "ja": "はい、どうぞ。",
+          "zh": "好的，请用。",
+          "reading": "はい、どうぞ。",
+          "ttsText": "はい、どうぞ。"
+        },
+        {
+          "id": "main-line-12",
+          "speakerId": "learner",
+          "ja": "ありがとうございます。",
+          "zh": "谢谢。",
+          "reading": "ありがとうございます。",
+          "ttsText": "ありがとうございます。"
+        },
+        {
+          "id": "main-line-13",
+          "speakerId": "learner",
+          "ja": "すみません、あとでお茶もいただけますか。",
+          "zh": "不好意思，稍后也可以给我茶吗？",
+          "reading": "すみません、あとでおちゃもいただけますか。",
+          "ttsText": "すみません、あとでおちゃもいただけますか。"
+        },
+        {
+          "id": "main-line-14",
+          "speakerId": "speaker-2",
+          "ja": "はい、後ほどお持ちします。",
+          "zh": "好的，稍后给您送来。",
+          "reading": "はい、あとほどおもちします。",
+          "ttsText": "はい、あとほどおもちします。"
+        },
+        {
+          "id": "main-line-15",
+          "speakerId": "learner",
+          "ja": "ありがとうございます。",
+          "zh": "谢谢。",
+          "reading": "ありがとうございます。",
+          "ttsText": "ありがとうございます。"
+        }
+      ]
+    },
+    {
+      "id": "polite",
+      "title": "跟读文本（礼貌体版·机内点饮料）",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "polite-line-1",
+          "speakerId": "speaker-4",
+          "ja": "お茶を飲みますか。",
+          "zh": "喝茶吗？",
+          "reading": "おちゃをのみますか。",
+          "ttsText": "おちゃをのみますか。"
+        },
+        {
+          "id": "polite-line-2",
+          "speakerId": "learner",
+          "ja": "はい、お茶にします。",
+          "zh": "好的，我选茶。",
+          "reading": "はい、おちゃにします。",
+          "ttsText": "はい、おちゃにします。"
+        },
+        {
+          "id": "polite-line-3",
+          "speakerId": "learner",
+          "ja": "お茶をお願いします。",
+          "zh": "请给我茶。",
+          "reading": "おちゃをおねがいします。",
+          "ttsText": "おちゃをおねがいします。"
+        },
+        {
+          "id": "polite-line-4",
+          "speakerId": "speaker-2",
+          "ja": "お茶です。どうぞ。",
+          "zh": "这是茶，请用。",
+          "reading": "おちゃです。どうぞ。",
+          "ttsText": "おちゃです。どうぞ。"
+        },
+        {
+          "id": "polite-line-5",
+          "speakerId": "learner",
+          "ja": "ありがとうございます。",
+          "zh": "谢谢。",
+          "reading": "ありがとうございます。",
+          "ttsText": "ありがとうございます。"
+        },
+        {
+          "id": "polite-line-6",
+          "speakerId": "speaker-4",
+          "ja": "お茶にしたんですね。",
+          "zh": "你选了茶啊。",
+          "reading": "おちゃにしたんですね。",
+          "ttsText": "おちゃにしたんですね。"
+        },
+        {
+          "id": "polite-line-7",
+          "speakerId": "learner",
+          "ja": "はい。温かい飲み物がよかったので。",
+          "zh": "是的，因为想喝热饮。",
+          "reading": "はい。あたたかいのみものがよかったので。",
+          "ttsText": "はい。あたたかいのみものがよかったので。"
+        }
+      ]
+    },
+    {
+      "id": "plain",
+      "title": "跟读文本（普通体版·机内点饮料）",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "plain-line-1",
+          "speakerId": "speaker-4",
+          "ja": "お茶、飲む？",
+          "zh": "喝茶吗？",
+          "reading": "おちゃ、のむ？",
+          "ttsText": "おちゃ、のむ？"
+        },
+        {
+          "id": "plain-line-2",
+          "speakerId": "learner",
+          "ja": "うん、お茶にする。",
+          "zh": "好的，我选茶。",
+          "reading": "うん、おちゃにする。",
+          "ttsText": "うん、おちゃにする。"
+        },
+        {
+          "id": "plain-line-3",
+          "speakerId": "learner",
+          "ja": "お茶をお願いします。",
+          "zh": "请给我茶。",
+          "reading": "おちゃをおねがいします。",
+          "ttsText": "おちゃをおねがいします。"
+        },
+        {
+          "id": "plain-line-4",
+          "speakerId": "speaker-2",
+          "ja": "お茶です。どうぞ。",
+          "zh": "这是茶，请用。",
+          "reading": "おちゃです。どうぞ。",
+          "ttsText": "おちゃです。どうぞ。"
+        },
+        {
+          "id": "plain-line-5",
+          "speakerId": "learner",
+          "ja": "ありがとうございます。",
+          "zh": "谢谢。",
+          "reading": "ありがとうございます。",
+          "ttsText": "ありがとうございます。"
+        },
+        {
+          "id": "plain-line-6",
+          "speakerId": "speaker-4",
+          "ja": "お茶にしたんだね。",
+          "zh": "你选了茶啊。",
+          "reading": "おちゃにしたんだね。",
+          "ttsText": "おちゃにしたんだね。"
+        },
+        {
+          "id": "plain-line-7",
+          "speakerId": "learner",
+          "ja": "うん。温かい飲み物がよかったから。",
+          "zh": "是的，因为想喝热饮。",
+          "reading": "うん。あたたかいのみものがよかったから。",
+          "ttsText": "うん。あたたかいのみものがよかったから。"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "lesson-context",
+      "title": "场景与使用说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "场景：航班提供机上餐饮服务时，我听到广播和乘务员的提问，选择餐食和饮料。\n使用场合：听懂机上简短指示，回答两种选择并礼貌点饮料。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "goal-notes",
+      "title": "目标补充说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [["自测：听到两个选项后，直接用一句话选择其中一个。"]]
+        }
+      ]
+    },
+    {
+      "id": "dialogue-context",
+      "title": "课文与语体版本的转场、交谈对象",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["对话 ID", "位置（在该行之后；下一行注明对象）", "原场景提示"],
+          "rows": [
+            [
+              "main",
+              "整体",
+              "情境：本次示例航班有餐食和饮料服务；具体供应以航班为准。广播只要求理解大意。"
+            ],
+            ["main", "开始前", "〔起飞前〕"],
+            ["main", "main-line-2", "〔起飞后，餐饮服务开始〕"],
+            [
+              "main",
+              "整体",
+              "说明：并非所有航班都提供免费餐食或可选菜单；没有提供时，不套用选择餐食的问答。"
+            ],
+            ["polite", "下一行 3", "私(わたし)→乘务员"],
+            ["polite", "下一行 5", "私(わたし)→乘务员"],
+            ["plain", "下一行 3", "私(わたし)→乘务员"],
+            ["plain", "下一行 5", "私(わたし)→乘务员"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "register-comparison",
+      "title": "两版差异对照（行 ID 对应上方语体版本）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说话者", "礼貌体行 ID", "普通体行 ID", "原差异说明"],
+          "rows": [
+            ["朋友", "polite-line-1", "plain-line-1", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-2", "plain-line-2", "表达内容相同，语体不同"],
+            ["私(わたし)→乘务员", "polite-line-3", "plain-line-3", "两版保持同一句表达"],
+            ["乘务员", "polite-line-4", "plain-line-4", "两版保持同一句表达"],
+            ["私(わたし)→乘务员", "polite-line-5", "plain-line-5", "两版保持同一句表达"],
+            ["朋友", "polite-line-6", "plain-line-6", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-7", "plain-line-7", "表达内容相同，语体不同"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shadowing-notes",
+      "title": "跟读场景、前提与使用说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "唯一跟读场景：机上饮料车来到座位旁。\n关系与版本前提：普通体版仅用于坐在旁边、平时说普通体的同行朋友讨论选择；向乘务员仍用礼貌体。\n与课文的区别：课文选餐和水；这里先和朋友确认，再向乘务员要茶。"
+            ],
+            ["■ 跟读步骤"],
+            [
+              "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+            ],
+            ["■ 跟读要点"],
+            ["礼貌体版：对乘务员的请求保持完整。\n普通体版：只把与朋友的两句改为普通体。"],
+            ["■ 为什么用这个版本"],
+            [
+              "礼貌体版：初次交流和服务场景稳妥。\n普通体版：朋友之间可随意讨论，向乘务员仍需得体。"
+            ],
+            ["■ 本课跟读目标"],
+            ["根据对话对象即时选语体，直接说出饮料名。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary-notes",
+      "title": "词汇分组与学习说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["■ 3A N5基础词汇"],
+            ["本栏指常见初级教材中的N5基础词，不表示官方保证考到。"],
+            ["■ 3B 场景补充词汇（先听懂）"],
+            ["本栏先听懂、能辨认；行政或商品词不要求会写。"],
+            ["词汇使用提醒：广播和服务方敬语只需听懂，不要求学习者照搬。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-notes",
+      "title": "文法安排与补充表达（原 4B）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["■ 4A 基础句型与场景练习"],
+            [
+              "本栏练习基础句型和本课场景中的表达；长句中的敬语、复合结构可先整句理解。例句均从本课课文原样摘取。"
+            ],
+            ["■ 4B 补充表达与后续复习"],
+            [
+              "文法点：服务方敬语\n意思：服务人员使用更礼貌的问法，学习者能听懂即可。\n例句：お飲(の)み物(もの)は何(なに)になさいますか。\n后续学习建议：结合本课语境复习，再在后续系统课程中学习接续与变形；本课程没有第21课。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appendix-1",
+      "title": "附1：当时课程目标下，日本人实际会怎么说",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "家人之间：お茶(ちゃ)、飲(の)む？\n对同事朋友：お茶(ちゃ)にします。\n对上级工作人员：お茶(ちゃ)をお願(ねが)いします。\n说明：同一饮品可在讨论选择和正式点单中用不同表达。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appendix-2",
+      "title": "附2：常见误用",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "标记说明：✗包含语法错误，也包含本情境中事实不准确、未核实就断言或应对不合适的说法；不表示所有标记句都不合语法。"
+            ],
+            [
+              "水(みず)をお願(ねが)います。 ✗ → 水(みず)をお願(ねが)いします。 ✓\n原因：请求的固定表达是「お願いします」，不是「お願います」。\n魚(さかな)がお願(ねが)いします。 ✗ → 魚(さかな)をお願(ねが)いします。 ✓\n原因：点选餐食时用表示请求对象的助词。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-1",
+      "title": "词汇读音与释义资料（原测试 1）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "读音：さかな\n答案：魚(さかな) — 鱼\n读音：にく\n答案：肉(にく) — 肉\n读音：のみもの\n答案：飲(の)み物(もの) — 饮料\n读音：みず\n答案：水(みず) — 水\n读音：なに\n答案：何(なに) — 什么\n读音：たべます\n答案：食(た)べます — 吃\n读音：のみます\n答案：飲(の)みます — 喝\n读音：おちゃ\n答案：お茶(ちゃ) — 茶\n读音：つめたい\n答案：冷(つめ)たい — 凉的\n读音：あと\n答案：後(あと) — 之后\n读音：まちます\n答案：待(ま)ちます — 等\n读音：すこし\n答案：少(すこ)し — 一点\n读音：あります\n答案：あります — 有\n读音：おしょくじ\n答案：お食事(しょくじ) — 餐食的礼貌说法\n读音：シートベルト\n答案：シートベルト — 安全带\n读音：おしめください\n答案：お締(し)めください — 请系好；广播敬语\n读音：どちらがよろしいですか\n答案：どちらがよろしいですか — 您选哪一种；服务用语\n读音：りりく\n答案：離陸(りりく) — 起飞\n读音：ざせき\n答案：座席(ざせき) — 座位\n读音：ございます\n答案：ございます — 服务方的礼貌存在说法\n读音：いただけますか\n答案：いただけますか — 能否给我；礼貌请求\n读音：あとほど\n答案：後(あと)ほど — 稍后\n读音：おもちします\n答案：お持(も)ちします — 服务方表示稍后送来\n读音：きないほうそう\n答案：機内放送(きないほうそう) — 机内广播"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-2",
+      "title": "文法例题与参考答案（原测试 2）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "题目：魚(さかな)（　）お願(ねが)いします。\n答案：を\n题目：魚(さかな)はまだ（　）。\n答案：ありますか"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "vocabulary-1",
+      "word": "魚",
+      "reading": "さかな",
+      "meaning": "鱼",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "お食事は魚と肉、どちらがよろしいですか。",
+          "zh": "餐食有鱼和肉，您想要哪一种？",
+          "ttsText": "おしょくじはさかなとにく、どちらがよろしいですか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-3"
+      }
+    },
+    {
+      "id": "vocabulary-2",
+      "word": "肉",
+      "reading": "にく",
+      "meaning": "肉",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "お食事は魚と肉、どちらがよろしいですか。",
+          "zh": "餐食有鱼和肉，您想要哪一种？",
+          "ttsText": "おしょくじはさかなとにく、どちらがよろしいですか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-3"
+      }
+    },
+    {
+      "id": "vocabulary-3",
+      "word": "飲み物",
+      "reading": "のみもの",
+      "meaning": "饮料",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "お飲み物は何になさいますか。",
+          "zh": "您想喝什么？",
+          "ttsText": "おのみものはなにになさいますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-7"
+      }
+    },
+    {
+      "id": "vocabulary-4",
+      "word": "水",
+      "reading": "みず",
+      "meaning": "水",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "水をお願いします。",
+          "zh": "请给我水。",
+          "ttsText": "みずをおねがいします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-8"
+      }
+    },
+    {
+      "id": "vocabulary-5",
+      "word": "何",
+      "reading": "なに",
+      "meaning": "什么",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "お飲み物は何になさいますか。",
+          "zh": "您想喝什么？",
+          "ttsText": "おのみものはなにになさいますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-7"
+      }
+    },
+    {
+      "id": "vocabulary-6",
+      "word": "食べます",
+      "reading": "たべます",
+      "meaning": "吃",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-7",
+      "word": "飲みます",
+      "reading": "のみます",
+      "meaning": "喝",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "お茶を飲みますか。",
+          "zh": "喝茶吗？",
+          "ttsText": "おちゃをのみますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "polite",
+        "lineId": "polite-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-8",
+      "word": "お茶",
+      "reading": "おちゃ",
+      "meaning": "茶",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "すみません、あとでお茶もいただけますか。",
+          "zh": "不好意思，稍后也可以给我茶吗？",
+          "ttsText": "すみません、あとでおちゃもいただけますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-13"
+      }
+    },
+    {
+      "id": "vocabulary-9",
+      "word": "冷たい",
+      "reading": "つめたい",
+      "meaning": "凉的",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "冷たいお水でよろしいですか。",
+          "zh": "凉水可以吗？",
+          "ttsText": "つめたいおみずでよろしいですか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-9"
+      }
+    },
+    {
+      "id": "vocabulary-10",
+      "word": "後",
+      "reading": "あと",
+      "meaning": "之后",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "はい、後ほどお持ちします。",
+          "zh": "好的，稍后给您送来。",
+          "ttsText": "はい、あとほどおもちします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-14"
+      }
+    },
+    {
+      "id": "vocabulary-11",
+      "word": "待ちます",
+      "reading": "まちます",
+      "meaning": "等",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-12",
+      "word": "少し",
+      "reading": "すこし",
+      "meaning": "一点",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-13",
+      "word": "あります",
+      "reading": "あります",
+      "meaning": "有",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "魚はまだありますか。",
+          "zh": "鱼餐还有吗？",
+          "ttsText": "さかなはまだありますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-4"
+      }
+    },
+    {
+      "id": "vocabulary-14",
+      "word": "お食事",
+      "reading": "おしょくじ",
+      "meaning": "餐食的礼貌说法",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "お食事は魚と肉、どちらがよろしいですか。",
+          "zh": "餐食有鱼和肉，您想要哪一种？",
+          "ttsText": "おしょくじはさかなとにく、どちらがよろしいですか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-3"
+      }
+    },
+    {
+      "id": "vocabulary-15",
+      "word": "シートベルト",
+      "reading": "シートベルト",
+      "meaning": "安全带",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "シートベルトをお締めください。",
+          "zh": "请系好安全带。",
+          "ttsText": "シートベルトをおしめください。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-16",
+      "word": "お締めください",
+      "reading": "おしめください",
+      "meaning": "请系好；广播敬语",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "シートベルトをお締めください。",
+          "zh": "请系好安全带。",
+          "ttsText": "シートベルトをおしめください。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-17",
+      "word": "どちらがよろしいですか",
+      "reading": "どちらがよろしいですか",
+      "meaning": "您选哪一种；服务用语",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "お食事は魚と肉、どちらがよろしいですか。",
+          "zh": "餐食有鱼和肉，您想要哪一种？",
+          "ttsText": "おしょくじはさかなとにく、どちらがよろしいですか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-3"
+      }
+    },
+    {
+      "id": "vocabulary-18",
+      "word": "離陸",
+      "reading": "りりく",
+      "meaning": "起飞",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "離陸までお座席でお待ちください。",
+          "zh": "起飞前请在座位上等候。",
+          "ttsText": "りりくまでおざせきでおまちください。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-2"
+      }
+    },
+    {
+      "id": "vocabulary-19",
+      "word": "座席",
+      "reading": "ざせき",
+      "meaning": "座位",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "離陸までお座席でお待ちください。",
+          "zh": "起飞前请在座位上等候。",
+          "ttsText": "りりくまでおざせきでおまちください。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-2"
+      }
+    },
+    {
+      "id": "vocabulary-20",
+      "word": "ございます",
+      "reading": "ございます",
+      "meaning": "服务方的礼貌存在说法",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "はい、ございます。",
+          "zh": "有的。",
+          "ttsText": "はい、ございます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-5"
+      }
+    },
+    {
+      "id": "vocabulary-21",
+      "word": "いただけますか",
+      "reading": "いただけますか",
+      "meaning": "能否给我；礼貌请求",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "すみません、あとでお茶もいただけますか。",
+          "zh": "不好意思，稍后也可以给我茶吗？",
+          "ttsText": "すみません、あとでおちゃもいただけますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-13"
+      }
+    },
+    {
+      "id": "vocabulary-22",
+      "word": "後ほど",
+      "reading": "あとほど",
+      "meaning": "稍后",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "はい、後ほどお持ちします。",
+          "zh": "好的，稍后给您送来。",
+          "ttsText": "はい、あとほどおもちします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-14"
+      }
+    },
+    {
+      "id": "vocabulary-23",
+      "word": "お持ちします",
+      "reading": "おもちします",
+      "meaning": "服务方表示稍后送来",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "はい、後ほどお持ちします。",
+          "zh": "好的，稍后给您送来。",
+          "ttsText": "はい、あとほどおもちします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-14"
+      }
+    },
+    {
+      "id": "vocabulary-24",
+      "word": "機内放送",
+      "reading": "きないほうそう",
+      "meaning": "机内广播",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    }
+  ],
+  "expressions": [
+    {
+      "id": "expression-one",
+      "function": "请给我水。",
+      "pattern": "水をお願いします。",
+      "meaning": "请给我水。",
+      "audience": "乘务员、餐饮服务人员。",
+      "notes": [
+        "固定句：水(みず)をお願(ねが)いします。",
+        "不可以替换什么：不能把整句当成免费供应承诺；未确认时先看菜单或听选项。",
+        "语感差异：比只说饮料名更礼貌。",
+        "对谁不能说：不宜用命令语气对服务人员催促。",
+        "其他用法：餐厅、便利店需要请求商品时也可使用。",
+        "本课要求：听到选项后直接替换饮品名。"
+      ],
+      "slots": [
+        {
+          "key": "可替换部分",
+          "description": "可把饮料名词换成实际供应的饮品。"
+        }
+      ],
+      "examples": [
+        {
+          "ja": "水をお願いします。",
+          "zh": "请给我水。",
+          "ttsText": "みずをおねがいします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-8"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "grammar-1",
+      "pattern": "请求所选餐食",
+      "level": "N5",
+      "meaning": "选好餐食后，用を提示请求的对象。",
+      "connection": "对象名词后接宾语助词，再接请求表达。",
+      "notes": [
+        "课文对应：魚(さかな)をお願(ねが)いします。",
+        "例题：魚(さかな)（　）お願(ねが)いします。",
+        "答案：を"
+      ],
+      "examples": [
+        {
+          "ja": "魚をお願いします。",
+          "zh": "请给我鱼餐。",
+          "ttsText": "さかなをおねがいします。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "pattern": "确认是否还有餐食",
+      "level": "N5",
+      "meaning": "询问鱼餐是否仍有供应；服务方的敬语放在补充栏听懂即可。",
+      "connection": "名词＋は＋まだ＋ありますか。",
+      "notes": [
+        "课文对应：魚(さかな)はまだありますか。",
+        "例题：魚(さかな)はまだ（　）。",
+        "答案：ありますか"
+      ],
+      "examples": [
+        {
+          "ja": "魚はまだありますか。",
+          "zh": "鱼餐还有吗？",
+          "ttsText": "さかなはまだありますか。"
+        }
+      ]
+    }
+  ],
+  "shadowing": [
+    {
+      "id": "shadowing-polite",
+      "dialogueId": "polite",
+      "lineIds": [
+        "polite-line-1",
+        "polite-line-2",
+        "polite-line-3",
+        "polite-line-4",
+        "polite-line-5",
+        "polite-line-6",
+        "polite-line-7"
+      ],
+      "prompt": "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+    },
+    {
+      "id": "shadowing-plain",
+      "dialogueId": "plain",
+      "lineIds": [
+        "plain-line-1",
+        "plain-line-2",
+        "plain-line-3",
+        "plain-line-4",
+        "plain-line-5",
+        "plain-line-6",
+        "plain-line-7"
+      ],
+      "prompt": "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+    }
+  ],
+  "homework": [],
+  "references": [
+    {
+      "title": "seikatsu-nihongo/content/n5-source.txt",
+      "note": "唯一正文来源；第5课。源稿日语、事实与说明保持不变；本次新增忠实中文译文用于 v1 必填 zh，未创作场景或作业。 N5 章节的完整通用使用说明统一保存在同章 n5-1 的「N5 章节使用说明」素材中。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/README.md",
+      "note": "n5.json 为 TXT 生成结果，已通过 import-n5.mjs --check；不重复导出生成 README。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/review-notes.md",
+      "note": "沿用 2026-09-30 校订；现实条件与时限按原说明保留，不把课号当办事日期。"
+    },
+    {
+      "title": "JLPT官方考试指南",
+      "url": "https://jlpt.jp/cn/reference/pdf/guidebook1.pdf",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "出入国在留管理厅",
+      "url": "https://www.moj.go.jp/isa/applications/procedures/nyuukokukanri10_00021.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "日本海关",
+      "url": "https://www.customs.go.jp/english/passenger/declaration/declaration_app.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "东京燃气",
+      "url": "https://home.tokyo-gas.co.jp/gas_power/procedure/moving/khsn_k_nagare.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "povo官方",
+      "url": "https://povo.jp/procedure/",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "日本邮政银行",
+      "url": "https://www.jp-bank.japanpost.jp/kaisetu/kat_gaikokujin.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "厚生劳动省",
+      "url": "https://www.mhlw.go.jp/stf/newpage_50657.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    }
+  ]
+}

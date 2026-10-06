@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "id": "contracted",
+  "unitId": "pre",
+  "order": 4,
+  "title": "拗音：小ゃ・ゅ・ょ",
+  "kind": "preparation",
+  "objectives": ["一个大假名加一个小假名，合起来算一拍。"],
+  "materials": [
+    {
+      "id": "learning-notes",
+      "title": "学习说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["きゃ／キャ是一拍；きや／キヤ是两拍。小字与大字不能混读。"],
+            ["拗音的三个母音是 a・u・o，注意小ゃ、小ゅ、小ょ的字形。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kana-chart",
+      "title": "拗音：小ゃ・ゅ・ょ · 字形与读音表",
+      "kind": "table",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["第1列", "第2列", "第3列"],
+          "rows": [
+            ["きゃ／キャ\nkya · 1拍", "きゅ／キュ\nkyu · 1拍", "きょ／キョ\nkyo · 1拍"],
+            ["しゃ／シャ\nsha · 1拍", "しゅ／シュ\nshu · 1拍", "しょ／ショ\nsho · 1拍"],
+            ["ちゃ／チャ\ncha · 1拍", "ちゅ／チュ\nchu · 1拍", "ちょ／チョ\ncho · 1拍"],
+            ["にゃ／ニャ\nnya · 1拍", "にゅ／ニュ\nnyu · 1拍", "にょ／ニョ\nnyo · 1拍"],
+            ["ひゃ／ヒャ\nhya · 1拍", "ひゅ／ヒュ\nhyu · 1拍", "ひょ／ヒョ\nhyo · 1拍"],
+            ["みゃ／ミャ\nmya · 1拍", "みゅ／ミュ\nmyu · 1拍", "みょ／ミョ\nmyo · 1拍"],
+            ["りゃ／リャ\nrya · 1拍", "りゅ／リュ\nryu · 1拍", "りょ／リョ\nryo · 1拍"],
+            ["ぎゃ／ギャ\ngya · 1拍", "ぎゅ／ギュ\ngyu · 1拍", "ぎょ／ギョ\ngyo · 1拍"],
+            ["じゃ／ジャ\nja · 1拍", "じゅ／ジュ\nju · 1拍", "じょ／ジョ\njo · 1拍"],
+            ["びゃ／ビャ\nbya · 1拍", "びゅ／ビュ\nbyu · 1拍", "びょ／ビョ\nbyo · 1拍"],
+            ["ぴゃ／ピャ\npya · 1拍", "ぴゅ／ピュ\npyu · 1拍", "ぴょ／ピョ\npyo · 1拍"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pronunciation",
+      "title": "认读与合成语音",
+      "kind": "pronunciation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["朗读说明"],
+          "rows": [["系统语音仅供辅助，不是真人发音示范。"]]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "ja": "きゃ／キャ",
+              "zh": "kya · 1拍",
+              "ttsText": "キャ"
+            },
+            {
+              "ja": "きゅ／キュ",
+              "zh": "kyu · 1拍",
+              "ttsText": "キュ"
+            },
+            {
+              "ja": "きょ／キョ",
+              "zh": "kyo · 1拍",
+              "ttsText": "キョ"
+            },
+            {
+              "ja": "しゃ／シャ",
+              "zh": "sha · 1拍",
+              "ttsText": "シャ"
+            },
+            {
+              "ja": "しゅ／シュ",
+              "zh": "shu · 1拍",
+              "ttsText": "シュ"
+            },
+            {
+              "ja": "しょ／ショ",
+              "zh": "sho · 1拍",
+              "ttsText": "ショ"
+            },
+            {
+              "ja": "ちゃ／チャ",
+              "zh": "cha · 1拍",
+              "ttsText": "チャ"
+            },
+            {
+              "ja": "ちゅ／チュ",
+              "zh": "chu · 1拍",
+              "ttsText": "チュ"
+            },
+            {
+              "ja": "ちょ／チョ",
+              "zh": "cho · 1拍",
+              "ttsText": "チョ"
+            },
+            {
+              "ja": "にゃ／ニャ",
+              "zh": "nya · 1拍",
+              "ttsText": "ニャ"
+            },
+            {
+              "ja": "にゅ／ニュ",
+              "zh": "nyu · 1拍",
+              "ttsText": "ニュ"
+            },
+            {
+              "ja": "にょ／ニョ",
+              "zh": "nyo · 1拍",
+              "ttsText": "ニョ"
+            },
+            {
+              "ja": "ひゃ／ヒャ",
+              "zh": "hya · 1拍",
+              "ttsText": "ヒャ"
+            },
+            {
+              "ja": "ひゅ／ヒュ",
+              "zh": "hyu · 1拍",
+              "ttsText": "ヒュ"
+            },
+            {
+              "ja": "ひょ／ヒョ",
+              "zh": "hyo · 1拍",
+              "ttsText": "ヒョ"
+            },
+            {
+              "ja": "みゃ／ミャ",
+              "zh": "mya · 1拍",
+              "ttsText": "ミャ"
+            },
+            {
+              "ja": "みゅ／ミュ",
+              "zh": "myu · 1拍",
+              "ttsText": "ミュ"
+            },
+            {
+              "ja": "みょ／ミョ",
+              "zh": "myo · 1拍",
+              "ttsText": "ミョ"
+            },
+            {
+              "ja": "りゃ／リャ",
+              "zh": "rya · 1拍",
+              "ttsText": "リャ"
+            },
+            {
+              "ja": "りゅ／リュ",
+              "zh": "ryu · 1拍",
+              "ttsText": "リュ"
+            },
+            {
+              "ja": "りょ／リョ",
+              "zh": "ryo · 1拍",
+              "ttsText": "リョ"
+            },
+            {
+              "ja": "ぎゃ／ギャ",
+              "zh": "gya · 1拍",
+              "ttsText": "ギャ"
+            },
+            {
+              "ja": "ぎゅ／ギュ",
+              "zh": "gyu · 1拍",
+              "ttsText": "ギュ"
+            },
+            {
+              "ja": "ぎょ／ギョ",
+              "zh": "gyo · 1拍",
+              "ttsText": "ギョ"
+            },
+            {
+              "ja": "じゃ／ジャ",
+              "zh": "ja · 1拍",
+              "ttsText": "ジャ"
+            },
+            {
+              "ja": "じゅ／ジュ",
+              "zh": "ju · 1拍",
+              "ttsText": "ジュ"
+            },
+            {
+              "ja": "じょ／ジョ",
+              "zh": "jo · 1拍",
+              "ttsText": "ジョ"
+            },
+            {
+              "ja": "びゃ／ビャ",
+              "zh": "bya · 1拍",
+              "ttsText": "ビャ"
+            },
+            {
+              "ja": "びゅ／ビュ",
+              "zh": "byu · 1拍",
+              "ttsText": "ビュ"
+            },
+            {
+              "ja": "びょ／ビョ",
+              "zh": "byo · 1拍",
+              "ttsText": "ビョ"
+            },
+            {
+              "ja": "ぴゃ／ピャ",
+              "zh": "pya · 1拍",
+              "ttsText": "ピャ"
+            },
+            {
+              "ja": "ぴゅ／ピュ",
+              "zh": "pyu · 1拍",
+              "ttsText": "ピュ"
+            },
+            {
+              "ja": "ぴょ／ピョ",
+              "zh": "pyo · 1拍",
+              "ttsText": "ピョ"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "speakers": [],
+  "dialogues": [],
+  "vocabulary": [],
+  "expressions": [],
+  "grammar": [],
+  "shadowing": [],
+  "homework": [],
+  "references": [
+    {
+      "title": "seikatsu-nihongo/content/preparation.json",
+      "note": "权威准备篇数据，units[3]（contracted）；原文、读音提示、朗读文本和拍子按原数据保留。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/README.md",
+      "note": "来源关系说明：preparation.json 保存准备篇；n5-source.txt 与生成 n5.json 属于第1～20课，本次不导出。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/review-notes.md",
+      "note": "2026-09-30 校订说明：准备篇8个单元；未发现必须修改的假名表内容。"
+    },
+    {
+      "title": "seikatsu-nihongo/src/modules/learning/presentation/data/preparation-workspace-copy.ts",
+      "note": "保留原页面的合成语音辅助提示；仅有 beats 的单元保留圆点拍子说明。"
+    }
+  ]
+}

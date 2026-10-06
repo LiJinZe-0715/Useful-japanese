@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "nasal",
+  "unitId": "pre",
+  "order": 8,
+  "title": "拨音：ん／ン占一拍",
+  "kind": "preparation",
+  "objectives": ["把鼻音保留一拍；不要自动加上「う」或其他母音。"],
+  "materials": [
+    {
+      "id": "learning-notes",
+      "title": "学习说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["ん／ン是一拍，实际发音会随前后声音发生变化，不是永远固定的n音。"],
+            ["与长音、促音一样，要把这一个拍子听出来、数出来。"],
+            ["用下面的声音序列练节奏，不作单词记忆。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kana-chart",
+      "title": "拨音：ん／ン占一拍 · 字形与读音表",
+      "kind": "table",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["第1列", "第2列", "第3列"],
+          "rows": [["アン\na · 鼻音", "イン\ni · 鼻音", "ウン\nu · 鼻音"]]
+        }
+      ]
+    },
+    {
+      "id": "pronunciation",
+      "title": "认读与合成语音",
+      "kind": "pronunciation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["朗读说明"],
+          "rows": [["系统语音仅供辅助，不是真人发音示范。"]]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "ja": "アン",
+              "zh": "a · 鼻音",
+              "ttsText": "アン"
+            },
+            {
+              "ja": "イン",
+              "zh": "i · 鼻音",
+              "ttsText": "イン"
+            },
+            {
+              "ja": "ウン",
+              "zh": "u · 鼻音",
+              "ttsText": "ウン"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mora",
+      "title": "拍子示例",
+      "kind": "table",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [["圆点表示拍子，每一点保持同样的时长。"]]
+        },
+        {
+          "type": "table",
+          "headers": ["声音组合", "第1拍", "第2拍"],
+          "rows": [
+            ["アン", "● ア", "● ン"],
+            ["イン", "● イ", "● ン"],
+            ["ウン", "● ウ", "● ン"]
+          ]
+        }
+      ]
+    }
+  ],
+  "speakers": [],
+  "dialogues": [],
+  "vocabulary": [],
+  "expressions": [],
+  "grammar": [],
+  "shadowing": [],
+  "homework": [],
+  "references": [
+    {
+      "title": "seikatsu-nihongo/content/preparation.json",
+      "note": "权威准备篇数据，units[7]（nasal）；原文、读音提示、朗读文本和拍子按原数据保留。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/README.md",
+      "note": "来源关系说明：preparation.json 保存准备篇；n5-source.txt 与生成 n5.json 属于第1～20课，本次不导出。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/review-notes.md",
+      "note": "2026-09-30 校订说明：准备篇8个单元；未发现必须修改的假名表内容。"
+    },
+    {
+      "title": "seikatsu-nihongo/src/modules/learning/presentation/data/preparation-workspace-copy.ts",
+      "note": "保留原页面的合成语音辅助提示；仅有 beats 的单元保留圆点拍子说明。"
+    }
+  ]
+}

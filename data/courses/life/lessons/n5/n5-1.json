@@ -1,0 +1,1004 @@
+{
+  "schemaVersion": 1,
+  "id": "n5-1",
+  "unitId": "n5",
+  "order": 101,
+  "title": "第1课 自我介绍",
+  "level": "N5",
+  "kind": "scene",
+  "objectives": [
+    "1.1 能向第一次见面的人说出姓名。",
+    "1.2 需要时能补充国籍和学生身份。",
+    "1.3 能用一句寒暄结束介绍。"
+  ],
+  "scene": {
+    "background": "到校第一天在班级中介绍自己；出发前可以先练习这段话。课文是单向发言。",
+    "channel": "other",
+    "tasks": [
+      "1.1 能向第一次见面的人说出姓名。",
+      "1.2 需要时能补充国籍和学生身份。",
+      "1.3 能用一句寒暄结束介绍。"
+    ],
+    "relationships": "你扮演“我（わたし）”。私（学习者）：赴日学习者；志愿者：志愿者"
+  },
+  "learnerSpeakerId": "learner",
+  "speakers": [
+    {
+      "id": "learner",
+      "name": "我（わたし）",
+      "role": "你扮演的角色；赴日学习者"
+    },
+    {
+      "id": "speaker-2",
+      "name": "志愿者",
+      "role": "志愿者"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "main",
+      "title": "场景课文",
+      "variant": "main",
+      "lines": [
+        {
+          "id": "main-line-1",
+          "speakerId": "learner",
+          "ja": "はじめまして。",
+          "zh": "初次见面。",
+          "reading": "はじめまして。",
+          "ttsText": "はじめまして。"
+        },
+        {
+          "id": "main-line-2",
+          "speakerId": "learner",
+          "ja": "私は林です。",
+          "zh": "我是林。",
+          "reading": "わたしはリンです。",
+          "ttsText": "わたしはリンです。"
+        },
+        {
+          "id": "main-line-3",
+          "speakerId": "learner",
+          "ja": "中国人です。",
+          "zh": "我是中国人。",
+          "reading": "ちゅうごくじんです。",
+          "ttsText": "ちゅうごくじんです。"
+        },
+        {
+          "id": "main-line-4",
+          "speakerId": "learner",
+          "ja": "先週、日本に来ました。",
+          "zh": "上周来到了日本。",
+          "reading": "せんしゅう、にほんにきました。",
+          "ttsText": "せんしゅう、にほんにきました。"
+        },
+        {
+          "id": "main-line-5",
+          "speakerId": "learner",
+          "ja": "日本語学校の学生です。",
+          "zh": "我是日语学校的学生。",
+          "reading": "にほんごがっこうのがくせいです。",
+          "ttsText": "にほんごがっこうのがくせいです。"
+        },
+        {
+          "id": "main-line-6",
+          "speakerId": "learner",
+          "ja": "まだ少し緊張しています。",
+          "zh": "现在还有些紧张。",
+          "reading": "まだすこしきんちょうしています。",
+          "ttsText": "まだすこしきんちょうしています。"
+        },
+        {
+          "id": "main-line-7",
+          "speakerId": "learner",
+          "ja": "休みの日は音楽を聞きます。",
+          "zh": "休息日会听音乐。",
+          "reading": "やすみのひはおんがくをききます。",
+          "ttsText": "やすみのひはおんがくをききます。"
+        },
+        {
+          "id": "main-line-8",
+          "speakerId": "learner",
+          "ja": "みなさんといろいろ話したいです。",
+          "zh": "希望能和大家聊各种话题。",
+          "reading": "みなさんといろいろはなしたいです。",
+          "ttsText": "みなさんといろいろはなしたいです。"
+        },
+        {
+          "id": "main-line-9",
+          "speakerId": "learner",
+          "ja": "どうぞよろしくお願いします。",
+          "zh": "请多关照。",
+          "reading": "どうぞよろしくおねがいします。",
+          "ttsText": "どうぞよろしくおねがいします。"
+        }
+      ]
+    },
+    {
+      "id": "polite",
+      "title": "跟读文本（礼貌体版·与志愿者互相介绍）",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "polite-line-1",
+          "speakerId": "learner",
+          "ja": "はじめまして。林です。留学生です。",
+          "zh": "初次见面。我叫林，是留学生。",
+          "reading": "はじめまして。リンです。りゅうがくせいです。",
+          "ttsText": "はじめまして。リンです。りゅうがくせいです。"
+        },
+        {
+          "id": "polite-line-2",
+          "speakerId": "speaker-2",
+          "ja": "佐藤です。大学生です。よろしくお願いします。",
+          "zh": "我叫佐藤，是大学生。请多关照。",
+          "reading": "さとうです。だいがくせいです。よろしくおねがいします。",
+          "ttsText": "さとうです。だいがくせいです。よろしくおねがいします。"
+        },
+        {
+          "id": "polite-line-3",
+          "speakerId": "learner",
+          "ja": "こちらこそ、よろしくお願いします。",
+          "zh": "我也请您多关照。",
+          "reading": "こちらこそ、よろしくおねがいします。",
+          "ttsText": "こちらこそ、よろしくおねがいします。"
+        },
+        {
+          "id": "polite-line-4",
+          "speakerId": "speaker-2",
+          "ja": "教室はわかりますか。",
+          "zh": "知道教室在哪里吗？",
+          "reading": "きょうしつはわかりますか。",
+          "ttsText": "きょうしつはわかりますか。"
+        },
+        {
+          "id": "polite-line-5",
+          "speakerId": "learner",
+          "ja": "まだです。案内を見ます。",
+          "zh": "还不知道。我看看指引。",
+          "reading": "まだです。あんないをみます。",
+          "ttsText": "まだです。あんないをみます。"
+        },
+        {
+          "id": "polite-line-6",
+          "speakerId": "speaker-2",
+          "ja": "では、一緒に行きましょう。",
+          "zh": "那我们一起去吧。",
+          "reading": "では、いっしょにいきましょう。",
+          "ttsText": "では、いっしょにいきましょう。"
+        },
+        {
+          "id": "polite-line-7",
+          "speakerId": "learner",
+          "ja": "ありがとうございます。",
+          "zh": "谢谢。",
+          "reading": "ありがとうございます。",
+          "ttsText": "ありがとうございます。"
+        }
+      ]
+    },
+    {
+      "id": "plain",
+      "title": "跟读文本（普通体版·与志愿者互相介绍）",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "plain-line-1",
+          "speakerId": "learner",
+          "ja": "はじめまして。林。留学生。",
+          "zh": "初次见面。我叫林，是留学生。",
+          "reading": "はじめまして。リン。りゅうがくせい。",
+          "ttsText": "はじめまして。リン。りゅうがくせい。"
+        },
+        {
+          "id": "plain-line-2",
+          "speakerId": "speaker-2",
+          "ja": "佐藤。大学生。よろしく。",
+          "zh": "我叫佐藤，是大学生。请多关照。",
+          "reading": "さとう。だいがくせい。よろしく。",
+          "ttsText": "さとう。だいがくせい。よろしく。"
+        },
+        {
+          "id": "plain-line-3",
+          "speakerId": "learner",
+          "ja": "こちらこそ、よろしく。",
+          "zh": "我也请您多关照。",
+          "reading": "こちらこそ、よろしく。",
+          "ttsText": "こちらこそ、よろしく。"
+        },
+        {
+          "id": "plain-line-4",
+          "speakerId": "speaker-2",
+          "ja": "教室、わかる？",
+          "zh": "知道教室在哪里吗？",
+          "reading": "きょうしつ、わかる？",
+          "ttsText": "きょうしつ、わかる？"
+        },
+        {
+          "id": "plain-line-5",
+          "speakerId": "learner",
+          "ja": "まだ。案内を見る。",
+          "zh": "还不知道。我看看指引。",
+          "reading": "まだ。あんないをみる。",
+          "ttsText": "まだ。あんないをみる。"
+        },
+        {
+          "id": "plain-line-6",
+          "speakerId": "speaker-2",
+          "ja": "それなら、一緒に行こう。",
+          "zh": "那我们一起去吧。",
+          "reading": "それなら、いっしょにいこう。",
+          "ttsText": "それなら、いっしょにいこう。"
+        },
+        {
+          "id": "plain-line-7",
+          "speakerId": "learner",
+          "ja": "ありがとう。",
+          "zh": "谢谢。",
+          "reading": "ありがとう。",
+          "ttsText": "ありがとう。"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "course-context",
+      "title": "N5 章节使用说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["日语N5生活课程 第1～20课（校订版）"],
+            [
+              "使用说明：每课单独置于文本代码块。3A收录常见初级词汇；4A练习基础句型及场景表达；现行JLPT不公布逐项必考词汇和文法清单。3B是场景补充词汇，并不表示每一项都超出N5；先求听懂，不要求会写。示例主人公一律是“私”；姓名请替换成学习者自己的姓名及正确读音。"
+            ],
+            [
+              "场景设定：主人公赴日学习，住在东京的租住房间。具体学校、住址、航班、城市、商品、合同和柜台办理要求，以本人文件及当时官方信息为准。课文只给真实情境中可能出现的说法，不暗示每位学习者都会经历完全相同的手续。"
+            ],
+            [
+              "出发前与家人使用日语的段落，是假设家人能用日语交流时的口语练习；如果家人只说中文，现实交流自然用中文。第1课的到校自我介绍可在出发前预先排练。"
+            ],
+            [
+              "跟读说明：普通体版本设定为双方已经接受随意说话；不能只凭年龄相近或家人关系就机械改变每句话的词尾。实际影子跟读需要示范音频，本文件提供跟读稿。"
+            ],
+            [
+              "文法安排：4B用于补充说明和后续复习，并非所有表达都超出N5。课程只包含第1～20课，不以不存在的第21课作为学习前提。"
+            ],
+            ["校对依据（截至2026年9月）："],
+            [
+              "垃圾分类及投放时间应查居住地自治体、楼宇管理规定；本教材不指定全日本统一日期与时间。"
+            ],
+            [
+              "课次与时间线：课号表示学习顺序，不是实际办事的逐日时间表。第1课可预演，第11课翌日到校可只是确认安排。住居地确定后应依规定期限办理届出（通常在确定住居地后14日内），不因第15课排在后面而延后；第12课先确认通信需求，住址届出与本人确认材料满足要求后再申请。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson-context",
+      "title": "场景与使用说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "场景：到校第一天在班级中介绍自己；出发前可以先练习这段话。课文是单向发言。\n使用场合：第一次见面，简单报姓名、国籍和学生身份。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "goal-notes",
+      "title": "目标补充说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [["自测：不看稿，按开场、姓名、身份、结束语的顺序说一遍。"]]
+        }
+      ]
+    },
+    {
+      "id": "dialogue-context",
+      "title": "课文与语体版本的转场、交谈对象",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["对话 ID", "位置（在该行之后；下一行注明对象）", "原场景提示"],
+          "rows": [
+            ["main", "整体", "情境：到校后在班级里轮流自我介绍；此时没有人向我提问。"],
+            [
+              "main",
+              "整体",
+              "说明：示例姓名的读法仅供练习。真实介绍时要用自己的姓名及本人选定的读音。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "register-comparison",
+      "title": "两版差异对照（行 ID 对应上方语体版本）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说话者", "礼貌体行 ID", "普通体行 ID", "原差异说明"],
+          "rows": [
+            ["私(わたし)", "polite-line-1", "plain-line-1", "表达内容相同，语体不同"],
+            ["志愿者", "polite-line-2", "plain-line-2", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-3", "plain-line-3", "表达内容相同，语体不同"],
+            ["志愿者", "polite-line-4", "plain-line-4", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-5", "plain-line-5", "表达内容相同，语体不同"],
+            ["志愿者", "polite-line-6", "plain-line-6", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-7", "plain-line-7", "表达内容相同，语体不同"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shadowing-notes",
+      "title": "跟读场景、前提与使用说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "唯一跟读场景：到校交流活动中，与来校帮忙的日本大学生佐藤互相认识；佐藤是交流志愿者，不是日语学校的同班学生。\n关系与版本前提：普通体版假定双方已经同意随意说话。\n与课文的区别：课文是单向向全班介绍；这里是两个人轮流介绍。"
+            ],
+            ["■ 跟读步骤"],
+            [
+              "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+            ],
+            ["■ 跟读要点"],
+            [
+              "礼貌体版：不要把礼貌词尾从姓名后切开。\n普通体版：名词结束时自然停顿，不要每句硬加断定词尾。"
+            ],
+            ["■ 为什么用这个版本"],
+            ["礼貌体版：首次见面稳妥。\n普通体版：双方已接受随意说话。"],
+            ["■ 本课跟读目标"],
+            ["听到姓名和身份能立刻分辨；能够用自己的姓名说同样的信息。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary-notes",
+      "title": "词汇分组与学习说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["■ 3A N5基础词汇"],
+            ["本栏指常见初级教材中的N5基础词，不表示官方保证考到。"],
+            ["■ 3B 场景补充词汇（先听懂）"],
+            ["本栏先听懂、能辨认；行政或商品词不要求会写。"],
+            ["词汇使用提醒：留学生是常见初级词，不能机械放进超纲栏。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-notes",
+      "title": "文法安排与补充表达（原 4B）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["■ 4A 基础句型与场景练习"],
+            [
+              "本栏练习基础句型和本课场景中的表达；长句中的敬语、复合结构可先整句理解。例句均从本课课文原样摘取。"
+            ],
+            ["■ 4B 补充表达与后续复习"],
+            [
+              "文法点：名词句普通体\n意思：与已接受随意说话的同龄人交流时，可用普通体；会话中也可能直接用名词结束。\n例句：留学生(りゅうがくせい)だ。\n后续学习建议：结合本课语境复习，再在后续系统课程中学习接续与变形；本课程没有第21课。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appendix-1",
+      "title": "附1：当时课程目标下，日本人实际会怎么说",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "家人之间：林(リン)です。よろしくお願(ねが)いします。\n对同事朋友：はじめまして。林(リン)です。よろしくお願(ねが)いします。\n对上级工作人员：はじめまして。林(リン)です。どうぞよろしくお願(ねが)いします。\n说明：家人场景是排练，不编造日常彼此首次相识。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appendix-2",
+      "title": "附2：常见误用",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "标记说明：✗包含语法错误，也包含本情境中事实不准确、未核实就断言或应对不合适的说法；不表示所有标记句都不合语法。"
+            ],
+            [
+              "私(わたし)の林(リン)です。 ✗ → 私(わたし)は林(リン)です。 ✓\n原因：介绍自己是谁，需要主题提示。\nはじめましてです。 ✗ → はじめまして。 ✓\n原因：固定开场语已经完整。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-1",
+      "title": "词汇读音与释义资料（原测试 1）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "读音：わたし\n答案：私(わたし) — 我\n读音：ちゅうごくじん\n答案：中国人(ちゅうごくじん) — 中国人\n读音：にほんご\n答案：日本語(にほんご) — 日语\n读音：がっこう\n答案：学校(がっこう) — 学校\n读音：がくせい\n答案：学生(がくせい) — 学生\n读音：なまえ\n答案：名前(なまえ) — 姓名\n读音：りゅうがくせい\n答案：留学生(りゅうがくせい) — 留学生\n读音：にほん\n答案：日本(にほん) — 日本\n读音：きました\n答案：来(き)ました — 来了\n读音：やすみ\n答案：休(やす)み — 休息\n读音：ひ\n答案：日(ひ) — 日子\n读音：おんがく\n答案：音楽(おんがく) — 音乐\n读音：ききます\n答案：聞(き)きます — 听\n读音：はなします\n答案：話(はな)します — 说话\n读音：すこし\n答案：少(すこ)し — 一点\n读音：にほんごがっこう\n答案：日本語学校(にほんごがっこう) — 日语学校；场景组合词\n读音：せんしゅう\n答案：先週(せんしゅう) — 上周\n读音：きんちょうしています\n答案：緊張(きんちょう)しています — 正在紧张\n读音：いろいろ\n答案：いろいろ — 各种各样\n读音：じこしょうかい\n答案：自己紹介(じこしょうかい) — 自我介绍\n读音：はつおん\n答案：発音(はつおん) — 发音\n读音：よびかた\n答案：呼(よ)び方(かた) — 称呼方式"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-2",
+      "title": "文法例题与参考答案（原测试 2）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "题目：中国人(ちゅうごくじん)（　）。\n答案：です\n题目：私(わたし)（　）林(リン)です。\n答案：は\n题目：日本語学校(にほんごがっこう)（　）学生(がくせい)です。\n答案：の"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "vocabulary-1",
+      "word": "私",
+      "reading": "わたし",
+      "meaning": "我",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "私は林です。",
+          "zh": "我是林。",
+          "ttsText": "わたしはリンです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-2"
+      }
+    },
+    {
+      "id": "vocabulary-2",
+      "word": "中国人",
+      "reading": "ちゅうごくじん",
+      "meaning": "中国人",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "中国人です。",
+          "zh": "我是中国人。",
+          "ttsText": "ちゅうごくじんです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-3"
+      }
+    },
+    {
+      "id": "vocabulary-3",
+      "word": "日本語",
+      "reading": "にほんご",
+      "meaning": "日语",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "日本語学校の学生です。",
+          "zh": "我是日语学校的学生。",
+          "ttsText": "にほんごがっこうのがくせいです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-5"
+      }
+    },
+    {
+      "id": "vocabulary-4",
+      "word": "学校",
+      "reading": "がっこう",
+      "meaning": "学校",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "日本語学校の学生です。",
+          "zh": "我是日语学校的学生。",
+          "ttsText": "にほんごがっこうのがくせいです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-5"
+      }
+    },
+    {
+      "id": "vocabulary-5",
+      "word": "学生",
+      "reading": "がくせい",
+      "meaning": "学生",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "日本語学校の学生です。",
+          "zh": "我是日语学校的学生。",
+          "ttsText": "にほんごがっこうのがくせいです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-5"
+      }
+    },
+    {
+      "id": "vocabulary-6",
+      "word": "名前",
+      "reading": "なまえ",
+      "meaning": "姓名",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-7",
+      "word": "留学生",
+      "reading": "りゅうがくせい",
+      "meaning": "留学生",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "はじめまして。林です。留学生です。",
+          "zh": "初次见面。我叫林，是留学生。",
+          "ttsText": "はじめまして。リンです。りゅうがくせいです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "polite",
+        "lineId": "polite-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-8",
+      "word": "日本",
+      "reading": "にほん",
+      "meaning": "日本",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "先週、日本に来ました。",
+          "zh": "上周来到了日本。",
+          "ttsText": "せんしゅう、にほんにきました。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-4"
+      }
+    },
+    {
+      "id": "vocabulary-9",
+      "word": "来ました",
+      "reading": "きました",
+      "meaning": "来了",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "先週、日本に来ました。",
+          "zh": "上周来到了日本。",
+          "ttsText": "せんしゅう、にほんにきました。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-4"
+      }
+    },
+    {
+      "id": "vocabulary-10",
+      "word": "休み",
+      "reading": "やすみ",
+      "meaning": "休息",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "休みの日は音楽を聞きます。",
+          "zh": "休息日会听音乐。",
+          "ttsText": "やすみのひはおんがくをききます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-7"
+      }
+    },
+    {
+      "id": "vocabulary-11",
+      "word": "日",
+      "reading": "ひ",
+      "meaning": "日子",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "先週、日本に来ました。",
+          "zh": "上周来到了日本。",
+          "ttsText": "せんしゅう、にほんにきました。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-4"
+      }
+    },
+    {
+      "id": "vocabulary-12",
+      "word": "音楽",
+      "reading": "おんがく",
+      "meaning": "音乐",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "休みの日は音楽を聞きます。",
+          "zh": "休息日会听音乐。",
+          "ttsText": "やすみのひはおんがくをききます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-7"
+      }
+    },
+    {
+      "id": "vocabulary-13",
+      "word": "聞きます",
+      "reading": "ききます",
+      "meaning": "听",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "休みの日は音楽を聞きます。",
+          "zh": "休息日会听音乐。",
+          "ttsText": "やすみのひはおんがくをききます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-7"
+      }
+    },
+    {
+      "id": "vocabulary-14",
+      "word": "話します",
+      "reading": "はなします",
+      "meaning": "说话",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-15",
+      "word": "少し",
+      "reading": "すこし",
+      "meaning": "一点",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "まだ少し緊張しています。",
+          "zh": "现在还有些紧张。",
+          "ttsText": "まだすこしきんちょうしています。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-6"
+      }
+    },
+    {
+      "id": "vocabulary-16",
+      "word": "日本語学校",
+      "reading": "にほんごがっこう",
+      "meaning": "日语学校；场景组合词",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "日本語学校の学生です。",
+          "zh": "我是日语学校的学生。",
+          "ttsText": "にほんごがっこうのがくせいです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-5"
+      }
+    },
+    {
+      "id": "vocabulary-17",
+      "word": "先週",
+      "reading": "せんしゅう",
+      "meaning": "上周",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "先週、日本に来ました。",
+          "zh": "上周来到了日本。",
+          "ttsText": "せんしゅう、にほんにきました。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-4"
+      }
+    },
+    {
+      "id": "vocabulary-18",
+      "word": "緊張しています",
+      "reading": "きんちょうしています",
+      "meaning": "正在紧张",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "まだ少し緊張しています。",
+          "zh": "现在还有些紧张。",
+          "ttsText": "まだすこしきんちょうしています。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-6"
+      }
+    },
+    {
+      "id": "vocabulary-19",
+      "word": "いろいろ",
+      "reading": "いろいろ",
+      "meaning": "各种各样",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "みなさんといろいろ話したいです。",
+          "zh": "希望能和大家聊各种话题。",
+          "ttsText": "みなさんといろいろはなしたいです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-8"
+      }
+    },
+    {
+      "id": "vocabulary-20",
+      "word": "自己紹介",
+      "reading": "じこしょうかい",
+      "meaning": "自我介绍",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-21",
+      "word": "発音",
+      "reading": "はつおん",
+      "meaning": "发音",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-22",
+      "word": "呼び方",
+      "reading": "よびかた",
+      "meaning": "称呼方式",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    }
+  ],
+  "expressions": [
+    {
+      "id": "expression-one",
+      "function": "初次介绍结束时表示今后请多关照。",
+      "pattern": "どうぞよろしくお願いします。",
+      "meaning": "初次介绍结束时表示今后请多关照。",
+      "audience": "新同学、邻居、老师。",
+      "notes": [
+        "固定句：どうぞよろしくお願(ねが)いします。",
+        "不可以替换什么：不能随意把其中的词换成姓名。",
+        "语感差异：完整表达礼貌；省去前半部分的短说法更随意。",
+        "对谁不能说：不能对已经很熟的人每次见面都当作首次介绍。",
+        "其他用法：开始合作或提出请求时也会出现，意思随情境变化。",
+        "本课要求：整块说顺，结束时自然停顿。"
+      ],
+      "slots": [
+        {
+          "key": "可替换部分",
+          "description": "本课不替换句内成分。"
+        }
+      ],
+      "examples": [
+        {
+          "ja": "どうぞよろしくお願いします。",
+          "zh": "请多关照。",
+          "ttsText": "どうぞよろしくおねがいします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-9"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "grammar-1",
+      "pattern": "名词句礼貌肯定",
+      "level": "N5",
+      "meaning": "说明姓名和身份；上下文清楚时主语可省。",
+      "connection": "名词后接礼貌判断词尾。",
+      "notes": [
+        "课文对应：中国人(ちゅうごくじん)です。",
+        "例题：中国人(ちゅうごくじん)（　）。",
+        "答案：です"
+      ],
+      "examples": [
+        {
+          "ja": "中国人です。",
+          "zh": "我是中国人。",
+          "ttsText": "ちゅうごくじんです。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "pattern": "主题提示",
+      "level": "N5",
+      "meaning": "先点出自己，再说明姓名。",
+      "connection": "名词后接主题提示助词，再说相关信息。",
+      "notes": [
+        "课文对应：私(わたし)は林(リン)です。",
+        "例题：私(わたし)（　）林(リン)です。",
+        "答案：は"
+      ],
+      "examples": [
+        {
+          "ja": "私は林です。",
+          "zh": "我是林。",
+          "ttsText": "わたしはリンです。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "pattern": "名词之间的关联",
+      "level": "N5",
+      "meaning": "前一名词限定后一名词。",
+      "connection": "前一名词后接连接助词，再接后一名词。",
+      "notes": [
+        "课文对应：日本語学校(にほんごがっこう)の学生(がくせい)です。",
+        "例题：日本語学校(にほんごがっこう)（　）学生(がくせい)です。",
+        "答案：の"
+      ],
+      "examples": [
+        {
+          "ja": "日本語学校の学生です。",
+          "zh": "我是日语学校的学生。",
+          "ttsText": "にほんごがっこうのがくせいです。"
+        }
+      ]
+    }
+  ],
+  "shadowing": [
+    {
+      "id": "shadowing-polite",
+      "dialogueId": "polite",
+      "lineIds": [
+        "polite-line-1",
+        "polite-line-2",
+        "polite-line-3",
+        "polite-line-4",
+        "polite-line-5",
+        "polite-line-6",
+        "polite-line-7"
+      ],
+      "prompt": "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+    },
+    {
+      "id": "shadowing-plain",
+      "dialogueId": "plain",
+      "lineIds": [
+        "plain-line-1",
+        "plain-line-2",
+        "plain-line-3",
+        "plain-line-4",
+        "plain-line-5",
+        "plain-line-6",
+        "plain-line-7"
+      ],
+      "prompt": "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+    }
+  ],
+  "homework": [],
+  "references": [
+    {
+      "title": "seikatsu-nihongo/content/n5-source.txt",
+      "note": "唯一正文来源；第1课。源稿日语、事实与说明保持不变；本次新增忠实中文译文用于 v1 必填 zh，未创作场景或作业。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/README.md",
+      "note": "n5.json 为 TXT 生成结果，已通过 import-n5.mjs --check；不重复导出生成 README。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/review-notes.md",
+      "note": "沿用 2026-09-30 校订；现实条件与时限按原说明保留，不把课号当办事日期。"
+    },
+    {
+      "title": "JLPT官方考试指南",
+      "url": "https://jlpt.jp/cn/reference/pdf/guidebook1.pdf",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "出入国在留管理厅",
+      "url": "https://www.moj.go.jp/isa/applications/procedures/nyuukokukanri10_00021.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "日本海关",
+      "url": "https://www.customs.go.jp/english/passenger/declaration/declaration_app.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "东京燃气",
+      "url": "https://home.tokyo-gas.co.jp/gas_power/procedure/moving/khsn_k_nagare.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "povo官方",
+      "url": "https://povo.jp/procedure/",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "日本邮政银行",
+      "url": "https://www.jp-bank.japanpost.jp/kaisetu/kat_gaikokujin.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "厚生劳动省",
+      "url": "https://www.mhlw.go.jp/stf/newpage_50657.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    }
+  ]
+}

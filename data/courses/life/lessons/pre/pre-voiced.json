@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "id": "voiced",
+  "unitId": "pre",
+  "order": 3,
+  "title": "浊音与半浊音",
+  "kind": "preparation",
+  "objectives": ["认识右上角的「゛」与「゜」，对照两套假名字形。"],
+  "materials": [
+    {
+      "id": "learning-notes",
+      "title": "学习说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["か・さ・た・は行加゛形成浊音；は行加゜形成半浊音。"],
+            ["じ／ぢ、ず／づ在现代标准语中通常同音，写法不同。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kana-chart",
+      "title": "浊音与半浊音 · 字形与读音表",
+      "kind": "table",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["第1列", "第2列", "第3列", "第4列", "第5列"],
+          "rows": [
+            ["が／ガ\nga", "ぎ／ギ\ngi", "ぐ／グ\ngu", "げ／ゲ\nge", "ご／ゴ\ngo"],
+            ["ざ／ザ\nza", "じ／ジ\nji", "ず／ズ\nzu", "ぜ／ゼ\nze", "ぞ／ゾ\nzo"],
+            ["だ／ダ\nda", "ぢ／ヂ\nji", "づ／ヅ\nzu", "で／デ\nde", "ど／ド\ndo"],
+            ["ば／バ\nba", "び／ビ\nbi", "ぶ／ブ\nbu", "べ／ベ\nbe", "ぼ／ボ\nbo"],
+            ["ぱ／パ\npa", "ぴ／ピ\npi", "ぷ／プ\npu", "ぺ／ペ\npe", "ぽ／ポ\npo"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pronunciation",
+      "title": "认读与合成语音",
+      "kind": "pronunciation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["朗读说明"],
+          "rows": [["系统语音仅供辅助，不是真人发音示范。"]]
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+              "ja": "が／ガ",
+              "zh": "ga",
+              "ttsText": "ガ"
+            },
+            {
+              "ja": "ぎ／ギ",
+              "zh": "gi",
+              "ttsText": "ギ"
+            },
+            {
+              "ja": "ぐ／グ",
+              "zh": "gu",
+              "ttsText": "グ"
+            },
+            {
+              "ja": "げ／ゲ",
+              "zh": "ge",
+              "ttsText": "ゲ"
+            },
+            {
+              "ja": "ご／ゴ",
+              "zh": "go",
+              "ttsText": "ゴ"
+            },
+            {
+              "ja": "ざ／ザ",
+              "zh": "za",
+              "ttsText": "ザ"
+            },
+            {
+              "ja": "じ／ジ",
+              "zh": "ji",
+              "ttsText": "ジ"
+            },
+            {
+              "ja": "ず／ズ",
+              "zh": "zu",
+              "ttsText": "ズ"
+            },
+            {
+              "ja": "ぜ／ゼ",
+              "zh": "ze",
+              "ttsText": "ゼ"
+            },
+            {
+              "ja": "ぞ／ゾ",
+              "zh": "zo",
+              "ttsText": "ゾ"
+            },
+            {
+              "ja": "だ／ダ",
+              "zh": "da",
+              "ttsText": "ダ"
+            },
+            {
+              "ja": "ぢ／ヂ",
+              "zh": "ji",
+              "ttsText": "ヂ"
+            },
+            {
+              "ja": "づ／ヅ",
+              "zh": "zu",
+              "ttsText": "ヅ"
+            },
+            {
+              "ja": "で／デ",
+              "zh": "de",
+              "ttsText": "デ"
+            },
+            {
+              "ja": "ど／ド",
+              "zh": "do",
+              "ttsText": "ド"
+            },
+            {
+              "ja": "ば／バ",
+              "zh": "ba",
+              "ttsText": "バ"
+            },
+            {
+              "ja": "び／ビ",
+              "zh": "bi",
+              "ttsText": "ビ"
+            },
+            {
+              "ja": "ぶ／ブ",
+              "zh": "bu",
+              "ttsText": "ブ"
+            },
+            {
+              "ja": "べ／ベ",
+              "zh": "be",
+              "ttsText": "ベ"
+            },
+            {
+              "ja": "ぼ／ボ",
+              "zh": "bo",
+              "ttsText": "ボ"
+            },
+            {
+              "ja": "ぱ／パ",
+              "zh": "pa",
+              "ttsText": "パ"
+            },
+            {
+              "ja": "ぴ／ピ",
+              "zh": "pi",
+              "ttsText": "ピ"
+            },
+            {
+              "ja": "ぷ／プ",
+              "zh": "pu",
+              "ttsText": "プ"
+            },
+            {
+              "ja": "ぺ／ペ",
+              "zh": "pe",
+              "ttsText": "ペ"
+            },
+            {
+              "ja": "ぽ／ポ",
+              "zh": "po",
+              "ttsText": "ポ"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "speakers": [],
+  "dialogues": [],
+  "vocabulary": [],
+  "expressions": [],
+  "grammar": [],
+  "shadowing": [],
+  "homework": [],
+  "references": [
+    {
+      "title": "seikatsu-nihongo/content/preparation.json",
+      "note": "权威准备篇数据，units[2]（voiced）；原文、读音提示、朗读文本和拍子按原数据保留。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/README.md",
+      "note": "来源关系说明：preparation.json 保存准备篇；n5-source.txt 与生成 n5.json 属于第1～20课，本次不导出。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/review-notes.md",
+      "note": "2026-09-30 校订说明：准备篇8个单元；未发现必须修改的假名表内容。"
+    },
+    {
+      "title": "seikatsu-nihongo/src/modules/learning/presentation/data/preparation-workspace-copy.ts",
+      "note": "保留原页面的合成语音辅助提示；仅有 beats 的单元保留圆点拍子说明。"
+    }
+  ]
+}

@@ -1,0 +1,1077 @@
+{
+  "schemaVersion": 1,
+  "id": "n5-7",
+  "unitId": "n5",
+  "order": 107,
+  "title": "第7课 从机场坐电车去住处",
+  "level": "N5",
+  "kind": "scene",
+  "objectives": [
+    "1.1 能说出自己的目的站。",
+    "1.2 能问是否需要换乘。",
+    "1.3 能根据现场指示寻找站台。"
+  ],
+  "scene": {
+    "background": "我从成田机场出发，要去东京的新宿一带；在车站先确认路线和换乘。",
+    "channel": "other",
+    "tasks": ["1.1 能说出自己的目的站。", "1.2 能问是否需要换乘。", "1.3 能根据现场指示寻找站台。"],
+    "relationships": "你扮演“我（わたし）”。私（学习者）：赴日学习者；站务员：站务员；朋友：朋友"
+  },
+  "learnerSpeakerId": "learner",
+  "speakers": [
+    {
+      "id": "learner",
+      "name": "我（わたし）",
+      "role": "你扮演的角色；赴日学习者"
+    },
+    {
+      "id": "speaker-2",
+      "name": "站务员",
+      "role": "站务员"
+    },
+    {
+      "id": "speaker-3",
+      "name": "朋友",
+      "role": "朋友"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "main",
+      "title": "场景课文",
+      "variant": "main",
+      "lines": [
+        {
+          "id": "main-line-1",
+          "speakerId": "learner",
+          "ja": "すみません、新宿駅まで行きたいです。",
+          "zh": "不好意思，我想去新宿站。",
+          "reading": "すみません、しんじゅくえきまでいきたいです。",
+          "ttsText": "すみません、しんじゅくえきまでいきたいです。"
+        },
+        {
+          "id": "main-line-2",
+          "speakerId": "speaker-2",
+          "ja": "お荷物は大きいですか。",
+          "zh": "您的行李大吗？",
+          "reading": "おにもつはおおきいですか。",
+          "ttsText": "おにもつはおおきいですか。"
+        },
+        {
+          "id": "main-line-3",
+          "speakerId": "learner",
+          "ja": "はい。できればエレベーターを使いたいです。",
+          "zh": "大。如果可以，我想使用电梯。",
+          "reading": "はい。できればエレベーターをつかいたいです。",
+          "ttsText": "はい。できればエレベーターをつかいたいです。"
+        },
+        {
+          "id": "main-line-4",
+          "speakerId": "speaker-2",
+          "ja": "電車で行けます。今の時間の行き方を一緒に見ましょう。",
+          "zh": "可以坐电车去。我们一起看看现在这个时间的路线吧。",
+          "reading": "でんしゃでいけます。いまのじかんのいきかたをいっしょにみましょう。",
+          "ttsText": "でんしゃでいけます。いまのじかんのいきかたをいっしょにみましょう。"
+        },
+        {
+          "id": "main-line-5",
+          "speakerId": "speaker-2",
+          "ja": "エレベーターの場所もこの地図にあります。",
+          "zh": "电梯的位置也在这张地图上。",
+          "reading": "エレベーターのばしょもこのちずにあります。",
+          "ttsText": "エレベーターのばしょもこのちずにあります。"
+        },
+        {
+          "id": "main-line-6",
+          "speakerId": "learner",
+          "ja": "助かります。",
+          "zh": "帮大忙了。",
+          "reading": "たすかります。",
+          "ttsText": "たすかります。"
+        },
+        {
+          "id": "main-line-7",
+          "speakerId": "learner",
+          "ja": "乗り換えはありますか。",
+          "zh": "需要换乘吗？",
+          "reading": "のりかえはありますか。",
+          "ttsText": "のりかえはありますか。"
+        },
+        {
+          "id": "main-line-8",
+          "speakerId": "speaker-2",
+          "ja": "この案内を見てください。乗り換える駅が書いてあります。",
+          "zh": "请看这个指引。上面写着换乘车站。",
+          "reading": "このあんないをみてください。のりかえるえきがかいてあります。",
+          "ttsText": "このあんないをみてください。のりかえるえきがかいてあります。"
+        },
+        {
+          "id": "main-line-9",
+          "speakerId": "learner",
+          "ja": "切符はどこで買えますか。",
+          "zh": "在哪里可以买车票？",
+          "reading": "きっぷはどこでかえますか。",
+          "ttsText": "きっぷはどこでかえますか。"
+        },
+        {
+          "id": "main-line-10",
+          "speakerId": "speaker-2",
+          "ja": "あちらの券売機です。",
+          "zh": "在那边的售票机。",
+          "reading": "あちらのけんばいきです。",
+          "ttsText": "あちらのけんばいきです。"
+        },
+        {
+          "id": "main-line-11",
+          "speakerId": "learner",
+          "ja": "ありがとうございます。ホームの番号も画面で確認します。",
+          "zh": "谢谢。我也会在屏幕上确认站台号码。",
+          "reading": "ありがとうございます。ホームのばんごうもがめんでかくにんします。",
+          "ttsText": "ありがとうございます。ホームのばんごうもがめんでかくにんします。"
+        },
+        {
+          "id": "main-line-12",
+          "speakerId": "speaker-2",
+          "ja": "はい。行き先も確認してください。",
+          "zh": "好的。也请确认行车目的地。",
+          "reading": "はい。いきさきもかくにんしてください。",
+          "ttsText": "はい。いきさきもかくにんしてください。"
+        },
+        {
+          "id": "main-line-13",
+          "speakerId": "learner",
+          "ja": "わかりました。ありがとうございます。",
+          "zh": "明白了，谢谢。",
+          "reading": "わかりました。ありがとうございます。",
+          "ttsText": "わかりました。ありがとうございます。"
+        }
+      ]
+    },
+    {
+      "id": "polite",
+      "title": "跟读文本（礼貌体版·问路与换乘）",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "polite-line-1",
+          "speakerId": "learner",
+          "ja": "すみません、次の電車はどこから出ますか。",
+          "zh": "不好意思，下一班电车从哪里出发？",
+          "reading": "すみません、つぎのでんしゃはどこからでますか。",
+          "ttsText": "すみません、つぎのでんしゃはどこからでますか。"
+        },
+        {
+          "id": "polite-line-2",
+          "speakerId": "speaker-2",
+          "ja": "案内の番号を見てください。",
+          "zh": "请看指引上的号码。",
+          "reading": "あんないのばんごうをみてください。",
+          "ttsText": "あんないのばんごうをみてください。"
+        },
+        {
+          "id": "polite-line-3",
+          "speakerId": "learner",
+          "ja": "番号を見ます。",
+          "zh": "我看看号码。",
+          "reading": "ばんごうをみます。",
+          "ttsText": "ばんごうをみます。"
+        },
+        {
+          "id": "polite-line-4",
+          "speakerId": "speaker-3",
+          "ja": "ホームの番号は見えますか。",
+          "zh": "能看到站台号码吗？",
+          "reading": "ホームのばんごうはみえますか。",
+          "ttsText": "ホームのばんごうはみえますか。"
+        },
+        {
+          "id": "polite-line-5",
+          "speakerId": "learner",
+          "ja": "まだです。画面をもう一度見ます。",
+          "zh": "还看不到。我再看一遍屏幕。",
+          "reading": "まだです。がめんをもういちどみます。",
+          "ttsText": "まだです。がめんをもういちどみます。"
+        },
+        {
+          "id": "polite-line-6",
+          "speakerId": "speaker-3",
+          "ja": "大きい荷物もありますし、エレベーターを使いましょう。",
+          "zh": "我们还带着大行李，就坐电梯吧。",
+          "reading": "おおきいにもつもありますし、エレベーターをつかいましょう。",
+          "ttsText": "おおきいにもつもありますし、エレベーターをつかいましょう。"
+        },
+        {
+          "id": "polite-line-7",
+          "speakerId": "learner",
+          "ja": "そうですね。",
+          "zh": "是啊。",
+          "reading": "そうですね。",
+          "ttsText": "そうですね。"
+        }
+      ]
+    },
+    {
+      "id": "plain",
+      "title": "跟读文本（普通体版·问路与换乘）",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "plain-line-1",
+          "speakerId": "learner",
+          "ja": "すみません、次の電車はどこから出ますか。",
+          "zh": "不好意思，下一班电车从哪里出发？",
+          "reading": "すみません、つぎのでんしゃはどこからでますか。",
+          "ttsText": "すみません、つぎのでんしゃはどこからでますか。"
+        },
+        {
+          "id": "plain-line-2",
+          "speakerId": "speaker-2",
+          "ja": "案内の番号を見てください。",
+          "zh": "请看指引上的号码。",
+          "reading": "あんないのばんごうをみてください。",
+          "ttsText": "あんないのばんごうをみてください。"
+        },
+        {
+          "id": "plain-line-3",
+          "speakerId": "learner",
+          "ja": "番号を見る。",
+          "zh": "我看看号码。",
+          "reading": "ばんごうをみる。",
+          "ttsText": "ばんごうをみる。"
+        },
+        {
+          "id": "plain-line-4",
+          "speakerId": "speaker-3",
+          "ja": "ホームの番号、見える？",
+          "zh": "能看到站台号码吗？",
+          "reading": "ホームのばんごう、みえる？",
+          "ttsText": "ホームのばんごう、みえる？"
+        },
+        {
+          "id": "plain-line-5",
+          "speakerId": "learner",
+          "ja": "まだ。画面をもう一度見る。",
+          "zh": "还看不到。我再看一遍屏幕。",
+          "reading": "まだ。がめんをもういちどみる。",
+          "ttsText": "まだ。がめんをもういちどみる。"
+        },
+        {
+          "id": "plain-line-6",
+          "speakerId": "speaker-3",
+          "ja": "大きい荷物もあるし、エレベーターを使おう。",
+          "zh": "我们还带着大行李，就坐电梯吧。",
+          "reading": "おおきいにもつもあるし、エレベーターをつかおう。",
+          "ttsText": "おおきいにもつもあるし、エレベーターをつかおう。"
+        },
+        {
+          "id": "plain-line-7",
+          "speakerId": "learner",
+          "ja": "そうだね。",
+          "zh": "是啊。",
+          "reading": "そうだね。",
+          "ttsText": "そうだね。"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "lesson-context",
+      "title": "场景与使用说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "场景：我从成田机场出发，要去东京的新宿一带；在车站先确认路线和换乘。\n使用场合：问站务人员去目的站的路线，读懂站名和换乘提示。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "goal-notes",
+      "title": "目标补充说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [["自测：拿真实路线查询结果，说出目的站和需要换乘的车站；没有结果就先查询。"]]
+        }
+      ]
+    },
+    {
+      "id": "dialogue-context",
+      "title": "课文与语体版本的转场、交谈对象",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["对话 ID", "位置（在该行之后；下一行注明对象）", "原场景提示"],
+          "rows": [
+            [
+              "main",
+              "整体",
+              "情境：我在车站售票或问讯处，目的地设为新宿站；具体列车和票价以当天查询结果为准。"
+            ],
+            [
+              "main",
+              "整体",
+              "说明：新宿站只是示例目的站；机场到具体住处的路线、直达车和换乘次数都要按实际日期与时刻查询。"
+            ],
+            ["polite", "下一行 1", "私(わたし)→站务员"],
+            ["polite", "下一行 3", "私(わたし)→朋友"],
+            ["plain", "下一行 1", "私(わたし)→站务员"],
+            ["plain", "下一行 3", "私(わたし)→朋友"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "register-comparison",
+      "title": "两版差异对照（行 ID 对应上方语体版本）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说话者", "礼貌体行 ID", "普通体行 ID", "原差异说明"],
+          "rows": [
+            ["私(わたし)→站务员", "polite-line-1", "plain-line-1", "两版保持同一句表达"],
+            ["站务员", "polite-line-2", "plain-line-2", "两版保持同一句表达"],
+            ["私(わたし)→朋友", "polite-line-3", "plain-line-3", "表达内容相同，语体不同"],
+            ["朋友", "polite-line-4", "plain-line-4", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-5", "plain-line-5", "表达内容相同，语体不同"],
+            ["朋友", "polite-line-6", "plain-line-6", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-7", "plain-line-7", "表达内容相同，语体不同"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shadowing-notes",
+      "title": "跟读场景、前提与使用说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "唯一跟读场景：在换乘站找下一段车的站台。\n关系与版本前提：普通体版用于我与熟悉朋友讨论，向站务员的问句保持礼貌。\n与课文的区别：课文在机场站确认整段路线；这里在途中确认站台。"
+            ],
+            ["■ 跟读步骤"],
+            [
+              "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+            ],
+            ["■ 跟读要点"],
+            ["礼貌体版：听到站台编号时先核对显示。\n普通体版：只改变对朋友说的动作词尾。"],
+            ["■ 为什么用这个版本"],
+            ["礼貌体版：站务员和初识同行者适用。\n普通体版：熟悉朋友之间的复述更自然。"],
+            ["■ 本课跟读目标"],
+            ["能把工作人员回答与现场显示对应起来。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary-notes",
+      "title": "词汇分组与学习说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["■ 3A N5基础词汇"],
+            ["本栏指常见初级教材中的N5基础词，不表示官方保证考到。"],
+            ["■ 3B 场景补充词汇（先听懂）"],
+            ["本栏先听懂、能辨认；行政或商品词不要求会写。"],
+            ["词汇使用提醒：地名和交通设施名按生活用途听懂，不把某条路线当成固定知识。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-notes",
+      "title": "文法安排与补充表达（原 4B）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["■ 4A 基础句型与场景练习"],
+            [
+              "本栏练习基础句型和本课场景中的表达；长句中的敬语、复合结构可先整句理解。例句均从本课课文原样摘取。"
+            ],
+            ["■ 4B 补充表达与后续复习"],
+            [
+              "文法点：想做某事\n意思：动词ます形去掉ます后接たい；第12课结合通话需求复习。\n例句：新宿駅(しんじゅくえき)まで行(い)きたいです。\n后续学习建议：结合本课语境复习，再在后续系统课程中学习接续与变形；本课程没有第21课。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appendix-1",
+      "title": "附1：当时课程目标下，日本人实际会怎么说",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "家人之间：次(つぎ)、どこから乗(の)る？\n对同事朋友：乗(の)り換(か)えはありますか。\n对上级工作人员：すみません、行(い)き方(かた)を教(おし)えてください。\n说明：真实路线以现场告示与交通公司信息为准。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appendix-2",
+      "title": "附2：常见误用",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "标记说明：✗包含语法错误，也包含本情境中事实不准确、未核实就断言或应对不合适的说法；不表示所有标记句都不合语法。"
+            ],
+            [
+              "新宿駅(しんじゅくえき)を行(い)きます。 ✗ → 新宿駅(しんじゅくえき)まで行(い)きます。 ✓\n原因：说目的地时不把地点当作动作宾语。\nこの電車(でんしゃ)は必(かなら)ず新宿駅(しんじゅくえき)まで行(い)きます。 ✗ → この電車(でんしゃ)は新宿駅(しんじゅくえき)まで行(い)きますか。 ✓\n原因：不同车次目的地可能不同，要先确认。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-1",
+      "title": "词汇读音与释义资料（原测试 1）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "读音：でんしゃ\n答案：電車(でんしゃ) — 电车\n读音：えき\n答案：駅(えき) — 车站\n读音：いきます\n答案：行(い)きます — 去\n读音：みます\n答案：見(み)ます — 看\n读音：かきます\n答案：書(か)きます — 写\n读音：あたらしい\n答案：新(あたら)しい — 新的\n读音：どこ\n答案：どこ — 哪里\n读音：いま\n答案：今(いま) — 现在\n读音：おおきい\n答案：大(おお)きい — 大\n读音：にもつ\n答案：荷物(にもつ) — 行李\n读音：かいます\n答案：買(か)います — 买\n读音：ばんごう\n答案：番号(ばんごう) — 号码\n读音：ばしょ\n答案：場所(ばしょ) — 地点\n读音：しんじゅくえき\n答案：新宿駅(しんじゅくえき) — 新宿站\n读音：のりかえ\n答案：乗(の)り換(か)え — 换乘\n读音：いきかた\n答案：行(い)き方(かた) — 去法、路线\n读音：あんない\n答案：案内(あんない) — 指引\n读音：かいさつ\n答案：改札(かいさつ) — 检票口\n读音：エレベーター\n答案：エレベーター — 电梯\n读音：できれば\n答案：できれば — 如果可以\n读音：ちず\n答案：地図(ちず) — 地图\n读音：きっぷ\n答案：切符(きっぷ) — 车票\n读音：けんばいき\n答案：券売機(けんばいき) — 售票机\n读音：ホーム\n答案：ホーム — 站台\n读音：がめん\n答案：画面(がめん) — 屏幕\n读音：じこくひょう\n答案：時刻表(じこくひょう) — 时刻表\n读音：うんちん\n答案：運賃(うんちん) — 票价"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-2",
+      "title": "文法例题与参考答案（原测试 2）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "题目：すみません、新宿駅(しんじゅくえき)（　）行(い)きたいです。\n答案：まで\n题目：（　）行(い)けます。今(いま)の時間(じかん)の行(い)き方(かた)を一緒(いっしょ)に見(み)ましょう。\n答案：電車(でんしゃ)で\n题目：乗(の)り換(か)えは（　）。\n答案：ありますか"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "vocabulary-1",
+      "word": "電車",
+      "reading": "でんしゃ",
+      "meaning": "电车",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "電車で行けます。今の時間の行き方を一緒に見ましょう。",
+          "zh": "可以坐电车去。我们一起看看现在这个时间的路线吧。",
+          "ttsText": "でんしゃでいけます。いまのじかんのいきかたをいっしょにみましょう。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-4"
+      }
+    },
+    {
+      "id": "vocabulary-2",
+      "word": "駅",
+      "reading": "えき",
+      "meaning": "车站",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "すみません、新宿駅まで行きたいです。",
+          "zh": "不好意思，我想去新宿站。",
+          "ttsText": "すみません、しんじゅくえきまでいきたいです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-3",
+      "word": "行きます",
+      "reading": "いきます",
+      "meaning": "去",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-4",
+      "word": "見ます",
+      "reading": "みます",
+      "meaning": "看",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "番号を見ます。",
+          "zh": "我看看号码。",
+          "ttsText": "ばんごうをみます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "polite",
+        "lineId": "polite-line-3"
+      }
+    },
+    {
+      "id": "vocabulary-5",
+      "word": "書きます",
+      "reading": "かきます",
+      "meaning": "写",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-6",
+      "word": "新しい",
+      "reading": "あたらしい",
+      "meaning": "新的",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-7",
+      "word": "どこ",
+      "reading": "どこ",
+      "meaning": "哪里",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "切符はどこで買えますか。",
+          "zh": "在哪里可以买车票？",
+          "ttsText": "きっぷはどこでかえますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-9"
+      }
+    },
+    {
+      "id": "vocabulary-8",
+      "word": "今",
+      "reading": "いま",
+      "meaning": "现在",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "電車で行けます。今の時間の行き方を一緒に見ましょう。",
+          "zh": "可以坐电车去。我们一起看看现在这个时间的路线吧。",
+          "ttsText": "でんしゃでいけます。いまのじかんのいきかたをいっしょにみましょう。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-4"
+      }
+    },
+    {
+      "id": "vocabulary-9",
+      "word": "大きい",
+      "reading": "おおきい",
+      "meaning": "大",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "お荷物は大きいですか。",
+          "zh": "您的行李大吗？",
+          "ttsText": "おにもつはおおきいですか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-2"
+      }
+    },
+    {
+      "id": "vocabulary-10",
+      "word": "荷物",
+      "reading": "にもつ",
+      "meaning": "行李",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "お荷物は大きいですか。",
+          "zh": "您的行李大吗？",
+          "ttsText": "おにもつはおおきいですか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-2"
+      }
+    },
+    {
+      "id": "vocabulary-11",
+      "word": "買います",
+      "reading": "かいます",
+      "meaning": "买",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-12",
+      "word": "番号",
+      "reading": "ばんごう",
+      "meaning": "号码",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "ありがとうございます。ホームの番号も画面で確認します。",
+          "zh": "谢谢。我也会在屏幕上确认站台号码。",
+          "ttsText": "ありがとうございます。ホームのばんごうもがめんでかくにんします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-11"
+      }
+    },
+    {
+      "id": "vocabulary-13",
+      "word": "場所",
+      "reading": "ばしょ",
+      "meaning": "地点",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "エレベーターの場所もこの地図にあります。",
+          "zh": "电梯的位置也在这张地图上。",
+          "ttsText": "エレベーターのばしょもこのちずにあります。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-5"
+      }
+    },
+    {
+      "id": "vocabulary-14",
+      "word": "新宿駅",
+      "reading": "しんじゅくえき",
+      "meaning": "新宿站",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "すみません、新宿駅まで行きたいです。",
+          "zh": "不好意思，我想去新宿站。",
+          "ttsText": "すみません、しんじゅくえきまでいきたいです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-15",
+      "word": "乗り換え",
+      "reading": "のりかえ",
+      "meaning": "换乘",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "乗り換えはありますか。",
+          "zh": "需要换乘吗？",
+          "ttsText": "のりかえはありますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-7"
+      }
+    },
+    {
+      "id": "vocabulary-16",
+      "word": "行き方",
+      "reading": "いきかた",
+      "meaning": "去法、路线",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "電車で行けます。今の時間の行き方を一緒に見ましょう。",
+          "zh": "可以坐电车去。我们一起看看现在这个时间的路线吧。",
+          "ttsText": "でんしゃでいけます。いまのじかんのいきかたをいっしょにみましょう。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-4"
+      }
+    },
+    {
+      "id": "vocabulary-17",
+      "word": "案内",
+      "reading": "あんない",
+      "meaning": "指引",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "この案内を見てください。乗り換える駅が書いてあります。",
+          "zh": "请看这个指引。上面写着换乘车站。",
+          "ttsText": "このあんないをみてください。のりかえるえきがかいてあります。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-8"
+      }
+    },
+    {
+      "id": "vocabulary-18",
+      "word": "改札",
+      "reading": "かいさつ",
+      "meaning": "检票口",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-19",
+      "word": "エレベーター",
+      "reading": "エレベーター",
+      "meaning": "电梯",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "はい。できればエレベーターを使いたいです。",
+          "zh": "大。如果可以，我想使用电梯。",
+          "ttsText": "はい。できればエレベーターをつかいたいです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-3"
+      }
+    },
+    {
+      "id": "vocabulary-20",
+      "word": "できれば",
+      "reading": "できれば",
+      "meaning": "如果可以",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "はい。できればエレベーターを使いたいです。",
+          "zh": "大。如果可以，我想使用电梯。",
+          "ttsText": "はい。できればエレベーターをつかいたいです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-3"
+      }
+    },
+    {
+      "id": "vocabulary-21",
+      "word": "地図",
+      "reading": "ちず",
+      "meaning": "地图",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "エレベーターの場所もこの地図にあります。",
+          "zh": "电梯的位置也在这张地图上。",
+          "ttsText": "エレベーターのばしょもこのちずにあります。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-5"
+      }
+    },
+    {
+      "id": "vocabulary-22",
+      "word": "切符",
+      "reading": "きっぷ",
+      "meaning": "车票",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "切符はどこで買えますか。",
+          "zh": "在哪里可以买车票？",
+          "ttsText": "きっぷはどこでかえますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-9"
+      }
+    },
+    {
+      "id": "vocabulary-23",
+      "word": "券売機",
+      "reading": "けんばいき",
+      "meaning": "售票机",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "あちらの券売機です。",
+          "zh": "在那边的售票机。",
+          "ttsText": "あちらのけんばいきです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-10"
+      }
+    },
+    {
+      "id": "vocabulary-24",
+      "word": "ホーム",
+      "reading": "ホーム",
+      "meaning": "站台",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "ありがとうございます。ホームの番号も画面で確認します。",
+          "zh": "谢谢。我也会在屏幕上确认站台号码。",
+          "ttsText": "ありがとうございます。ホームのばんごうもがめんでかくにんします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-11"
+      }
+    },
+    {
+      "id": "vocabulary-25",
+      "word": "画面",
+      "reading": "がめん",
+      "meaning": "屏幕",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "ありがとうございます。ホームの番号も画面で確認します。",
+          "zh": "谢谢。我也会在屏幕上确认站台号码。",
+          "ttsText": "ありがとうございます。ホームのばんごうもがめんでかくにんします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-11"
+      }
+    },
+    {
+      "id": "vocabulary-26",
+      "word": "時刻表",
+      "reading": "じこくひょう",
+      "meaning": "时刻表",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-27",
+      "word": "運賃",
+      "reading": "うんちん",
+      "meaning": "票价",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    }
+  ],
+  "expressions": [
+    {
+      "id": "expression-one",
+      "function": "我想去新宿站。",
+      "pattern": "新宿駅まで行きたいです。",
+      "meaning": "我想去新宿站。",
+      "audience": "站务员、问讯处工作人员。",
+      "notes": [
+        "固定句：新宿駅(しんじゅくえき)まで行(い)きたいです。",
+        "不可以替换什么：不能把目的站与车次混用；站名必须核对。",
+        "语感差异：比只说站名更清楚，适合请人指路。",
+        "对谁不能说：不宜对忙碌乘客连续追问整段路线。",
+        "其他用法：出租车或问路时也能换目的地使用。",
+        "本课要求：换成自己住处附近车站说一遍。"
+      ],
+      "slots": [
+        {
+          "key": "可替换部分",
+          "description": "可替换目的地名词。"
+        }
+      ],
+      "examples": [
+        {
+          "ja": "すみません、新宿駅まで行きたいです。",
+          "zh": "不好意思，我想去新宿站。",
+          "ttsText": "すみません、しんじゅくえきまでいきたいです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "grammar-1",
+      "pattern": "目的地",
+      "level": "N5",
+      "meaning": "说要去的车站。",
+      "connection": "目的地后接表示方向或到达范围的助词。",
+      "notes": [
+        "课文对应：すみません、新宿駅(しんじゅくえき)まで行(い)きたいです。",
+        "例题：すみません、新宿駅(しんじゅくえき)（　）行(い)きたいです。",
+        "答案：まで"
+      ],
+      "examples": [
+        {
+          "ja": "すみません、新宿駅まで行きたいです。",
+          "zh": "不好意思，我想去新宿站。",
+          "ttsText": "すみません、しんじゅくえきまでいきたいです。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "pattern": "交通工具",
+      "level": "N5",
+      "meaning": "说明乘电车前往。",
+      "connection": "交通工具后接表示方式的助词。",
+      "notes": [
+        "课文对应：電車(でんしゃ)で行(い)けます。今(いま)の時間(じかん)の行(い)き方(かた)を一緒(いっしょ)に見(み)ましょう。",
+        "例题：（　）行(い)けます。今(いま)の時間(じかん)の行(い)き方(かた)を一緒(いっしょ)に見(み)ましょう。",
+        "答案：電車(でんしゃ)で"
+      ],
+      "examples": [
+        {
+          "ja": "電車で行けます。今の時間の行き方を一緒に見ましょう。",
+          "zh": "可以坐电车去。我们一起看看现在这个时间的路线吧。",
+          "ttsText": "でんしゃでいけます。いまのじかんのいきかたをいっしょにみましょう。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "pattern": "有无疑问",
+      "level": "N5",
+      "meaning": "询问是否有换乘。",
+      "connection": "主题后接存在表达，再用疑问词尾。",
+      "notes": [
+        "课文对应：乗(の)り換(か)えはありますか。",
+        "例题：乗(の)り換(か)えは（　）。",
+        "答案：ありますか"
+      ],
+      "examples": [
+        {
+          "ja": "乗り換えはありますか。",
+          "zh": "需要换乘吗？",
+          "ttsText": "のりかえはありますか。"
+        }
+      ]
+    }
+  ],
+  "shadowing": [
+    {
+      "id": "shadowing-polite",
+      "dialogueId": "polite",
+      "lineIds": [
+        "polite-line-1",
+        "polite-line-2",
+        "polite-line-3",
+        "polite-line-4",
+        "polite-line-5",
+        "polite-line-6",
+        "polite-line-7"
+      ],
+      "prompt": "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+    },
+    {
+      "id": "shadowing-plain",
+      "dialogueId": "plain",
+      "lineIds": [
+        "plain-line-1",
+        "plain-line-2",
+        "plain-line-3",
+        "plain-line-4",
+        "plain-line-5",
+        "plain-line-6",
+        "plain-line-7"
+      ],
+      "prompt": "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+    }
+  ],
+  "homework": [],
+  "references": [
+    {
+      "title": "seikatsu-nihongo/content/n5-source.txt",
+      "note": "唯一正文来源；第7课。源稿日语、事实与说明保持不变；本次新增忠实中文译文用于 v1 必填 zh，未创作场景或作业。 N5 章节的完整通用使用说明统一保存在同章 n5-1 的「N5 章节使用说明」素材中。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/README.md",
+      "note": "n5.json 为 TXT 生成结果，已通过 import-n5.mjs --check；不重复导出生成 README。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/review-notes.md",
+      "note": "沿用 2026-09-30 校订；现实条件与时限按原说明保留，不把课号当办事日期。"
+    },
+    {
+      "title": "JLPT官方考试指南",
+      "url": "https://jlpt.jp/cn/reference/pdf/guidebook1.pdf",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "出入国在留管理厅",
+      "url": "https://www.moj.go.jp/isa/applications/procedures/nyuukokukanri10_00021.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "日本海关",
+      "url": "https://www.customs.go.jp/english/passenger/declaration/declaration_app.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "东京燃气",
+      "url": "https://home.tokyo-gas.co.jp/gas_power/procedure/moving/khsn_k_nagare.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "povo官方",
+      "url": "https://povo.jp/procedure/",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "日本邮政银行",
+      "url": "https://www.jp-bank.japanpost.jp/kaisetu/kat_gaikokujin.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "厚生劳动省",
+      "url": "https://www.mhlw.go.jp/stf/newpage_50657.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    }
+  ]
+}

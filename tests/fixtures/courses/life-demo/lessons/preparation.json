@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "preparation",
+  "order": 0,
+  "title": "准备结构夹具",
+  "kind": "preparation",
+  "objectives": [],
+  "materials": [
+    {
+      "id": "list",
+      "title": "列表",
+      "kind": "pronunciation",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            {
+              "ja": "あ",
+              "zh": "a"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "headers": ["假名", "读音"],
+          "rows": [["あ", "a"]]
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "grammar-one",
+      "pattern": "〜です",
+      "level": "N5",
+      "meaning": "是",
+      "connection": "名词 + です",
+      "notes": [],
+      "examples": [
+        {
+          "ja": "学生です。",
+          "zh": "是学生。"
+        }
+      ]
+    }
+  ]
+}

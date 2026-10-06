@@ -1,0 +1,1095 @@
+{
+  "schemaVersion": 1,
+  "id": "n5-3",
+  "unitId": "n5",
+  "order": 103,
+  "title": "第3课 出发前一天确认行程和地址",
+  "level": "N5",
+  "kind": "scene",
+  "objectives": [
+    "1.1 能说什么时候出门。",
+    "1.2 能说航班预计什么时候到达。",
+    "1.3 能确认纸上的学校地址和住处地址。"
+  ],
+  "scene": {
+    "background": "出发前一晚，我和母亲一起看机票、学校地址和住处信息。",
+    "channel": "other",
+    "tasks": [
+      "1.1 能说什么时候出门。",
+      "1.2 能说航班预计什么时候到达。",
+      "1.3 能确认纸上的学校地址和住处地址。"
+    ],
+    "relationships": "你扮演“我（わたし）”。母亲：母亲；私（学习者）：赴日学习者"
+  },
+  "learnerSpeakerId": "learner",
+  "speakers": [
+    {
+      "id": "speaker-1",
+      "name": "母亲",
+      "role": "母亲"
+    },
+    {
+      "id": "learner",
+      "name": "我（わたし）",
+      "role": "你扮演的角色；赴日学习者"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "main",
+      "title": "场景课文",
+      "variant": "main",
+      "lines": [
+        {
+          "id": "main-line-1",
+          "speakerId": "speaker-1",
+          "ja": "明日、何時に家を出ますか。",
+          "zh": "明天几点从家里出发？",
+          "reading": "あした、なんじにいえをでますか。",
+          "ttsText": "あした、なんじにいえをでますか。"
+        },
+        {
+          "id": "main-line-2",
+          "speakerId": "learner",
+          "ja": "七時に出ます。",
+          "zh": "七点出发。",
+          "reading": "しちじにでます。",
+          "ttsText": "しちじにでます。"
+        },
+        {
+          "id": "main-line-3",
+          "speakerId": "speaker-1",
+          "ja": "空港までは電車ですか。",
+          "zh": "去机场坐电车吗？",
+          "reading": "くうこうまではでんしゃですか。",
+          "ttsText": "くうこうまではでんしゃですか。"
+        },
+        {
+          "id": "main-line-4",
+          "speakerId": "learner",
+          "ja": "はい。駅まで歩いて、そこから電車です。",
+          "zh": "是的。先步行到车站，再从那里坐电车。",
+          "reading": "はい。えきまであるいて、そこからでんしゃです。",
+          "ttsText": "はい。えきまであるいて、そこからでんしゃです。"
+        },
+        {
+          "id": "main-line-5",
+          "speakerId": "speaker-1",
+          "ja": "日本には何時に着きますか。",
+          "zh": "几点到日本？",
+          "reading": "にほんにはなんじにつきますか。",
+          "ttsText": "にほんにはなんじにつきますか。"
+        },
+        {
+          "id": "main-line-6",
+          "speakerId": "learner",
+          "ja": "予定では午後二時ごろ着きます。",
+          "zh": "按计划，下午两点左右到。",
+          "reading": "よていではごごにじごろつきます。",
+          "ttsText": "よていではごごにじごろつきます。"
+        },
+        {
+          "id": "main-line-7",
+          "speakerId": "speaker-1",
+          "ja": "着いたら、まず連絡してください。",
+          "zh": "到了先联系我。",
+          "reading": "ついたら、まずれんらくしてください。",
+          "ttsText": "ついたら、まずれんらくしてください。"
+        },
+        {
+          "id": "main-line-8",
+          "speakerId": "learner",
+          "ja": "はい。空港で携帯が使えたら、連絡します。",
+          "zh": "好的。如果在机场能用手机，就联系您。",
+          "reading": "はい。くうこうでけいたいがつかえたら、れんらくします。",
+          "ttsText": "はい。くうこうでけいたいがつかえたら、れんらくします。"
+        },
+        {
+          "id": "main-line-9",
+          "speakerId": "speaker-1",
+          "ja": "学校と住む所の住所はありますか。",
+          "zh": "有学校和住处的地址吗？",
+          "reading": "がっこうとすむところのじゅうしょはありますか。",
+          "ttsText": "がっこうとすむところのじゅうしょはありますか。"
+        },
+        {
+          "id": "main-line-10",
+          "speakerId": "learner",
+          "ja": "はい、ここにあります。昨日確認しました。",
+          "zh": "有，在这里。昨天确认过了。",
+          "reading": "はい、ここにあります。きのうかくにんしました。",
+          "ttsText": "はい、ここにあります。きのうかくにんしました。"
+        },
+        {
+          "id": "main-line-11",
+          "speakerId": "speaker-1",
+          "ja": "学校と住む所、同じ住所ではないですよね。",
+          "zh": "学校和住处不是同一个地址吧？",
+          "reading": "がっこうとすむところ、おなじじゅうしょではないですよね。",
+          "ttsText": "がっこうとすむところ、おなじじゅうしょではないですよね。"
+        },
+        {
+          "id": "main-line-12",
+          "speakerId": "learner",
+          "ja": "はい、別です。画面も別々に保存しました。",
+          "zh": "是的，是不同的地址。我也分别保存了页面。",
+          "reading": "はい、べつです。がめんもべつべつにほぞんしました。",
+          "ttsText": "はい、べつです。がめんもべつべつにほぞんしました。"
+        }
+      ]
+    },
+    {
+      "id": "polite",
+      "title": "跟读文本（礼貌体版·与母亲再核对）",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "polite-line-1",
+          "speakerId": "speaker-1",
+          "ja": "明日、何時に出ますか。",
+          "zh": "明天几点出发？",
+          "reading": "あした、なんじにでますか。",
+          "ttsText": "あした、なんじにでますか。"
+        },
+        {
+          "id": "polite-line-2",
+          "speakerId": "learner",
+          "ja": "七時に出ます。",
+          "zh": "七点出发。",
+          "reading": "しちじにでます。",
+          "ttsText": "しちじにでます。"
+        },
+        {
+          "id": "polite-line-3",
+          "speakerId": "speaker-1",
+          "ja": "住む所の住所はありますか。",
+          "zh": "有住处的地址吗？",
+          "reading": "すむところのじゅうしょはありますか。",
+          "ttsText": "すむところのじゅうしょはありますか。"
+        },
+        {
+          "id": "polite-line-4",
+          "speakerId": "learner",
+          "ja": "はい、携帯にあります。",
+          "zh": "有，在手机里。",
+          "reading": "はい、けいたいにあります。",
+          "ttsText": "はい、けいたいにあります。"
+        },
+        {
+          "id": "polite-line-5",
+          "speakerId": "speaker-1",
+          "ja": "駅まで何分ぐらいですか。",
+          "zh": "到车站大约几分钟？",
+          "reading": "えきまでなんぷんぐらいですか。",
+          "ttsText": "えきまでなんぷんぐらいですか。"
+        },
+        {
+          "id": "polite-line-6",
+          "speakerId": "learner",
+          "ja": "歩いて十分ぐらいです。",
+          "zh": "步行大约十分钟。",
+          "reading": "あるいてじゅっぷんぐらいです。",
+          "ttsText": "あるいてじゅっぷんぐらいです。"
+        },
+        {
+          "id": "polite-line-7",
+          "speakerId": "speaker-1",
+          "ja": "では、七時に出ましょう。",
+          "zh": "那就七点出发吧。",
+          "reading": "では、しちじにでましょう。",
+          "ttsText": "では、しちじにでましょう。"
+        },
+        {
+          "id": "polite-line-8",
+          "speakerId": "learner",
+          "ja": "はい、そうします。",
+          "zh": "好的，就这么办。",
+          "reading": "はい、そうします。",
+          "ttsText": "はい、そうします。"
+        }
+      ]
+    },
+    {
+      "id": "plain",
+      "title": "跟读文本（普通体版·与母亲再核对）",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "plain-line-1",
+          "speakerId": "speaker-1",
+          "ja": "明日、何時に出る？",
+          "zh": "明天几点出发？",
+          "reading": "あした、なんじにでる？",
+          "ttsText": "あした、なんじにでる？"
+        },
+        {
+          "id": "plain-line-2",
+          "speakerId": "learner",
+          "ja": "七時に出る。",
+          "zh": "七点出发。",
+          "reading": "しちじにでる。",
+          "ttsText": "しちじにでる。"
+        },
+        {
+          "id": "plain-line-3",
+          "speakerId": "speaker-1",
+          "ja": "住む所の住所はある？",
+          "zh": "有住处的地址吗？",
+          "reading": "すむところのじゅうしょはある？",
+          "ttsText": "すむところのじゅうしょはある？"
+        },
+        {
+          "id": "plain-line-4",
+          "speakerId": "learner",
+          "ja": "うん、携帯にある。",
+          "zh": "有，在手机里。",
+          "reading": "うん、けいたいにある。",
+          "ttsText": "うん、けいたいにある。"
+        },
+        {
+          "id": "plain-line-5",
+          "speakerId": "speaker-1",
+          "ja": "駅まで何分ぐらい？",
+          "zh": "到车站大约几分钟？",
+          "reading": "えきまでなんぷんぐらい？",
+          "ttsText": "えきまでなんぷんぐらい？"
+        },
+        {
+          "id": "plain-line-6",
+          "speakerId": "learner",
+          "ja": "歩いて十分ぐらい。",
+          "zh": "步行大约十分钟。",
+          "reading": "あるいてじゅっぷんぐらい。",
+          "ttsText": "あるいてじゅっぷんぐらい。"
+        },
+        {
+          "id": "plain-line-7",
+          "speakerId": "speaker-1",
+          "ja": "それなら、七時に出よう。",
+          "zh": "那就七点出发吧。",
+          "reading": "それなら、しちじにでよう。",
+          "ttsText": "それなら、しちじにでよう。"
+        },
+        {
+          "id": "plain-line-8",
+          "speakerId": "learner",
+          "ja": "うん、そうする。",
+          "zh": "好的，就这么办。",
+          "reading": "うん、そうする。",
+          "ttsText": "うん、そうする。"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "lesson-context",
+      "title": "场景与使用说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "场景：出发前一晚，我和母亲一起看机票、学校地址和住处信息。\n使用场合：核对出发时间、到达时间和应带的地址。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "goal-notes",
+      "title": "目标补充说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [["自测：看一张真实行程单，分别说出出门和到达时间；没有信息就说尚未确认。"]]
+        }
+      ]
+    },
+    {
+      "id": "dialogue-context",
+      "title": "课文与语体版本的转场、交谈对象",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["对话 ID", "位置（在该行之后；下一行注明对象）", "原场景提示"],
+          "rows": [
+            [
+              "main",
+              "整体",
+              "情境：母亲拿着我的行程单，只问当天需要确认的事项；时间按示例行程单设定。"
+            ],
+            [
+              "main",
+              "整体",
+              "说明：航班到达时间只是行程单上的计划时间，不保证实际到达。住处地址与学校地址分别保存。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "register-comparison",
+      "title": "两版差异对照（行 ID 对应上方语体版本）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说话者", "礼貌体行 ID", "普通体行 ID", "原差异说明"],
+          "rows": [
+            ["母亲", "polite-line-1", "plain-line-1", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-2", "plain-line-2", "表达内容相同，语体不同"],
+            ["母亲", "polite-line-3", "plain-line-3", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-4", "plain-line-4", "表达内容相同，语体不同"],
+            ["母亲", "polite-line-5", "plain-line-5", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-6", "plain-line-6", "表达内容相同，语体不同"],
+            ["母亲", "polite-line-7", "plain-line-7", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-8", "plain-line-8", "表达内容相同，语体不同"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shadowing-notes",
+      "title": "跟读场景、前提与使用说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "唯一跟读场景：母亲核对前往机场的出门时间和住处地址。\n关系与版本前提：普通体版用于平日以普通体交流的母子。\n与课文的区别：课文核对赴日航班；这里聚焦家到机场的时间和住处地址。"
+            ],
+            ["■ 跟读步骤"],
+            [
+              "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+            ],
+            ["■ 跟读要点"],
+            ["礼貌体版：先说时间，再把动作说完整。\n普通体版：问句结尾上扬，答句自然落下。"],
+            ["■ 为什么用这个版本"],
+            [
+              "礼貌体版：练习在行程确认中说完整句。\n普通体版：母子平日若这样说，普通体更贴近日常。"
+            ],
+            ["■ 本课跟读目标"],
+            ["听到时间就能回应，不先在脑中组织中文。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary-notes",
+      "title": "词汇分组与学习说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["■ 3A N5基础词汇"],
+            ["本栏指常见初级教材中的N5基础词，不表示官方保证考到。"],
+            ["■ 3B 场景补充词汇（先听懂）"],
+            ["本栏先听懂、能辨认；行政或商品词不要求会写。"],
+            ["词汇使用提醒：具体数字只是示例，须用本人机票信息替换。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-notes",
+      "title": "文法安排与补充表达（原 4B）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["■ 4A 基础句型与场景练习"],
+            [
+              "本栏练习基础句型和本课场景中的表达；长句中的敬语、复合结构可先整句理解。例句均从本课课文原样摘取。"
+            ],
+            ["■ 4B 补充表达与后续复习"],
+            [
+              "文法点：提前做好准备的表达\n意思：表示先做某事，为后续行动做准备。\n例句：住所(じゅうしょ)をメモしておきます。\n后续学习建议：结合本课语境复习，再在后续系统课程中学习接续与变形；本课程没有第21课。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appendix-1",
+      "title": "附1：当时课程目标下，日本人实际会怎么说",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "家人之间：明日(あした)、何時(なんじ)に出(で)る？\n对同事朋友：明日(あした)、何時(なんじ)に出(で)ますか。\n对上级工作人员：予定(よてい)では午後(ごご)二時(にじ)ごろ着(つ)きます。\n说明：谈未来行程时，把预计与已发生的事实分开。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appendix-2",
+      "title": "附2：常见误用",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "标记说明：✗包含语法错误，也包含本情境中事实不准确、未核实就断言或应对不合适的说法；不表示所有标记句都不合语法。"
+            ],
+            [
+              "明日(あした)七時(しちじ)を出(で)ます。 ✗ → 明日(あした)七時(しちじ)に出(で)ます。 ✓\n原因：这里指出门的时间。\n午後(ごご)二時(にじ)に必(かなら)ず着(つ)きます。 ✗ → 予定(よてい)では午後(ごご)二時(にじ)ごろ着(つ)きます。 ✓\n原因：航班时间可能变化，照行程单说计划更准确。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-1",
+      "title": "词汇读音与释义资料（原测试 1）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "读音：あした\n答案：明日(あした) — 明天\n读音：なんじ\n答案：何時(なんじ) — 几点\n读音：しちじ\n答案：七時(しちじ) — 七点\n读音：ごご\n答案：午後(ごご) — 下午\n读音：がっこう\n答案：学校(がっこう) — 学校\n读音：いえ\n答案：家(いえ) — 家\n读音：きのう\n答案：昨日(きのう) — 昨天\n读音：ひこうき\n答案：飛行機(ひこうき) — 飞机\n读音：でんしゃ\n答案：電車(でんしゃ) — 电车\n读音：えき\n答案：駅(えき) — 车站\n读音：あるきます\n答案：歩(ある)きます — 走路\n读音：おなじ\n答案：同(おな)じ — 相同\n读音：なん\n答案：何(なん) — 什么\n读音：そこ\n答案：そこ — 那里\n读音：つかいます\n答案：使(つか)います — 使用\n读音：よてい\n答案：予定(よてい) — 计划、预定\n读音：じゅうしょ\n答案：住所(じゅうしょ) — 地址\n读音：こうていひょう\n答案：行程表(こうていひょう) — 行程单\n读音：かくにん\n答案：確認(かくにん) — 确认\n读音：れんらく\n答案：連絡(れんらく) — 联系\n读音：けいたい\n答案：携帯(けいたい) — 手机\n读音：べつ\n答案：別(べつ) — 不同\n读音：べつべつ\n答案：別々(べつべつ) — 分别\n读音：がめん\n答案：画面(がめん) — 屏幕\n读音：ほぞん\n答案：保存(ほぞん) — 保存\n读音：とうちゃくよてい\n答案：到着予定(とうちゃくよてい) — 预计到达\n读音：じょうしゃじかん\n答案：乗車時間(じょうしゃじかん) — 乘车时间"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-2",
+      "title": "文法例题与参考答案（原测试 2）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "题目：七時(しちじ)（　）出(で)ます。\n答案：に\n题目：はい、ここにあります。昨日(きのう)（　）。\n答案：確認(かくにん)しました\n题目：予定(よてい)では午後(ごご)二時(にじ)（　）着(つ)きます。\n答案：ごろ"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "vocabulary-1",
+      "word": "明日",
+      "reading": "あした",
+      "meaning": "明天",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "明日、何時に家を出ますか。",
+          "zh": "明天几点从家里出发？",
+          "ttsText": "あした、なんじにいえをでますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-2",
+      "word": "何時",
+      "reading": "なんじ",
+      "meaning": "几点",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "明日、何時に家を出ますか。",
+          "zh": "明天几点从家里出发？",
+          "ttsText": "あした、なんじにいえをでますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-3",
+      "word": "七時",
+      "reading": "しちじ",
+      "meaning": "七点",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "七時に出ます。",
+          "zh": "七点出发。",
+          "ttsText": "しちじにでます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-2"
+      }
+    },
+    {
+      "id": "vocabulary-4",
+      "word": "午後",
+      "reading": "ごご",
+      "meaning": "下午",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "予定では午後二時ごろ着きます。",
+          "zh": "按计划，下午两点左右到。",
+          "ttsText": "よていではごごにじごろつきます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-6"
+      }
+    },
+    {
+      "id": "vocabulary-5",
+      "word": "学校",
+      "reading": "がっこう",
+      "meaning": "学校",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "学校と住む所の住所はありますか。",
+          "zh": "有学校和住处的地址吗？",
+          "ttsText": "がっこうとすむところのじゅうしょはありますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-9"
+      }
+    },
+    {
+      "id": "vocabulary-6",
+      "word": "家",
+      "reading": "いえ",
+      "meaning": "家",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "明日、何時に家を出ますか。",
+          "zh": "明天几点从家里出发？",
+          "ttsText": "あした、なんじにいえをでますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-7",
+      "word": "昨日",
+      "reading": "きのう",
+      "meaning": "昨天",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "はい、ここにあります。昨日確認しました。",
+          "zh": "有，在这里。昨天确认过了。",
+          "ttsText": "はい、ここにあります。きのうかくにんしました。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-10"
+      }
+    },
+    {
+      "id": "vocabulary-8",
+      "word": "飛行機",
+      "reading": "ひこうき",
+      "meaning": "飞机",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-9",
+      "word": "電車",
+      "reading": "でんしゃ",
+      "meaning": "电车",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "空港までは電車ですか。",
+          "zh": "去机场坐电车吗？",
+          "ttsText": "くうこうまではでんしゃですか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-3"
+      }
+    },
+    {
+      "id": "vocabulary-10",
+      "word": "駅",
+      "reading": "えき",
+      "meaning": "车站",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "はい。駅まで歩いて、そこから電車です。",
+          "zh": "是的。先步行到车站，再从那里坐电车。",
+          "ttsText": "はい。えきまであるいて、そこからでんしゃです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-4"
+      }
+    },
+    {
+      "id": "vocabulary-11",
+      "word": "歩きます",
+      "reading": "あるきます",
+      "meaning": "走路",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-12",
+      "word": "同じ",
+      "reading": "おなじ",
+      "meaning": "相同",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "学校と住む所、同じ住所ではないですよね。",
+          "zh": "学校和住处不是同一个地址吧？",
+          "ttsText": "がっこうとすむところ、おなじじゅうしょではないですよね。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-11"
+      }
+    },
+    {
+      "id": "vocabulary-13",
+      "word": "何",
+      "reading": "なん",
+      "meaning": "什么",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "明日、何時に家を出ますか。",
+          "zh": "明天几点从家里出发？",
+          "ttsText": "あした、なんじにいえをでますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-14",
+      "word": "そこ",
+      "reading": "そこ",
+      "meaning": "那里",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "はい。駅まで歩いて、そこから電車です。",
+          "zh": "是的。先步行到车站，再从那里坐电车。",
+          "ttsText": "はい。えきまであるいて、そこからでんしゃです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-4"
+      }
+    },
+    {
+      "id": "vocabulary-15",
+      "word": "使います",
+      "reading": "つかいます",
+      "meaning": "使用",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-16",
+      "word": "予定",
+      "reading": "よてい",
+      "meaning": "计划、预定",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "予定では午後二時ごろ着きます。",
+          "zh": "按计划，下午两点左右到。",
+          "ttsText": "よていではごごにじごろつきます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-6"
+      }
+    },
+    {
+      "id": "vocabulary-17",
+      "word": "住所",
+      "reading": "じゅうしょ",
+      "meaning": "地址",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "学校と住む所の住所はありますか。",
+          "zh": "有学校和住处的地址吗？",
+          "ttsText": "がっこうとすむところのじゅうしょはありますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-9"
+      }
+    },
+    {
+      "id": "vocabulary-18",
+      "word": "行程表",
+      "reading": "こうていひょう",
+      "meaning": "行程单",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-19",
+      "word": "確認",
+      "reading": "かくにん",
+      "meaning": "确认",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "はい、ここにあります。昨日確認しました。",
+          "zh": "有，在这里。昨天确认过了。",
+          "ttsText": "はい、ここにあります。きのうかくにんしました。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-10"
+      }
+    },
+    {
+      "id": "vocabulary-20",
+      "word": "連絡",
+      "reading": "れんらく",
+      "meaning": "联系",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "着いたら、まず連絡してください。",
+          "zh": "到了先联系我。",
+          "ttsText": "ついたら、まずれんらくしてください。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-7"
+      }
+    },
+    {
+      "id": "vocabulary-21",
+      "word": "携帯",
+      "reading": "けいたい",
+      "meaning": "手机",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "はい。空港で携帯が使えたら、連絡します。",
+          "zh": "好的。如果在机场能用手机，就联系您。",
+          "ttsText": "はい。くうこうでけいたいがつかえたら、れんらくします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-8"
+      }
+    },
+    {
+      "id": "vocabulary-22",
+      "word": "別",
+      "reading": "べつ",
+      "meaning": "不同",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "はい、別です。画面も別々に保存しました。",
+          "zh": "是的，是不同的地址。我也分别保存了页面。",
+          "ttsText": "はい、べつです。がめんもべつべつにほぞんしました。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-12"
+      }
+    },
+    {
+      "id": "vocabulary-23",
+      "word": "別々",
+      "reading": "べつべつ",
+      "meaning": "分别",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "はい、別です。画面も別々に保存しました。",
+          "zh": "是的，是不同的地址。我也分别保存了页面。",
+          "ttsText": "はい、べつです。がめんもべつべつにほぞんしました。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-12"
+      }
+    },
+    {
+      "id": "vocabulary-24",
+      "word": "画面",
+      "reading": "がめん",
+      "meaning": "屏幕",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "はい、別です。画面も別々に保存しました。",
+          "zh": "是的，是不同的地址。我也分别保存了页面。",
+          "ttsText": "はい、べつです。がめんもべつべつにほぞんしました。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-12"
+      }
+    },
+    {
+      "id": "vocabulary-25",
+      "word": "保存",
+      "reading": "ほぞん",
+      "meaning": "保存",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "はい、別です。画面も別々に保存しました。",
+          "zh": "是的，是不同的地址。我也分别保存了页面。",
+          "ttsText": "はい、べつです。がめんもべつべつにほぞんしました。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-12"
+      }
+    },
+    {
+      "id": "vocabulary-26",
+      "word": "到着予定",
+      "reading": "とうちゃくよてい",
+      "meaning": "预计到达",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-27",
+      "word": "乗車時間",
+      "reading": "じょうしゃじかん",
+      "meaning": "乘车时间",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    }
+  ],
+  "expressions": [
+    {
+      "id": "expression-one",
+      "function": "询问明天几点出门。",
+      "pattern": "明日、何時に家を出ますか。",
+      "meaning": "询问明天几点出门。",
+      "audience": "家人、同行者、接送者。",
+      "notes": [
+        "固定句：明日(あした)、何時(なんじ)に家(いえ)を出(で)ますか。",
+        "不可以替换什么：替换动作时需保留合适的动词变形与助词，初学先整句模仿。",
+        "语感差异：完整、礼貌；家人间也可说得更短。",
+        "对谁不能说：不适合用来询问与对方无关的私密行程。",
+        "其他用法：可用于约定接送时间。",
+        "本课要求：把日期与时间换成自己的行程。"
+      ],
+      "slots": [
+        {
+          "key": "可替换部分",
+          "description": "可以替换日期、地点名词和动作动词。"
+        }
+      ],
+      "examples": [
+        {
+          "ja": "明日、何時に家を出ますか。",
+          "zh": "明天几点从家里出发？",
+          "ttsText": "あした、なんじにいえをでますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "grammar-1",
+      "pattern": "具体时间的动作",
+      "level": "N5",
+      "meaning": "说明在某个时间点出门。",
+      "connection": "具体时间后接时间助词。",
+      "notes": [
+        "课文对应：七時(しちじ)に出(で)ます。",
+        "例题：七時(しちじ)（　）出(で)ます。",
+        "答案：に"
+      ],
+      "examples": [
+        {
+          "ja": "七時に出ます。",
+          "zh": "七点出发。",
+          "ttsText": "しちじにでます。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "pattern": "过去的礼貌动作",
+      "level": "N5",
+      "meaning": "说明昨天已经核对。",
+      "connection": "动词礼貌过去形表示已完成的动作。",
+      "notes": [
+        "课文对应：はい、ここにあります。昨日(きのう)確認(かくにん)しました。",
+        "例题：はい、ここにあります。昨日(きのう)（　）。",
+        "答案：確認(かくにん)しました"
+      ],
+      "examples": [
+        {
+          "ja": "はい、ここにあります。昨日確認しました。",
+          "zh": "有，在这里。昨天确认过了。",
+          "ttsText": "はい、ここにあります。きのうかくにんしました。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "pattern": "大致时间",
+      "level": "N5",
+      "meaning": "说明预定到达的大致时间。",
+      "connection": "时间后接表示大约的词。",
+      "notes": [
+        "课文对应：予定(よてい)では午後(ごご)二時(にじ)ごろ着(つ)きます。",
+        "例题：予定(よてい)では午後(ごご)二時(にじ)（　）着(つ)きます。",
+        "答案：ごろ"
+      ],
+      "examples": [
+        {
+          "ja": "予定では午後二時ごろ着きます。",
+          "zh": "按计划，下午两点左右到。",
+          "ttsText": "よていではごごにじごろつきます。"
+        }
+      ]
+    }
+  ],
+  "shadowing": [
+    {
+      "id": "shadowing-polite",
+      "dialogueId": "polite",
+      "lineIds": [
+        "polite-line-1",
+        "polite-line-2",
+        "polite-line-3",
+        "polite-line-4",
+        "polite-line-5",
+        "polite-line-6",
+        "polite-line-7",
+        "polite-line-8"
+      ],
+      "prompt": "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+    },
+    {
+      "id": "shadowing-plain",
+      "dialogueId": "plain",
+      "lineIds": [
+        "plain-line-1",
+        "plain-line-2",
+        "plain-line-3",
+        "plain-line-4",
+        "plain-line-5",
+        "plain-line-6",
+        "plain-line-7",
+        "plain-line-8"
+      ],
+      "prompt": "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+    }
+  ],
+  "homework": [],
+  "references": [
+    {
+      "title": "seikatsu-nihongo/content/n5-source.txt",
+      "note": "唯一正文来源；第3课。源稿日语、事实与说明保持不变；本次新增忠实中文译文用于 v1 必填 zh，未创作场景或作业。 N5 章节的完整通用使用说明统一保存在同章 n5-1 的「N5 章节使用说明」素材中。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/README.md",
+      "note": "n5.json 为 TXT 生成结果，已通过 import-n5.mjs --check；不重复导出生成 README。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/review-notes.md",
+      "note": "沿用 2026-09-30 校订；现实条件与时限按原说明保留，不把课号当办事日期。"
+    },
+    {
+      "title": "JLPT官方考试指南",
+      "url": "https://jlpt.jp/cn/reference/pdf/guidebook1.pdf",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "出入国在留管理厅",
+      "url": "https://www.moj.go.jp/isa/applications/procedures/nyuukokukanri10_00021.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "日本海关",
+      "url": "https://www.customs.go.jp/english/passenger/declaration/declaration_app.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "东京燃气",
+      "url": "https://home.tokyo-gas.co.jp/gas_power/procedure/moving/khsn_k_nagare.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "povo官方",
+      "url": "https://povo.jp/procedure/",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "日本邮政银行",
+      "url": "https://www.jp-bank.japanpost.jp/kaisetu/kat_gaikokujin.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "厚生劳动省",
+      "url": "https://www.mhlw.go.jp/stf/newpage_50657.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    }
+  ]
+}

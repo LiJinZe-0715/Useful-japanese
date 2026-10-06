@@ -1,0 +1,1157 @@
+{
+  "schemaVersion": 1,
+  "id": "n5-15",
+  "unitId": "n5",
+  "order": 115,
+  "title": "第15课 到区役所办理住址登记",
+  "level": "N5",
+  "kind": "scene",
+  "objectives": [
+    "1.1 能在窗口说自己刚从国外搬来。",
+    "1.2 能按要求出示在留卡和护照。",
+    "1.3 听不懂时能请工作人员再说一遍。"
+  ],
+  "scene": {
+    "background": "我已确定在东京某区居住，按居住地自治体指引到区役所办理必要手续。",
+    "channel": "other",
+    "tasks": [
+      "1.1 能在窗口说自己刚从国外搬来。",
+      "1.2 能按要求出示在留卡和护照。",
+      "1.3 听不懂时能请工作人员再说一遍。"
+    ],
+    "relationships": "你扮演“我（わたし）”。私（学习者）：赴日学习者；工作人员：工作人员；朋友：朋友"
+  },
+  "learnerSpeakerId": "learner",
+  "speakers": [
+    {
+      "id": "learner",
+      "name": "我（わたし）",
+      "role": "你扮演的角色；赴日学习者"
+    },
+    {
+      "id": "speaker-2",
+      "name": "工作人员",
+      "role": "工作人员"
+    },
+    {
+      "id": "speaker-3",
+      "name": "朋友",
+      "role": "朋友"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "main",
+      "title": "场景课文",
+      "variant": "main",
+      "lines": [
+        {
+          "id": "main-line-1",
+          "speakerId": "learner",
+          "ja": "すみません。外国から来ました。住所の届出をしたいです。",
+          "zh": "不好意思，我从国外来，想办理住址届出。",
+          "reading": "すみません。がいこくからきました。じゅうしょのとどけでをしたいです。",
+          "ttsText": "すみません。がいこくからきました。じゅうしょのとどけでをしたいです。"
+        },
+        {
+          "id": "main-line-2",
+          "speakerId": "speaker-2",
+          "ja": "海外からの転入ですね。今の住所は決まっていますか。",
+          "zh": "是从海外迁入吧。现在的住址确定了吗？",
+          "reading": "かいがいからのてんにゅうですね。いまのじゅうしょはきまっていますか。",
+          "ttsText": "かいがいからのてんにゅうですね。いまのじゅうしょはきまっていますか。"
+        },
+        {
+          "id": "main-line-3",
+          "speakerId": "learner",
+          "ja": "はい、もう住んでいます。",
+          "zh": "确定了，已经住进去了。",
+          "reading": "はい、もうすんでいます。",
+          "ttsText": "はい、もうすんでいます。"
+        },
+        {
+          "id": "main-line-4",
+          "speakerId": "speaker-2",
+          "ja": "在留カードとパスポートを見せてください。",
+          "zh": "请出示在留卡和护照。",
+          "reading": "ざいりゅうカードとパスポートをみせてください。",
+          "ttsText": "ざいりゅうカードとパスポートをみせてください。"
+        },
+        {
+          "id": "main-line-5",
+          "speakerId": "learner",
+          "ja": "はい、こちらです。",
+          "zh": "好的，在这里。",
+          "reading": "はい、こちらです。",
+          "ttsText": "はい、こちらです。"
+        },
+        {
+          "id": "main-line-6",
+          "speakerId": "speaker-2",
+          "ja": "建物名と部屋番号もわかりますか。",
+          "zh": "知道楼名和房间号吗？",
+          "reading": "たてものめいとへやばんごうもわかりますか。",
+          "ttsText": "たてものめいとへやばんごうもわかりますか。"
+        },
+        {
+          "id": "main-line-7",
+          "speakerId": "learner",
+          "ja": "はい。住所を携帯に保存しています。",
+          "zh": "知道，地址保存在手机里。",
+          "reading": "はい。じゅうしょをけいたいにほぞんしています。",
+          "ttsText": "はい。じゅうしょをけいたいにほぞんしています。"
+        },
+        {
+          "id": "main-line-8",
+          "speakerId": "speaker-2",
+          "ja": "この住所に住んでいますか。",
+          "zh": "住在这个地址吗？",
+          "reading": "このじゅうしょにすんでいますか。",
+          "ttsText": "このじゅうしょにすんでいますか。"
+        },
+        {
+          "id": "main-line-9",
+          "speakerId": "learner",
+          "ja": "はい、住んでいます。",
+          "zh": "是的，住在这里。",
+          "reading": "はい、すんでいます。",
+          "ttsText": "はい、すんでいます。"
+        },
+        {
+          "id": "main-line-10",
+          "speakerId": "speaker-2",
+          "ja": "こちらに書いてください。",
+          "zh": "请写在这里。",
+          "reading": "こちらにかいてください。",
+          "ttsText": "こちらにかいてください。"
+        },
+        {
+          "id": "main-line-11",
+          "speakerId": "learner",
+          "ja": "すみません、もう一度お願いします。",
+          "zh": "不好意思，请再说一遍。",
+          "reading": "すみません、もういちどおねがいします。",
+          "ttsText": "すみません、もういちどおねがいします。"
+        },
+        {
+          "id": "main-line-12",
+          "speakerId": "speaker-2",
+          "ja": "この欄に名前と住所を書いてください。",
+          "zh": "请在这个栏里写姓名和地址。",
+          "reading": "このらんになまえとじゅうしょをかいてください。",
+          "ttsText": "このらんになまえとじゅうしょをかいてください。"
+        },
+        {
+          "id": "main-line-13",
+          "speakerId": "learner",
+          "ja": "書き終わったら、ここで待ちますか。",
+          "zh": "写完后在这里等吗？",
+          "reading": "かきおわったら、ここでまちますか。",
+          "ttsText": "かきおわったら、ここでまちますか。"
+        },
+        {
+          "id": "main-line-14",
+          "speakerId": "speaker-2",
+          "ja": "はい。書き終わったら、お声がけください。",
+          "zh": "是的，写完后请叫我们。",
+          "reading": "はい。かきおわったら、おこえがけください。",
+          "ttsText": "はい。かきおわったら、おこえがけください。"
+        },
+        {
+          "id": "main-line-15",
+          "speakerId": "learner",
+          "ja": "書けました。住所を確認していただけますか。",
+          "zh": "写好了，可以帮我确认地址吗？",
+          "reading": "かけました。じゅうしょをかくにんしていただけますか。",
+          "ttsText": "かけました。じゅうしょをかくにんしていただけますか。"
+        },
+        {
+          "id": "main-line-16",
+          "speakerId": "speaker-2",
+          "ja": "はい。在留カードの情報と一緒に確認します。",
+          "zh": "可以。我们会和在留卡的信息一起确认。",
+          "reading": "はい。ざいりゅうカードのじょうほうといっしょにかくにんします。",
+          "ttsText": "はい。ざいりゅうカードのじょうほうといっしょにかくにんします。"
+        }
+      ]
+    },
+    {
+      "id": "polite",
+      "title": "跟读文本（礼貌体版·区役所窗口）",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "polite-line-1",
+          "speakerId": "speaker-2",
+          "ja": "ここに名前と住所を書いてください。",
+          "zh": "请在这里写姓名和地址。",
+          "reading": "ここになまえとじゅうしょをかいてください。",
+          "ttsText": "ここになまえとじゅうしょをかいてください。"
+        },
+        {
+          "id": "polite-line-2",
+          "speakerId": "learner",
+          "ja": "すみません、もう一度お願いします。",
+          "zh": "不好意思，请再说一遍。",
+          "reading": "すみません、もういちどおねがいします。",
+          "ttsText": "すみません、もういちどおねがいします。"
+        },
+        {
+          "id": "polite-line-3",
+          "speakerId": "speaker-2",
+          "ja": "この欄に名前、こちらの欄に住所を書いてください。",
+          "zh": "在这个栏里写姓名，在这个栏里写地址。",
+          "reading": "このらんになまえ、こちらのらんにじゅうしょをかいてください。",
+          "ttsText": "このらんになまえ、こちらのらんにじゅうしょをかいてください。"
+        },
+        {
+          "id": "polite-line-4",
+          "speakerId": "learner",
+          "ja": "はい、わかりました。",
+          "zh": "好的，明白了。",
+          "reading": "はい、わかりました。",
+          "ttsText": "はい、わかりました。"
+        },
+        {
+          "id": "polite-line-5",
+          "speakerId": "learner",
+          "ja": "ここに名前を書きます。",
+          "zh": "在这里写姓名。",
+          "reading": "ここになまえをかきます。",
+          "ttsText": "ここになまえをかきます。"
+        },
+        {
+          "id": "polite-line-6",
+          "speakerId": "speaker-3",
+          "ja": "書く場所はわかりましたか。",
+          "zh": "知道写在哪里了吗？",
+          "reading": "かくばしょはわかりましたか。",
+          "ttsText": "かくばしょはわかりましたか。"
+        },
+        {
+          "id": "polite-line-7",
+          "speakerId": "learner",
+          "ja": "はい。名前と住所を書きます。",
+          "zh": "知道了，要写姓名和地址。",
+          "reading": "はい。なまえとじゅうしょをかきます。",
+          "ttsText": "はい。なまえとじゅうしょをかきます。"
+        },
+        {
+          "id": "polite-line-8",
+          "speakerId": "speaker-3",
+          "ja": "終わったら窓口に声をかけますか。",
+          "zh": "写完后要叫窗口工作人员吗？",
+          "reading": "おわったらまどぐちにこえをかけますか。",
+          "ttsText": "おわったらまどぐちにこえをかけますか。"
+        },
+        {
+          "id": "polite-line-9",
+          "speakerId": "learner",
+          "ja": "はい。確認してもらいます。",
+          "zh": "是的，请他们帮忙确认。",
+          "reading": "はい。かくにんしてもらいます。",
+          "ttsText": "はい。かくにんしてもらいます。"
+        }
+      ]
+    },
+    {
+      "id": "plain",
+      "title": "跟读文本（普通体版·区役所窗口）",
+      "variant": "register",
+      "lines": [
+        {
+          "id": "plain-line-1",
+          "speakerId": "speaker-2",
+          "ja": "ここに名前と住所を書いてください。",
+          "zh": "请在这里写姓名和地址。",
+          "reading": "ここになまえとじゅうしょをかいてください。",
+          "ttsText": "ここになまえとじゅうしょをかいてください。"
+        },
+        {
+          "id": "plain-line-2",
+          "speakerId": "learner",
+          "ja": "すみません、もう一度お願いします。",
+          "zh": "不好意思，请再说一遍。",
+          "reading": "すみません、もういちどおねがいします。",
+          "ttsText": "すみません、もういちどおねがいします。"
+        },
+        {
+          "id": "plain-line-3",
+          "speakerId": "speaker-2",
+          "ja": "この欄に名前、こちらの欄に住所を書いてください。",
+          "zh": "在这个栏里写姓名，在这个栏里写地址。",
+          "reading": "このらんになまえ、こちらのらんにじゅうしょをかいてください。",
+          "ttsText": "このらんになまえ、こちらのらんにじゅうしょをかいてください。"
+        },
+        {
+          "id": "plain-line-4",
+          "speakerId": "learner",
+          "ja": "はい、わかりました。",
+          "zh": "好的，明白了。",
+          "reading": "はい、わかりました。",
+          "ttsText": "はい、わかりました。"
+        },
+        {
+          "id": "plain-line-5",
+          "speakerId": "learner",
+          "ja": "ここに名前を書くんだね。",
+          "zh": "原来是在这里写姓名啊。",
+          "reading": "ここになまえをかくんだね。",
+          "ttsText": "ここになまえをかくんだね。"
+        },
+        {
+          "id": "plain-line-6",
+          "speakerId": "speaker-3",
+          "ja": "書く場所、わかった？",
+          "zh": "知道写在哪里了吗？",
+          "reading": "かくばしょ、わかった？",
+          "ttsText": "かくばしょ、わかった？"
+        },
+        {
+          "id": "plain-line-7",
+          "speakerId": "learner",
+          "ja": "うん。名前と住所を書く。",
+          "zh": "知道了，要写姓名和地址。",
+          "reading": "うん。なまえとじゅうしょをかく。",
+          "ttsText": "うん。なまえとじゅうしょをかく。"
+        },
+        {
+          "id": "plain-line-8",
+          "speakerId": "speaker-3",
+          "ja": "終わったら窓口に声をかける？",
+          "zh": "写完后要叫窗口工作人员吗？",
+          "reading": "おわったらまどぐちにこえをかける？",
+          "ttsText": "おわったらまどぐちにこえをかける？"
+        },
+        {
+          "id": "plain-line-9",
+          "speakerId": "learner",
+          "ja": "うん。確認してもらう。",
+          "zh": "是的，请他们帮忙确认。",
+          "reading": "うん。かくにんしてもらう。",
+          "ttsText": "うん。かくにんしてもらう。"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "lesson-context",
+      "title": "场景与使用说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "场景：我已确定在东京某区居住，按居住地自治体指引到区役所办理必要手续。\n使用场合：在窗口说明刚搬来，递交在留卡并询问下一步。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "goal-notes",
+      "title": "目标补充说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [["自测：拿自己的实际证件清单，用两句说明来意；具体表格由当地窗口确认。"]]
+        }
+      ]
+    },
+    {
+      "id": "dialogue-context",
+      "title": "课文与语体版本的转场、交谈对象",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["对话 ID", "位置（在该行之后；下一行注明对象）", "原场景提示"],
+          "rows": [
+            [
+              "main",
+              "整体",
+              "情境：我在现住址所属区的居民登记窗口，先说明来意，工作人员再按我的实际情况说明。"
+            ],
+            [
+              "main",
+              "整体",
+              "说明：住址确定后原则上应在十四天内办理住居地届；具体窗口、表格与其他手续取决于居住地和个人情况。示例不把医保等其他手续写成同一固定流程。"
+            ],
+            ["polite", "polite-line-4", "〔暂离窗口，在填写区向朋友复述〕"],
+            ["polite", "下一行 5", "私(わたし)→朋友"],
+            ["plain", "plain-line-4", "〔暂离窗口，在填写区向朋友复述〕"],
+            ["plain", "下一行 5", "私(わたし)→朋友"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "register-comparison",
+      "title": "两版差异对照（行 ID 对应上方语体版本）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说话者", "礼貌体行 ID", "普通体行 ID", "原差异说明"],
+          "rows": [
+            ["工作人员", "polite-line-1", "plain-line-1", "两版保持同一句表达"],
+            ["私(わたし)", "polite-line-2", "plain-line-2", "两版保持同一句表达"],
+            ["工作人员", "polite-line-3", "plain-line-3", "两版保持同一句表达"],
+            ["私(わたし)", "polite-line-4", "plain-line-4", "两版保持同一句表达"],
+            ["私(わたし)→朋友", "polite-line-5", "plain-line-5", "表达内容相同，语体不同"],
+            ["朋友", "polite-line-6", "plain-line-6", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-7", "plain-line-7", "表达内容相同，语体不同"],
+            ["朋友", "polite-line-8", "plain-line-8", "表达内容相同，语体不同"],
+            ["私(わたし)", "polite-line-9", "plain-line-9", "表达内容相同，语体不同"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shadowing-notes",
+      "title": "跟读场景、前提与使用说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "唯一跟读场景：区役所窗口听不清表格项目，要求重说。\n关系与版本前提：普通体版只用于结束窗口交谈后向熟悉朋友复述；窗口请求本身保持礼貌体。\n与课文的区别：课文先说明住址登记来意；这里聚焦听不清窗口说明。"
+            ],
+            ["■ 跟读步骤"],
+            [
+              "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+            ],
+            ["■ 跟读要点"],
+            [
+              "礼貌体版：抓住表格的位置和要写的项目。\n普通体版：对窗口不切换语体；普通体用于与朋友复述。"
+            ],
+            ["■ 为什么用这个版本"],
+            ["礼貌体版：办理事务的标准说法。\n普通体版：离开窗口后对朋友复述自然。"],
+            ["■ 本课跟读目标"],
+            ["听不清时能暂停并确认，而不是乱填。"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary-notes",
+      "title": "词汇分组与学习说明",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["■ 3A N5基础词汇"],
+            ["本栏指常见初级教材中的N5基础词，不表示官方保证考到。"],
+            ["■ 3B 场景补充词汇（先听懂）"],
+            ["本栏先听懂、能辨认；行政或商品词不要求会写。"],
+            [
+              "词汇使用提醒：入境后的住址登记与是否加入某项保险是不同问题，应根据本人身份和自治体说明分别确认。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-notes",
+      "title": "文法安排与补充表达（原 4B）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            ["■ 4A 基础句型与场景练习"],
+            [
+              "本栏练习基础句型和本课场景中的表达；长句中的敬语、复合结构可先整句理解。例句均从本课课文原样摘取。"
+            ],
+            ["■ 4B 补充表达与后续复习"],
+            [
+              "文法点：动作持续状态\n意思：说明目前持续居住的状态；第17课的確認しています则表示正在进行的动作，注意两种语境。\n例句：この住所(じゅうしょ)に住(す)んでいます。\n后续学习建议：结合本课语境复习，再在后续系统课程中学习接续与变形；本课程没有第21课。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appendix-1",
+      "title": "附1：当时课程目标下，日本人实际会怎么说",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "家人之间：名前(なまえ)をここに書(か)くんだね。\n对同事朋友：ここに名前(なまえ)を書(か)きます。\n对上级工作人员：すみません、もう一度(いちど)お願(ねが)いします。\n说明：窗口办理时保留礼貌体，即使事后能用普通体向朋友说明。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appendix-2",
+      "title": "附2：常见误用",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "标记说明：✗包含语法错误，也包含本情境中事实不准确、未核实就断言或应对不合适的说法；不表示所有标记句都不合语法。"
+            ],
+            [
+              "住(す)む所(ところ)が決(き)まっていませんが、住所(じゅうしょ)を登録(とうろく)します。 ✗ → 住所(じゅうしょ)が決(き)まったら確認(かくにん)します。 ✓\n原因：住址登记需要基于实际居住地。\nわからないけど、はいと言(い)います。 ✗ → すみません、もう一度(いちど)お願(ねが)いします。 ✓\n原因：听不懂窗口要求时应确认。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-1",
+      "title": "词汇读音与释义资料（原测试 1）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "读音：なまえ\n答案：名前(なまえ) — 姓名\n读音：がいこく\n答案：外国(がいこく) — 外国\n读音：すみます\n答案：住(す)みます — 居住\n读音：かきます\n答案：書(か)きます — 写\n读音：ここ\n答案：ここ — 这里\n读音：もういちど\n答案：もう一度(いちど) — 再一次\n读音：いま\n答案：今(いま) — 现在\n读音：へや\n答案：部屋(へや) — 房间\n读音：いっしょ\n答案：一緒(いっしょ) — 一起\n读音：まちます\n答案：待(ま)ちます — 等待\n读音：あと\n答案：後(あと) — 之后\n读音：あります\n答案：あります — 有\n读音：くやくしょ\n答案：区役所(くやくしょ) — 区役所\n读音：とどけで\n答案：届出(とどけで) — 申报、登记\n读音：ざいりゅうカード\n答案：在留(ざいりゅう)カード — 在留卡\n读音：パスポート\n答案：パスポート — 护照\n读音：まどぐち\n答案：窓口(まどぐち) — 窗口\n读音：じゅうしょ\n答案：住所(じゅうしょ) — 地址\n读音：みせます\n答案：見(み)せます — 出示\n读音：かいがい\n答案：海外(かいがい) — 海外\n读音：てんにゅう\n答案：転入(てんにゅう) — 迁入\n读音：たてものめい\n答案：建物名(たてものめい) — 楼宇名称\n读音：へやばんごう\n答案：部屋番号(へやばんごう) — 房号\n读音：けいたい\n答案：携帯(けいたい) — 手机\n读音：ほぞん\n答案：保存(ほぞん) — 保存\n读音：らん\n答案：欄(らん) — 表格栏位\n读音：かきおわります\n答案：書(か)き終(お)わります — 写完"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-2",
+      "title": "文法例题与参考答案（原测试 2）",
+      "kind": "explanation",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": ["说明"],
+          "rows": [
+            [
+              "题目：在留(ざいりゅう)カードとパスポートを（　）。\n答案：見(み)せてください\n题目：はい、（　）。\n答案：住(す)んでいます\n题目：すみません、（　）。\n答案：もう一度(いちど)お願(ねが)いします"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "vocabulary-1",
+      "word": "名前",
+      "reading": "なまえ",
+      "meaning": "姓名",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "この欄に名前と住所を書いてください。",
+          "zh": "请在这个栏里写姓名和地址。",
+          "ttsText": "このらんになまえとじゅうしょをかいてください。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-12"
+      }
+    },
+    {
+      "id": "vocabulary-2",
+      "word": "外国",
+      "reading": "がいこく",
+      "meaning": "外国",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "すみません。外国から来ました。住所の届出をしたいです。",
+          "zh": "不好意思，我从国外来，想办理住址届出。",
+          "ttsText": "すみません。がいこくからきました。じゅうしょのとどけでをしたいです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-3",
+      "word": "住みます",
+      "reading": "すみます",
+      "meaning": "居住",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-4",
+      "word": "書きます",
+      "reading": "かきます",
+      "meaning": "写",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "ここに名前を書きます。",
+          "zh": "在这里写姓名。",
+          "ttsText": "ここになまえをかきます。"
+        }
+      ],
+      "source": {
+        "dialogueId": "polite",
+        "lineId": "polite-line-5"
+      }
+    },
+    {
+      "id": "vocabulary-5",
+      "word": "ここ",
+      "reading": "ここ",
+      "meaning": "这里",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "書き終わったら、ここで待ちますか。",
+          "zh": "写完后在这里等吗？",
+          "ttsText": "かきおわったら、ここでまちますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-13"
+      }
+    },
+    {
+      "id": "vocabulary-6",
+      "word": "もう一度",
+      "reading": "もういちど",
+      "meaning": "再一次",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "すみません、もう一度お願いします。",
+          "zh": "不好意思，请再说一遍。",
+          "ttsText": "すみません、もういちどおねがいします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-11"
+      }
+    },
+    {
+      "id": "vocabulary-7",
+      "word": "今",
+      "reading": "いま",
+      "meaning": "现在",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "海外からの転入ですね。今の住所は決まっていますか。",
+          "zh": "是从海外迁入吧。现在的住址确定了吗？",
+          "ttsText": "かいがいからのてんにゅうですね。いまのじゅうしょはきまっていますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-2"
+      }
+    },
+    {
+      "id": "vocabulary-8",
+      "word": "部屋",
+      "reading": "へや",
+      "meaning": "房间",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "建物名と部屋番号もわかりますか。",
+          "zh": "知道楼名和房间号吗？",
+          "ttsText": "たてものめいとへやばんごうもわかりますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-6"
+      }
+    },
+    {
+      "id": "vocabulary-9",
+      "word": "一緒",
+      "reading": "いっしょ",
+      "meaning": "一起",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "はい。在留カードの情報と一緒に確認します。",
+          "zh": "可以。我们会和在留卡的信息一起确认。",
+          "ttsText": "はい。ざいりゅうカードのじょうほうといっしょにかくにんします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-16"
+      }
+    },
+    {
+      "id": "vocabulary-10",
+      "word": "待ちます",
+      "reading": "まちます",
+      "meaning": "等待",
+      "usage": "3A N5基础词汇",
+      "examples": [
+        {
+          "ja": "書き終わったら、ここで待ちますか。",
+          "zh": "写完后在这里等吗？",
+          "ttsText": "かきおわったら、ここでまちますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-13"
+      }
+    },
+    {
+      "id": "vocabulary-11",
+      "word": "後",
+      "reading": "あと",
+      "meaning": "之后",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-12",
+      "word": "あります",
+      "reading": "あります",
+      "meaning": "有",
+      "usage": "3A N5基础词汇",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-13",
+      "word": "区役所",
+      "reading": "くやくしょ",
+      "meaning": "区役所",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-14",
+      "word": "届出",
+      "reading": "とどけで",
+      "meaning": "申报、登记",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "すみません。外国から来ました。住所の届出をしたいです。",
+          "zh": "不好意思，我从国外来，想办理住址届出。",
+          "ttsText": "すみません。がいこくからきました。じゅうしょのとどけでをしたいです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-15",
+      "word": "在留カード",
+      "reading": "ざいりゅうカード",
+      "meaning": "在留卡",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "在留カードとパスポートを見せてください。",
+          "zh": "请出示在留卡和护照。",
+          "ttsText": "ざいりゅうカードとパスポートをみせてください。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-4"
+      }
+    },
+    {
+      "id": "vocabulary-16",
+      "word": "パスポート",
+      "reading": "パスポート",
+      "meaning": "护照",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "在留カードとパスポートを見せてください。",
+          "zh": "请出示在留卡和护照。",
+          "ttsText": "ざいりゅうカードとパスポートをみせてください。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-4"
+      }
+    },
+    {
+      "id": "vocabulary-17",
+      "word": "窓口",
+      "reading": "まどぐち",
+      "meaning": "窗口",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "終わったら窓口に声をかけますか。",
+          "zh": "写完后要叫窗口工作人员吗？",
+          "ttsText": "おわったらまどぐちにこえをかけますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "polite",
+        "lineId": "polite-line-8"
+      }
+    },
+    {
+      "id": "vocabulary-18",
+      "word": "住所",
+      "reading": "じゅうしょ",
+      "meaning": "地址",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "すみません。外国から来ました。住所の届出をしたいです。",
+          "zh": "不好意思，我从国外来，想办理住址届出。",
+          "ttsText": "すみません。がいこくからきました。じゅうしょのとどけでをしたいです。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-1"
+      }
+    },
+    {
+      "id": "vocabulary-19",
+      "word": "見せます",
+      "reading": "みせます",
+      "meaning": "出示",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    },
+    {
+      "id": "vocabulary-20",
+      "word": "海外",
+      "reading": "かいがい",
+      "meaning": "海外",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "海外からの転入ですね。今の住所は決まっていますか。",
+          "zh": "是从海外迁入吧。现在的住址确定了吗？",
+          "ttsText": "かいがいからのてんにゅうですね。いまのじゅうしょはきまっていますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-2"
+      }
+    },
+    {
+      "id": "vocabulary-21",
+      "word": "転入",
+      "reading": "てんにゅう",
+      "meaning": "迁入",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "海外からの転入ですね。今の住所は決まっていますか。",
+          "zh": "是从海外迁入吧。现在的住址确定了吗？",
+          "ttsText": "かいがいからのてんにゅうですね。いまのじゅうしょはきまっていますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-2"
+      }
+    },
+    {
+      "id": "vocabulary-22",
+      "word": "建物名",
+      "reading": "たてものめい",
+      "meaning": "楼宇名称",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "建物名と部屋番号もわかりますか。",
+          "zh": "知道楼名和房间号吗？",
+          "ttsText": "たてものめいとへやばんごうもわかりますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-6"
+      }
+    },
+    {
+      "id": "vocabulary-23",
+      "word": "部屋番号",
+      "reading": "へやばんごう",
+      "meaning": "房号",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "建物名と部屋番号もわかりますか。",
+          "zh": "知道楼名和房间号吗？",
+          "ttsText": "たてものめいとへやばんごうもわかりますか。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-6"
+      }
+    },
+    {
+      "id": "vocabulary-24",
+      "word": "携帯",
+      "reading": "けいたい",
+      "meaning": "手机",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "はい。住所を携帯に保存しています。",
+          "zh": "知道，地址保存在手机里。",
+          "ttsText": "はい。じゅうしょをけいたいにほぞんしています。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-7"
+      }
+    },
+    {
+      "id": "vocabulary-25",
+      "word": "保存",
+      "reading": "ほぞん",
+      "meaning": "保存",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "はい。住所を携帯に保存しています。",
+          "zh": "知道，地址保存在手机里。",
+          "ttsText": "はい。じゅうしょをけいたいにほぞんしています。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-7"
+      }
+    },
+    {
+      "id": "vocabulary-26",
+      "word": "欄",
+      "reading": "らん",
+      "meaning": "表格栏位",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": [
+        {
+          "ja": "この欄に名前と住所を書いてください。",
+          "zh": "请在这个栏里写姓名和地址。",
+          "ttsText": "このらんになまえとじゅうしょをかいてください。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-12"
+      }
+    },
+    {
+      "id": "vocabulary-27",
+      "word": "書き終わります",
+      "reading": "かきおわります",
+      "meaning": "写完",
+      "usage": "3B 场景补充词汇（先听懂）",
+      "examples": []
+    }
+  ],
+  "expressions": [
+    {
+      "id": "expression-one",
+      "function": "抱歉，请再说一遍。",
+      "pattern": "すみません、もう一度お願いします。",
+      "meaning": "抱歉，请再说一遍。",
+      "audience": "柜台工作人员、老师、初识者。",
+      "notes": [
+        "固定句：すみません、もう一度(いちど)お願(ねが)いします。",
+        "不可以替换什么：不能用它假装已理解；若仍不懂需说明哪部分不明白。",
+        "语感差异：礼貌、实用，不会因不懂而显得失礼。",
+        "对谁不能说：在对方明显无法继续服务时不要无限重复；可改请写下来。",
+        "其他用法：电话、诊所、商店也能使用。",
+        "本课要求：听不清时立即说，不猜办事要求。"
+      ],
+      "slots": [
+        {
+          "key": "可替换部分",
+          "description": "本课整块使用，不换内部词。"
+        }
+      ],
+      "examples": [
+        {
+          "ja": "すみません、もう一度お願いします。",
+          "zh": "不好意思，请再说一遍。",
+          "ttsText": "すみません、もういちどおねがいします。"
+        }
+      ],
+      "source": {
+        "dialogueId": "main",
+        "lineId": "main-line-11"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "grammar-1",
+      "pattern": "请求出示",
+      "level": "N5",
+      "meaning": "工作人员要求看证件。",
+      "connection": "动词て形＋ください。",
+      "notes": [
+        "课文对应：在留(ざいりゅう)カードとパスポートを見(み)せてください。",
+        "例题：在留(ざいりゅう)カードとパスポートを（　）。",
+        "答案：見(み)せてください"
+      ],
+      "examples": [
+        {
+          "ja": "在留カードとパスポートを見せてください。",
+          "zh": "请出示在留卡和护照。",
+          "ttsText": "ざいりゅうカードとパスポートをみせてください。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "pattern": "当前状态",
+      "level": "N5",
+      "meaning": "说明目前住在这个地址。",
+      "connection": "住む的て形是住んで；住んで＋います表示持续居住的状态。",
+      "notes": [
+        "课文对应：はい、住(す)んでいます。",
+        "例题：はい、（　）。",
+        "答案：住(す)んでいます"
+      ],
+      "examples": [
+        {
+          "ja": "はい、住んでいます。",
+          "zh": "是的，住在这里。",
+          "ttsText": "はい、すんでいます。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "pattern": "再说一次的请求",
+      "level": "N5",
+      "meaning": "听不懂时请对方重说。",
+      "connection": "表示次数的词与请求表达连用。",
+      "notes": [
+        "课文对应：すみません、もう一度(いちど)お願(ねが)いします。",
+        "例题：すみません、（　）。",
+        "答案：もう一度(いちど)お願(ねが)いします"
+      ],
+      "examples": [
+        {
+          "ja": "すみません、もう一度お願いします。",
+          "zh": "不好意思，请再说一遍。",
+          "ttsText": "すみません、もういちどおねがいします。"
+        }
+      ]
+    }
+  ],
+  "shadowing": [
+    {
+      "id": "shadowing-polite",
+      "dialogueId": "polite",
+      "lineIds": [
+        "polite-line-1",
+        "polite-line-2",
+        "polite-line-3",
+        "polite-line-4",
+        "polite-line-5",
+        "polite-line-6",
+        "polite-line-7",
+        "polite-line-8",
+        "polite-line-9"
+      ],
+      "prompt": "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+    },
+    {
+      "id": "shadowing-plain",
+      "dialogueId": "plain",
+      "lineIds": [
+        "plain-line-1",
+        "plain-line-2",
+        "plain-line-3",
+        "plain-line-4",
+        "plain-line-5",
+        "plain-line-6",
+        "plain-line-7",
+        "plain-line-8",
+        "plain-line-9"
+      ],
+      "prompt": "先听懂场景信息；再按一句一个节奏模仿；听音频时稍落后跟读；最后换成自己的真实信息。没有示范音频时先做分句朗读，不能把朗读当作已完成影子跟读。"
+    }
+  ],
+  "homework": [],
+  "references": [
+    {
+      "title": "seikatsu-nihongo/content/n5-source.txt",
+      "note": "唯一正文来源；第15课。源稿日语、事实与说明保持不变；本次新增忠实中文译文用于 v1 必填 zh，未创作场景或作业。 N5 章节的完整通用使用说明统一保存在同章 n5-1 的「N5 章节使用说明」素材中。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/README.md",
+      "note": "n5.json 为 TXT 生成结果，已通过 import-n5.mjs --check；不重复导出生成 README。"
+    },
+    {
+      "title": "seikatsu-nihongo/content/review-notes.md",
+      "note": "沿用 2026-09-30 校订；现实条件与时限按原说明保留，不把课号当办事日期。"
+    },
+    {
+      "title": "JLPT官方考试指南",
+      "url": "https://jlpt.jp/cn/reference/pdf/guidebook1.pdf",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "出入国在留管理厅",
+      "url": "https://www.moj.go.jp/isa/applications/procedures/nyuukokukanri10_00021.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "日本海关",
+      "url": "https://www.customs.go.jp/english/passenger/declaration/declaration_app.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "东京燃气",
+      "url": "https://home.tokyo-gas.co.jp/gas_power/procedure/moving/khsn_k_nagare.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "povo官方",
+      "url": "https://povo.jp/procedure/",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "日本邮政银行",
+      "url": "https://www.jp-bank.japanpost.jp/kaisetu/kat_gaikokujin.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    },
+    {
+      "title": "厚生劳动省",
+      "url": "https://www.mhlw.go.jp/stf/newpage_50657.html",
+      "note": "源教材截至 2026 年 9 月所列校对依据；本次保留引用，未重新核验实时规定。"
+    }
+  ]
+}
