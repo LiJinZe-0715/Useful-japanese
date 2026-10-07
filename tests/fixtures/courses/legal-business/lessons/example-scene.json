@@ -82,6 +82,13 @@
           "zh": "这是示例。"
         }
       ]
+    },
+    {
+      "id": "html-reference",
+      "title": "HTML 素材示范",
+      "kind": "explanation",
+      "blocks": [],
+      "asset": "assets/reference.html"
     }
   ],
   "vocabulary": [
@@ -144,7 +151,7 @@
       "tasks": ["说出安排"],
       "requirements": ["简洁"],
       "hints": ["参考固定表达"],
-      "functions": ["contact"],
+      "functions": [],
       "answers": [
         {
           "ja": "確認します。",

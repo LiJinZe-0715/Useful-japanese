@@ -166,6 +166,7 @@ overrides:
   fflate@0.7.3: 0.7.5
 
 patchedDependencies:
+  braces@3.0.3: ff35cffd8540756ca107f0bac28e249e633fd5bf49a130d14e4a9ba2920a6e23
   vinext@1.0.1: 75fc4e1d557d70f69ed776f9684ad6d62ce7e6c724c9e2a9f3c878454daf19e9
 
 importers:
@@ -2456,7 +2457,7 @@ snapshots:
 
   baseline-browser-mapping@2.11.27: {}
 
-  braces@3.0.3:
+  braces@3.0.3(patch_hash=ff35cffd8540756ca107f0bac28e249e633fd5bf49a130d14e4a9ba2920a6e23):
     dependencies:
       fill-range: 7.1.1
 
@@ -2701,7 +2702,7 @@ snapshots:
 
   micromatch@4.0.8:
     dependencies:
-      braces: 3.0.3
+      braces: 3.0.3(patch_hash=ff35cffd8540756ca107f0bac28e249e633fd5bf49a130d14e4a9ba2920a6e23)
       picomatch: 2.3.2
 
   mime-db@1.54.0: {}

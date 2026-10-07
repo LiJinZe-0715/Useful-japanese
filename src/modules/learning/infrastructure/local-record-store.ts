@@ -1,6 +1,25 @@
 import type { RecordStore } from "../application/learning";
 import type { StudyRecord } from "../domain/record";
 export const localRecordStore: RecordStore = {
+  subscribe(prefix, listener) {
+    if (typeof window === "undefined") return () => {};
+    const changed = (event: StorageEvent) => {
+      if (
+        event.key === null ||
+        event.key === prefix ||
+        (prefix.endsWith(":") && event.key.startsWith(prefix))
+      )
+        listener();
+    };
+    window.addEventListener("storage", changed);
+    window.addEventListener("focus", listener);
+    window.addEventListener("pageshow", listener);
+    return () => {
+      window.removeEventListener("storage", changed);
+      window.removeEventListener("focus", listener);
+      window.removeEventListener("pageshow", listener);
+    };
+  },
   read(key) {
     if (typeof window === "undefined") return undefined;
     try {

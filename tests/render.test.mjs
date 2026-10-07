@@ -3,16 +3,22 @@ import assert from "node:assert/strict";
 import { spawnSync } from "node:child_process";
 import { readFileSync, existsSync } from "node:fs";
 import path from "node:path";
-const build = (fixtures, base) => {
-  const result = spawnSync(process.execPath, ["scripts/build-pages.mjs", "--root"], {
-    encoding: "utf8",
-    env: {
-      ...process.env,
-      NIHONGO_TEST_FIXTURES: fixtures === true ? "1" : fixtures === "empty" ? "empty" : "0",
-      PAGES_BASE_PATH: base,
+const build = (fixtures, base, root = true) => {
+  const env = {
+    ...process.env,
+    NIHONGO_TEST_FIXTURES: fixtures === true ? "1" : fixtures === "empty" ? "empty" : "0",
+  };
+  if (base === undefined) delete env.PAGES_BASE_PATH;
+  else env.PAGES_BASE_PATH = base;
+  const result = spawnSync(
+    process.execPath,
+    ["scripts/build-pages.mjs", ...(root ? ["--root"] : [])],
+    {
+      encoding: "utf8",
+      env,
+      timeout: 120000,
     },
-    timeout: 120000,
-  });
+  );
   assert.equal(result.status, 0, result.stderr + "\n" + result.stdout);
 };
 const html = (route) => readFileSync(path.join("dist/client", route, "index.html"), "utf8");
@@ -34,6 +40,9 @@ test("CI base-path expression uses explicit slash for root and defaults empty/un
 });
 test("real Vinext static rendering of business, life, preparation and empty production", () => {
   try {
+    build(true, undefined, false);
+    assert.ok(html("").includes(`href="/${path.basename(process.cwd())}/courses/`));
+    assert.doesNotMatch(html(""), /(?:src|href)="\/nihongo\//);
     build(true, "/nihongo");
     assert.match(html(""), /法律结构夹具/);
     assert.match(html(""), /生活结构夹具/);
@@ -62,6 +71,13 @@ test("real Vinext static rendering of business, life, preparation and empty prod
     assert.match(html("guide"), /日语学习内容格式 v1/);
     assert.match(law, /href="\/nihongo\/courses\/legal-business\//);
     assert.match(law, /href="\/nihongo\/course-assets\/legal-business\/reference.txt"/);
+    assert.match(law, /href="\/nihongo\/course-assets\/legal-business\/reference.html"/);
+    assert.match(
+      readFileSync("dist/client/course-assets/legal-business/reference.html", "utf8"),
+      /HTML asset fixture/,
+    );
+    assert.ok(!existsSync("dist/client/course-assets/legal-business/reference/index.html"));
+    assert.doesNotMatch(law, /0<details><summary>查看参考答案/);
     assert.match(
       readFileSync("dist/client/course-assets/legal-business/reference.txt", "utf8"),
       /Static asset fixture/,

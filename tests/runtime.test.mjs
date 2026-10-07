@@ -665,6 +665,9 @@ test("VOICEVOX failure falls back through same runtime to device speech", async 
     assert.equal(utterance.lang, "ja-JP");
     assert.match(runtime.getSnapshot().notice, /尝试设备/);
     assert.equal(runtime.getSnapshot().state.status, "idle");
+    runtime.configure({ engine: "browser" });
+    await runtime.queue.play([{ text: "回復" }]);
+    assert.equal(runtime.getSnapshot().notice, "");
     runtime.dispose();
   } finally {
     globalThis.fetch = oldFetch;
@@ -672,3 +675,174 @@ test("VOICEVOX failure falls back through same runtime to device speech", async 
     else globalThis.window = oldWindow;
   }
 });
+
+test("stale pages merge only edited fields and preserve drafts when a failed save is retried", () => {
+  const data = new Map();
+  let blocked = false;
+  const service = createLearning({
+    read: (key) => (data.has(key) ? structuredClone(data.get(key)) : undefined),
+    write(key, value) {
+      if (blocked) return false;
+      data.set(key, structuredClone(value));
+      return true;
+    },
+  });
+  const baselineA = service.load("life", "one"),
+    baselineB = service.load("life", "one");
+  const editedA = { ...baselineA, drafts: { written: "A draft" } };
+  assert.equal(service.save("life", "one", editedA, baselineA), true);
+  assert.equal(service.save("life", "one", { ...baselineB, bookmarked: true }, baselineB), true);
+  assert.equal(service.load("life", "one").drafts.written, "A draft");
+  const savedA = service.load("life", "one");
+  const pendingA = { ...savedA, drafts: { ...savedA.drafts, second: "unsaved" } };
+  blocked = true;
+  assert.equal(service.save("life", "one", pendingA, savedA), false);
+  blocked = false;
+  const savedB = service.load("life", "one");
+  service.save("life", "one", { ...savedB, completed: true }, savedB);
+  assert.equal(service.save("life", "one", pendingA, savedA), true);
+  assert.deepEqual(service.load("life", "one"), { ...pendingA, completed: true });
+});
+
+test("learning subscriptions refresh on external writes, focus and history restoration, then clean up", () => {
+  const oldWindow = globalThis.window;
+  globalThis.window = new EventTarget();
+  try {
+    let calls = 0;
+    const dispose = localRecordStore.subscribe("nihongo:learning:v1:life:one", () => calls++);
+    const storage = (key) => {
+      const e = new Event("storage");
+      Object.defineProperty(e, "key", { value: key });
+      window.dispatchEvent(e);
+    };
+    storage("nihongo:learning:v1:life:one");
+    storage("nihongo:learning:v1:life:one-more");
+    storage("nihongo:learning:v1:other:one");
+    storage(null);
+    window.dispatchEvent(new Event("focus"));
+    window.dispatchEvent(new Event("pageshow"));
+    assert.equal(calls, 4);
+    dispose();
+    window.dispatchEvent(new Event("focus"));
+    storage("nihongo:learning:v1:life:one");
+    assert.equal(calls, 4);
+  } finally {
+    if (oldWindow === undefined) delete globalThis.window;
+    else globalThis.window = oldWindow;
+  }
+});
+
+test("loop changes affect the active playback and terminal queues cannot resume", async () => {
+  const pending = [];
+  let calls = 0,
+    resumes = 0;
+  const q = createQueue(
+    {
+      speak() {
+        calls++;
+        return new Promise((resolve, reject) => pending.push({ resolve, reject }));
+      },
+      stop() {},
+      pause() {},
+      resume() {
+        resumes++;
+      },
+    },
+    defaultSettings,
+    () => {},
+  );
+  const run = q.play([{ text: "loop" }], true);
+  q.setLoop(false);
+  pending.shift().resolve();
+  await run;
+  assert.equal(calls, 1);
+  assert.equal(q.getState().status, "idle");
+  const enabled = q.play([{ text: "loop" }]);
+  q.setLoop(true);
+  pending.shift().resolve();
+  await tick();
+  assert.equal(calls, 3);
+  q.setLoop(false);
+  pending.shift().resolve();
+  await enabled;
+  const failed = q.play([{ text: "error" }]);
+  q.pause();
+  pending.shift().reject(Error("failed"));
+  await failed;
+  q.resume();
+  assert.equal(q.getState().status, "error");
+  assert.equal(resumes, 0);
+  const ended = q.play([{ text: "last" }]);
+  q.pause();
+  pending.shift().resolve();
+  await ended;
+  q.resume();
+  assert.equal(q.getState().status, "idle");
+  assert.equal(resumes, 0);
+});
+
+test("a late VOICEVOX resume rejection cannot fail replacement audio", async () => {
+  const oldFetch = globalThis.fetch,
+    oldAudio = globalThis.Audio;
+  const instances = [];
+  let rejectResume;
+  globalThis.fetch = async (url) =>
+    new Response(String(url).includes("audio_query") ? "{}" : "wave");
+  globalThis.Audio = class {
+    constructor() {
+      this.plays = 0;
+      instances.push(this);
+    }
+    play() {
+      this.plays++;
+      if (instances[0] === this && this.plays === 2)
+        return new Promise((_, reject) => (rejectResume = reject));
+      return Promise.resolve();
+    }
+    pause() {}
+    removeAttribute() {}
+    load() {}
+  };
+  try {
+    const player = createVoicevoxPlayer();
+    const old = new AbortController();
+    const first = player.speak("old", 3, 1, old.signal);
+    const canceled = assert.rejects(first);
+    await tick();
+    player.pause();
+    player.resume();
+    old.abort();
+    await canceled;
+    const second = player.speak("new", 3, 1, new AbortController().signal);
+    await tick();
+    assert.equal(instances.length, 2);
+    rejectResume(Error("old resume failed"));
+    await tick();
+    assert.equal(typeof instances[1].onended, "function");
+    instances[1].onended();
+    await second;
+  } finally {
+    globalThis.fetch = oldFetch;
+    if (oldAudio === undefined) delete globalThis.Audio;
+    else globalThis.Audio = oldAudio;
+  }
+});
+
+test("speech setting persistence failure is visible and clears after successful saving", () =>
+  withNativeSpeech(async () => {
+    let blocked = true;
+    localStorage.setItem = () => {
+      if (blocked) throw Error("quota");
+    };
+    const runtime = createSpeechRuntime();
+    try {
+      runtime.configure({ rate: 0.8 });
+      assert.equal(runtime.getSnapshot().settings.rate, 0.8);
+      assert.equal(runtime.getSnapshot().settingsSaveFailed, true);
+      blocked = false;
+      runtime.configure({ rate: 1 });
+      assert.equal(runtime.getSnapshot().settingsSaveFailed, false);
+    } finally {
+      runtime.dispose();
+    }
+  }));

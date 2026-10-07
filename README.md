@@ -41,10 +41,12 @@ pnpm preview
 
 `pnpm build` 生成根路径静态网站，输出到 `dist/client`；`pnpm preview` 在 http://127.0.0.1:4173 预览。
 
-GitHub Pages 使用 `pnpm build:pages`，默认路径为 `/nihongo`。工作流在推送 `main` 后执行检查、构建和部署，PR 执行检查与构建。首次部署在仓库 Settings → Pages 选择 GitHub Actions；项目站点默认使用仓库名作为路径。根路径站点将 Actions 仓库变量 `PAGES_BASE_PATH` 设为 `/`，其他子路径设为 `/repo`。预览子路径构建时，设置与构建相同的 `PAGES_BASE_PATH`。
+GitHub Pages 使用 `pnpm build:pages`，未设置 `PAGES_BASE_PATH` 时使用当前项目目录名作为路径（本仓为 `/Useful-japanese`）。工作流在推送 `main` 后执行检查、构建和部署，PR 执行检查与构建。首次部署在仓库 Settings → Pages 选择 GitHub Actions；项目站点默认使用仓库名作为路径。根路径站点将 Actions 仓库变量 `PAGES_BASE_PATH` 设为 `/`，其他子路径设为 `/repo`。预览子路径构建时，设置与构建相同的 `PAGES_BASE_PATH`。
 
 语音可选择设备日语声音或 VOICEVOX。VOICEVOX 需在访问网站的设备上运行，默认地址为 `http://127.0.0.1:50021`，并允许网站 Origin 的连接；可通过 `.env.local` 中的 `VITE_VOICEVOX_URL` 修改地址，修改后重启开发服务或重新构建。在设置页检测并选择声音。
 
 学习记录和书面草稿保存在当前浏览器的 `localStorage` 中，按课程和课次区分。
 
 `src/generated`、`public/course-assets`、`dist`、`.vinext`、`.next` 和 `*.tsbuildinfo` 为生成物，无需提交。修改 Schema 后运行 `pnpm validate:content`，并一并提交生成的 `src/modules/catalog/domain/content.ts`。
+
+构建依赖 `braces@3.0.3` 暂无上游修复版，项目通过 pnpm 补丁将解析与 AST 遍历深度限制为 128，以缓解 GHSA-vfj7-8cjw-p6xm。安装必须使用仓库锁文件与补丁；普通 glob 行为由回归测试验证。依赖审计仍会按版本报告该告警，不能将其视为已经升级到官方修复版。

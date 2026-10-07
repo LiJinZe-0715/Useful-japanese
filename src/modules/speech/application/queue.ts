@@ -19,6 +19,7 @@ export function createQueue(
   let token = 0;
   let controller: AbortController | undefined;
   let paused = false;
+  let looping = false;
   let wake: (() => void) | undefined;
   let last: Segment[] = [];
   let state: QueueState = { status: "idle", index: 0, message: "" };
@@ -31,6 +32,7 @@ export function createQueue(
     controller?.abort();
     controller = undefined;
     paused = false;
+    looping = false;
     wake?.();
     wake = undefined;
     player.stop();
@@ -38,6 +40,7 @@ export function createQueue(
   }
   async function play(items: Segment[], loop = false) {
     stop();
+    looping = loop;
     last = items.filter((i) => i.text.trim());
     if (!last.length) return;
     const runItems = last;
@@ -57,7 +60,7 @@ export function createQueue(
           await player.speak(runItems[i], settings(), signal);
           if (current !== token || signal.aborted) return;
         }
-      } while (loop && current === token);
+      } while (looping && current === token);
       if (current === token)
         update({ status: "idle", activeSegmentId: undefined, message: "本次合成语音播放结束。" });
     } catch (error) {
@@ -67,11 +70,20 @@ export function createQueue(
           activeSegmentId: undefined,
           message: error instanceof Error ? error.message : String(error),
         });
+    } finally {
+      if (current === token) {
+        paused = false;
+        wake = undefined;
+        controller = undefined;
+      }
     }
   }
   return {
     play,
     stop,
+    setLoop(value: boolean) {
+      looping = value;
+    },
     replay: (loop = false) => play(last, loop),
     pause() {
       if (state.status !== "playing") return;
@@ -80,7 +92,7 @@ export function createQueue(
       update({ status: "paused" });
     },
     resume() {
-      if (!paused) return;
+      if (!paused || state.status !== "paused" || !controller) return;
       paused = false;
       player.resume();
       wake?.();

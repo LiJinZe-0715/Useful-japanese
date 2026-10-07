@@ -15,6 +15,7 @@ export function createSpeechRuntime() {
     connection: "未检测 VOICEVOX",
     state: { status: "idle", index: 0, message: "" } as QueueState,
     notice: "",
+    settingsSaveFailed: false,
   };
   const notify = () => {
     snapshot = { ...snapshot, settings };
@@ -54,6 +55,7 @@ export function createSpeechRuntime() {
     },
     () => settings,
     (state) => {
+      if (state.status === "playing" && snapshot.state.status === "idle") snapshot.notice = "";
       snapshot.state = state;
       notify();
     },
@@ -78,7 +80,8 @@ export function createSpeechRuntime() {
     configure(changes: Partial<SpeechSettings>) {
       queue.stop();
       settings = { ...settings, ...changes };
-      saveSettings(settings);
+      snapshot.notice = "";
+      snapshot.settingsSaveFailed = !saveSettings(settings);
       notify();
     },
     async detect() {
@@ -89,10 +92,12 @@ export function createSpeechRuntime() {
         const styles = await voicevox.detect(detection.signal);
         if (current !== detectionId) return;
         snapshot.styles = styles;
+        snapshot.notice = "";
         snapshot.connection = `VOICEVOX 已连接（${styles.length} 个风格）`;
         notify();
       } catch {
         if (current !== detectionId) return;
+        snapshot.styles = [];
         snapshot.connection =
           "VOICEVOX 未连接：请启动本机 Engine 并检查地址、CORS 与本地网络权限。";
         notify();

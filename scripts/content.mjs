@@ -7,6 +7,7 @@ import {
   copyFileSync,
   rmSync,
   statSync,
+  lstatSync,
   realpathSync,
 } from "node:fs";
 import path from "node:path";
@@ -52,6 +53,18 @@ export function discover(directory = path.join(root, "data/courses")) {
       file = path.join(folder, "course.json");
     if (!existsSync(file)) throw Error(`${file}: / missing course.json`);
     const course = read(file, "course", validators);
+    const assets = path.join(folder, "assets");
+    if (existsSync(assets)) {
+      if (lstatSync(assets).isSymbolicLink()) throw Error(`${assets}: symlinks not allowed`);
+      const checkAssets = (directory) => {
+        for (const child of readdirSync(directory, { withFileTypes: true })) {
+          const target = path.join(directory, child.name);
+          if (child.isSymbolicLink()) throw Error(`${target}: symlinks not allowed`);
+          if (child.isDirectory()) checkAssets(target);
+        }
+      };
+      checkAssets(assets);
+    }
     const fail = (f, field, message) => {
       throw Error(`${f}: ${field} ${message}`);
     };
@@ -222,6 +235,7 @@ export function generate() {
     `// Generated from schemas/*.schema.json. Edit schemas, then run validate:content.\nexport type Course = ${type(schemas.course)};\nexport type Lesson = ${type(schemas.lesson)};\nexport type CoursePackage = { course: Course; lessons: Lesson[] };\n`,
   );
   const copyAssets = (from, to) => {
+    if (lstatSync(from).isSymbolicLink()) throw Error(`${from}: symlinks not allowed`);
     mkdirSync(to, { recursive: true });
     for (const e of readdirSync(from, { withFileTypes: true })) {
       if (e.isSymbolicLink()) throw Error(`${from}/${e.name}: symlinks not allowed`);

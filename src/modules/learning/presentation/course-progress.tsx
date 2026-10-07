@@ -8,7 +8,10 @@ import { href } from "../../../shared/paths";
 export function CourseProgress({ course, lessons }: { course: Course; lessons: LessonSummary[] }) {
   const [records, setRecords] = useState<Record<string, StudyRecord>>({});
   useEffect(() => {
-    setRecords(Object.fromEntries(lessons.map((l) => [l.id, learning.load(course.id, l.id)])));
+    const refresh = () =>
+      setRecords(Object.fromEntries(lessons.map((l) => [l.id, learning.load(course.id, l.id)])));
+    refresh();
+    return learning.subscribe(course.id, "", refresh);
   }, [course.id, lessons]);
   const list = (items: LessonSummary[]) => (
     <ol className="lesson-list">

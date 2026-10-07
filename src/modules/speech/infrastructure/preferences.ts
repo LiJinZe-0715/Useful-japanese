@@ -30,10 +30,12 @@ export function loadSettings(): SpeechSettings {
   }
 }
 export function saveSettings(v: SpeechSettings) {
-  if (typeof window === "undefined") return;
+  if (typeof window === "undefined") return false;
   try {
     localStorage.setItem("nihongo:speech:v1", JSON.stringify(v));
+    return true;
   } catch {
     /* Reading remains available when persistence is blocked. */
+    return false;
   }
 }

@@ -8,6 +8,7 @@ import {
   rmSync,
   mkdirSync,
   renameSync,
+  symlinkSync,
 } from "node:fs";
 import path from "node:path";
 import os from "node:os";
@@ -79,9 +80,28 @@ function sandbox(fn) {
     cpSync(fixtures, root, { recursive: true });
     fn(root);
   } finally {
+    assert.equal(path.dirname(root), path.resolve(os.tmpdir()));
+    assert.ok(path.basename(root).startsWith("nihongo-test-"));
     rmSync(root, { recursive: true, force: true });
   }
 }
+
+test("asset roots and nested directories cannot be symbolic links or junctions", () =>
+  sandbox((root) => {
+    const assets = path.join(root, "legal-business/assets");
+    const real = path.join(root, ".actual-assets");
+    renameSync(assets, real);
+    symlinkSync(real, assets, process.platform === "win32" ? "junction" : "dir");
+    assert.throws(() => discover(root), /symlinks not allowed/);
+    rmSync(assets);
+    renameSync(real, assets);
+    symlinkSync(
+      assets,
+      path.join(assets, "nested"),
+      process.platform === "win32" ? "junction" : "dir",
+    );
+    assert.throws(() => discover(root), /symlinks not allowed/);
+  }));
 
 test("every dialogue variant references one learner by stable ID with actual lines", () =>
   sandbox((root) => {

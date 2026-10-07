@@ -1,9 +1,9 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { Course, Lesson } from "../domain/content";
 import { dialogueSegmentId, isDialogueLineActive } from "../application/dialogue-playback";
 import { learning } from "../../../bootstrap/learning";
-import { emptyRecord } from "../../learning/domain/record";
+import { emptyRecord, mergeRecord, type StudyRecord } from "../../learning/domain/record";
 import {
   AudioControls,
   SpeakButton,
@@ -44,6 +44,17 @@ export function LessonView({
   const [record, setRecord] = useState(emptyRecord);
   const [loaded, setLoaded] = useState(false);
   const [saveFailed, setSaveFailed] = useState(false);
+  const recordRef = useRef(record);
+  const baseline = useRef<StudyRecord | undefined>(undefined);
+  const updateRecord = (edit: (current: StudyRecord) => StudyRecord) => {
+    const next = edit(recordRef.current);
+    const saved = learning.save(course.id, lesson.id, next, baseline.current);
+    setSaveFailed(!saved);
+    const current = saved ? learning.load(course.id, lesson.id) : next;
+    if (saved) baseline.current = current;
+    recordRef.current = current;
+    setRecord(current);
+  };
   const sectionLinks = [
     { id: "objectives", title: "目标", available: !!lesson.objectives.length },
     {
@@ -73,13 +84,18 @@ export function LessonView({
     [selected, setSelected] = useState<string[]>([]),
     [loop, setLoop] = useState(false);
   useEffect(() => {
-    setRecord(learning.load(course.id, lesson.id));
-    setLoaded(true);
+    const refresh = () => {
+      const fresh = learning.load(course.id, lesson.id);
+      const current = mergeRecord(fresh, recordRef.current, baseline.current ?? recordRef.current);
+      baseline.current = fresh;
+      recordRef.current = current;
+      setRecord(current);
+      setLoaded(true);
+    };
+    refresh();
+    return learning.subscribe(course.id, lesson.id, refresh);
   }, [course.id, lesson.id]);
   useEffect(() => () => runtime?.queue.stop(), [runtime]);
-  useEffect(() => {
-    if (loaded) setSaveFailed(!learning.save(course.id, lesson.id, record));
-  }, [course.id, lesson.id, record, loaded]);
   const dialogue = lesson.dialogues?.find((d) => d.id === dialogueId);
   const learner = lesson.speakers?.find((speaker) => speaker.id === lesson.learnerSpeakerId);
   const roleKey = (id: string) => `${course.id}:${lesson.id}:${id}`;
@@ -97,16 +113,17 @@ export function LessonView({
     .filter((l) => !selected.length || selected.includes(l.id))
     .map((l) => segment(l));
   const openSection = (id: string) => {
+    id = sectionLinks.find((item) => item.id === id)?.id ?? sectionLinks[0]?.id ?? "";
     runtime?.queue.stop();
     setActiveSection(id);
-    setRecord((r) => ({ ...r, position: id }));
+    updateRecord((r) => ({ ...r, position: id }));
     requestAnimationFrame(() => document.getElementById(id)?.scrollIntoView({ block: "start" }));
   };
   const section = (id: string, title: string, children: React.ReactNode) => (
     <section
       id={id}
       hidden={activeSection !== id}
-      onFocus={() => setRecord((r) => ({ ...r, position: id }))}
+      onFocus={() => updateRecord((r) => ({ ...r, position: id }))}
     >
       <p className="eyebrow">
         {String(sectionLinks.findIndex((item) => item.id === id) + 1).padStart(2, "0")} /{" "}
@@ -140,13 +157,15 @@ export function LessonView({
       <div className="controls lesson-toolbar">
         <button
           aria-pressed={record.bookmarked}
-          onClick={() => setRecord((r) => ({ ...r, bookmarked: !r.bookmarked }))}
+          disabled={!loaded}
+          onClick={() => updateRecord((r) => ({ ...r, bookmarked: !r.bookmarked }))}
         >
           {record.bookmarked ? "已收藏" : "收藏"}
         </button>
         <button
           aria-pressed={record.completed}
-          onClick={() => setRecord((r) => ({ ...r, completed: !r.completed }))}
+          disabled={!loaded}
+          onClick={() => updateRecord((r) => ({ ...r, completed: !r.completed }))}
         >
           {record.completed ? "已学过 ✓" : "标记学过"}
         </button>
@@ -245,7 +264,14 @@ export function LessonView({
                     ))}
                   </select>
                 </label>
-                <AudioControls items={items} loop={loop} onLoop={setLoop} />
+                <AudioControls
+                  items={items}
+                  loop={loop}
+                  onLoop={(value) => {
+                    setLoop(value);
+                    runtime?.queue.setLoop(value);
+                  }}
+                />
                 <p className="muted">
                   未选择句子时播放整段；勾选句子后播放选定片段。声音为合成语音。
                 </p>
@@ -483,7 +509,7 @@ export function LessonView({
                     </ul>
                   </div>
                 ))}
-              {h.functions?.length && (
+              {!!h.functions?.length && (
                 <p>
                   沟通功能：
                   {h.functions
@@ -495,9 +521,13 @@ export function LessonView({
                 <label>
                   个人草稿（仅保存在本设备）
                   <textarea
-                    value={record.drafts[h.id] ?? ""}
+                    disabled={!loaded}
+                    value={Object.hasOwn(record.drafts, h.id) ? record.drafts[h.id] : ""}
                     onChange={(e) =>
-                      setRecord((r) => ({ ...r, drafts: { ...r.drafts, [h.id]: e.target.value } }))
+                      updateRecord((r) => ({
+                        ...r,
+                        drafts: { ...r.drafts, [h.id]: e.target.value },
+                      }))
                     }
                   />
                 </label>

@@ -7,6 +7,9 @@ export function SpeechStatus() {
     <>
       {speech?.snapshot.state.message && <p role="status">{speech.snapshot.state.message}</p>}
       {speech?.snapshot.notice && <p role="status">{speech.snapshot.notice}</p>}
+      {speech?.snapshot.settingsSaveFailed && (
+        <p role="alert">语音设置保存失败，当前设置仅在本页有效，刷新或离开页面后可能恢复旧设置。</p>
+      )}
     </>
   );
 }

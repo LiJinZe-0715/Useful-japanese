@@ -30,9 +30,11 @@ export function createVoicevoxPlayer(baseURL = VOICEVOX_URL, timeout = 15000) {
     },
     resume() {
       paused = false;
-      void audio
-        ?.play()
-        .catch((error) => playbackError?.(error instanceof Error ? error : Error(String(error))));
+      const current = audio;
+      const fail = playbackError;
+      void current?.play().catch((error) => {
+        if (audio === current) fail?.(error instanceof Error ? error : Error(String(error)));
+      });
     },
     async detect(signal: AbortSignal): Promise<Style[]> {
       const version = await request("/version", { signal }, (r) => r.json());

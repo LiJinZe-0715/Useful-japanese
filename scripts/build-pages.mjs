@@ -12,7 +12,8 @@ import path from "node:path";
 import { generate } from "./content.mjs";
 generate();
 const configuredBase =
-  process.env.PAGES_BASE_PATH ?? (process.argv.includes("--root") ? "" : "/nihongo");
+  process.env.PAGES_BASE_PATH ??
+  (process.argv.includes("--root") ? "" : `/${path.basename(process.cwd())}`);
 const base = configuredBase === "/" ? "" : configuredBase;
 if (base !== "" && !/^\/[A-Za-z0-9._-]+(?:\/[A-Za-z0-9._-]+)*$/.test(base))
   throw Error("PAGES_BASE_PATH must be empty or an absolute path without trailing slash");
@@ -32,7 +33,8 @@ writeFileSync("dist/client/.nojekyll", "");
 function directoryIndexes(folder) {
   for (const entry of readdirSync(folder, { withFileTypes: true })) {
     const file = path.join(folder, entry.name);
-    if (entry.isDirectory()) directoryIndexes(file);
+    if (entry.isDirectory() && !["course-assets", "_next"].includes(entry.name))
+      directoryIndexes(file);
     else if (entry.name.endsWith(".html") && !["index.html", "404.html"].includes(entry.name)) {
       const target = file.slice(0, -5);
       mkdirSync(target, { recursive: true });
