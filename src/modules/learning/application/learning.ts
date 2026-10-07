@@ -1,7 +1,7 @@
 import { emptyRecord, recordKey, type StudyRecord } from "../domain/record.ts";
 export interface RecordStore {
   read(key: string): StudyRecord | undefined;
-  write(key: string, value: StudyRecord): void;
+  write(key: string, value: StudyRecord): boolean;
 }
 export function createLearning(store: RecordStore) {
   return {

@@ -4,7 +4,12 @@ import type { Course, Lesson } from "../domain/content";
 import { dialogueSegmentId, isDialogueLineActive } from "../application/dialogue-playback";
 import { learning } from "../../../bootstrap/learning";
 import { emptyRecord } from "../../learning/domain/record";
-import { AudioControls, SpeakButton, VoiceSettings } from "../../speech/presentation/controls";
+import {
+  AudioControls,
+  SpeakButton,
+  SpeechStatus,
+  VoiceSettings,
+} from "../../speech/presentation/controls";
 import { useSpeech } from "../../speech/presentation/provider";
 import { href } from "../../../shared/paths";
 type Example = { ja: string; zh?: string; ttsText?: string };
@@ -38,6 +43,7 @@ export function LessonView({
   const runtime = speech?.runtime;
   const [record, setRecord] = useState(emptyRecord);
   const [loaded, setLoaded] = useState(false);
+  const [saveFailed, setSaveFailed] = useState(false);
   const sectionLinks = [
     { id: "objectives", title: "目标", available: !!lesson.objectives.length },
     {
@@ -69,10 +75,10 @@ export function LessonView({
   useEffect(() => {
     setRecord(learning.load(course.id, lesson.id));
     setLoaded(true);
-    return () => runtime?.queue.stop();
-  }, [course.id, lesson.id, runtime]);
+  }, [course.id, lesson.id]);
+  useEffect(() => () => runtime?.queue.stop(), [runtime]);
   useEffect(() => {
-    if (loaded) learning.save(course.id, lesson.id, record);
+    if (loaded) setSaveFailed(!learning.save(course.id, lesson.id, record));
   }, [course.id, lesson.id, record, loaded]);
   const dialogue = lesson.dialogues?.find((d) => d.id === dialogueId);
   const learner = lesson.speakers?.find((speaker) => speaker.id === lesson.learnerSpeakerId);
@@ -157,9 +163,13 @@ export function LessonView({
         )}
       </div>
       <p className="muted">“已学过”仅记录学习经历，不代表语言能力分数。</p>
+      {saveFailed && (
+        <p role="alert">
+          学习记录保存失败，当前修改仅保留在本页。请先复制书面草稿，刷新或离开页面会丢失未保存的内容。
+        </p>
+      )}
       <VoiceSettings roles={lesson.speakers?.map((s) => ({ id: roleKey(s.id), name: s.name }))} />
-      {speech?.snapshot.state.message && <p role="status">{speech.snapshot.state.message}</p>}
-      {speech?.snapshot.notice && <p role="status">{speech.snapshot.notice}</p>}
+      <SpeechStatus />
       <nav className="lesson-tabs" aria-label="本课学习环节">
         {sectionLinks.map((item, index) => (
           <button

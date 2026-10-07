@@ -3,7 +3,7 @@ import type { ReactNode } from "react";
 import { usePathname } from "next/navigation";
 import type { Course } from "../domain/content";
 import { lessonGroups, type LessonSummary } from "../application/catalog";
-import { href } from "../../../shared/paths";
+import { href, isWithinRoute } from "../../../shared/paths";
 
 export function LearningShell({
   courses,
@@ -13,10 +13,10 @@ export function LearningShell({
   children: ReactNode;
 }) {
   const pathname = usePathname();
-  const current = courses.find(({ course }) => pathname.includes(`/courses/${course.id}`));
+  const current = courses.find(({ course }) => isWithinRoute(pathname, `/courses/${course.id}`));
   const selected =
     current ??
-    (pathname.includes("/vocabulary")
+    (isWithinRoute(pathname, "/vocabulary")
       ? courses.find(({ course }) => course.learningMode === "business")
       : undefined) ??
     courses[0];
@@ -30,7 +30,7 @@ export function LearningShell({
         <nav className="workspace-links" aria-label="平台导航">
           <a
             href={href("/vocabulary/")}
-            aria-current={pathname.includes("/vocabulary") ? "page" : undefined}
+            aria-current={isWithinRoute(pathname, "/vocabulary") ? "page" : undefined}
           >
             商务与职场词汇 <span aria-hidden="true">↗</span>
           </a>
@@ -40,7 +40,10 @@ export function LearningShell({
           >
             课程总览 <span aria-hidden="true">↗</span>
           </a>
-          <a href={href("/guide/")} aria-current={pathname.includes("/guide") ? "page" : undefined}>
+          <a
+            href={href("/guide/")}
+            aria-current={isWithinRoute(pathname, "/guide") ? "page" : undefined}
+          >
             内容格式指南 <span aria-hidden="true">↗</span>
           </a>
         </nav>
@@ -68,9 +71,9 @@ export function LearningShell({
                 className="sidebar-chapter"
                 open={
                   group.lessons.some((l) =>
-                    pathname.includes(`/courses/${selected.course.id}/${l.id}`),
+                    isWithinRoute(pathname, `/courses/${selected.course.id}/${l.id}`),
                   ) ||
-                  (!pathname.includes(`/courses/${selected.course.id}/`) && index === 0)
+                  (!isWithinRoute(pathname, `/courses/${selected.course.id}`) && index === 0)
                 }
               >
                 <summary>
@@ -83,7 +86,7 @@ export function LearningShell({
                 <div className="sidebar-lessons">
                   {group.lessons.map((lesson, i) => {
                     const route = `/courses/${selected.course.id}/${lesson.id}`;
-                    const active = pathname.replace(/\/$/, "").endsWith(route);
+                    const active = isWithinRoute(pathname, route);
                     return (
                       <a
                         key={lesson.id}

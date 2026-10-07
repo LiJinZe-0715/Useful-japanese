@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { href } from "../src/shared/paths.ts";
+import { href, isWithinRoute } from "../src/shared/paths.ts";
 test("development config uses one normalized base for navigation and assetPrefix", async () => {
   const oldBase = process.env.PAGES_BASE_PATH;
   const oldPublic = process.env.NEXT_PUBLIC_BASE_PATH;
@@ -31,5 +31,28 @@ test("development config uses one normalized base for navigation and assetPrefix
     else process.env.PAGES_BASE_PATH = oldBase;
     if (oldPublic === undefined) delete process.env.NEXT_PUBLIC_BASE_PATH;
     else process.env.NEXT_PUBLIC_BASE_PATH = oldPublic;
+  }
+});
+test("navigation matches path segments without confusing course or lesson prefixes", () => {
+  const oldBase = process.env.NEXT_PUBLIC_BASE_PATH;
+  try {
+    for (const base of ["", "/nihongo"]) {
+      process.env.NEXT_PUBLIC_BASE_PATH = base;
+      for (const prefix of new Set(["", base])) {
+        for (const suffix of ["", "/"]) {
+          const pathname = `${prefix}/courses/audit-business/audit-60${suffix}`;
+          assert.equal(isWithinRoute(pathname, "/courses/audit-business"), true);
+          assert.equal(isWithinRoute(pathname, "/courses/audit-business/audit-60"), true);
+          assert.equal(isWithinRoute(pathname, "/courses/audit-business/audit-6"), false);
+          assert.equal(isWithinRoute(pathname, "/courses/audit"), false);
+        }
+        assert.equal(isWithinRoute(`${prefix}/courses/life-demo/`, "/courses/life"), false);
+        assert.equal(isWithinRoute(`${prefix}/courses/life-demo/`, "/courses/life-demo"), true);
+        assert.equal(isWithinRoute(`${prefix}/vocabulary/`, "/vocabulary"), true);
+      }
+    }
+  } finally {
+    if (oldBase === undefined) delete process.env.NEXT_PUBLIC_BASE_PATH;
+    else process.env.NEXT_PUBLIC_BASE_PATH = oldBase;
   }
 });

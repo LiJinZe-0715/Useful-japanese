@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 import { createQueue } from "../src/modules/speech/application/queue.ts";
 import { chooseVoice, defaultSettings } from "../src/modules/speech/domain/speech.ts";
 import { createLearning } from "../src/modules/learning/application/learning.ts";
+import { localRecordStore } from "../src/modules/learning/infrastructure/local-record-store.ts";
 import { createBrowserPlayer } from "../src/modules/speech/infrastructure/browser.ts";
 import { createVoicevoxPlayer } from "../src/modules/speech/infrastructure/voicevox.ts";
 import { createSpeechRuntime } from "../src/bootstrap/speech.ts";
@@ -305,14 +306,56 @@ test("dialogue highlight follows the playing identity, not queue index, selected
 });
 test("records isolated by course and lesson", () => {
   const data = new Map();
-  const service = createLearning({ read: (k) => data.get(k), write: (k, v) => data.set(k, v) });
+  const service = createLearning({
+    read: (k) => data.get(k),
+    write: (k, v) => {
+      data.set(k, v);
+      return true;
+    },
+  });
   const v = service.load("law", "one");
   v.completed = true;
   v.drafts.answer = "例";
-  service.save("law", "one", v);
+  assert.equal(service.save("law", "one", v), true);
   assert.equal(service.load("law", "one").completed, true);
   assert.equal(service.load("life", "one").completed, false);
   assert.equal(service.load("law", "two").drafts.answer, undefined);
+});
+test("learning save reports storage failure, preserves the draft and can recover", () => {
+  const oldWindow = globalThis.window;
+  const oldStorage = Object.getOwnPropertyDescriptor(globalThis, "localStorage");
+  const data = new Map();
+  let blocked = true;
+  globalThis.window = {};
+  Object.defineProperty(globalThis, "localStorage", {
+    configurable: true,
+    value: {
+      getItem: (key) => data.get(key) ?? null,
+      setItem(key, value) {
+        if (blocked) throw new DOMException("Storage full", "QuotaExceededError");
+        data.set(key, value);
+      },
+    },
+  });
+  try {
+    const service = createLearning(localRecordStore);
+    const record = service.load("law", "one");
+    record.drafts.answer = "未保存的书面答案";
+    record.completed = true;
+    assert.equal(service.save("law", "one", record), false);
+    assert.equal(record.drafts.answer, "未保存的书面答案");
+    assert.equal(service.load("law", "one").drafts.answer, undefined);
+    blocked = false;
+    assert.equal(service.save("law", "one", record), true);
+    assert.deepEqual(service.load("law", "one"), record);
+    delete globalThis.window;
+    assert.equal(service.save("law", "one", record), false);
+  } finally {
+    if (oldWindow === undefined) delete globalThis.window;
+    else globalThis.window = oldWindow;
+    if (oldStorage === undefined) delete globalThis.localStorage;
+    else Object.defineProperty(globalThis, "localStorage", oldStorage);
+  }
 });
 test("cancel and late completion cannot restart old queue; replay supersedes", async () => {
   const pending = [];

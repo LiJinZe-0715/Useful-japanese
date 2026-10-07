@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import type { Lesson } from "../domain/content";
-import { SpeakButton } from "../../speech/presentation/controls";
+import { SpeakButton, SpeechStatus, VoiceSettings } from "../../speech/presentation/controls";
 import { href } from "../../../shared/paths";
 
 type Entry = NonNullable<Lesson["vocabulary"]>[number] & {
@@ -60,6 +60,8 @@ export function VocabularyView({
           <span className="tag">按场景保留词汇用法</span>
         </div>
       </div>
+      <VoiceSettings />
+      <SpeechStatus />
       <section aria-label="词汇检索">
         <div className="controls">
           <label>

@@ -22,11 +22,13 @@ export const localRecordStore: RecordStore = {
     return undefined;
   },
   write(key, value) {
-    if (typeof window === "undefined") return;
+    if (typeof window === "undefined") return false;
     try {
       localStorage.setItem(key, JSON.stringify(value));
+      return true;
     } catch {
       /* Private mode / quota: retain current in-memory record. */
+      return false;
     }
   },
 };

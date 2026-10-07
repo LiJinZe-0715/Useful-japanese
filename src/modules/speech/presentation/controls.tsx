@@ -1,6 +1,15 @@
 "use client";
 import type { Segment, Voice } from "../domain/speech";
 import { useSpeech } from "./provider";
+export function SpeechStatus() {
+  const speech = useSpeech();
+  return (
+    <>
+      {speech?.snapshot.state.message && <p role="status">{speech.snapshot.state.message}</p>}
+      {speech?.snapshot.notice && <p role="status">{speech.snapshot.notice}</p>}
+    </>
+  );
+}
 export function SpeakButton({
   text,
   voice,

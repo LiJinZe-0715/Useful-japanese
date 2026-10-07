@@ -73,6 +73,7 @@ test("real Vinext static rendering of business, life, preparation and empty prod
     const glossary = html("vocabulary");
     assert.match(glossary, /商务与职场词汇/);
     assert.match(glossary, /全部主题/);
+    assert.match(glossary, /合成语音设置/);
     const fixture = JSON.parse(
       readFileSync("tests/fixtures/courses/legal-business/lessons/example-scene.json", "utf8"),
     );
