@@ -219,48 +219,53 @@ test("missing folder manifests fail and disabled courses still validate", () =>
     mkdirSync(path.join(root, "missing"));
     assert.throws(() => discover(root), /missing.*course.json/);
   }));
-test("N2 sections and grammar follow v1 and declared course levels", () =>
-  sandbox((root) => {
-    const folder = path.join(root, "life-demo");
-    const manifest = path.join(folder, "course.json");
-    const course = JSON.parse(readFileSync(manifest));
-    course.levels.push("N2");
-    course.units = [{ id: "n2", title: "N2", order: 4 }];
-    writeFileSync(manifest, JSON.stringify(course));
-    const original = path.join(folder, "lessons/example-scene.json");
-    const lesson = JSON.parse(readFileSync(original));
-    lesson.id = "n2-1";
-    lesson.unitId = "n2";
-    lesson.level = "N2";
-    lesson.grammar = [
-      {
-        id: "contrast",
-        pattern: "〜にもかかわらず",
-        level: "N2",
-        meaning: "尽管如此",
-        connection: "普通形＋にもかかわらず",
-        notes: [],
-        examples: [
-          { ja: "雨にもかかわらず、参加者は集まりました。", zh: "尽管下雨，参与者仍聚集了。" },
-        ],
-      },
-    ];
-    mkdirSync(path.join(folder, "lessons/n2"));
-    const file = path.join(folder, "lessons/n2/1.json");
-    writeFileSync(original, JSON.stringify(lesson));
-    renameSync(original, file);
-    const found = discover(root).find((p) => p.course.id === "life-demo");
-    assert.equal(found.lessons.find((l) => l.id === "n2-1").grammar[0].level, "N2");
-    assert.deepEqual(
-      lessonGroups(found.course, summarizeLessons(found.lessons))
-        .find((g) => g.id === "n2")
-        .lessons.map((l) => l.id),
-      ["n2-1"],
-    );
-    course.levels = ["N5"];
-    writeFileSync(manifest, JSON.stringify(course));
-    assert.throws(() => discover(root), /n2[\\/]1.json: \/level not declared in course.levels/);
-  }));
+for (const level of ["N2", "N1"])
+  test(`${level} sections and grammar follow v1 and declared course levels`, () =>
+    sandbox((root) => {
+      const unitId = level.toLowerCase();
+      const folder = path.join(root, "life-demo");
+      const manifest = path.join(folder, "course.json");
+      const course = JSON.parse(readFileSync(manifest));
+      course.levels.push(level);
+      course.units = [{ id: unitId, title: level, order: 4 }];
+      writeFileSync(manifest, JSON.stringify(course));
+      const original = path.join(folder, "lessons/example-scene.json");
+      const lesson = JSON.parse(readFileSync(original));
+      lesson.id = `${unitId}-1`;
+      lesson.unitId = unitId;
+      lesson.level = level;
+      lesson.grammar = [
+        {
+          id: "contrast",
+          pattern: "〜にもかかわらず",
+          level: level,
+          meaning: "尽管如此",
+          connection: "普通形＋にもかかわらず",
+          notes: [],
+          examples: [
+            { ja: "雨にもかかわらず、参加者は集まりました。", zh: "尽管下雨，参与者仍聚集了。" },
+          ],
+        },
+      ];
+      mkdirSync(path.join(folder, `lessons/${unitId}`));
+      const file = path.join(folder, `lessons/${unitId}/1.json`);
+      writeFileSync(original, JSON.stringify(lesson));
+      renameSync(original, file);
+      const found = discover(root).find((p) => p.course.id === "life-demo");
+      assert.equal(found.lessons.find((l) => l.id === `${unitId}-1`).grammar[0].level, level);
+      assert.deepEqual(
+        lessonGroups(found.course, summarizeLessons(found.lessons))
+          .find((g) => g.id === unitId)
+          .lessons.map((l) => l.id),
+        [`${unitId}-1`],
+      );
+      course.levels = ["N5"];
+      writeFileSync(manifest, JSON.stringify(course));
+      assert.throws(
+        () => discover(root),
+        new RegExp(`${unitId}[\\\\/]1.json: /level not declared in course.levels`),
+      );
+    }));
 test("chapter filename prefixes preserve stable lesson IDs and reject unrelated names", () =>
   sandbox((root) => {
     const folder = path.join(root, "life-demo");

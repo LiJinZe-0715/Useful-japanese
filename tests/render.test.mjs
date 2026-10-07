@@ -71,7 +71,7 @@ test("real Vinext static rendering of business, life, preparation and empty prod
     assert.doesNotMatch(directory, /確認します|確認してください|課後|dialogues|grammar|homework/);
     assert.doesNotMatch(directory, /(?:"|\\")vocabulary(?:"|\\")\s*:/);
     const glossary = html("vocabulary");
-    assert.match(glossary, /开发与职场词汇/);
+    assert.match(glossary, /商务与职场词汇/);
     assert.match(glossary, /全部主题/);
     const fixture = JSON.parse(
       readFileSync("tests/fixtures/courses/legal-business/lessons/example-scene.json", "utf8"),
@@ -100,7 +100,34 @@ test("real Vinext static rendering of business, life, preparation and empty prod
     build(false, "");
   }
   const production = JSON.parse(readFileSync("src/generated/catalog.json", "utf8"));
+  const n1 = production
+    .find(({ course }) => course.id === "life")
+    .lessons.filter((l) => l.level === "N1");
+  const lifeDirectory = html("courses/life");
+  assert.match(lifeDirectory, /N1：深入生活与多角度表达/);
+  for (const lesson of n1) {
+    assert.ok(lifeDirectory.includes(`/courses/life/${lesson.id}/`), lesson.id);
+    const page = html(`courses/life/${lesson.id}`);
+    assert.ok(page.includes(lesson.title), lesson.id);
+    assert.ok(page.includes(lesson.materials[0].blocks[1].ja), `${lesson.id}: original reading`);
+    assert.match(page, /课后作业与参考答案/);
+  }
   const glossary = html("vocabulary");
+  const auditCourse = production.find(({ course }) => course.id === "audit-business");
+  assert.match(html(""), /审计商务日语/);
+  assert.match(html("courses/audit-business"), /86 节主课/);
+  for (const lesson of auditCourse.lessons) {
+    const page = html(`courses/audit-business/${lesson.id}`);
+    assert.ok(page.includes(lesson.title), lesson.id);
+    assert.ok(page.includes(lesson.dialogues[0].lines[0].ja), `${lesson.id}: original dialogue`);
+    if (lesson.id.startsWith("audit-")) {
+      assert.match(page, /<details><summary>查看听力原文<\/summary>/);
+      assert.match(page, /播放听力/);
+      assert.match(page, /本课文法/);
+      for (const grammar of lesson.grammar)
+        assert.ok(page.includes(grammar.pattern), `${lesson.id}: grammar`);
+    }
+  }
   for (const { course, lessons } of production.filter(
     ({ course }) => course.learningMode === "business",
   )) {

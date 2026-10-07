@@ -32,7 +32,7 @@
     "levels": {
       "type": "array",
       "items": {
-        "enum": ["N5", "N4", "N3", "N2"]
+        "enum": ["N5", "N4", "N3", "N2", "N1"]
       }
     },
     "units": {

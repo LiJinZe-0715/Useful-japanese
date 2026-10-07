@@ -45,8 +45,8 @@ export function VocabularyView({
     <>
       <div className="page-heading">
         <div>
-          <p className="eyebrow">DEVELOPMENT / WORKPLACE VOCABULARY</p>
-          <h1>开发与职场词汇</h1>
+          <p className="eyebrow">BUSINESS / WORKPLACE VOCABULARY</p>
+          <h1>商务与职场词汇</h1>
           <p className="page-description">
             把术语放进能直接说出口的工作句子里。读词、听例句，再回到课文练习沟通。
           </p>
@@ -67,7 +67,7 @@ export function VocabularyView({
             <input
               type="search"
               value={query}
-              placeholder="Java、事务、認証、にんしょう…"
+              placeholder="Java、監査、证据、しさんひょう…"
               onChange={(event) => setQuery(event.target.value)}
             />
           </label>

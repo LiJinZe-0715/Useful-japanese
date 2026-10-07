@@ -54,7 +54,7 @@ export function LessonView({
     {
       id: "grammar",
       title: "文法",
-      available: course.learningMode === "life" && !!lesson.grammar?.length,
+      available: !!lesson.grammar?.length,
     },
     { id: "homework", title: "作业", available: !!lesson.homework?.length },
   ].filter((item) => item.available);
@@ -281,10 +281,24 @@ export function LessonView({
                 {m.blocks.map((b, i) =>
                   b.type === "paragraph" ? (
                     <div className="material-paragraph" key={i}>
-                      <p lang="ja">{b.ja}</p>
-                      {reading && b.reading && <p className="reading">{b.reading}</p>}
-                      {showZh && b.zh && <p className="translation">{b.zh}</p>}
-                      <SpeakButton text={b.ttsText ?? b.ja} />
+                      {b.hideTranscript ? (
+                        <details>
+                          <summary>查看听力原文</summary>
+                          <p lang="ja">{b.ja}</p>
+                          {reading && b.reading && <p className="reading">{b.reading}</p>}
+                          {showZh && b.zh && <p className="translation">{b.zh}</p>}
+                        </details>
+                      ) : (
+                        <>
+                          <p lang="ja">{b.ja}</p>
+                          {reading && b.reading && <p className="reading">{b.reading}</p>}
+                          {showZh && b.zh && <p className="translation">{b.zh}</p>}
+                        </>
+                      )}
+                      <SpeakButton
+                        text={b.ttsText ?? b.ja}
+                        label={b.hideTranscript ? "播放听力" : "朗读"}
+                      />
                     </div>
                   ) : b.type === "list" ? (
                     <ul key={i}>
@@ -408,8 +422,7 @@ export function LessonView({
             </div>
           )),
         )}
-      {course.learningMode === "life" &&
-        !!lesson.grammar?.length &&
+      {!!lesson.grammar?.length &&
         section(
           "grammar",
           "本课文法",
@@ -417,7 +430,8 @@ export function LessonView({
             <div className="entry rule-entry" key={g.id}>
               <div className="rule-heading">
                 <span className="entry-number">
-                  文法 {String(i + 1).padStart(2, "0")} · {g.level}
+                  文法 {String(i + 1).padStart(2, "0")}
+                  {g.level ? ` · ${g.level}` : ""}
                 </span>
                 <h3 lang="ja">{g.pattern}</h3>
                 <p className="entry-meaning">{g.meaning}</p>

@@ -24,7 +24,7 @@
       "minLength": 1
     },
     "level": {
-      "enum": ["N5", "N4", "N3", "N2"]
+      "enum": ["N5", "N4", "N3", "N2", "N1"]
     },
     "kind": {
       "enum": ["scene", "preparation"]
@@ -184,6 +184,9 @@
                   "properties": {
                     "type": {
                       "const": "paragraph"
+                    },
+                    "hideTranscript": {
+                      "type": "boolean"
                     },
                     "ja": {
                       "type": "string",
@@ -463,7 +466,7 @@
             "minLength": 1
           },
           "level": {
-            "enum": ["N5", "N4", "N3", "N2"]
+            "enum": ["N5", "N4", "N3", "N2", "N1"]
           },
           "meaning": {
             "type": "string",

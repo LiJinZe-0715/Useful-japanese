@@ -32,7 +32,7 @@ export function LearningShell({
             href={href("/vocabulary/")}
             aria-current={pathname.includes("/vocabulary") ? "page" : undefined}
           >
-            开发与职场词汇 <span aria-hidden="true">↗</span>
+            商务与职场词汇 <span aria-hidden="true">↗</span>
           </a>
           <a
             href={href("/")}

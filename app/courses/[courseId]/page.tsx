@@ -57,8 +57,43 @@ export default async function CoursePage({ params }: { params: Promise<{ courseI
             </li>
           </ul>
           <p>
-            需要查说法时，打开<a href={href("/vocabulary/")}>全部开发与职场词汇</a>
+            需要查说法时，打开<a href={href("/vocabulary/")}>全部商务与职场词汇</a>
             ，按关键词或主题查找，再回到相应课文练习。
+          </p>
+        </section>
+      )}
+      {p.course.id === "audit-business" && (
+        <section aria-label="审计日语学习路线">
+          <h2>同一审计事实，分别对客户、对内部和写入底稿</h2>
+          <p>
+            86 节主课按原学习日推进，20 节补充专题插在对应主课之后，共 106 节。
+            先完成现场对话，再切换表达对象，练习已确认、未完成、计划与判断条件的区别。
+          </p>
+          <ul>
+            <li>
+              <a href={href("/courses/audit-business/audit-1/")}>现场启动与审计思维</a>
+              ：资料、版本、范围、风险、证据与抽样。
+            </li>
+            <li>
+              <a href={href("/courses/audit-business/audit-14/")}>业务循环</a>
+              ：现金银行、收入应收、采购费用、应付与存货。
+            </li>
+            <li>
+              <a href={href("/courses/audit-business/audit-48/")}>重点科目与期末</a>
+              ：固定资产、工资、估计、结账与特殊事项。
+            </li>
+            <li>
+              <a href={href("/courses/audit-business/audit-73/")}>发现、底稿与复核</a>
+              ：记录事实、说明影响、提出调整及回应复核。
+            </li>
+            <li>
+              <a href={href("/courses/audit-business/audit-82/")}>连续五课综合结项</a>
+              ：跟踪同一客户的资料、检查、调整、复核和最终汇报。
+            </li>
+          </ul>
+          <p>
+            盲听原文默认折叠，先播放听力并完成作业，再查看原文与答案。 查术语可打开
+            <a href={href("/vocabulary/")}>商务与职场词汇</a>，按审计章节筛选。
           </p>
         </section>
       )}
