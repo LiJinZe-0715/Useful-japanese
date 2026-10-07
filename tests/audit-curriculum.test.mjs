@@ -41,7 +41,7 @@ test("audit course keeps 86 learning days and inserts all 20 supplements in 12 c
   }
 });
 
-test("import preserves every source training text, including amounts, qualifiers and answers", () => {
+test("audit course preserves imported training text and reviewed content corrections", () => {
   assert.equal(baseline.lessons.length, 106);
   for (const expected of baseline.lessons) {
     const lesson = pack.lessons.find((l) => l.id === expected.id);
