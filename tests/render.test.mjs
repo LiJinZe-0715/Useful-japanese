@@ -17,7 +17,7 @@ const build = (fixtures, base) => {
 };
 const html = (route) => readFileSync(path.join("dist/client", route, "index.html"), "utf8");
 test("CI base-path expression uses explicit slash for root and defaults empty/unset to project site", () => {
-  const workflow = readFileSync(".github/workflows/pages.yml", "utf8");
+  const workflow = readFileSync(".github/workflows/deploy-pages.yml", "utf8");
   assert.ok(
     workflow.includes(
       "${{ vars.PAGES_BASE_PATH || format('/{0}', github.event.repository.name) }}",
