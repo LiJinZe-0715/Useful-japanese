@@ -659,14 +659,14 @@
       "usage": "3A N5基础词汇",
       "examples": [
         {
-          "ja": "先週、日本に来ました。",
-          "zh": "上周来到了日本。",
-          "ttsText": "せんしゅう、にほんにきました。"
+          "ja": "休みの日は音楽を聞きます。",
+          "zh": "休息日会听音乐。",
+          "ttsText": "やすみのひはおんがくをききます。"
         }
       ],
       "source": {
         "dialogueId": "main",
-        "lineId": "main-line-4"
+        "lineId": "main-line-7"
       }
     },
     {
