@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "life",
+  "title": "生活日语",
+  "description": "从赴日前准备到在日本独立生活，按准备篇、N5、N4、N3、N2、N1组织，共208节。准备篇8节，N5、N4、N3各20课，N2共60课，N1共80课。N1围绕16组生活主题练习复杂对话、长文读解、立场比较、隐含意图与有条件的判断，每课提供词汇、文法、读音、跟读及四类练习。",
+  "learningMode": "life",
+  "order": 0,
+  "enabled": true,
+  "levels": [
+    "N5",
+    "N4",
+    "N3",
+    "N2",
+    "N1"
+  ],
+  "units": [
+    {
+      "id": "pre",
+      "title": "准备篇：假名与基础发音",
+      "order": 0
+    },
+    {
+      "id": "n5",
+      "title": "N5",
+      "order": 1
+    },
+    {
+      "id": "n4",
+      "title": "N4",
+      "order": 2
+    },
+    {
+      "id": "n3",
+      "title": "N3",
+      "order": 3
+    },
+    {
+      "id": "n2",
+      "title": "N2",
+      "order": 4
+    },
+    {
+      "id": "n1",
+      "title": "N1：深入生活与多角度表达",
+      "order": 5
+    }
+  ]
+}

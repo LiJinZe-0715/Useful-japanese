@@ -1,0 +1,9 @@
+{
+  "ignorePatterns": [
+    "src/generated/**",
+    "src/modules/catalog/domain/content.ts",
+    "dist/**",
+    "public/course-assets/**",
+    "pnpm-lock.yaml"
+  ]
+}

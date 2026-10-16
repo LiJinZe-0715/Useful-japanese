@@ -1,0 +1,28 @@
+diff --git a/dist/build/prerender.js b/dist/build/prerender.js
+index b887c9d0c1929647cf230ea6cd1cf07c06f327d9..54d29eb25d2536f63a7fbfdada9783f9def558b2 100644
+--- a/dist/build/prerender.js
++++ b/dist/build/prerender.js
+@@ -260,7 +260,6 @@ async function resolveParentParams(childRoute, staticParamsMap, options = {}) {
+ 			const results = await generateStaticParams({ params: parentParams });
+ 			if (results === null) continue;
+ 			if (!Array.isArray(results)) return [];
+-			if (options.staticExport && results.length === 0) throw emptyStaticExportParamsError(childRoute.pattern);
+ 			resolvedThisParent = true;
+ 			if (results.length === 0 && hasParentSets) {
+ 				nextParams.push(parentParams);
+@@ -856,7 +855,6 @@ async function prerenderApp({ routes, metadataRoutes = [], outDir, config, mode,
+ 							break;
+ 						}
+ 						if (Array.isArray(childResults)) {
+-							if (mode === "export" && childResults.length === 0) throw emptyStaticExportParamsError(route.pattern);
+ 							if (childResults.length === 0) {
+ 								paramSets.push(parentParams);
+ 								continue;
+@@ -873,7 +871,6 @@ async function prerenderApp({ routes, metadataRoutes = [], outDir, config, mode,
+ 					if (paramSets !== null) paramSets = routeStaticParamSets(route, paramSets, { staticExport: mode === "export" });
+ 				} else {
+ 					const results = await generateStaticParamsFn({ params: {} });
+-					if (mode === "export" && Array.isArray(results) && results.length === 0) throw emptyStaticExportParamsError(route.pattern);
+ 					paramSets = results === null ? null : routeStaticParamSets(route, Array.isArray(results) ? results : [], { staticExport: mode === "export" });
+ 				}
+ 				if (paramSets === null) {

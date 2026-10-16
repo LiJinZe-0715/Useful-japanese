@@ -1,0 +1,11 @@
+# Keep empty course catalogs exportable with Vinext 1.2.1.
+patchedDependencies:
+  vinext@1.2.1: patches/vinext@1.2.1.patch
+  braces@3.0.3: patches/braces@3.0.3.patch
+
+# Satori pins 0.7.3; use the compatible ZIP64 security fix.
+overrides:
+  fflate@0.7.3: 0.7.5
+
+minimumReleaseAgeExclude:
+  - vinext@1.2.1

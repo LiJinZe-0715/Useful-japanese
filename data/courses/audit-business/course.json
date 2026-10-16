@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "audit-business",
+  "title": "审计商务日语：会计审计实务与客户沟通",
+  "description": "参照审计实务日语课程完整接入12章、86节主课与20节补充专题，共106节。覆盖资料接收、风险证据抽样、现金银行、收入应收、采购应付、存货、固定资产、工资、期末估计、内部控制、审计发现与综合结项。保留现场分支、客户／内部／底稿三种语体、主动词汇与审计识读、搭配、职场文法、盲听、跟读及双输出练习；专题按推荐学习日插入。难度按岗位任务递进，不按JLPT定级。",
+  "learningMode": "business",
+  "order": 2,
+  "enabled": true,
+  "levels": [],
+  "units": [
+    {
+      "id": "chapter-01",
+      "title": "第1章 接收账套与启动检查",
+      "order": 1
+    },
+    {
+      "id": "chapter-02",
+      "title": "第2章 审计思维、风险、证据与抽样",
+      "order": 2
+    },
+    {
+      "id": "chapter-03",
+      "title": "第3章 现金与银行",
+      "order": 3
+    },
+    {
+      "id": "chapter-04",
+      "title": "第4章 销售收入与应收账款",
+      "order": 4
+    },
+    {
+      "id": "chapter-05",
+      "title": "第5章 采购、费用与应付账款",
+      "order": 5
+    },
+    {
+      "id": "chapter-06",
+      "title": "第6章 存货与销售成本",
+      "order": 6
+    },
+    {
+      "id": "chapter-07",
+      "title": "第7章 固定资产与折旧",
+      "order": 7
+    },
+    {
+      "id": "chapter-08",
+      "title": "第8章 工资、人员与报酬",
+      "order": 8
+    },
+    {
+      "id": "chapter-09",
+      "title": "第9章 期末结账、估计与特殊事项",
+      "order": 9
+    },
+    {
+      "id": "chapter-10",
+      "title": "第10章 内部控制与特殊审计程序",
+      "order": 10
+    },
+    {
+      "id": "chapter-11",
+      "title": "第11章 审计发现、调整、底稿与复核",
+      "order": 11
+    },
+    {
+      "id": "chapter-12",
+      "title": "第12章 综合项目实战",
+      "order": 12
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "nihongo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000",
+    "build": "node scripts/build-pages.mjs --root",
+    "build:pages": "node scripts/build-pages.mjs",
+    "preview": "node scripts/preview.mjs",
+    "typecheck": "node scripts/generate-content.mjs && tsc --noEmit",
+    "lint": "oxlint",
+    "format": "oxfmt",
+    "format:check": "oxfmt --check",
+    "validate:content": "node scripts/generate-content.mjs --validate",
+    "test": "node --experimental-strip-types --test tests/*.test.mjs",
+    "android:build": "node scripts/build-android.mjs",
+    "android:test": "node --test android/tests/*.test.mjs",
+    "android:publish": "node scripts/publish-android.mjs"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-server-dom-webpack": "19.3.1",
+    "vinext": "1.2.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "@vitejs/plugin-rsc": "0.5.38",
+    "ajv": "8.20.0",
+    "oxfmt": "0.73.0",
+    "oxlint": "1.88.0",
+    "tailwindcss": "4.3.3",
+    "typescript": "7.0.2",
+    "vite": "8.3.4"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "packageManager": "pnpm@12.11.2"
+}
