@@ -1,6 +1,7 @@
 import {catalog} from "../src/bootstrap/catalog";
 import {href} from "../src/shared/paths";
 import {VoiceSettings} from "../src/modules/speech/presentation/speech-controls";
+import {LearningBackup} from "../src/modules/learning/presentation/learning-backup";
 
 export default function Home() {
     const courses = catalog.courses();
@@ -27,6 +28,7 @@ export default function Home() {
             <section id="voice-settings" aria-label="主页合成语音设置">
                 <VoiceSettings/>
             </section>
+            <LearningBackup/>
             <section className="path-panel" aria-label="课程学习方式">
                 <div>
                     <p className="eyebrow">LISTEN → PRACTICE → EXPRESS</p>

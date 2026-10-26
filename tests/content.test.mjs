@@ -7,6 +7,27 @@ import {discoverCourses} from "../scripts/generate-content.mjs";
 import {groupLessons, summarizeLessons,} from "../src/modules/catalog/application/course-catalog.ts";
 
 const fixtures = path.resolve("tests/fixtures/courses");
+test("life dialogues provide pronunciation and N5 lessons have independent oral and written practice", () => {
+    const life = discoverCourses().find(({course}) => course.id === "life");
+    for (const lesson of life.lessons) {
+        for (const dialogue of lesson.dialogues ?? []) for (const line of dialogue.lines) {
+            assert.ok(line.reading, `${lesson.id}/${line.id}: missing reading`);
+            if (["N3", "N2"].includes(lesson.level)) {
+                assert.ok(line.ttsText, `${lesson.id}/${line.id}: missing speech text`);
+                assert.doesNotMatch(line.reading, /[\p{Script=Han}\p{Script=Latin}0-9]/u);
+                assert.doesNotMatch(line.ttsText, /[\p{Script=Han}\p{Script=Latin}0-9]/u);
+            }
+        }
+        if (lesson.level === "N5") for (const type of ["oral", "written"]) {
+            const task = lesson.homework?.find(item => item.type === type);
+            assert.ok(task?.knownInformation.length && task.tasks.length && task.answers[0]?.ja, `${lesson.id}: ${type} practice`);
+            assert.ok(task.answers[0].ttsText && task.answers[0].zh);
+        }
+    }
+    const readings = id => life.lessons.find(lesson => lesson.id === id).dialogues.flatMap(dialogue => dialogue.lines).map(line => line.reading).join("\n");
+    for (const [id, pronunciation] of [["n3-11", "にじごじゅっぷん"], ["n3-11", "べつのかた"], ["n3-9", "ふたへや"], ["n2-12", "ふたばん"], ["n2-21", "じゅうよっかかん"], ["n2-25", "さんぜんえん"], ["n2-42", "はっせんえん"]])
+        assert.ok(readings(id).includes(pronunciation), `${id}: ${pronunciation}`);
+});
 test("directory summaries contain only catalog fields, leaving full lesson content on the server", () => {
     const coursePackage = discoverCourses(fixtures).find(
         (coursePackage) => coursePackage.course.id === "legal-business",

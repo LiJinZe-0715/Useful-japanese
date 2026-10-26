@@ -25,6 +25,8 @@ import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.nio.charset.StandardCharsets;
+import java.util.Collections;
+import java.util.HashMap;
 import java.util.Map;
 
 public final class MainActivity extends Activity {
@@ -143,12 +145,15 @@ public final class MainActivity extends Activity {
             : path.endsWith(".woff2") ? "font/woff2"
             : path.endsWith(".rsc") ? "text/x-component"
             : path.endsWith(".txt") ? "text/plain" : "application/octet-stream";
+        Map<String, String> headers = new HashMap<>();
+        headers.put("Cache-Control", "no-cache");
+        headers.put("X-Content-Type-Options", "nosniff");
         return new WebResourceResponse(mime, "UTF-8", 200, "OK",
-            Map.of("Cache-Control", "no-cache", "X-Content-Type-Options", "nosniff"), getAssets().open("public/" + path));
+            headers, getAssets().open("public/" + path));
     }
 
     private WebResourceResponse missing() {
-        return new WebResourceResponse("text/plain", "UTF-8", 404, "Not Found", Map.of(),
+        return new WebResourceResponse("text/plain", "UTF-8", 404, "Not Found", Collections.emptyMap(),
             new ByteArrayInputStream("Missing bundled resource".getBytes(StandardCharsets.UTF_8)));
     }
 

@@ -4,6 +4,19 @@ export type StudyRecord = {
     position: string;
     drafts: Record<string, string>;
 };
+export function isStudyRecord(value: unknown): value is StudyRecord {
+    if (!value || typeof value !== "object" || Array.isArray(value)) return false;
+    const record = value as Record<string, unknown>;
+    return (
+        typeof record.completed === "boolean" &&
+        typeof record.bookmarked === "boolean" &&
+        typeof record.position === "string" &&
+        !!record.drafts &&
+        typeof record.drafts === "object" &&
+        !Array.isArray(record.drafts) &&
+        Object.values(record.drafts).every((draft) => typeof draft === "string")
+    );
+}
 export const createEmptyStudyRecord = (): StudyRecord => ({
     completed: false,
     bookmarked: false,

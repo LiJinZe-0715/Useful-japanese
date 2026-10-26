@@ -28,7 +28,9 @@
 210 段对话、1,476 句、246 道练习。完整覆盖表、建议路线和自测方式见[软件开发商务日语课程说明](docs/it-curriculum.md)
 。课程按岗位任务组织；N3 是学习起点，技术词汇不按 JLPT 定级。
 
-使用 Node.js 22.13 或更高版本、pnpm 12.9.1。
+生活 N3、N2 的全部 800 句对话均提供读音和语音文本。生活 N5 每课有口头、书面各一道独立练习，共 40 道，参考答案默认折叠。
+
+使用 Node.js 22.13 或更高版本、pnpm 12.15.0（与 `package.json` 一致）。
 
 ```sh
 pnpm install --frozen-lockfile
@@ -63,9 +65,11 @@ Actions；项目站点默认使用仓库名作为路径。根路径站点将 Act
 Origin 的连接；可通过 `.env.local` 中的 `VITE_VOICEVOX_URL` 修改地址，修改后重启开发服务或重新构建。在设置页检测并选择声音。
 
 学习记录和书面草稿保存在当前浏览器的 `localStorage` 中，按课程和课次区分。
+首页“备份与恢复学习记录”可导出进度、收藏和书面草稿为 JSON，并在网站或 Android App 中恢复。备份最大 10 MB；导入会先校验整个文件，同一课次以备份为准，其他课次保留。备份含个人草稿，请妥善保存。
 
 `src/generated`、`public/course-assets`、`dist`、`.vinext`、`.next` 和 `*.tsbuildinfo` 为生成物，无需提交。修改 Schema 后运行
 `pnpm validate:content`，并一并提交生成的 `src/modules/catalog/domain/content.ts`。
+该类型文件保持生成器的标准输出格式，已从自动格式化中排除；不要手工重新排版，以免每次校验产生无关差异。
 
 构建依赖 `braces@3.0.3` 暂无上游修复版，项目通过 pnpm 补丁将解析与 AST 遍历深度限制为 128，以缓解
 GHSA-vfj7-8cjw-p6xm。安装必须使用仓库锁文件与补丁；普通 glob 行为由回归测试验证。依赖审计仍会按版本报告该告警，不能将其视为已经升级到官方修复版。

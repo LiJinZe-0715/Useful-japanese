@@ -761,11 +761,13 @@ test("learning subscriptions refresh on external writes, focus and history resto
         storage(null);
         window.dispatchEvent(new Event("focus"));
         window.dispatchEvent(new Event("pageshow"));
-        assert.equal(calls, 4);
+        window.dispatchEvent(new Event("nihongo:learning-change"));
+        assert.equal(calls, 5);
         dispose();
         window.dispatchEvent(new Event("focus"));
         storage("nihongo:learning:v1:life:one");
-        assert.equal(calls, 4);
+        window.dispatchEvent(new Event("nihongo:learning-change"));
+        assert.equal(calls, 5);
     } finally {
         if (oldWindow === undefined) delete globalThis.window;
         else globalThis.window = oldWindow;

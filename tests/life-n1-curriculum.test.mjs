@@ -94,9 +94,10 @@ test("each N1 lesson provides reading, oral, written and changed-condition pract
         assert.ok(reading.length >= 120 && reading.length <= 200, `${lesson.id}: reading model length`);
         assert.ok(written.length >= 150 && written.length <= 220, `${lesson.id}: written model length`);
         assert.ok(
-            written.includes(lesson.dialogues.find((dialogue) => dialogue.id === "main").lines[6].ja),
-            `${lesson.id}: specific written question`,
+            written.includes(lesson.dialogues.find((dialogue) => dialogue.id === "main").lines[2].ja),
+            `${lesson.id}: written answer addresses the main proposal`,
         );
+        assert.doesNotMatch(written, /とご質問いただいた点について/, `${lesson.id}: avoid the generic branch-answer template`);
         const answer = lesson.homework.find((homework) => homework.id === "followup-task").answers[0]
             .ja;
         assert.ok(
@@ -106,4 +107,10 @@ test("each N1 lesson provides reading, oral, written and changed-condition pract
             lesson.id,
         );
     }
+    const repair = lessons[0].homework.find(homework => homework.id === "written-task").answers[0].ja;
+    for (const fact of ["共用部分", "専有部分", "臨時の修繕に限ります", "更新条件とは別", "どの項目"])
+        assert.ok(repair.includes(fact), `n1-1: ${fact}`);
+    const housing = lessons[1].homework.find(homework => homework.id === "written-task").answers[0].ja;
+    for (const fact of ["毎月の総額", "生活動線", "仮予約は明日まで", "共益費", "駐輪場代"])
+        assert.ok(housing.includes(fact), `n1-2: ${fact}`);
 });

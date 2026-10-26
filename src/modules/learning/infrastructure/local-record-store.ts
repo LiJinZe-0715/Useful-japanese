@@ -1,5 +1,5 @@
 import type {RecordStore} from "../application/learning-records";
-import type {StudyRecord} from "../domain/study-record";
+import {isStudyRecord} from "../domain/study-record.ts";
 
 export const localRecordStore: RecordStore = {
     subscribe(prefix, listener) {
@@ -16,27 +16,19 @@ export const localRecordStore: RecordStore = {
         window.addEventListener("storage", handleStorageChange);
         window.addEventListener("focus", listener);
         window.addEventListener("pageshow", listener);
+        window.addEventListener("nihongo:learning-change", listener);
         return () => {
             window.removeEventListener("storage", handleStorageChange);
             window.removeEventListener("focus", listener);
             window.removeEventListener("pageshow", listener);
+            window.removeEventListener("nihongo:learning-change", listener);
         };
     },
     read(key) {
         if (typeof window === "undefined") return undefined;
         try {
             const storedRecord = JSON.parse(localStorage.getItem(key) ?? "null");
-            if (
-                storedRecord &&
-                typeof storedRecord.completed === "boolean" &&
-                typeof storedRecord.bookmarked === "boolean" &&
-                typeof storedRecord.position === "string" &&
-                storedRecord.drafts &&
-                typeof storedRecord.drafts === "object" &&
-                !Array.isArray(storedRecord.drafts) &&
-                Object.values(storedRecord.drafts).every((draft) => typeof draft === "string")
-            )
-                return storedRecord as StudyRecord;
+            if (isStudyRecord(storedRecord)) return storedRecord;
         } catch {
             /* Unavailable or corrupt device storage: reading still works. */
         }
