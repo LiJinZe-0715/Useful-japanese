@@ -24,19 +24,10 @@
       "minLength": 1
     },
     "level": {
-      "enum": [
-        "N5",
-        "N4",
-        "N3",
-        "N2",
-        "N1"
-      ]
+      "enum": ["N5", "N4", "N3", "N2", "N1"]
     },
     "kind": {
-      "enum": [
-        "scene",
-        "preparation"
-      ]
+      "enum": ["scene", "preparation"]
     },
     "objectives": {
       "type": "array",
@@ -54,14 +45,7 @@
           "minLength": 1
         },
         "channel": {
-          "enum": [
-            "in-person",
-            "phone",
-            "meeting",
-            "email",
-            "chat",
-            "other"
-          ]
+          "enum": ["in-person", "phone", "meeting", "email", "chat", "other"]
         },
         "tasks": {
           "type": "array",
@@ -75,12 +59,7 @@
           "minLength": 1
         }
       },
-      "required": [
-        "background",
-        "channel",
-        "tasks",
-        "relationships"
-      ]
+      "required": ["background", "channel", "tasks", "relationships"]
     },
     "learnerSpeakerId": {
       "type": "string",
@@ -120,11 +99,7 @@
             "required": []
           }
         },
-        "required": [
-          "id",
-          "name",
-          "role"
-        ]
+        "required": ["id", "name", "role"]
       }
     },
     "dialogues": {
@@ -142,11 +117,7 @@
             "minLength": 1
           },
           "variant": {
-            "enum": [
-              "main",
-              "branch",
-              "register"
-            ]
+            "enum": ["main", "branch", "register"]
           },
           "lines": {
             "type": "array",
@@ -179,21 +150,11 @@
                   "minLength": 1
                 }
               },
-              "required": [
-                "id",
-                "speakerId",
-                "ja",
-                "zh"
-              ]
+              "required": ["id", "speakerId", "ja", "zh"]
             }
           }
         },
-        "required": [
-          "id",
-          "title",
-          "variant",
-          "lines"
-        ]
+        "required": ["id", "title", "variant", "lines"]
       }
     },
     "materials": {
@@ -211,14 +172,7 @@
             "minLength": 1
           },
           "kind": {
-            "enum": [
-              "email",
-              "message",
-              "explanation",
-              "list",
-              "table",
-              "pronunciation"
-            ]
+            "enum": ["email", "message", "explanation", "list", "table", "pronunciation"]
           },
           "blocks": {
             "type": "array",
@@ -251,10 +205,7 @@
                       "minLength": 1
                     }
                   },
-                  "required": [
-                    "type",
-                    "ja"
-                  ]
+                  "required": ["type", "ja"]
                 },
                 {
                   "type": "object",
@@ -282,17 +233,11 @@
                             "minLength": 1
                           }
                         },
-                        "required": [
-                          "ja",
-                          "zh"
-                        ]
+                        "required": ["ja", "zh"]
                       }
                     }
                   },
-                  "required": [
-                    "type",
-                    "items"
-                  ]
+                  "required": ["type", "items"]
                 },
                 {
                   "type": "object",
@@ -318,11 +263,7 @@
                       }
                     }
                   },
-                  "required": [
-                    "type",
-                    "headers",
-                    "rows"
-                  ]
+                  "required": ["type", "headers", "rows"]
                 }
               ]
             }
@@ -332,12 +273,7 @@
             "minLength": 1
           }
         },
-        "required": [
-          "id",
-          "title",
-          "kind",
-          "blocks"
-        ]
+        "required": ["id", "title", "kind", "blocks"]
       }
     },
     "vocabulary": {
@@ -392,10 +328,7 @@
                   "minLength": 1
                 }
               },
-              "required": [
-                "ja",
-                "zh"
-              ]
+              "required": ["ja", "zh"]
             }
           },
           "source": {
@@ -411,19 +344,10 @@
                 "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
               }
             },
-            "required": [
-              "dialogueId",
-              "lineId"
-            ]
+            "required": ["dialogueId", "lineId"]
           }
         },
-        "required": [
-          "id",
-          "word",
-          "reading",
-          "meaning",
-          "examples"
-        ]
+        "required": ["id", "word", "reading", "meaning", "examples"]
       }
     },
     "expressions": {
@@ -474,10 +398,7 @@
                   "minLength": 1
                 }
               },
-              "required": [
-                "key",
-                "description"
-              ]
+              "required": ["key", "description"]
             }
           },
           "examples": {
@@ -499,10 +420,7 @@
                   "minLength": 1
                 }
               },
-              "required": [
-                "ja",
-                "zh"
-              ]
+              "required": ["ja", "zh"]
             }
           },
           "source": {
@@ -518,10 +436,7 @@
                 "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
               }
             },
-            "required": [
-              "dialogueId",
-              "lineId"
-            ]
+            "required": ["dialogueId", "lineId"]
           }
         },
         "required": [
@@ -551,13 +466,7 @@
             "minLength": 1
           },
           "level": {
-            "enum": [
-              "N5",
-              "N4",
-              "N3",
-              "N2",
-              "N1"
-            ]
+            "enum": ["N5", "N4", "N3", "N2", "N1"]
           },
           "meaning": {
             "type": "string",
@@ -593,21 +502,11 @@
                   "minLength": 1
                 }
               },
-              "required": [
-                "ja",
-                "zh"
-              ]
+              "required": ["ja", "zh"]
             }
           }
         },
-        "required": [
-          "id",
-          "pattern",
-          "meaning",
-          "connection",
-          "notes",
-          "examples"
-        ]
+        "required": ["id", "pattern", "meaning", "connection", "notes", "examples"]
       }
     },
     "shadowing": {
@@ -636,11 +535,7 @@
             "minLength": 1
           }
         },
-        "required": [
-          "id",
-          "dialogueId",
-          "prompt"
-        ]
+        "required": ["id", "dialogueId", "prompt"]
       }
     },
     "homework": {
@@ -654,10 +549,7 @@
             "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
           },
           "type": {
-            "enum": [
-              "oral",
-              "written"
-            ]
+            "enum": ["oral", "written"]
           },
           "situation": {
             "type": "string",
@@ -694,11 +586,7 @@
           "functions": {
             "type": "array",
             "items": {
-              "enum": [
-                "report",
-                "contact",
-                "consult"
-              ]
+              "enum": ["report", "contact", "consult"]
             }
           },
           "answers": {
@@ -720,9 +608,7 @@
                   "minLength": 1
                 }
               },
-              "required": [
-                "ja"
-              ]
+              "required": ["ja"]
             },
             "minItems": 1
           }
@@ -758,26 +644,15 @@
             "minLength": 1
           }
         },
-        "required": [
-          "title"
-        ]
+        "required": ["title"]
       }
     }
   },
-  "required": [
-    "schemaVersion",
-    "id",
-    "order",
-    "title",
-    "kind",
-    "objectives"
-  ],
+  "required": ["schemaVersion", "id", "order", "title", "kind", "objectives"],
   "allOf": [
     {
       "if": {
-        "required": [
-          "dialogues"
-        ],
+        "required": ["dialogues"],
         "properties": {
           "dialogues": {
             "type": "array",
@@ -786,9 +661,7 @@
         }
       },
       "then": {
-        "required": [
-          "learnerSpeakerId"
-        ],
+        "required": ["learnerSpeakerId"],
         "properties": {
           "learnerSpeakerId": {}
         }
@@ -803,10 +676,7 @@
         }
       },
       "then": {
-        "required": [
-          "scene",
-          "dialogues"
-        ],
+        "required": ["scene", "dialogues"],
         "properties": {
           "dialogues": {
             "minItems": 1,
@@ -825,9 +695,7 @@
         }
       },
       "then": {
-        "required": [
-          "materials"
-        ],
+        "required": ["materials"],
         "properties": {
           "materials": {
             "minItems": 1,

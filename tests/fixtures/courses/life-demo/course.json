@@ -6,7 +6,5 @@
   "learningMode": "life",
   "order": 20,
   "enabled": true,
-  "levels": [
-    "N5"
-  ]
+  "levels": ["N5"]
 }

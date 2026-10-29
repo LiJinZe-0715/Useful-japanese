@@ -1,0 +1,96 @@
+/* Settings, tables, guide and empty states. */
+[lang="ja"] {
+  font-size: 1.12rem;
+  line-height: 1.9;
+}
+
+.settings {
+  margin: 1.5rem 0;
+  padding: 1.1rem 1.25rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  font-size: 0.8rem;
+}
+
+summary {
+  cursor: pointer;
+}
+
+.settings > summary {
+  font-size: 0.9rem;
+  font-weight: 650;
+}
+
+.role {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0.7rem 0;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  min-height: 140px;
+  margin-top: 0.6rem;
+  padding: 0.8rem;
+}
+
+.table-scroll {
+  overflow: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.85rem;
+}
+
+td,
+th {
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--border);
+  text-align: left;
+}
+
+th {
+  background: #ffffff05;
+  font-weight: 600;
+}
+
+.guide {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  font-size: 0.85rem;
+  line-height: 1.9;
+  border: 1px solid var(--border);
+  background: var(--card);
+  border-radius: 14px;
+  padding: 1.5rem;
+}
+
+.empty-state {
+  padding: 3rem;
+  text-align: center;
+  margin: 3rem auto;
+}
+
+.empty-state .page-description {
+  margin: 1rem auto 1.5rem;
+}
+
+.lesson-workspace > aside {
+  overflow-wrap: anywhere;
+  padding: 1.25rem;
+  margin: 1.5rem 0;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  font-size: 0.8rem;
+}
+
+.lesson-workspace > nav.controls {
+  justify-content: space-between;
+  padding: 1.1rem 0;
+  border-top: 1px solid var(--border);
+}

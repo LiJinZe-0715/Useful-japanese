@@ -4,15 +4,11 @@
   "order": 1,
   "title": "结构示范",
   "kind": "scene",
-  "objectives": [
-    "了解示例格式"
-  ],
+  "objectives": ["了解示例格式"],
   "scene": {
     "background": "格式演示",
     "channel": "meeting",
-    "tasks": [
-      "说明安排"
-    ],
+    "tasks": ["说明安排"],
     "relationships": "你扮演“我（わたし）”。同事"
   },
   "learnerSpeakerId": "a",
@@ -102,9 +98,7 @@
       "reading": "かくにん",
       "meaning": "确认",
       "usage": "确认安排",
-      "collocations": [
-        "確認する"
-      ],
+      "collocations": ["確認する"],
       "examples": [
         {
           "ja": "確認します。",
@@ -124,9 +118,7 @@
       "pattern": "〜します",
       "meaning": "将做某事",
       "audience": "同事",
-      "notes": [
-        "格式示例"
-      ],
+      "notes": ["格式示例"],
       "slots": [
         {
           "key": "〜",
@@ -146,9 +138,7 @@
     {
       "id": "practice-one",
       "dialogueId": "main",
-      "lineIds": [
-        "line-one"
-      ],
+      "lineIds": ["line-one"],
       "prompt": "先听后跟读，再同步影子跟读。"
     }
   ],
@@ -157,18 +147,10 @@
       "id": "task-one",
       "type": "oral",
       "situation": "说明下一步",
-      "knownInformation": [
-        "需要确认"
-      ],
-      "tasks": [
-        "说出安排"
-      ],
-      "requirements": [
-        "简洁"
-      ],
-      "hints": [
-        "参考固定表达"
-      ],
+      "knownInformation": ["需要确认"],
+      "tasks": ["说出安排"],
+      "requirements": ["简洁"],
+      "hints": ["参考固定表达"],
       "functions": [],
       "answers": [
         {

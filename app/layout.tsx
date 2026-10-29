@@ -1,46 +1,51 @@
-import type {ReactNode} from "react";
+import type { ReactNode } from "react";
 import "./globals.css";
-import {SpeechProvider} from "../src/modules/speech/presentation/speech-provider";
-import {href} from "../src/shared/paths";
-import {catalog} from "../src/bootstrap/catalog";
-import {summarizeLessons} from "../src/modules/catalog/application/course-catalog";
-import {LearningShell} from "../src/modules/catalog/presentation/learning-shell";
+import { SpeechProvider } from "../src/bootstrap/speech-provider";
+import { LearningProvider } from "../src/bootstrap/learning-provider";
+import { href } from "../src/shared/paths";
+import { catalog } from "../src/bootstrap/catalog";
+import { summarizeLessons } from "../src/modules/catalog/application/course-catalog";
+import { LearningShell } from "../src/modules/catalog/presentation/learning-shell";
+import { SpeechDelegator } from "../src/modules/speech/presentation/speech-delegator";
 
-export default function Layout({children}: { children: ReactNode }) {
-    return (
-        <html lang="zh-CN">
-        <body>
+export default function Layout({ children }: { children: ReactNode }) {
+  return (
+    <html lang="zh-CN">
+      <body>
         <a className="skip-link" href="#main-content">
-            跳到主要内容
+          跳到主要内容
         </a>
         <header className="site-header">
-            <a className="brand" href={href("/")} aria-label="Nihongo 日语学习首页">
+          <a className="brand" href={href("/")} aria-label="Nihongo 日语学习首页">
             <span className="brand-mark" aria-hidden="true">
               ⌘
             </span>
-                <span>
+            <span>
               日本語<span className="brand-caption">NIHONGO / SCENE-BASED LEARNING</span>
             </span>
-            </a>
-            <nav aria-label="主导航">
-                <a href={href("/#courses")}>探索课程</a>
-                <a href={href("/vocabulary/")}>职场词汇</a>
-                <a href={href("/guide/")}>内容格式指南</a>
-            </nav>
-            <span className="header-note">
-            <span className="status-dot"/> 自主学习工作台
+          </a>
+          <nav aria-label="主导航">
+            <a href={href("/#courses")}>探索课程</a>
+            <a href={href("/vocabulary/")}>职场词汇</a>
+            <a href={href("/guide/")}>内容格式指南</a>
+          </nav>
+          <span className="header-note">
+            <span className="status-dot" /> 自主学习工作台
           </span>
         </header>
-        <SpeechProvider>
+        <LearningProvider>
+          <SpeechProvider>
+            <SpeechDelegator />
             <LearningShell
-                courses={catalog
-                    .courses()
-                    .map(({course, lessons}) => ({course, lessons: summarizeLessons(lessons)}))}
+              courses={catalog
+                .courses()
+                .map(({ course, lessons }) => ({ course, lessons: summarizeLessons(lessons) }))}
             >
-                {children}
+              {children}
             </LearningShell>
-        </SpeechProvider>
-        </body>
-        </html>
-    );
+          </SpeechProvider>
+        </LearningProvider>
+      </body>
+    </html>
+  );
 }

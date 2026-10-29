@@ -1,0 +1,37 @@
+/* Android app download card. */
+.android-download {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 20px;
+  padding: 16px;
+  border: 1px solid var(--line, #dce2eb);
+  border-radius: 14px;
+  background: var(--surface, transparent);
+}
+.android-download p {
+  margin: 4px 0 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.android-download a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 10px 16px;
+  border-radius: 10px;
+  background: #3454a1;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+.android-download a:hover {
+  background: #283f7b;
+}
+.android-download a:focus-visible {
+  outline: 3px solid #7899e8;
+  outline-offset: 3px;
+}

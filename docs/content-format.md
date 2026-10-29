@@ -56,15 +56,11 @@ lessons/example-scene.json：
   "order": 1,
   "title": "结构示范",
   "kind": "scene",
-  "objectives": [
-    "了解示例格式"
-  ],
+  "objectives": ["了解示例格式"],
   "scene": {
     "background": "格式演示",
     "channel": "meeting",
-    "tasks": [
-      "说明安排"
-    ],
+    "tasks": ["说明安排"],
     "relationships": "同事"
   },
   "learnerSpeakerId": "a",
@@ -115,9 +111,7 @@ lessons/example-scene.json：
       "reading": "かくにん",
       "meaning": "确认",
       "usage": "确认安排",
-      "collocations": [
-        "確認する"
-      ],
+      "collocations": ["確認する"],
       "examples": [
         {
           "ja": "確認します。",
@@ -137,9 +131,7 @@ lessons/example-scene.json：
       "pattern": "〜します",
       "meaning": "将做某事",
       "audience": "同事",
-      "notes": [
-        "格式示例"
-      ],
+      "notes": ["格式示例"],
       "slots": [
         {
           "key": "〜",
@@ -159,9 +151,7 @@ lessons/example-scene.json：
     {
       "id": "practice-one",
       "dialogueId": "main",
-      "lineIds": [
-        "line-one"
-      ],
+      "lineIds": ["line-one"],
       "prompt": "先听后跟读，再同步影子跟读。"
     }
   ],
@@ -170,21 +160,11 @@ lessons/example-scene.json：
       "id": "task-one",
       "type": "oral",
       "situation": "说明下一步",
-      "knownInformation": [
-        "需要确认"
-      ],
-      "tasks": [
-        "说出安排"
-      ],
-      "requirements": [
-        "简洁"
-      ],
-      "hints": [
-        "参考固定表达"
-      ],
-      "functions": [
-        "contact"
-      ],
+      "knownInformation": ["需要确认"],
+      "tasks": ["说出安排"],
+      "requirements": ["简洁"],
+      "hints": ["参考固定表达"],
+      "functions": ["contact"],
       "answers": [
         {
           "ja": "確認します。",
@@ -223,7 +203,7 @@ n5、n4、n3、n2、n1 并列，不因在同一个生活课程包内而属于 N5
 ### 课程
 
 | 字段          | 类型 / 允许值                | 必填   | 限制                                 |
-|---------------|------------------------------|--------|--------------------------------------|
+| ------------- | ---------------------------- | ------ | ------------------------------------ |
 | schemaVersion | 1                            | 必填   |                                      |
 | id            | string                       | 必填   | 格式 ^[a-z][a-z0-9]_(?:-[a-z0-9]+)_$ |
 | title         | string                       | 必填   | 非空字符串                           |
@@ -253,7 +233,7 @@ name 只是显示名称，改名、同名角色和数组顺序不改变学习者
 ### 课件及嵌套字段
 
 | 字段                                 | 类型 / 允许值                                                | 必填         | 限制                                              |
-|--------------------------------------|--------------------------------------------------------------|--------------|---------------------------------------------------|
+| ------------------------------------ | ------------------------------------------------------------ | ------------ | ------------------------------------------------- |
 | schemaVersion                        | 1                                                            | 必填         |                                                   |
 | id                                   | string                                                       | 必填         | 格式 ^[a-z][a-z0-9]_(?:-[a-z0-9]+)_$              |
 | unitId                               | string                                                       | 可省略       | 格式 ^[a-z][a-z0-9]_(?:-[a-z0-9]+)_$              |
@@ -424,16 +404,8 @@ tests/fixtures/courses/life-demo 包含 N5 生活场景课和不分级的准备�
         },
         {
           "type": "table",
-          "headers": [
-            "假名",
-            "读音"
-          ],
-          "rows": [
-            [
-              "あ",
-              "a"
-            ]
-          ]
+          "headers": ["假名", "读音"],
+          "rows": [["あ", "a"]]
         }
       ]
     }

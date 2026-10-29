@@ -1,0 +1,218 @@
+/* Responsive breakpoints. */
+@media (max-width: 1100px) {
+  main {
+    padding: 2rem;
+  }
+
+  .site-footer {
+    margin: 0 2rem;
+  }
+
+  .page-heading {
+    align-items: stretch;
+  }
+
+  .heading-card {
+    flex-basis: 155px;
+  }
+
+  .path-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .course-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 767px) {
+  .site-header {
+    padding: 0 1rem;
+    gap: 1rem;
+  }
+
+  .site-header nav,
+  .header-note {
+    display: none;
+  }
+
+  .workspace {
+    grid-template-columns: 1fr;
+  }
+
+  .course-sidebar {
+    position: static;
+    height: auto;
+    max-height: 340px;
+    padding: 1rem;
+    border-right: 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .sidebar-label {
+    margin-bottom: 0.75rem;
+  }
+
+  .workspace-links {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-bottom: 0.5rem;
+  }
+
+  .course-switch {
+    margin-bottom: 0.7rem;
+  }
+
+  .sidebar-course-title {
+    margin-bottom: 0.5rem;
+  }
+
+  .sidebar-chapters {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem;
+    align-items: start;
+  }
+
+  .sidebar-course-title {
+    grid-column: 1 / -1;
+  }
+
+  .sidebar-chapter {
+    margin: 0;
+  }
+
+  .sidebar-chapter summary strong {
+    font-size: 0.75rem;
+  }
+
+  .sidebar-note {
+    display: none;
+  }
+
+  main {
+    padding: 1.5rem 1rem;
+  }
+
+  h1 {
+    font-size: 1.85rem;
+  }
+
+  .page-heading {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .heading-card {
+    flex-basis: auto;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0.75rem 1rem;
+  }
+
+  .heading-card strong {
+    font-size: 1.3rem;
+    margin: 0;
+  }
+
+  .page-description {
+    font-size: 0.85rem;
+  }
+
+  section {
+    padding: 1.1rem;
+  }
+
+  .course-card {
+    padding: 1.1rem;
+  }
+
+  .catalog-heading {
+    align-items: flex-start;
+  }
+
+  .catalog-heading > span {
+    max-width: 100px;
+    text-align: right;
+  }
+
+  .course-progress-panel {
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+
+  .course-progress-panel .button-primary {
+    padding: 0.5rem 0.8rem;
+  }
+
+  .lesson-list a {
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    padding: 0.9rem;
+  }
+
+  .lesson-list-title {
+    flex-basis: calc(100% - 55px);
+  }
+
+  .lesson-list-status {
+    margin-left: 1.6rem;
+    flex: 1;
+  }
+
+  .site-footer {
+    margin: 0 1rem;
+    flex-wrap: wrap;
+  }
+
+  .dialogue-line,
+  .entry,
+  .practice-entry,
+  .objective-list li {
+    padding: 0.9rem;
+  }
+
+  .dialogue-line,
+  .rule-entry {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.8rem;
+  }
+
+  .dialogue-speaker {
+    display: flex;
+  }
+
+  .dialogue-speaker small {
+    margin-left: auto;
+  }
+
+  .example-line {
+    flex-direction: column;
+    gap: 0.65rem;
+  }
+
+  .lesson-tabs button {
+    padding: 0.5rem 0.75rem;
+  }
+
+  select {
+    max-width: 100%;
+  }
+
+  .empty-state {
+    padding: 1.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+  }
+}

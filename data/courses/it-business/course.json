@@ -6,9 +6,34 @@
   "learningMode": "business",
   "order": 1,
   "enabled": true,
-  "levels": [
-    "N3"
-  ],
+  "levels": ["N3"],
+  "guide": {
+    "heading": "按上班任务学，再练到能直接回应",
+    "intro": "先从入职、任务沟通和开发全过程建立表达基础，再进入 Java 后端专题。每课练口头汇报、书面消息和现场追问；隐藏原文后，换成自己的项目再说一次。",
+    "tracks": [
+      {
+        "label": "职场路线",
+        "lessonId": "onboarding-1",
+        "note": "入职、需求、设计、实现、测试、交付、故障、交接与独立负责。"
+      },
+      {
+        "label": "Java 后端基础",
+        "lessonId": "java-backend-1",
+        "note": "继续学习核心代码、Spring、API、数据库、事务、测试、缓存消息、部署和安全。"
+      },
+      {
+        "label": "前端与业务协作",
+        "lessonId": "frontend-collaboration-1",
+        "note": "页面、类型、异步接口、订单、库存、账单、审批和批处理。"
+      },
+      {
+        "label": "商务沟通",
+        "lessonId": "business-communication-1",
+        "note": "礼貌提异议、协商范围与交期、正式邮件、客户说明和会议记录。"
+      }
+    ],
+    "footnote": "需要查说法时，打开{link}，按关键词或主题查找，再回到相应课文练习。"
+  },
   "units": [
     {
       "id": "onboarding",

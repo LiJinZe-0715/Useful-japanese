@@ -12,3 +12,4 @@ public/course-assets/
 *.tmp
 *.temp
 *.bak
+public/vocabulary-search.json

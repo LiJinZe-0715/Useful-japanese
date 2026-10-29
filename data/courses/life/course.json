@@ -6,13 +6,7 @@
   "learningMode": "life",
   "order": 0,
   "enabled": true,
-  "levels": [
-    "N5",
-    "N4",
-    "N3",
-    "N2",
-    "N1"
-  ],
+  "levels": ["N5", "N4", "N3", "N2", "N1"],
   "units": [
     {
       "id": "pre",

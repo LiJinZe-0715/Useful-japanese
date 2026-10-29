@@ -1,0 +1,12 @@
+/* Design tokens: color scheme, palette, font stack. */
+:root {
+  color-scheme: dark;
+  --bg: oklch(0.145 0.017 253);
+  --card: oklch(0.19 0.018 253);
+  --fg: oklch(0.94 0.012 235);
+  --muted: oklch(0.7 0.025 235);
+  --accent: oklch(0.78 0.165 170);
+  --border: #ffffff14;
+  font-family: "Segoe UI", "Microsoft YaHei", "Yu Gothic", sans-serif;
+  font-synthesis: none;
+}

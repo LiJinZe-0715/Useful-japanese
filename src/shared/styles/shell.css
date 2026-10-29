@@ -1,0 +1,343 @@
+/* App shell: site header, workspace sidebar, content frame, footer. */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  height: 64px;
+  padding: 0 max(1.5rem, calc((100vw - 1480px) / 2 + 2rem));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  border-bottom: 1px solid var(--border);
+  background: oklch(0.145 0.017 253 / 90%);
+  backdrop-filter: blur(18px);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--fg);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.3;
+}
+
+.brand:hover {
+  text-decoration: none;
+}
+
+.brand-mark {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  color: var(--accent);
+  background: oklch(0.78 0.165 170 / 12%);
+  border: 1px solid oklch(0.78 0.165 170 / 35%);
+  border-radius: 8px;
+  font-size: 1.3rem;
+}
+
+.brand-caption {
+  display: block;
+  margin-top: 0.2rem;
+  color: var(--muted);
+  font:
+    10px/1.4 Consolas,
+    monospace;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.site-header nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.site-header nav a {
+  color: var(--muted);
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+.site-header nav a:hover {
+  color: var(--accent);
+}
+
+.header-note {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
+.status-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 14px oklch(0.78 0.165 170 / 40%);
+}
+
+.workspace {
+  display: grid;
+  grid-template-columns: 270px minmax(0, 1fr);
+  max-width: 1480px;
+  margin: auto;
+}
+
+.course-sidebar {
+  position: sticky;
+  top: 64px;
+  height: calc(100vh - 64px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #ffffff20 transparent;
+  padding: 1.75rem 1.25rem;
+  border-right: 1px solid var(--border);
+}
+
+.sidebar-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 1.2rem;
+  font-size: 10px;
+  font-weight: 650;
+  color: var(--muted);
+  letter-spacing: 0.12em;
+}
+
+.tag {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 0.25rem 0.5rem;
+  background: #ffffff08;
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--accent);
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.workspace-links {
+  display: grid;
+  gap: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.workspace-links a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.65rem 0.8rem;
+  border-radius: 7px;
+  color: var(--muted);
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+.workspace-links a:hover,
+.workspace-links a[aria-current] {
+  background: #ffffff06;
+  color: var(--fg);
+}
+
+.course-switch {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  padding: 6px;
+  gap: 6px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: #00000018;
+  margin-bottom: 1.5rem;
+}
+
+.course-switch a {
+  padding: 0.5rem 0.2rem;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.7rem;
+  font-weight: 650;
+  border-radius: 8px;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.course-switch a.selected {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+.sidebar-course-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--fg);
+  font-size: 0.8rem;
+  font-weight: 650;
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+
+.sidebar-course-title > span {
+  flex-shrink: 0;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.sidebar-chapter {
+  margin: 0.6rem 0;
+}
+
+.sidebar-chapter summary {
+  position: relative;
+  list-style: none;
+  cursor: pointer;
+  padding: 0.7rem 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #ffffff04;
+}
+
+.sidebar-chapter summary::-webkit-details-marker {
+  display: none;
+}
+
+.sidebar-chapter summary::after {
+  content: "+";
+  position: absolute;
+  right: 12px;
+  top: 9px;
+  color: var(--muted);
+}
+
+.sidebar-chapter[open] summary::after {
+  content: "−";
+}
+
+.chapter-index {
+  display: block;
+  color: var(--accent);
+  font:
+    10px/1.8 Consolas,
+    monospace;
+  letter-spacing: 0.05em;
+}
+
+.sidebar-chapter summary strong {
+  display: block;
+  font-size: 0.8rem;
+  margin-top: 0.15rem;
+  padding-right: 0.7rem;
+}
+
+.chapter-count {
+  display: block;
+  font-size: 10px;
+  color: var(--muted);
+  margin-top: 0.2rem;
+}
+
+.sidebar-lessons {
+  display: grid;
+  gap: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.sidebar-lessons a {
+  display: block;
+  padding: 0.75rem;
+  color: var(--fg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: oklch(0.19 0.018 253 / 45%);
+  text-decoration: none;
+  transition:
+    border-color 150ms,
+    background 150ms;
+}
+
+.sidebar-lessons a:hover {
+  border-color: oklch(0.78 0.165 170 / 30%);
+}
+
+.sidebar-lessons a[aria-current] {
+  background: oklch(0.78 0.165 170 / 10%);
+  border-color: oklch(0.78 0.165 170 / 35%);
+}
+
+.sidebar-lesson-meta {
+  display: block;
+  color: var(--muted);
+  font-size: 10px;
+  margin-bottom: 0.3rem;
+}
+
+.sidebar-lessons a[aria-current] .sidebar-lesson-meta {
+  color: var(--accent);
+}
+
+.sidebar-lessons strong {
+  display: block;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  font-weight: 600;
+}
+
+.sidebar-note {
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.7rem;
+  color: var(--muted);
+}
+
+.sidebar-note .eyebrow {
+  font-size: 9px;
+}
+
+.workspace-content {
+  min-width: 0;
+}
+
+main {
+  max-width: 1120px;
+  margin: auto;
+  padding: 2rem 3rem;
+  min-height: calc(100vh - 145px);
+}
+
+.site-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0 3rem;
+  padding: 1.3rem 0;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.skip-link {
+  position: fixed;
+  top: -100px;
+  left: 1rem;
+  z-index: 50;
+  padding: 0.6rem 1rem;
+  background: var(--card);
+}
+
+.skip-link:focus {
+  top: 0.5rem;
+}

@@ -1,24 +1,24 @@
 "use client";
-import {createContext, type ReactNode, useContext, useEffect, useState} from "react";
-import {createSpeechRuntime, type SpeechRuntime} from "../../../bootstrap/speech";
+import { createContext, useContext, type ReactNode } from "react";
+// Type-only: the runtime is assembled in src/bootstrap, but the context shape
+// has to match it exactly, so the type is imported rather than duplicated.
+import type { SpeechRuntime } from "../../../bootstrap/speech";
 
-const SpeechContext = createContext<
-    { runtime: SpeechRuntime; snapshot: ReturnType<SpeechRuntime["getSnapshot"]> } | undefined
->(undefined);
+export type SpeechContextValue = {
+  runtime: SpeechRuntime;
+  snapshot: ReturnType<SpeechRuntime["getSnapshot"]>;
+};
 
-export function SpeechProvider({children}: { children: ReactNode }) {
-    const [value, setValue] = useState<React.ContextType<typeof SpeechContext>>(undefined);
-    useEffect(() => {
-        const runtime = createSpeechRuntime();
-        const refreshSnapshot = () => setValue({runtime, snapshot: runtime.getSnapshot()});
-        refreshSnapshot();
-        const unsubscribe = runtime.subscribe(refreshSnapshot);
-        return () => {
-            unsubscribe();
-            runtime.dispose();
-        };
-    }, []);
-    return <SpeechContext.Provider value={value}>{children}</SpeechContext.Provider>;
+const SpeechContext = createContext<SpeechContextValue | undefined>(undefined);
+
+export function SpeechContextProvider({
+  value,
+  children,
+}: {
+  value: SpeechContextValue | undefined;
+  children: ReactNode;
+}) {
+  return <SpeechContext.Provider value={value}>{children}</SpeechContext.Provider>;
 }
 
 export const useSpeech = () => useContext(SpeechContext);
